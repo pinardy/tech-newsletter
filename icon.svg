@@ -1,14 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<!-- A display showing a front page: the digest is a newspaper that arrives on a
+     screen. Ink masthead and headline rules, tally in signal red — the same
+     colour discipline as the reader, where signal is reserved for the tally.
+
+     This file is the favicon and the manifest's `any` icon, neither of which is
+     masked, so the artwork is scaled up to fill the square. icon-192/512.png
+     carry the same drawing at its unscaled size, which fits inside the maskable
+     safe circle. Keep the two in step. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Wire">
   <rect width="512" height="512" fill="#14181F"/>
-  <g fill="#B33A1A">
-    <rect x="120" y="176" width="22" height="160"/>
-    <rect x="164" y="176" width="22" height="160"/>
-    <rect x="208" y="176" width="22" height="160"/>
-    <rect x="252" y="176" width="22" height="160"/>
-  </g>
-  <rect x="104" y="245" width="190" height="22" fill="#B33A1A" transform="rotate(-24 199 256)"/>
-  <g fill="#E7E9E4">
-    <rect x="330" y="176" width="22" height="160"/>
-    <rect x="374" y="176" width="22" height="160"/>
+  <!-- Scale up about the drawing's own bounding-box centre (256 239), not the
+       canvas centre, or the composition sits high: the foot hangs below the
+       screen, so the ink is not vertically symmetric. -->
+  <g transform="translate(256 256) scale(1.25) translate(-256 -239)">
+    <!-- screen -->
+    <rect x="112" y="126" width="288" height="176" rx="14" fill="#E7E9E4"/>
+    <!-- masthead -->
+    <rect x="134" y="150" width="244" height="28" fill="#14181F"/>
+    <!-- the tally, one stroke per corroborating source -->
+    <g fill="#B33A1A">
+      <rect x="134" y="196" width="20" height="76"/>
+      <rect x="168" y="196" width="20" height="76"/>
+      <rect x="202" y="196" width="20" height="76"/>
+    </g>
+    <!-- headline rules -->
+    <g fill="#14181F">
+      <rect x="240" y="196" width="138" height="18"/>
+      <rect x="240" y="226" width="138" height="18"/>
+      <rect x="240" y="254" width="106" height="18"/>
+    </g>
+    <!-- neck and foot: what makes it a computer rather than a page -->
+    <rect x="236" y="302" width="40" height="30" fill="#E7E9E4"/>
+    <rect x="196" y="330" width="120" height="22" rx="8" fill="#E7E9E4"/>
   </g>
 </svg>
