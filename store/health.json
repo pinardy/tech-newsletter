@@ -85,9 +85,9 @@
  },
  "changelog": {
   "name": "Changelog",
-  "status": "ok",
-  "items": 50,
-  "at": "2026-08-10T00:52:34+00:00"
+  "status": "not modified",
+  "items": 0,
+  "at": "2026-08-10T14:21:55+00:00"
  },
  "cloudflare": {
   "name": "Cloudflare",
