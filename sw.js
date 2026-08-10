@@ -10,18 +10,29 @@
 // Bump on every shell change. The shell is cache-first precisely because it
 // "never changes between deploys" — which means a reader who installed the
 // last version keeps it forever unless this string moves.
-const VERSION = "v2";
+const VERSION = "v3";
 const SHELL = `shell-${VERSION}`;
 const DATA = `data-${VERSION}`;
 const NET_TIMEOUT = 2500;
 const PRECACHE_DAYS = 4;
 
+// The `latin` font subsets are shell, not an optimisation: without them the
+// offline page — the whole reason this file exists — renders in Georgia and
+// reflows. `latin-ext` is deliberately absent; it is ~75KB that only an
+// accented headline needs, and runtime caching picks it up the first time one
+// appears. ~148KB of type precached once, against ~200KB from a third party on
+// every cold visit.
 const SHELL_ASSETS = [
   "./",
   "./index.html",
   "./health.html",
   "./manifest.webmanifest",
   "./icon.svg",
+  "./fonts/newsreader-latin.woff2",
+  "./fonts/newsreader-italic-latin.woff2",
+  "./fonts/bricolage-latin.woff2",
+  "./fonts/plexmono-400-latin.woff2",
+  "./fonts/plexmono-500-latin.woff2",
 ];
 
 self.addEventListener("install", (e) => {
@@ -70,6 +81,13 @@ function isData(url) {
   return url.pathname.includes("/data/") && url.pathname.endsWith(".json");
 }
 
+// Immutable, content-addressed-enough to keep forever, and not worth precaching
+// in full: the latin-ext subsets and the PNG icons. Cache them when something
+// actually asks for one.
+function isAsset(url) {
+  return /\.(woff2|png|svg)$/.test(url.pathname);
+}
+
 async function networkFirst(request) {
   const cache = await caches.open(DATA);
   const controller = new AbortController();
@@ -101,15 +119,7 @@ self.addEventListener("fetch", (e) => {
     return;
   }
 
-  if (url.origin === location.origin) {
-    e.respondWith(
-      caches.match(e.request).then((hit) => hit || fetch(e.request))
-    );
-    return;
-  }
-
-  // Google Fonts: cache-first, they are immutable and versioned by URL.
-  if (url.hostname.endsWith("gstatic.com") || url.hostname.endsWith("googleapis.com")) {
+  if (url.origin === location.origin && isAsset(url)) {
     e.respondWith((async () => {
       const cache = await caches.open(SHELL);
       const hit = await cache.match(e.request);
@@ -122,5 +132,13 @@ self.addEventListener("fetch", (e) => {
         return new Response("", { status: 504 });
       }
     })());
+    return;
   }
+
+  if (url.origin === location.origin) {
+    e.respondWith(
+      caches.match(e.request).then((hit) => hit || fetch(e.request))
+    );
+  }
+  // Nothing cross-origin left to handle: the type is served from this origin now.
 });

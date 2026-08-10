@@ -130,11 +130,32 @@ about that fast, so a longer interval silently drops items.
 | `index.html` | the reader |
 | `health.html` | per-source status |
 | `sw.js` | offline: shell cache-first, data network-first with a 2.5s timeout |
+| `fonts/` | self-hosted type, subset and instanced — see `fonts/LICENSE.md` |
 | `data/` | published shards, manifest, RSS feed — served over HTTPS |
 | `store/` | durable JSONL, poll state, caches, already-published set — **not** served content |
 
 Raw JSONL lives in `store/`, not `data/`, precisely because `data/` is served
 over HTTPS and the raw store has no business being there.
+
+## Reading it
+
+The reader keeps every bit of shareable state in the URL hash — date, topics,
+query, unread filter — so any view can be sent to someone else and arrive the
+same way. Topic choice also persists in `localStorage` between visits, and read
+state is per-device and disposable.
+
+| | |
+|---|---|
+| `←` / `j` | older edition |
+| `→` / `k` | newer edition |
+| `u` | unread only |
+| `/` | jump to the filter |
+
+The filter searches every topic that published that day, not just the ones
+selected, and says so above the results. The tally is drawn only for stories
+carried by two or more sources — with typical clustering rates all but a handful
+carry one, and a column reading "1" on every row says nothing. So a tally
+appearing at all already means corroboration.
 
 Shards older than 120 days are pruned from `data/`, but their raw items stay
 in `store/items/*.jsonl` — a longer window is a rebuild away, not a data loss.
