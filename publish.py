@@ -22,6 +22,12 @@ from typing import Iterable
 from models import Cluster
 
 DOCS_DATA = Path("docs/data")
+
+# Weekly rollups live in their own date-space under the served tree. Same shard
+# shape as a daily edition, so the reader loads them with the same code — only
+# the prefix differs.
+WEEKLY = "weekly"
+SEARCH = "search"
 # 2 adds the optional per-item `arc` object. Additive only, so a reader built
 # for schema 1 ignores it and still renders.
 #
@@ -30,12 +36,18 @@ DOCS_DATA = Path("docs/data")
 # list, and `degraded: false` cost nothing each and everything together — the
 # manifest is fetched on every cold load, and at full retention those three came
 # to roughly 100KB of the ~136KB total. A shard payload is unchanged.
-SCHEMA_VERSION = 3
+#
+# 4 adds `weeks` and `weekly`, mirroring `dates` and `shards` for the weekly
+# rollups. Additive: a reader that ignores them still renders every daily.
+SCHEMA_VERSION = 4
 
 # Retain this many days on the site. Older shards are deleted from docs/ but
 # their raw items stay in data/items/*.jsonl, so a longer window is a rebuild
 # away rather than a data loss.
 RETAIN_DAYS = 120
+# Roughly the same span in rollups. Kept separate so shortening the daily
+# archive does not silently throw away half a year of weeklies.
+RETAIN_WEEKS = 26
 
 
 @dataclass(slots=True)
@@ -116,21 +128,22 @@ def write_edition(
     return path
 
 
-def rebuild_manifest(
-    topic_labels: dict[str, str],
-    root: Path = DOCS_DATA,
-) -> Path:
-    """Scan docs/data and emit index.json.
+DATE_GLOB = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
-    The app fetches this once on load, then lazily pulls only the shards for
-    the topics the reader has selected. Everything here exists to let the app
-    decide what NOT to fetch.
+
+def _scan(root: Path) -> tuple[list[str], dict[str, dict[str, dict]], dict[str, list[str]]]:
+    """Read every date directory under `root` into manifest shape.
+
+    Shared by the daily tree and the weekly one, which are the same shape in
+    different date-spaces. Non-date directories — `weekly`, `search`, `feed` —
+    do not match the glob, which is what keeps the two scans from eating
+    each other.
     """
     dates: list[str] = []
     shards: dict[str, dict[str, dict]] = {}
     topic_dates: dict[str, list[str]] = {}
 
-    for day in sorted(root.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"), reverse=True):
+    for day in sorted(root.glob(DATE_GLOB), reverse=True):
         if not day.is_dir():
             continue
         day_shards: dict[str, dict] = {}
@@ -152,6 +165,26 @@ def rebuild_manifest(
         if day_shards:
             dates.append(day.name)
             shards[day.name] = day_shards
+    return dates, shards, topic_dates
+
+
+def rebuild_manifest(
+    topic_labels: dict[str, str],
+    root: Path = DOCS_DATA,
+) -> Path:
+    """Scan the served tree and emit index.json.
+
+    The app fetches this once on load, then lazily pulls only the shards for
+    the topics the reader has selected. Everything here exists to let the app
+    decide what NOT to fetch.
+    """
+    dates, shards, topic_dates = _scan(root)
+    weeks, weekly, weekly_topics = _scan(root / WEEKLY)
+
+    # A topic that only ever appeared in a rollup still needs a label, or the
+    # weekly view would show a chip with no name.
+    for topic, days in weekly_topics.items():
+        topic_dates.setdefault(topic, [])
 
     manifest = {
         "schema": SCHEMA_VERSION,
@@ -169,6 +202,8 @@ def rebuild_manifest(
             for topic, days in sorted(topic_dates.items())
         },
         "shards": shards,
+        "weeks": weeks,
+        "weekly": weekly,
     }
 
     path = root / "index.json"
@@ -177,20 +212,96 @@ def rebuild_manifest(
     return path
 
 
-def prune(retain_days: int = RETAIN_DAYS, root: Path = DOCS_DATA) -> list[str]:
+def prune(retain_days: int = RETAIN_DAYS, root: Path = DOCS_DATA,
+          retain_weeks: int = RETAIN_WEEKS) -> list[str]:
     """Drop shard directories beyond the retention window.
 
     Call before rebuild_manifest so the manifest reflects what survived.
     """
-    days = sorted(
-        (d for d in root.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]") if d.is_dir()),
-        reverse=True,
-    )
     removed = []
-    for day in days[retain_days:]:
-        shutil.rmtree(day)
-        removed.append(day.name)
+    for base, keep in ((root, retain_days), (root / WEEKLY, retain_weeks)):
+        dirs = sorted((d for d in base.glob(DATE_GLOB) if d.is_dir()), reverse=True)
+        for old in dirs[keep:]:
+            shutil.rmtree(old)
+            removed.append(str(old.relative_to(root)))
     return removed
+
+
+def write_search_index(root: Path = DOCS_DATA) -> Path | None:
+    """Emit a titles-only index of the whole archive, one file per month.
+
+    The reader's own filter only ever sees the edition it has loaded, which
+    makes 120 days of retention unsearchable — the thing you half-remember from
+    last week is exactly what an archive is for.
+
+    Titles and URLs only, no blurbs: the index exists to find the story, and the
+    edition it belongs to can be opened for the rest. Split by month rather than
+    written whole because the reader fetches this on demand and a single file
+    covering full retention is megabytes.
+
+    Built by scanning the shards on disk, not from the editions just composed,
+    so a rebuild reindexes everything rather than only today.
+    """
+    out = root / SEARCH
+    months: dict[str, dict[str, dict]] = {}
+
+    for day in sorted(root.glob(DATE_GLOB)):
+        if not day.is_dir():
+            continue
+        month = day.name[:7]
+        bucket = months.setdefault(month, {})
+        for shard in sorted(day.glob("*.json")):
+            try:
+                data = json.loads(shard.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            for section in data.get("sections", []):
+                for item in section.get("items", []):
+                    # The same story is routed into several topics. File it once,
+                    # under the topic that scored it highest — the same rule the
+                    # reader uses to decide which section draws it.
+                    prev = bucket.get(item["id"])
+                    if prev and prev["_s"] >= item.get("score", 0):
+                        continue
+                    bucket[item["id"]] = {
+                        "i": item["id"],
+                        "t": item["title"],
+                        "u": item["url"],
+                        "d": data["date"],
+                        "p": data["topic"],
+                        "n": item.get("source_count", 1),
+                        "_s": item.get("score", 0),
+                    }
+
+    if not months:
+        return None
+
+    out.mkdir(parents=True, exist_ok=True)
+    for stale in out.glob("*.json"):
+        stale.unlink()          # a pruned month must not linger in the index
+
+    catalogue = []
+    for month, bucket in sorted(months.items(), reverse=True):
+        entries = sorted(bucket.values(), key=lambda e: (e["d"], e["t"]), reverse=True)
+        for e in entries:
+            e.pop("_s", None)
+        path = out / f"{month}.json"
+        path.write_text(
+            json.dumps({"month": month, "items": entries},
+                       ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8")
+        catalogue.append({"m": month, "items": len(entries),
+                          "bytes": path.stat().st_size})
+
+    path = out / "index.json"
+    path.write_text(
+        json.dumps({"schema": SCHEMA_VERSION,
+                    "generated_at": datetime.now(timezone.utc)
+                        .isoformat(timespec="seconds"),
+                    "months": catalogue},
+                   ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8")
+    return path
 
 
 def publish_all(

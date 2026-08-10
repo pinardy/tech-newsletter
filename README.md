@@ -58,6 +58,7 @@ backfill a missed day without re-sending it.
 |---|---|
 | `run.py collect` | Poll every source past its cadence, append to the store. `--force` ignores cadence, `--date` sets the store shard. |
 | `run.py publish` | Rebuild from the store, cluster, suppress, rank, select, section, write `data/`. `--date`, `--topics`, `--window`, `--dry-run`, `--no-suppress`. |
+| `run.py weekly` | Roll the window up into `data/weekly/`. Same flags minus `--no-suppress`, which would mean nothing: a rollup never suppresses and never records. |
 | `run.py verify` | Fetch every source and assert it parses. Exits non-zero on any failure. |
 | `run.py health` | Last poll outcome per source. `--markdown` for the Actions run summary. |
 
@@ -139,7 +140,10 @@ about that fast, so a longer interval silently drops items.
 | `health.html` | per-source status |
 | `sw.js` | offline: shell cache-first, data network-first with a 2.5s timeout |
 | `fonts/` | self-hosted type, subset and instanced — see `fonts/LICENSE.md` |
-| `data/` | published shards, manifest, RSS feed — served over HTTPS |
+| `data/` | published shards, manifest, RSS feeds, search index — served over HTTPS |
+| `data/weekly/` | rollup shards, same shape in their own date-space |
+| `data/feed/` | one RSS feed per topic, beside the combined `data/feed.xml` |
+| `data/search/` | titles-only archive index, one file per month |
 | `store/` | durable JSONL, poll state, caches, already-published set — **not** served content |
 
 Raw JSONL lives in `store/`, not `data/`, precisely because `data/` is served
@@ -157,6 +161,8 @@ state is per-device and disposable.
 | `←` / `j` | older edition |
 | `→` / `k` | newer edition |
 | `u` | unread only |
+| `c` | catch up |
+| `s` | saved |
 | `/` | jump to the filter |
 
 The filter searches every topic that published that day, not just the ones
@@ -164,6 +170,34 @@ selected, and says so above the results. The tally is drawn only for stories
 carried by two or more sources — with typical clustering rates all but a handful
 carry one, and a column reading "1" on every row says nothing. So a tally
 appearing at all already means corroboration.
+
+**Weekly rollups** are the answer to that scarcity rather than a second digest.
+Over one day almost nothing has been corroborated yet; over seven the tally has
+had time to move, so a rollup clusters the whole window with suppression off and
+leads on what more than one outlet carried. It is sectioned by rule, never by
+model — new headings for old news are not worth a request — and it never writes
+the suppression store, so Sunday cannot starve Monday. Pick one from the
+**Weekly rollup** group in the edition list.
+
+**Catch up** widens to the last seven editions and shows only what is unread,
+grouped by day. It is the reading habit the digest actually has, which is not
+one day at a time.
+
+**Searching the archive** is offered whenever a filter is active. The in-edition
+filter only sees what is loaded, so 120 days of retention were unsearchable; the
+index is titles only — no blurbs, so it can legitimately return fewer hits than
+the filter beside it — and split by month, pulled newest first on demand. Most
+searches are answered by one chunk.
+
+**Saved** stories keep their own copy of title, URL, date and topic, because the
+edition they came from is pruned at 120 days and a reading list that empties
+itself on a retention boundary is not a reading list. Per-device, like read
+state.
+
+**Muting** lives on the sources page, which already lists every source. A story
+is hidden only when *every* source that carried it is muted — muting Hacker News
+must not cost you a story Lobsters also ran, or muting would throw away the
+corroboration this thing exists to show.
 
 Shards older than 120 days are pruned from `data/`, but their raw items stay
 in `store/items/*.jsonl` — a longer window is a rebuild away, not a data loss.

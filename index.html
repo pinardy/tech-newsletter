@@ -287,6 +287,27 @@ main[aria-busy="true"]{opacity:.45;transition:opacity .12s}
   width:6px; height:6px; border-radius:50%; background:var(--signal);
 }
 
+/* Save is a text button rather than a star: the row already carries one piece of
+   iconography that means something (the tally), and a second would compete. */
+.save{font-family:var(--mono); font-size:10.5px; letter-spacing:.05em;
+  color:var(--ink-soft); padding:1px 5px; margin-left:auto;
+  border:1px solid transparent; border-radius:3px}
+.save:hover{border-color:var(--rule)}
+.save[aria-pressed="true"]{color:var(--pine)}
+
+/* Catch-up and the archive both put more than one day on screen, so each day
+   needs a rule saying which it is. */
+.daterule{display:flex; align-items:center; gap:10px; margin:32px 0 0;
+  font-family:var(--mono); font-size:11px; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--pine)}
+.daterule::after{content:""; flex:1; height:1px; background:var(--rule)}
+
+/* Reading a rollup rather than a day is a different mode, and the date alone
+   does not say so. */
+.badge{font-family:var(--mono); font-size:9px; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--paper); background:var(--pine);
+  padding:3px 5px; border-radius:3px; flex:0 0 auto}
+
 /* ── States ───────────────────────────────────────────────────── */
 .notice{
   margin:24px 0; padding:14px 16px; border:1px solid var(--rule);
@@ -330,20 +351,23 @@ footer button,footer a{text-decoration:underline;text-underline-offset:2px}
 
 <div class="controls">
   <div class="datebar">
-    <button class="navbtn" id="prev" aria-label="Previous day">‹</button>
+    <button class="navbtn" id="prev" aria-label="Previous edition">‹</button>
     <span class="editionwrap">
-      <select class="editions" id="editions" aria-label="Edition date"></select>
+      <select class="editions" id="editions" aria-label="Edition"></select>
       <i class="caret" aria-hidden="true">▾</i>
     </span>
-    <button class="navbtn" id="next" aria-label="Next day">›</button>
+    <span class="badge" id="modebadge" hidden>week</span>
+    <button class="navbtn" id="next" aria-label="Next edition">›</button>
   </div>
   <div class="chipwrap" id="chipwrap">
     <div class="chips" id="chips" role="group" aria-label="Topics"></div>
   </div>
   <div class="filterbar">
-    <input class="search" id="search" type="search" placeholder="filter headlines — all topics"
+    <input class="search" id="search" type="search" placeholder="filter headlines"
            aria-label="Filter headlines across every topic in this edition">
     <button class="toggle" id="unreadonly" aria-pressed="false">unread</button>
+    <button class="toggle" id="catchup" aria-pressed="false"
+            title="Unread across the last seven editions">catch up</button>
   </div>
   <div class="progress" id="progress" hidden aria-hidden="true"><i></i></div>
 </div>
@@ -360,16 +384,37 @@ footer button,footer a{text-decoration:underline;text-underline-offset:2px}
 
 <script>
 const DATA = "data/";
-const state = { manifest:null, date:null, topics:new Set(), query:"",
-                unreadOnly:false, shards:new Map(), shown:[], read:new Set(),
-                built:null, gen:0 };
+const CATCHUP = 7;          // editions a catch-up spans
+const ARCHIVE_CAP = 200;    // results drawn before the list stops being useful
 
-/* Read state is per-device and disposable — it must never be required for the
-   page to work, so every access is in try/catch and the cap is a hard slice
-   rather than anything cleverer. Item ids are stable (an FNV hash of the
-   canonical URL), so a story keeps its read state across days and topics. */
-const READ_KEY = "read";
-const READ_CAP = 4000;
+const state = {
+  manifest:null,
+  mode:"daily",       // "daily" | "weekly" — two date-spaces, one shard shape
+  date:null,
+  topics:new Set(),
+  query:"",
+  unreadOnly:false,
+  catchUp:false,      // the last CATCHUP editions, unread only
+  view:"digest",      // "digest" | "saved" | "archive"
+  archive:null,       // built lazily, only if someone searches the archive
+  shards:new Map(),
+  shown:[],
+  rendered:new Map(), // id -> the record `save` needs, for whatever is on screen
+  read:new Set(),
+  saved:new Map(),
+  muted:new Set(),
+  built:null,
+  gen:0,
+};
+
+/* ── Per-device state ──────────────────────────────────────────────────
+   Read, saved and muted are all disposable and all wrapped in try/catch: none
+   of them may ever be required for the page to render. Item ids are stable (an
+   FNV hash of the canonical URL), so they hold across days, topics and rollups. */
+const READ_KEY = "read",  READ_CAP  = 4000;
+const SAVED_KEY = "saved", SAVED_CAP = 500;
+const MUTED_KEY = "muted";      // written by health.html, only read here
+
 function loadRead(){
   try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]")); }
   catch { return new Set(); }
@@ -380,6 +425,25 @@ function saveRead(){
       JSON.stringify([...state.read].slice(-READ_CAP)));
   } catch {}
 }
+
+/* Saved items carry their own copy of everything needed to draw them. The shard
+   they came from is pruned at 120 days, and a reading list that empties itself
+   on a retention boundary is not a reading list. */
+function loadSaved(){
+  try { return new Map(JSON.parse(localStorage.getItem(SAVED_KEY) || "[]")); }
+  catch { return new Map(); }
+}
+function saveSaved(){
+  try {
+    localStorage.setItem(SAVED_KEY,
+      JSON.stringify([...state.saved].slice(-SAVED_CAP)));
+  } catch {}
+}
+function loadMuted(){
+  try { return new Set(JSON.parse(localStorage.getItem(MUTED_KEY) || "[]")); }
+  catch { return new Set(); }
+}
+
 /* Deliberately does not re-render, even with the unread filter on: pulling a
    story out from under the finger that just opened it loses the reader their
    place. It leaves on the next render. */
@@ -392,22 +456,47 @@ function markRead(id, el){
   updateFooter();
 }
 
-/* URL hash is the source of truth for shareable state — including the query,
-   so a search can be sent to someone. localStorage only remembers topic choice
-   between visits and is never required to work. */
+function toggleSave(id, btn){
+  if (state.saved.has(id)) state.saved.delete(id);
+  else {
+    const record = state.rendered.get(id);
+    if (!record) return;
+    state.saved.set(id, record);
+  }
+  saveSaved();
+  const on = state.saved.has(id);
+  btn.setAttribute("aria-pressed", String(on));
+  btn.textContent = on ? "saved" : "save";
+  updateFooter();
+  if (state.view === "saved") rerender();
+}
+
+/* URL hash is the source of truth for shareable state — edition space, date,
+   topics, query, filters — so any view can be sent to someone. localStorage
+   only remembers topic choice between visits and is never required to work. */
 function readHash(){
   const p = new URLSearchParams(location.hash.slice(1));
+  if (p.get("m") === "w") state.mode = "weekly";
   if (p.get("d")) state.date = p.get("d");
   if (p.get("t")) state.topics = new Set(p.get("t").split(",").filter(Boolean));
   if (p.get("q")) state.query = p.get("q");
   if (p.get("u") === "1") state.unreadOnly = true;
+  if (p.get("c") === "1"){
+    // Catch-up is a span of daily editions by definition; it cannot coexist
+    // with a single rollup, and it means unread.
+    state.catchUp = true; state.unreadOnly = true; state.mode = "daily";
+  }
+  if (p.get("v") === "s") state.view = "saved";
 }
 function writeHash(){
   const p = new URLSearchParams();
+  if (state.mode === "weekly") p.set("m", "w");
   if (state.date) p.set("d", state.date);
   if (state.topics.size) p.set("t", [...state.topics].join(","));
   if (state.query.trim()) p.set("q", state.query.trim());
   if (state.unreadOnly) p.set("u", "1");
+  if (state.catchUp) p.set("c", "1");
+  if (state.view === "saved") p.set("v", "s");
   history.replaceState(null, "", "#" + p);
   try { localStorage.setItem("topics", [...state.topics].join(",")); } catch {}
   postTopics();
@@ -423,6 +512,7 @@ function postTopics(){
     .then(reg => reg.active?.postMessage({ type:"topics", topics:[...state.topics] }))
     .catch(() => {});
 }
+
 function restoreTopics(){
   if (state.topics.size) return;
   try {
@@ -437,17 +527,24 @@ async function getJSON(path){
   return r.json();
 }
 
+/* Dailies and rollups are the same shard shape in two date-spaces, so
+   everything downstream of these three lines is shared. */
+const editionDates = () =>
+  (state.mode === "weekly" ? state.manifest.weeks : state.manifest.dates) || [];
+const shardsFor = date =>
+  ((state.mode === "weekly" ? state.manifest.weekly : state.manifest.shards) || {})[date] || {};
+const shardPrefix = () => state.mode === "weekly" ? "weekly/" : "";
+
 async function loadShard(date, topic){
-  const key = date + "/" + topic;
+  const key = state.mode + "/" + date + "/" + topic;
   if (state.shards.has(key)) return state.shards.get(key);
-  const data = await getJSON(key + ".json").catch(() => null);
+  const data = await getJSON(shardPrefix() + date + "/" + topic + ".json")
+    .catch(() => null);
   state.shards.set(key, data);
   return data;
 }
 
-/* Which topics published on the day being read. The manifest carries this per
-   date, which is what makes honest per-day chip counts possible. */
-function dayShards(date){ return state.manifest.shards?.[date] || {}; }
+const topicLabel = id => state.manifest?.topics?.[id]?.label || id;
 
 /* ── Tally: one stroke per source, struck through in fives ── */
 const TALLY_MAX = 20;   // wraps rather than truncating; the label is exact
@@ -471,11 +568,14 @@ function tally(n){
          `<div class="tally-count"${n > 5 ? "" : " hidden"}>${n}&#8202;src</div></div>`;
 }
 
-/* Relative time is only meaningful on the current edition. Four weeks back,
-   "31d ago" is accurate and useless — that reader wants the timestamp. */
+/* Relative time is only meaningful where "now" is the frame: today's edition, or
+   a catch-up that by definition spans the last week. On a rollup, an archive
+   result or an edition four weeks back, "31d ago" is accurate and useless. */
 function when(iso){
   const d = new Date(iso);
-  if (state.date !== state.manifest?.latest)
+  const relative = state.mode === "daily" && state.view === "digest"
+    && (state.catchUp || state.date === state.manifest?.latest);
+  if (!relative)
     return d.toLocaleDateString(undefined, { day:"numeric", month:"short" }) + " " +
            d.toLocaleTimeString(undefined, { hour:"numeric", minute:"2-digit" });
   const h = (Date.now() - d) / 36e5;
@@ -487,16 +587,34 @@ function when(iso){
 const esc = s => String(s).replace(/[&<>"]/g, c =>
   ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
 
-function storyHTML(item){
-  const names = item.sources.map(s => s.name);
-  const shown = names.slice(0, 2).map(esc).join(", ") +
-    (names.length > 2 ? ` +${names.length - 2}` : "");
+/* A story is hidden only when every source that carried it is muted. Muting
+   Hacker News should not cost you a story Lobsters also ran — that would throw
+   away the corroboration this whole thing is built to show. */
+function allMuted(item){
+  const ids = (item.sources || []).map(s => s.id);
+  return state.muted.size > 0 && ids.length > 0
+    && ids.every(id => state.muted.has(id));
+}
+
+/* `ctx` replaces the source list for rows that have no sources to show — a
+   saved record or an archive hit, where the useful context is which edition it
+   came out of. */
+function storyHTML(item, ctx){
+  const names = (item.sources || []).map(s => s.name);
+  const shown = ctx ? esc(ctx)
+    : names.slice(0, 2).map(esc).join(", ") +
+      (names.length > 2 ? ` +${names.length - 2}` : "");
   const unread = state.read.has(item.id) ? "" : " unread";
+  const saved = state.saved.has(item.id);
   /* Only present when the story was published before and came back because
      it gained a source — so it always says something the tally alone cannot. */
   const arc = item.arc
     ? `<span class="sep">/</span><span class="arc">day ${item.arc.days} ·
        was ${item.arc.was}&#8202;src</span>`
+    : "";
+  const stamp = item.published_at
+    ? `<span class="sep">/</span>
+       <span class="when" data-iso="${esc(item.published_at)}">${when(item.published_at)}</span>`
     : "";
   return `<article class="story${unread}" data-id="${esc(item.id)}" data-url="${esc(item.url)}">
     ${unread ? `<span class="sr sr-unread">unread</span>` : ""}
@@ -504,19 +622,19 @@ function storyHTML(item){
     <div class="story-body">
       <h3><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
       ${item.blurb ? `<p>${esc(item.blurb)}</p>` : ""}
-      <div class="meta"><span class="src">${shown}</span>
-        <span class="sep">/</span>
-        <span class="when" data-iso="${esc(item.published_at)}">${when(item.published_at)}</span>${arc}</div>
+      <div class="meta"><span class="src">${shown}</span>${stamp}${arc}
+        <button class="save" data-save="${esc(item.id)}" aria-pressed="${saved}"
+          >${saved ? "saved" : "save"}</button></div>
     </div></article>`;
 }
 
 /* Topic routing is intentionally many-to-one: a Kubernetes CVE belongs in both
    `security` and `kubernetes`, and a reader who picked only one of them still
-   needs to see it. A reader who picked both should see it once — but "once"
-   used to mean "under whichever shard's fetch resolved first", which made the
-   same day render differently run to run and a shared link disagree with what
-   the sender saw. Highest score wins, topic id breaks ties: stable, and it
-   files the story under the topic that rated it most highly. */
+   needs to see it. A reader who picked both should see it once — but "once" used
+   to mean "under whichever shard's fetch resolved first", which made the same
+   day render differently run to run and a shared link disagree with what the
+   sender saw. Newest edition wins, then highest score, then topic id: stable,
+   and across a catch-up it shows the most recent airing rather than an old one. */
 function owners(shards){
   const best = new Map();
   for (const shard of shards){
@@ -524,48 +642,88 @@ function owners(shards){
     for (const section of shard.sections)
       for (const it of section.items){
         const cur = best.get(it.id);
-        if (!cur || it.score > cur.score ||
-            (it.score === cur.score && shard.topic < cur.topic))
-          best.set(it.id, { topic: shard.topic, score: it.score });
+        const better = !cur
+          || shard.date > cur.date
+          || (shard.date === cur.date && (it.score > cur.score
+              || (it.score === cur.score && shard.topic < cur.topic)));
+        if (better)
+          best.set(it.id, { topic: shard.topic, score: it.score, date: shard.date });
       }
   }
   return best;
 }
 
+function remember(item, shard){
+  // What `save` needs later, when the shard is long gone.
+  state.rendered.set(item.id, {
+    id: item.id, title: item.title, url: item.url,
+    date: shard.date, topic: shard.topic, label: shard.label,
+    source_count: item.source_count,
+  });
+}
+
+const fmtDay = d =>
+  new Date(d + "T00:00:00Z").toLocaleDateString(undefined,
+    { weekday:"long", day:"numeric", month:"long" });
+const fmtShort = d =>
+  new Date(d + "T00:00:00Z").toLocaleDateString(undefined,
+    { weekday:"short", day:"numeric", month:"short" });
+const fmtEdition = (d, mode) =>
+  mode === "weekly" ? "week to " + fmtShort(d) : fmtDay(d);
+
 function render(shards){
-  const main = document.getElementById("main");
   const q = state.query.trim().toLowerCase();
   const owner = owners(shards);
   const drawn = new Set();
-  let html = "", shown = 0, hidden = 0;
+  state.rendered = new Map();
+  let html = "", shown = 0, hidden = 0, muted = 0, lastDate = null;
 
-  for (const shard of shards){
-    if (!shard) continue;
+  // Newest edition first; within an edition the fetch order already puts the
+  // reader's own topics ahead of the rest. Sort is stable, so that survives.
+  const live = shards.filter(Boolean);
+  live.sort((a, b) => a.date === b.date ? 0 : (a.date > b.date ? -1 : 1));
+
+  for (const shard of live){
     for (const section of shard.sections){
       const items = section.items.filter(it => {
-        if (owner.get(it.id)?.topic !== shard.topic || drawn.has(it.id)) return false;
+        const own = owner.get(it.id);
+        if (own?.topic !== shard.topic || own?.date !== shard.date) return false;
+        if (drawn.has(it.id)) return false;
+        if (allMuted(it)){ muted++; return false; }
         if (q && !(it.title + " " + (it.blurb || "")).toLowerCase().includes(q)) return false;
         if (state.unreadOnly && state.read.has(it.id)){ hidden++; return false; }
         return true;
       });
       if (!items.length) continue;
-      items.forEach(it => drawn.add(it.id));
+      items.forEach(it => { drawn.add(it.id); remember(it, shard); });
       shown += items.length;
+      if (state.catchUp && shard.date !== lastDate){
+        html += `<div class="daterule">${esc(fmtShort(shard.date))}</div>`;
+        lastDate = shard.date;
+      }
       html += `<div class="section-head"><h2>${esc(section.heading)}</h2>
         <span class="topic">${esc(shard.label)}</span></div>`;
-      html += items.map(storyHTML).join("");
+      html += items.map(it => storyHTML(it)).join("");
     }
   }
 
-  /* Searching widens past the selected topics, which would otherwise look like
-     the chips being silently ignored. */
+  const banner = [];
+  if (state.catchUp)
+    {
+      const span = Math.min(CATCHUP, editionDates().length);
+      banner.push(`unread across the last <b>${span}</b> ${span === 1 ? "edition" : "editions"}`);
+    }
   if (q && shown){
-    const loaded = shards.filter(Boolean);
-    const extra = loaded.filter(s => !state.topics.has(s.topic)).length;
-    html = `<p class="scope">searching <b>${loaded.length}</b> topics` +
-      (extra > 0 ? ` — ${extra} beyond your selection` : "") +
-      ` · <b>${shown}</b> ${shown === 1 ? "match" : "matches"}</p>` + html;
+    const extra = live.filter(s => !state.topics.has(s.topic)).length;
+    banner.push(`searching <b>${new Set(live.map(s => s.topic)).size}</b> topics` +
+      (extra > 0 ? ` — ${extra} beyond your selection` : ""));
   }
+  if (shown && q) banner.push(`<b>${shown}</b> ${shown === 1 ? "match" : "matches"}`);
+  if (muted) banner.push(`<b>${muted}</b> hidden by muted sources`);
+  if (banner.length)
+    html = `<p class="scope">${banner.join(" · ")}` +
+      (q ? ` · <button data-act="archive">search the archive</button>` : "") +
+      `</p>` + html;
 
   if (!shown){
     html = state.topics.size === 0 && !q
@@ -573,75 +731,225 @@ function render(shards){
          <p>Choose one or more topics above to build today's digest.</p></div>`
       : q
       ? `<div class="notice"><h3>No match for “${esc(state.query.trim())}”</h3>
-         <p>Nothing in this edition's ${Object.keys(dayShards(state.date)).length} topics
-         matches. <button data-act="clearq">Clear the filter</button> or try another day.</p></div>`
+         <p>Nothing in this edition matches.
+         <button data-act="archive">Search the whole archive</button>, or
+         <button data-act="clearq">clear the filter</button>.</p></div>`
+      : state.catchUp
+      ? `<div class="notice"><h3>Nothing left to catch up on</h3>
+         <p>Every story in the last ${Math.min(CATCHUP, editionDates().length)}
+         ${Math.min(CATCHUP, editionDates().length) === 1 ? "edition" : "editions"}
+         of your topics has been read.
+         <button data-act="nocatchup">Back to one day</button>.</p></div>`
       : state.unreadOnly && hidden
       ? `<div class="notice"><h3>All read</h3>
          <p>${hidden} ${hidden === 1 ? "story" : "stories"} here, all of them read.
-         <button data-act="showall">Show read stories</button> or try another day.</p></div>`
+         <button data-act="showall">Show read stories</button> or try another edition.</p></div>`
+      : muted
+      ? `<div class="notice"><h3>Everything here is muted</h3>
+         <p>${muted} ${muted === 1 ? "story" : "stories"} came only from sources you
+         have muted. <a href="health.html">Unmute a source</a>.</p></div>`
       : `<div class="notice"><h3>Nothing published here yet</h3>
-         <p>This day has no stories for the topics you picked. Try the previous day.</p></div>`;
+         <p>This edition has no stories for the topics you picked.
+         Try the previous one.</p></div>`;
   }
 
-  /* Replacing innerHTML drops focus to <body> and says nothing to a screen
-     reader, so day and topic changes used to be silent and disorienting. */
+  state.built = live[0]?.built_at ?? null;
+  paint(html, `${shown} ${shown === 1 ? "story" : "stories"}`);
+}
+
+/* Every view funnels through here so the focus and announcement handling exists
+   once. Replacing innerHTML drops focus to <body> and says nothing to a screen
+   reader, which made day and topic changes silent and disorienting. */
+function paint(html, summary){
+  const main = document.getElementById("main");
   const hadFocus = main.contains(document.activeElement);
   main.innerHTML = html;
   if (hadFocus) main.focus();
-
-  state.built = shards.find(Boolean)?.built_at ?? null;
   updateFooter();
   const unread = document.querySelectorAll(".story.unread").length;
-  document.getElementById("status").textContent =
-    `${shown} ${shown === 1 ? "story" : "stories"}, ${unread} unread`;
+  document.getElementById("status").textContent = `${summary}, ${unread} unread`;
+}
+
+function renderSaved(){
+  state.rendered = new Map();
+  const q = state.query.trim().toLowerCase();
+  // Newest save last in the Map, so reverse for most-recent-first.
+  const records = [...state.saved.values()].reverse()
+    .filter(r => !q || r.title.toLowerCase().includes(q));
+
+  let html = `<p class="scope"><b>${state.saved.size}</b> saved` +
+    (q ? ` · <b>${records.length}</b> matching` : "") +
+    ` · <button data-act="digest">back to the digest</button></p>`;
+
+  if (!records.length){
+    html += state.saved.size
+      ? `<div class="notice"><h3>No saved story matches</h3>
+         <p><button data-act="clearq">Clear the filter</button>.</p></div>`
+      : `<div class="notice"><h3>Nothing saved yet</h3>
+         <p>Use <b>save</b> on any story and it lands here — kept on this device,
+         and kept after the edition it came from is pruned.</p></div>`;
+  } else {
+    for (const r of records){
+      state.rendered.set(r.id, r);
+      html += storyHTML(
+        { id:r.id, title:r.title, url:r.url, source_count:r.source_count || 1, sources:[] },
+        `${r.label || topicLabel(r.topic)} · ${r.date}`);
+    }
+  }
+  state.built = null;
+  paint(html, `${records.length} saved`);
+}
+
+/* ── Archive search ───────────────────────────────────────────────────
+   The in-edition filter only ever sees what is loaded, which leaves 120 days of
+   retention unsearchable. The index is titles only and split by month, and it is
+   pulled newest month first on demand: most searches are answered by the most
+   recent chunk, and nobody pays for the whole archive to find last Tuesday. */
+async function archiveMore(){
+  if (!state.archive){
+    const catalogue = await getJSON("search/index.json").catch(() => null);
+    if (!catalogue) return false;
+    state.archive = { months: catalogue.months || [], next: 0, entries: [] };
+  }
+  const a = state.archive;
+  if (a.next >= a.months.length) return false;
+  const month = a.months[a.next++];
+  const chunk = await getJSON(`search/${month.m}.json`).catch(() => null);
+  if (chunk) a.entries.push(...(chunk.items || []));
+  return true;
+}
+
+async function showArchive(){
+  state.view = "archive";
+  const main = document.getElementById("main");
+  main.setAttribute("aria-busy", "true"); progress(true);
+  const ok = await archiveMore();
+  main.removeAttribute("aria-busy"); progress(false);
+  if (!ok && !state.archive?.entries.length){
+    paint(`<div class="notice"><h3>No archive index yet</h3>
+      <p>It is written on the next publish.
+      <button data-act="digest">Back to the digest</button>.</p></div>`, "0 results");
+    return;
+  }
+  renderArchive();
+}
+
+function renderArchive(){
+  state.rendered = new Map();
+  const q = state.query.trim().toLowerCase();
+  const a = state.archive;
+  const hits = q ? a.entries.filter(e => e.t.toLowerCase().includes(q)) : [];
+  const capped = hits.slice(0, ARCHIVE_CAP);
+  const left = a.months.length - a.next;
+  const scanned = a.next;
+
+  let html = `<p class="scope">archive · titles only · <b>${scanned}</b> of
+    <b>${a.months.length}</b> ${a.months.length === 1 ? "month" : "months"} scanned ·
+    <b>${hits.length}</b> ${hits.length === 1 ? "match" : "matches"}` +
+    (left > 0 ? ` · <button data-act="older">search further back</button>` : "") +
+    ` · <button data-act="digest">back to the digest</button></p>`;
+
+  if (!capped.length){
+    html += `<div class="notice"><h3>No match for “${esc(state.query.trim())}”</h3>
+      <p>${left > 0
+        ? `Nothing in the ${scanned} most recent ${scanned === 1 ? "month" : "months"}.
+           <button data-act="older">Search further back</button>.`
+        : `Nothing anywhere in the archive.`}</p></div>`;
+  } else {
+    let lastDate = null;
+    for (const e of capped){
+      if (e.d !== lastDate){
+        html += `<div class="daterule">${esc(fmtShort(e.d))}</div>`;
+        lastDate = e.d;
+      }
+      const record = { id:e.i, title:e.t, url:e.u, date:e.d, topic:e.p,
+                       label:topicLabel(e.p), source_count:e.n || 1 };
+      state.rendered.set(e.i, record);
+      html += storyHTML(
+        { id:e.i, title:e.t, url:e.u, source_count:e.n || 1, sources:[] },
+        topicLabel(e.p));
+    }
+    if (hits.length > capped.length)
+      html += `<p class="scope">showing the first <b>${capped.length}</b> of
+        <b>${hits.length}</b> — narrow the filter to see the rest</p>`;
+  }
+  state.built = null;
+  paint(html, `${hits.length} archive ${hits.length === 1 ? "result" : "results"}`);
 }
 
 function rerender(){
+  if (state.view === "saved") return renderSaved();
+  if (state.view === "archive") return renderArchive();
   if (!state.shown.length) return refresh();   // nothing fetched yet
   render(state.shown);
 }
 
 function updateFooter(){
-  const total  = document.querySelectorAll(".story").length;
-  const unread = document.querySelectorAll(".story.unread").length;
-  const built  = state.built
-    ? state.built.slice(0, 16).replace("T", " ") + " UTC" : "—";
-  document.getElementById("footer").innerHTML =
-    `${total} shown · ${unread} unread · built ${built}` +
-    (unread ? ` · <button id="readall">mark all read</button>` : "") +
-    ` · <a href="health.html">sources</a>`;
+  const bits = [];
+  if (state.view === "saved"){
+    bits.push(`${state.saved.size} saved`);
+  } else if (state.view === "archive"){
+    bits.push(`archive search`);
+  } else {
+    const total  = document.querySelectorAll(".story").length;
+    const unread = document.querySelectorAll(".story.unread").length;
+    const built  = state.built
+      ? state.built.slice(0, 16).replace("T", " ") + " UTC" : "—";
+    bits.push(`${total} shown`, `${unread} unread`, `built ${built}`);
+    if (unread) bits.push(`<button id="readall">mark all read</button>`);
+  }
+  bits.push(state.view === "digest"
+    ? `<button data-act="saved">saved (${state.saved.size})</button>`
+    : `<button data-act="digest">digest</button>`);
+  // One selected topic means the reader wants that feed, not the firehose.
+  const feed = state.topics.size === 1
+    ? `data/feed/${[...state.topics][0]}.xml` : "data/feed.xml";
+  bits.push(`<a href="${feed}">rss</a>`);
+  if (state.muted.size)
+    bits.push(`<a href="health.html">${state.muted.size} muted</a>`);
+  bits.push(`<a href="health.html">sources</a>`);
+  document.getElementById("footer").innerHTML = bits.join(" · ");
 }
 
 function progress(on){
-  const el = document.getElementById("progress");
-  el.hidden = !on;
+  document.getElementById("progress").hidden = !on;
 }
 
 async function refresh(){
   writeHash();
+  if (state.view === "saved") return renderSaved();
+  if (state.view === "archive") return renderArchive();
+
   const main = document.getElementById("main");
   const q = state.query.trim();
-  const available = Object.keys(dayShards(state.date));
+  const dates = state.catchUp
+    ? editionDates().slice(0, CATCHUP)
+    : [state.date];
 
-  /* A filter that only searched the three selected topics sent the reader off
-     to try other days by hand. The whole edition is a few tens of KB, so when
-     there is a query the search covers every topic that published that day —
-     selected ones first, so their sections still lead. */
-  const wanted = q
-    ? [...available].sort((a, b) =>
-        (state.topics.has(b) ? 1 : 0) - (state.topics.has(a) ? 1 : 0))
-    : [...state.topics];
+  /* A filter that only searched the selected topics sent the reader off to try
+     other days by hand. An edition is a few tens of KB, so with a query the
+     search covers every topic that published — selected ones first, so their
+     sections still lead. */
+  const jobs = [];
+  for (const date of dates){
+    const available = Object.keys(shardsFor(date));
+    const wanted = q
+      ? [...available].sort((a, b) =>
+          (state.topics.has(b) ? 1 : 0) - (state.topics.has(a) ? 1 : 0))
+      : [...state.topics].filter(t => available.includes(t));
+    for (const topic of wanted) jobs.push([date, topic]);
+  }
 
   const gen = ++state.gen;
   const slow = setTimeout(() => {
     main.setAttribute("aria-busy", "true"); progress(true);
   }, 150);   // no flicker for a cache hit, feedback for anything slower
 
-  const shards = await Promise.all(wanted.map(t => loadShard(state.date, t)));
+  const shards = await Promise.all(jobs.map(([d, t]) => loadShard(d, t)));
 
   clearTimeout(slow);
-  // A reader tapping through days faster than the network answers must not get
-  // an older response painted over a newer one.
+  // A reader tapping through editions faster than the network answers must not
+  // get an older response painted over a newer one.
   if (gen !== state.gen) return;
   main.removeAttribute("aria-busy"); progress(false);
 
@@ -651,30 +959,39 @@ async function refresh(){
 }
 
 function syncControls(){
-  const dates = state.manifest.dates;
+  const dates = editionDates();
   const i = dates.indexOf(state.date);
-  document.getElementById("prev").disabled = i >= dates.length - 1;
-  document.getElementById("next").disabled = i <= 0;
-  document.getElementById("editions").value = state.date;
+  const spanning = state.catchUp;
+  document.getElementById("prev").disabled = spanning || i >= dates.length - 1;
+  document.getElementById("next").disabled = spanning || i <= 0;
+  document.getElementById("editions").disabled = spanning;
+  document.getElementById("editions").value =
+    (state.mode === "weekly" ? "w:" : "d:") + state.date;
+  document.getElementById("modebadge").hidden = state.mode !== "weekly";
 }
 
-const fmtDate = d =>
-  new Date(d + "T00:00:00Z").toLocaleDateString(undefined,
-    { weekday:"long", day:"numeric", month:"long" });
-
 function drawEditions(){
-  document.getElementById("editions").innerHTML = state.manifest.dates
-    .map(d => `<option value="${d}">${esc(fmtDate(d))}</option>`).join("");
+  const opt = (d, m) =>
+    `<option value="${m}:${d}">${esc(fmtEdition(d, m === "w" ? "weekly" : "daily"))}</option>`;
+  let html = `<optgroup label="Daily">` +
+    state.manifest.dates.map(d => opt(d, "d")).join("") + `</optgroup>`;
+  const weeks = state.manifest.weeks || [];
+  if (weeks.length)
+    html += `<optgroup label="Weekly rollup">` +
+      weeks.map(d => opt(d, "w")).join("") + `</optgroup>`;
+  document.getElementById("editions").innerHTML = html;
 }
 
 function drawChips(){
   const box = document.getElementById("chips");
-  const today = dayShards(state.date);
+  // Under catch-up the counts belong to no single edition; the newest one is the
+  // honest thing to show, and it is the one the reader is about to look at.
+  const today = shardsFor(state.catchUp ? editionDates()[0] : state.date);
   /* Counts used to come from `topics[id].total`, which the manifest sums across
      every retained day — so on any edition but the latest a chip advertised
-     stories that were not there. These are this day's counts, and a topic that
-     published nothing today is dimmed. Selected chips sort first so a choice
-     made yesterday is never parked off the right edge. */
+     stories that were not there. These are this edition's counts, and a topic
+     that published nothing is dimmed. Selected chips sort first so a choice made
+     yesterday is never parked off the right edge. */
   const items = Object.entries(state.manifest.topics).map(([id, t]) => ({
     id, label: t.label, n: today[id]?.items ?? 0, on: state.topics.has(id),
   })).sort((a, b) =>
@@ -682,7 +999,7 @@ function drawChips(){
 
   box.innerHTML = items.map(t =>
     `<button class="chip${t.n ? "" : " empty"}" data-topic="${t.id}"
-       aria-pressed="${t.on}"${t.n ? "" : ` title="nothing published in ${esc(t.label)} on this day"`}>
+       aria-pressed="${t.on}"${t.n ? "" : ` title="nothing published in ${esc(t.label)} here"`}>
       ${esc(t.label)}<span class="n">${t.n}</span></button>`).join("");
   updateChipFade();
 }
@@ -696,35 +1013,83 @@ function updateChipFade(){
 }
 
 function step(delta){
-  const d = state.manifest.dates;
+  if (state.catchUp) return;
+  const d = editionDates();
   const i = d.indexOf(state.date) + delta;
   if (i < 0 || i >= d.length) return;
-  goto(d[i]);
+  goto(d[i], state.mode);
 }
 
-function goto(date){
+function goto(date, mode){
+  // Choosing one edition contradicts spanning several.
+  state.catchUp = false;
+  document.getElementById("catchup").setAttribute("aria-pressed", "false");
+  state.view = "digest";
+  state.mode = mode;
   state.date = date;
-  drawChips();          // counts and dimming are per-day
+  drawChips();          // counts and dimming are per-edition
   refresh();
+}
+
+function setUnreadOnly(on){
+  state.unreadOnly = on;
+  document.getElementById("unreadonly").setAttribute("aria-pressed", String(on));
+  // Catch-up *is* unread across editions; switching unread off leaves it
+  // meaningless, so it collapses back to one day.
+  if (!on && state.catchUp) return setCatchUp(false);
+  writeHash();
+  rerender();
+}
+
+function setCatchUp(on){
+  state.catchUp = on;
+  if (on){
+    state.mode = "daily";
+    state.unreadOnly = true;
+    state.view = "digest";
+    if (!editionDates().includes(state.date)) state.date = state.manifest.latest;
+  }
+  document.getElementById("catchup").setAttribute("aria-pressed", String(on));
+  document.getElementById("unreadonly").setAttribute("aria-pressed", String(state.unreadOnly));
+  drawChips();
+  refresh();
+}
+
+function setView(view){
+  state.view = view;
+  if (view === "digest") { refresh(); return; }
+  writeHash();
+  rerender();
 }
 
 async function boot(){
   readHash(); restoreTopics();
   state.read = loadRead();
+  state.saved = loadSaved();
+  state.muted = loadMuted();
 
-  // Opening a story is the only thing that marks it read. Nothing is marked
-  // on scroll or on render: an item you never looked at must still be there
-  // tomorrow, or unread means nothing.
   document.getElementById("main").addEventListener("click", e => {
+    const save = e.target.closest("button[data-save]");
+    if (save){ toggleSave(save.dataset.save, save); return; }
+
     const btn = e.target.closest("button[data-act]");
     if (btn){
-      if (btn.dataset.act === "clearq"){
-        state.query = ""; document.getElementById("search").value = ""; refresh();
-      } else if (btn.dataset.act === "showall"){
-        setUnreadOnly(false);
+      const act = btn.dataset.act;
+      if (act === "clearq"){
+        state.query = ""; document.getElementById("search").value = "";
+        state.view === "digest" ? refresh() : rerender();
       }
+      else if (act === "showall") setUnreadOnly(false);
+      else if (act === "nocatchup"){ state.unreadOnly = false; setCatchUp(false); }
+      else if (act === "saved") setView("saved");
+      else if (act === "digest") setView("digest");
+      else if (act === "archive" || act === "older") showArchive();
       return;
     }
+
+    // Opening a story is the only thing that marks it read. Nothing is marked on
+    // scroll or on render: an item you never looked at must still be there
+    // tomorrow, or unread means nothing.
     const story = e.target.closest(".story");
     if (!story) return;
     if (e.target.closest("a")){ markRead(story.dataset.id, story); return; }
@@ -742,7 +1107,11 @@ async function boot(){
   });
 
   document.getElementById("footer").addEventListener("click", e => {
-    if (e.target.id !== "readall") return;
+    const btn = e.target.closest("button");
+    if (!btn) return;
+    if (btn.dataset.act === "saved") return setView("saved");
+    if (btn.dataset.act === "digest") return setView("digest");
+    if (btn.id !== "readall") return;
     document.querySelectorAll(".story.unread").forEach(el => {
       state.read.add(el.dataset.id);
       el.classList.remove("unread");
@@ -762,14 +1131,22 @@ async function boot(){
        <p>Run the digest workflow once to publish the first edition.</p></div>`;
     return;
   }
-  if (!state.manifest.dates.includes(state.date)) state.date = state.manifest.latest;
+  if (!editionDates().includes(state.date)){
+    // A hash pointing at a rollup date that no longer exists must not strand the
+    // reader on an empty edition space.
+    if (state.mode === "weekly" && !(state.manifest.weeks || []).length)
+      state.mode = "daily";
+    state.date = editionDates()[0] || state.manifest.latest;
+  }
   if (!state.topics.size)
     state.topics = new Set(Object.keys(state.manifest.topics).slice(0, 3));
 
   const n = Object.keys(state.manifest.topics).length;
-  const e = state.manifest.dates.length;
+  const d = state.manifest.dates.length;
+  const w = (state.manifest.weeks || []).length;
   document.getElementById("sourceline").textContent =
-    `${n} topics · ${e} edition${e === 1 ? "" : "s"}`;
+    `${n} topics · ${d} edition${d === 1 ? "" : "s"}` +
+    (w ? ` · ${w} rollup${w === 1 ? "" : "s"}` : "");
 
   drawEditions();
   drawChips();
@@ -782,57 +1159,81 @@ async function boot(){
     const id = b.dataset.topic;
     state.topics.has(id) ? state.topics.delete(id) : state.topics.add(id);
     b.setAttribute("aria-pressed", state.topics.has(id));
+    if (state.view !== "digest") state.view = "digest";
     refresh();
   };
 
   document.getElementById("prev").onclick = () => step(1);   // dates are newest-first
   document.getElementById("next").onclick = () => step(-1);
-  document.getElementById("editions").onchange = e => goto(e.target.value);
+  document.getElementById("editions").onchange = e => {
+    const [m, date] = e.target.value.split(":");
+    const mode = m === "w" ? "weekly" : "daily";
+    const known = (mode === "weekly" ? state.manifest.weeks : state.manifest.dates) || [];
+    // An unrecognised value would set the date to undefined and render an empty
+    // page with nothing to explain it. Put the control back instead.
+    if (!date || !known.includes(date)) return syncControls();
+    goto(date, mode);
+  };
 
   const search = document.getElementById("search");
   search.value = state.query;
   let t;
   search.oninput = e => {
     clearTimeout(t);
-    t = setTimeout(() => { state.query = e.target.value; refresh(); }, 140);
+    t = setTimeout(() => {
+      state.query = e.target.value;
+      // A live query in the archive view re-filters what is already loaded
+      // rather than dropping the reader back into one edition — but emptying it
+      // there leaves nothing to show, so that falls back to the digest.
+      if (state.view === "archive" && !state.query.trim()) return setView("digest");
+      state.view === "digest" ? refresh() : rerender();
+    }, 140);
   };
 
   const unreadBtn = document.getElementById("unreadonly");
   unreadBtn.setAttribute("aria-pressed", String(state.unreadOnly));
   unreadBtn.onclick = () => setUnreadOnly(!state.unreadOnly);
 
+  const catchBtn = document.getElementById("catchup");
+  catchBtn.setAttribute("aria-pressed", String(state.catchUp));
+  catchBtn.onclick = () => setCatchUp(!state.catchUp);
+
   /* Keyboard: a daily reader on a desktop should not have to aim at the arrows.
-     j/k mirror the arrows rather than moving between stories — days are the
+     j/k mirror the arrows rather than moving between stories — editions are the
      only axis this page navigates. */
   addEventListener("keydown", ev => {
     if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
-    const t = ev.target;
-    if (t && (/^(INPUT|SELECT|TEXTAREA)$/.test(t.tagName) || t.isContentEditable)) return;
-    if (t?.closest?.(".chips")) return;   // arrows there belong to the chip row
+    const el = ev.target;
+    if (el && (/^(INPUT|SELECT|TEXTAREA)$/.test(el.tagName) || el.isContentEditable)) return;
+    if (el?.closest?.(".chips")) return;   // arrows there belong to the chip row
     if (ev.key === "ArrowLeft"  || ev.key === "j") step(1);
     else if (ev.key === "ArrowRight" || ev.key === "k") step(-1);
     else if (ev.key === "u") setUnreadOnly(!state.unreadOnly);
+    else if (ev.key === "c") setCatchUp(!state.catchUp);
+    else if (ev.key === "s") setView(state.view === "saved" ? "digest" : "saved");
     else if (ev.key === "/"){ ev.preventDefault(); search.focus(); }
     else return;
     ev.preventDefault();
   });
 
+  // Muting happens on the sources page. Same origin, same localStorage, so the
+  // only thing missing is noticing on the way back.
+  addEventListener("visibilitychange", () => {
+    if (document.visibilityState !== "visible") return;
+    const now = loadMuted();
+    const changed = now.size !== state.muted.size ||
+      [...now].some(id => !state.muted.has(id));
+    if (changed){ state.muted = now; rerender(); }
+  });
+
   // Relative stamps go stale on a tab left open overnight.
   setInterval(() => {
-    if (state.date !== state.manifest?.latest) return;
     document.querySelectorAll(".when").forEach(el => {
       el.textContent = when(el.dataset.iso);
     });
   }, 60000);
 
   await refresh();
-}
-
-function setUnreadOnly(on){
-  state.unreadOnly = on;
-  document.getElementById("unreadonly").setAttribute("aria-pressed", String(on));
-  writeHash();
-  rerender();
 }
 
 const off = document.getElementById("offline");

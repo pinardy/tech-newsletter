@@ -19,7 +19,10 @@ from pathlib import Path
 import llm
 from collect import fetch_descriptions, is_junk_blurb, load_shipped, save_shipped
 from models import Cluster, cluster_items, score_cluster, select, utcnow
-from publish import Edition, Section, prune, rebuild_manifest, write_edition
+from publish import (
+    SEARCH, WEEKLY, Edition, Section, prune, rebuild_manifest,
+    write_edition, write_search_index,
+)
 
 DATA = Path("data")
 
@@ -326,6 +329,124 @@ def build_editions(
     return editions
 
 
+# ── Weekly rollup ───────────────────────────────────────────────────
+
+def weekly_sections(clusters: list[Cluster]) -> list[Section]:
+    """Sections for a rollup, which wants a different shape to a day.
+
+    A daily edition leads on what is new. A week already knows what mattered,
+    so it leads on what more than one outlet carried — which is also the only
+    window where that question has a useful answer: over a single day almost
+    nothing has been corroborated yet, and over seven days the tally has had
+    time to move.
+    """
+    corroborated = [c for c in clusters if len(c.sources) >= 2]
+    rest = [c for c in clusters if len(c.sources) < 2]
+    candidates = [
+        ("Carried by more than one source", corroborated),
+        ("Also this week", rest),
+    ]
+    return [Section(heading=h, clusters=cs) for h, cs in candidates if cs]
+
+
+def build_weekly(
+    items,
+    config: dict,
+    *,
+    week_end: Date | None = None,
+    only: set[str] | None = None,
+) -> list[Edition]:
+    """One rollup per topic across the whole window, ignoring suppression.
+
+    Suppression is what makes a daily edition worth reading twice, and exactly
+    what a rollup must not do: every story in the week has already been
+    published, so filtering on that would produce nothing at all.
+
+    Sectioned by rule, never by model. A rollup re-selects stories the daily
+    editions already composed, so spending a request on it buys new headings for
+    old news — and the request count is the thing that runs into the free-tier
+    allowance. `degraded` stays false because this is the intended path here,
+    not a fallback.
+    """
+    week_end = week_end or utcnow().date()
+    now = utcnow()
+    knobs = config.get("ranking", {})
+    weights = {s["id"]: s.get("weight", 1.0) for s in config["sources"]}
+    topic_meta = config.get("topics", {})
+
+    by_topic: dict[str, list] = {}
+    for item in items:
+        for topic in item.topics:
+            by_topic.setdefault(topic, []).append(item)
+
+    editions = []
+    for topic, topic_items in sorted(by_topic.items()):
+        if only and topic not in only:
+            continue
+        meta = topic_meta.get(topic, {})
+        clusters = cluster_items(
+            topic_items,
+            jaccard=knobs.get("title_jaccard", 0.8),
+            min_tokens=knobs.get("min_title_tokens", 3),
+        )
+        for cluster in clusters:
+            cluster.score = score_cluster(
+                cluster, weights,
+                now=now,
+                # Decay is what keeps a daily edition current, and it is wrong
+                # here: a rollup is asking which story of the week mattered, not
+                # which is freshest. A half-life spanning the window flattens it
+                # to near enough no decay at all.
+                half_life_hours=knobs.get("weekly_half_life_hours", 24 * 30),
+                corroboration_bonus=knobs.get("corroboration_bonus", 0.6),
+                interest=meta.get("interest", 1.0),
+            )
+        # Corroboration first, score second: the rollup exists to surface what
+        # several outlets carried, and ordering by score alone buries a
+        # two-source story under a fresher single-source one.
+        clusters.sort(key=lambda c: (len(c.sources), c.score), reverse=True)
+        chosen = select(
+            clusters,
+            per_source_cap=knobs.get("weekly_per_source_cap", 4),
+            budget=knobs.get("weekly_topic_budget", 8),
+        )
+        if len(chosen) < knobs.get("min_topic_items", 2):
+            continue
+
+        editions.append(Edition(
+            date=week_end,
+            topic=topic,
+            label=meta.get("label", topic.title()),
+            sections=weekly_sections(chosen),
+            model=None,
+            degraded=False,
+        ))
+    return editions
+
+
+def publish_weekly(editions: list[Edition], config: dict,
+                   root: Path = DATA) -> dict:
+    """Write rollup shards and rebuild the manifest around them.
+
+    Never calls commit_shipped: a rollup republishes stories on purpose, and
+    recording them again would suppress them from the dailies that follow.
+    """
+    weekly_root = root / WEEKLY
+    weekly_root.mkdir(parents=True, exist_ok=True)
+    source_names = {s["id"]: s["name"] for s in config["sources"]}
+    topic_labels = {t: m.get("label", t.title())
+                    for t, m in config.get("topics", {}).items()}
+
+    written = [write_edition(e, source_names, root=weekly_root) for e in editions]
+    pruned = prune(root=root)
+    manifest = rebuild_manifest(topic_labels, root=root)
+    return {
+        "shards": [str(p) for p in written],
+        "pruned": pruned,
+        "manifest": str(manifest),
+    }
+
+
 # ── Outputs ─────────────────────────────────────────────────────────
 
 def _rfc822(dt: datetime) -> str:
@@ -333,15 +454,7 @@ def _rfc822(dt: datetime) -> str:
     return format_datetime(dt.astimezone(timezone.utc))
 
 
-def write_feed(editions: list[Edition], root: Path = DATA,
-               site: str = "") -> Path:
-    """RSS 2.0 of one day, every topic, so the digest is itself subscribable.
-
-    A digest that merges thirty feeds and then cannot be subscribed to is an
-    odd thing to build. One item per story, the topic as its category, and the
-    corroboration count in the description because that is the part no other
-    feed can give you.
-    """
+def _feed_items(editions: list[Edition]) -> list[str]:
     items = []
     for edition in sorted(editions, key=lambda e: e.topic):
         for section in edition.sections:
@@ -361,21 +474,54 @@ def write_feed(editions: list[Edition], root: Path = DATA,
                     f"<description>{html.escape(desc)}</description>"
                     "</item>"
                 )
+    return items
 
-    now = utcnow()
-    xml = (
+
+def _channel(title: str, description: str, site: str, items: list[str]) -> str:
+    return (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<rss version="2.0"><channel>'
-        "<title>Wire — tech digest</title>"
+        f"<title>{html.escape(title)}</title>"
         f"<link>{html.escape(site or 'https://example.invalid/')}</link>"
-        "<description>One digest a day, merged from thirty sources.</description>"
-        f"<lastBuildDate>{_rfc822(now)}</lastBuildDate>"
+        f"<description>{html.escape(description)}</description>"
+        f"<lastBuildDate>{_rfc822(utcnow())}</lastBuildDate>"
         "<language>en</language>"
         + "".join(items) +
         "</channel></rss>"
     )
+
+
+def write_feed(editions: list[Edition], root: Path = DATA,
+               site: str = "") -> Path:
+    """RSS 2.0 of one day, every topic, so the digest is itself subscribable.
+
+    A digest that merges thirty feeds and then cannot be subscribed to is an
+    odd thing to build. One item per story, the topic as its category, and the
+    corroboration count in the description because that is the part no other
+    feed can give you.
+
+    Also written per topic. The combined feed carries all seventeen at once, so
+    someone who wants Rust gets everything — which is the same firehose problem
+    this project exists to solve, reintroduced at the subscription layer.
+    """
     path = root / "feed.xml"
-    path.write_text(xml, encoding="utf-8")
+    path.write_text(_channel(
+        "Wire — tech digest",
+        "One digest a day, merged from thirty sources.",
+        site, _feed_items(editions)), encoding="utf-8")
+
+    per_topic = root / "feed"
+    per_topic.mkdir(parents=True, exist_ok=True)
+    live = set()
+    for edition in editions:
+        live.add(f"{edition.topic}.xml")
+        (per_topic / f"{edition.topic}.xml").write_text(_channel(
+            f"Wire — {edition.label}",
+            f"{edition.label} from thirty sources, one digest a day.",
+            site, _feed_items([edition])), encoding="utf-8")
+    # A topic that published nothing today keeps its last feed rather than
+    # having it emptied: an RSS reader treats a vanished item list as nothing
+    # new, but a 404 as a broken subscription.
     return path
 
 
@@ -422,10 +568,14 @@ def publish(editions: list[Edition], config: dict, root: Path = DATA) -> dict:
     pruned = prune(root=root)
     manifest = rebuild_manifest(topic_labels, root=root)
     feed = write_feed(editions, root=root, site=config.get("site", ""))
+    # After pruning, so a month that has just left the retention window leaves
+    # the index with it rather than pointing at shards that are gone.
+    search = write_search_index(root=root)
     write_health(root=root)
     return {
         "shards": [str(p) for p in written],
         "pruned": pruned,
         "manifest": str(manifest),
         "feed": str(feed),
+        "search": str(search) if search else None,
     }

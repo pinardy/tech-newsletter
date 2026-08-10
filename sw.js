@@ -10,7 +10,7 @@
 // Bump on every shell change. The shell is cache-first precisely because it
 // "never changes between deploys" — which means a reader who installed the
 // last version keeps it forever unless this string moves.
-const VERSION = "v6";
+const VERSION = "v7";
 const SHELL = `shell-${VERSION}`;
 const DATA = `data-${VERSION}`;
 const NET_TIMEOUT = 2500;

@@ -8,12 +8,17 @@
     uv run run.py collect            poll every source that is due
     uv run run.py collect --force    ignore per-source cadence
     uv run run.py publish            rebuild, rank, write data/ shards
+    uv run run.py weekly             roll the window up into data/weekly/
     uv run run.py verify             assert every feed in sources.yaml parses
     uv run run.py health             last outcome per source
 
 `collect` and `publish` are separate commands even though the scheduled run
 does both: the seam is what lets you re-poll without re-publishing, and
 backfill a missed day without re-sending it.
+
+`weekly` is separate for the same reason and one more: it must never touch the
+suppression store, so it cannot be a flag on `publish` that someone passes by
+accident.
 """
 
 from __future__ import annotations
@@ -28,7 +33,10 @@ from pathlib import Path
 import yaml
 
 import collect as collector
-from compose import build_editions, commit_shipped, publish as publish_editions
+from compose import (
+    build_editions, build_weekly, commit_shipped,
+    publish as publish_editions, publish_weekly,
+)
 from models import utcnow
 
 ROOT = Path(__file__).parent
@@ -149,6 +157,41 @@ def cmd_publish(args) -> int:
     return 0
 
 
+def cmd_weekly(args) -> int:
+    config = load_config()
+    day = Date.fromisoformat(args.date) if args.date else utcnow().date()
+
+    items = collector.load_items(days=args.window, until=day)
+    if not items:
+        print("store is empty — run `collect` first", file=sys.stderr)
+        return 1
+    print(f"rolling up {len(items)} items from the {args.window} days to {day}")
+
+    wanted = ({t.strip() for t in args.topics.split(",") if t.strip()}
+              if args.topics else None)
+    editions = build_weekly(items, config, week_end=day, only=wanted)
+    if not editions:
+        print("nothing met the rollup threshold", file=sys.stderr)
+        return 1
+
+    for edition in editions:
+        n = sum(len(s.clusters) for s in edition.sections)
+        multi = sum(1 for s in edition.sections for c in s.clusters
+                    if len(c.sources) >= 2)
+        print(f"  {edition.topic:12s} {n:3d} items, {multi:2d} corroborated")
+        if args.dry_run:
+            for section in edition.sections:
+                print(f"       § {section.heading}  ({len(section.clusters)})")
+
+    if args.dry_run:
+        print("\ndry run — nothing written")
+        return 0
+
+    result = publish_weekly(editions, config)
+    print(f"\nwrote {len(result['shards'])} rollup shards + {result['manifest']}")
+    return 0
+
+
 def cmd_verify(_args) -> int:
     """Fetch every source and assert it parses. Exits non-zero on any failure.
 
@@ -221,6 +264,14 @@ def main() -> int:
                         "edition from the whole window")
     p.add_argument("--dry-run", action="store_true")
     p.set_defaults(fn=cmd_publish)
+
+    p = sub.add_parser("weekly", help="roll the window up into data/weekly/")
+    p.add_argument("--date", help="week-ending date (YYYY-MM-DD); blank = today")
+    p.add_argument("--topics", help="comma-separated subset")
+    p.add_argument("--window", type=int, default=7,
+                   help="days to roll up (default 7)")
+    p.add_argument("--dry-run", action="store_true")
+    p.set_defaults(fn=cmd_weekly)
 
     p = sub.add_parser("verify", help="check every feed URL parses")
     p.set_defaults(fn=cmd_verify)

@@ -72,6 +72,20 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,9vw,44px);
   color:var(--ink-soft);margin-top:3px;word-break:break-word}
 .count{font-family:var(--mono);font-size:11px;color:var(--ink-soft);
   white-space:nowrap}
+
+/* Muting lives here rather than in the reader: this page already lists every
+   source, and the digest only needs to read the result. Same origin, same
+   localStorage, so no plumbing between them. */
+.mute{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;
+  color:var(--ink-soft);background:none;border:1px solid var(--rule);
+  border-radius:999px;padding:0 10px;min-height:32px;cursor:pointer;
+  white-space:nowrap;flex:0 0 auto}
+.mute[aria-pressed="true"]{background:var(--signal);border-color:var(--signal);
+  color:var(--paper)}
+.row.muted .name,.row.muted .detail,.row.muted .count{opacity:.45}
+button{font:inherit}
+:focus-visible{outline:2px solid var(--signal);outline-offset:3px;border-radius:2px}
+.hint{font-size:15px;color:var(--ink-soft);margin:0 0 4px}
 .notice{margin:24px 0;padding:14px 16px;border:1px solid var(--rule);
   border-left:3px solid var(--signal);background:var(--raised)}
 .notice h2{font-family:var(--display);font-weight:600;font-size:16px;margin:0 0 4px}
@@ -131,23 +145,57 @@ function classify(s){
   const by = { bad: [], stale: [], good: [] };
   sources.forEach(s => by[classify(s)].push(s));
 
-  const rows = [...by.bad, ...by.stale, ...by.good].map(s => {
+  /* Muted source ids, shared with the digest through localStorage. Disposable
+     and per-device, like read state — never required for either page to work. */
+  const MUTED_KEY = "muted";
+  const loadMuted = () => {
+    try { return new Set(JSON.parse(localStorage.getItem(MUTED_KEY) || "[]")); }
+    catch { return new Set(); }
+  };
+  let muted = loadMuted();
+  const saveMuted = () => {
+    try { localStorage.setItem(MUTED_KEY, JSON.stringify([...muted])); } catch {}
+  };
+
+  const rowFor = (s) => {
     const cls = classify(s);
-    return `<div class="row ${cls === "good" ? "" : cls}">
+    const off = muted.has(s.id);
+    return `<div class="row ${cls === "good" ? "" : cls}${off ? " muted" : ""}"
+      data-id="${esc(s.id)}">
       <span class="dot"></span>
       <span class="name">${esc(s.name)}
         <div class="detail">${esc(s.status)} · ${ago(s.at)}</div></span>
       <span class="count">${s.items} item${s.items === 1 ? "" : "s"}</span>
+      <button class="mute" data-mute="${esc(s.id)}" aria-pressed="${off}"
+        >${off ? "muted" : "mute"}</button>
     </div>`;
-  }).join("");
+  };
 
-  document.getElementById("main").innerHTML =
-    `<div class="summary">
-       <span><b>${sources.length}</b> sources</span>
-       <span><b>${by.good.length}</b> healthy</span>
-       <span><b>${by.stale.length}</b> stale</span>
-       <span><b>${by.bad.length}</b> failing</span>
-     </div>${rows}`;
+  const ordered = [...by.bad, ...by.stale, ...by.good];
+  const draw = () => {
+    document.getElementById("main").innerHTML =
+      `<div class="summary">
+         <span><b>${sources.length}</b> sources</span>
+         <span><b>${by.good.length}</b> healthy</span>
+         <span><b>${by.stale.length}</b> stale</span>
+         <span><b>${by.bad.length}</b> failing</span>
+         ${muted.size ? `<span><b>${muted.size}</b> muted</span>` : ""}
+       </div>
+       <p class="hint">Muting hides a story from the digest only when every
+         source that carried it is muted — so it never costs you the
+         corroboration two outlets give a story.</p>` +
+      ordered.map(rowFor).join("");
+  };
+  draw();
+
+  document.getElementById("main").addEventListener("click", (e) => {
+    const btn = e.target.closest("button[data-mute]");
+    if (!btn) return;
+    const id = btn.dataset.mute;
+    muted.has(id) ? muted.delete(id) : muted.add(id);
+    saveMuted();
+    draw();
+  });
 
   document.getElementById("footer").textContent =
     "collected " + (data.generated_at || "").slice(0, 16).replace("T", " ") + " UTC";

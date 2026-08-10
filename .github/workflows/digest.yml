@@ -10,12 +10,13 @@ on:
   schedule:
     - cron: "0 1,7,19 * * *"    # collect
     - cron: "0 13 * * *"        # collect + publish
+    - cron: "0 15 * * 0"        # collect + weekly rollup
   workflow_dispatch:
     inputs:
       mode:
-        description: "collect = ingest only; publish = ingest, compose, send"
+        description: "collect = ingest only; publish = compose a day; weekly = roll the week up"
         type: choice
-        options: [publish, collect]
+        options: [publish, collect, weekly]
         default: publish
       date:
         description: "Edition date (YYYY-MM-DD). Blank = today."
@@ -61,6 +62,8 @@ jobs:
             MODE="$INPUT_MODE"
           elif [ "$SCHEDULE" = "0 13 * * *" ]; then
             MODE="publish"
+          elif [ "$SCHEDULE" = "0 15 * * 0" ]; then
+            MODE="weekly"
           else
             MODE="collect"
           fi
@@ -87,6 +90,18 @@ jobs:
           OPENCODE_MODEL: ${{ vars.OPENCODE_MODEL }}
         run: |
           uv run run.py publish \
+            ${{ inputs.date && format('--date {0}', inputs.date) || '' }} \
+            ${{ inputs.topics && format('--topics {0}', inputs.topics) || '' }} \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      # The rollup re-selects stories the dailies already published, across the
+      # whole window and with suppression off. No LLM: it would buy new headings
+      # for old news at the cost of a request. It never writes the suppression
+      # store, so Sunday's rollup cannot starve Monday's edition.
+      - name: Weekly rollup
+        if: steps.mode.outputs.mode == 'weekly'
+        run: |
+          uv run run.py weekly \
             ${{ inputs.date && format('--date {0}', inputs.date) || '' }} \
             ${{ inputs.topics && format('--topics {0}', inputs.topics) || '' }} \
             ${{ inputs.dry_run && '--dry-run' || '' }}
