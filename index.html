@@ -12,6 +12,12 @@
 <meta name="theme-color" content="#14181F" media="(prefers-color-scheme:dark)">
 
 <link rel="manifest" href="manifest.webmanifest">
+<!-- Both, deliberately. icon.svg swaps in pixel-grid artwork below 40px and is
+     what modern browsers prefer; favicon.ico carries the same two drawings as
+     real bitmaps for the browsers that ignore either. The explicit link is not
+     optional here — an implicit /favicon.ico probe would hit the domain root,
+     and this site is served from a subpath. -->
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <!-- iOS ignores the manifest when it makes a home-screen icon, so the PWA the
      safe-area padding exists for would install with a screenshot without these. -->

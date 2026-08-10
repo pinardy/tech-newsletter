@@ -10,7 +10,7 @@
 // Bump on every shell change. The shell is cache-first precisely because it
 // "never changes between deploys" — which means a reader who installed the
 // last version keeps it forever unless this string moves.
-const VERSION = "v4";
+const VERSION = "v5";
 const SHELL = `shell-${VERSION}`;
 const DATA = `data-${VERSION}`;
 const NET_TIMEOUT = 2500;
@@ -28,6 +28,7 @@ const SHELL_ASSETS = [
   "./health.html",
   "./manifest.webmanifest",
   "./icon.svg",
+  "./favicon.ico",
   "./fonts/newsreader-latin.woff2",
   "./fonts/newsreader-italic-latin.woff2",
   "./fonts/bricolage-latin.woff2",
@@ -81,11 +82,12 @@ function isData(url) {
   return url.pathname.includes("/data/") && url.pathname.endsWith(".json");
 }
 
-// Immutable, content-addressed-enough to keep forever, and not worth precaching
-// in full: the latin-ext subsets and the PNG icons. Cache them when something
-// actually asks for one.
+// Static art and type: cache-first, and cached on first use if it was not
+// precached. Covers both the shell entries above and the pieces deliberately
+// left out of them — the latin-ext subsets and the PNG icons — which are only
+// worth storing once something actually asks for one.
 function isAsset(url) {
-  return /\.(woff2|png|svg)$/.test(url.pathname);
+  return /\.(woff2|png|svg|ico)$/.test(url.pathname);
 }
 
 async function networkFirst(request) {
