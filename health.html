@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wire — sources</title>
+<meta name="description" content="Poll status for every source in the digest.">
+<meta name="theme-color" content="#E7E9E4">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --paper:#E7E9E4; --raised:#F2F3F0; --ink:#14181F; --ink-soft:#5A6270;
+  --rule:#CBCFC8; --signal:#B33A1A; --pine:#2F5D50;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Newsreader",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,monospace;
+  --gutter:clamp(14px,4vw,28px);
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#14181F; --raised:#1B212A; --ink:#E7E9E4; --ink-soft:#8B94A3;
+        --rule:#2C3540; --signal:#E0674A; --pine:#7FB3A1}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+  font-size:17px;line-height:1.5;padding-bottom:env(safe-area-inset-bottom)}
+a{color:inherit}
+main{padding:0 var(--gutter) 64px;max-width:720px;margin:0 auto}
+
+.masthead{padding:calc(var(--gutter) + env(safe-area-inset-top)) var(--gutter) 0;
+  max-width:720px;margin:0 auto}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-soft)}
+.eyebrow a{text-decoration:none}
+.eyebrow a:hover{text-decoration:underline}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,9vw,44px);
+  line-height:.95;letter-spacing:-.03em;margin:8px 0 2px}
+.standfirst{font-style:italic;color:var(--ink-soft);font-size:15px;
+  margin:0 0 var(--gutter)}
+
+.summary{display:flex;gap:18px;flex-wrap:wrap;font-family:var(--mono);
+  font-size:12px;letter-spacing:.06em;color:var(--ink-soft);
+  padding-bottom:12px;border-bottom:1.5px solid var(--ink);margin-bottom:4px}
+.summary b{color:var(--ink);font-weight:500}
+
+.row{display:flex;gap:12px;align-items:baseline;padding:13px 0;
+  border-bottom:1px solid var(--rule)}
+.row:last-child{border-bottom:none}
+.dot{flex:0 0 7px;width:7px;height:7px;border-radius:50%;background:var(--pine);
+  transform:translateY(-2px)}
+.row.stale .dot{background:var(--ink-soft)}
+.row.bad .dot{background:var(--signal)}
+.name{font-family:var(--display);font-weight:600;font-size:16px;flex:1;min-width:0}
+.detail{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;
+  color:var(--ink-soft);margin-top:3px;word-break:break-word}
+.count{font-family:var(--mono);font-size:11px;color:var(--ink-soft);
+  white-space:nowrap}
+.notice{margin:24px 0;padding:14px 16px;border:1px solid var(--rule);
+  border-left:3px solid var(--signal);background:var(--raised)}
+.notice h2{font-family:var(--display);font-weight:600;font-size:16px;margin:0 0 4px}
+.notice p{margin:0;font-size:15px;color:var(--ink-soft)}
+footer{padding:22px var(--gutter) 40px;max-width:720px;margin:0 auto;
+  border-top:1px solid var(--rule);font-family:var(--mono);font-size:10.5px;
+  letter-spacing:.05em;color:var(--ink-soft)}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow"><a href="./">&lsaquo; back to the digest</a></div>
+  <h1>Sources</h1>
+  <p class="standfirst">With thirty sources, something is always broken.</p>
+</header>
+
+<main id="main"><p class="detail">loading…</p></main>
+<footer id="footer"></footer>
+
+<script>
+const esc = s => String(s).replace(/[&<>"]/g, c =>
+  ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+
+function ago(iso){
+  if (!iso) return "never";
+  const h = (Date.now() - new Date(iso)) / 36e5;
+  if (h < 1) return "just now";
+  if (h < 24) return Math.round(h) + "h ago";
+  return Math.round(h / 24) + "d ago";
+}
+
+/* Three states, not two. "ok but last seen four days ago" is the failure mode
+   that actually loses you a source: nothing errors, the feed simply stopped
+   being polled or stopped publishing, and it quietly leaves the digest. */
+function classify(s){
+  if (!s.status || !s.status.startsWith("ok") && s.status !== "not modified")
+    return "bad";
+  const days = s.at ? (Date.now() - new Date(s.at)) / 864e5 : 99;
+  return days > 2 ? "stale" : "good";
+}
+
+(async () => {
+  let data;
+  try {
+    const r = await fetch("data/health.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error(r.status);
+    data = await r.json();
+  } catch {
+    document.getElementById("main").innerHTML =
+      `<div class="notice"><h2>No health data</h2>
+       <p>Run the digest once and this page fills in.</p></div>`;
+    return;
+  }
+
+  const sources = data.sources || [];
+  const by = { bad: [], stale: [], good: [] };
+  sources.forEach(s => by[classify(s)].push(s));
+
+  const rows = [...by.bad, ...by.stale, ...by.good].map(s => {
+    const cls = classify(s);
+    return `<div class="row ${cls === "good" ? "" : cls}">
+      <span class="dot"></span>
+      <span class="name">${esc(s.name)}
+        <div class="detail">${esc(s.status)} · ${ago(s.at)}</div></span>
+      <span class="count">${s.items} item${s.items === 1 ? "" : "s"}</span>
+    </div>`;
+  }).join("");
+
+  document.getElementById("main").innerHTML =
+    `<div class="summary">
+       <span><b>${sources.length}</b> sources</span>
+       <span><b>${by.good.length}</b> healthy</span>
+       <span><b>${by.stale.length}</b> stale</span>
+       <span><b>${by.bad.length}</b> failing</span>
+     </div>${rows}`;
+
+  document.getElementById("footer").textContent =
+    "collected " + (data.generated_at || "").slice(0, 16).replace("T", " ") + " UTC";
+})();
+</script>
+</body>
+</html>

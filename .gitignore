@@ -1,0 +1,9 @@
+# Secrets. .env.example is the committed template; .env never is.
+.env
+
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# NOT ignored, deliberately: data/ and store/ are the published site and the
+# durable item store, and the workflow commits both on every run.

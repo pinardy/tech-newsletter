@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wire — tech digest</title>
+<meta name="description" content="One digest a day, merged from thirty sources.">
+<meta name="theme-color" content="#E7E9E4">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --paper:#E7E9E4;
+  --raised:#F2F3F0;
+  --ink:#14181F;
+  --ink-soft:#5A6270;
+  --rule:#CBCFC8;
+  --signal:#B33A1A;
+  --pine:#2F5D50;
+
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Newsreader",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,monospace;
+
+  --gutter:clamp(14px,4vw,28px);
+  --tally-w:38px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#14181F; --raised:#1B212A; --ink:#E7E9E4; --ink-soft:#8B94A3;
+    --rule:#2C3540; --signal:#E0674A; --pine:#7FB3A1;
+  }
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--body); font-size:17px; line-height:1.5;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+:focus-visible{outline:2px solid var(--signal);outline-offset:3px;border-radius:2px}
+
+/* ── Masthead ─────────────────────────────────────────────────── */
+.masthead{padding:calc(var(--gutter) + env(safe-area-inset-top)) var(--gutter) 0}
+.eyebrow{
+  font-family:var(--mono); font-size:11px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--ink-soft);
+  display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+}
+.eyebrow .dot{width:5px;height:5px;border-radius:50%;background:var(--signal)}
+.wordmark{
+  font-family:var(--display); font-weight:800;
+  font-size:clamp(38px,13vw,68px); line-height:.9;
+  letter-spacing:-.035em; margin:8px 0 2px;
+}
+.standfirst{
+  font-family:var(--body); font-style:italic; color:var(--ink-soft);
+  font-size:15px; margin:0 0 var(--gutter);
+}
+
+/* ── Sticky controls ──────────────────────────────────────────── */
+.controls{
+  position:sticky; top:0; z-index:20;
+  background:color-mix(in srgb,var(--paper) 92%,transparent);
+  backdrop-filter:blur(10px);
+  border-block:1px solid var(--rule);
+  padding:10px 0;
+}
+.datebar{
+  display:flex; align-items:center; gap:8px;
+  padding:0 var(--gutter) 10px; font-family:var(--mono); font-size:12px;
+}
+.datebar time{flex:1;letter-spacing:.06em}
+.navbtn{
+  border:1px solid var(--rule); border-radius:999px;
+  width:30px;height:30px;line-height:1;display:grid;place-items:center;
+}
+.navbtn[disabled]{opacity:.3;cursor:default}
+
+.chips{display:flex; gap:7px; overflow-x:auto; padding:0 var(--gutter);
+  scrollbar-width:none; -webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{
+  flex:0 0 auto; font-family:var(--mono); font-size:12px; letter-spacing:.04em;
+  padding:6px 11px; border:1px solid var(--rule); border-radius:999px;
+  color:var(--ink-soft); white-space:nowrap; transition:background .15s,color .15s;
+}
+.chip[aria-pressed="true"]{background:var(--pine);border-color:var(--pine);color:var(--paper)}
+.chip .n{opacity:.55;margin-left:5px}
+
+.searchwrap{padding:10px var(--gutter) 0}
+.search{
+  width:100%; font-family:var(--mono); font-size:13px;
+  padding:8px 11px; background:var(--raised);
+  border:1px solid var(--rule); border-radius:4px; color:var(--ink);
+}
+.search::placeholder{color:var(--ink-soft)}
+
+/* ── Digest body ──────────────────────────────────────────────── */
+main{padding:0 var(--gutter) 64px; max-width:720px; margin:0 auto}
+
+.section-head{
+  display:flex; align-items:baseline; gap:12px;
+  margin:34px 0 4px; padding-bottom:6px; border-bottom:1.5px solid var(--ink);
+}
+.section-head h2{
+  font-family:var(--display); font-weight:600; font-size:19px;
+  letter-spacing:-.01em; margin:0; flex:1;
+}
+.section-head .topic{
+  font-family:var(--mono); font-size:10px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--pine);
+}
+
+.story{display:flex; gap:12px; padding:16px 0; border-bottom:1px solid var(--rule)}
+.story:last-child{border-bottom:none}
+
+/* ── Signature: the corroboration tally ───────────────────────── */
+/* One stroke per independent source that carried the story. Groups of five
+   are struck through, so "everyone ran this" is legible before the headline. */
+.tally{flex:0 0 var(--tally-w); padding-top:7px}
+.tally-groups{display:flex; flex-wrap:wrap; gap:7px}
+.tally-group{position:relative; display:flex; gap:3px; height:15px}
+.stroke{
+  width:2px; height:15px; background:var(--signal);
+  transform-origin:bottom; animation:grow .5s cubic-bezier(.2,.9,.3,1) backwards;
+}
+.tally-group.full .strike{
+  position:absolute; inset:0; width:100%; height:15px;
+}
+.tally-group.full .strike::after{
+  content:""; position:absolute; left:-3px; right:-3px; top:50%;
+  height:2px; background:var(--signal); transform:rotate(-24deg);
+}
+.tally-count{
+  font-family:var(--mono); font-size:10px; color:var(--ink-soft);
+  margin-top:5px; letter-spacing:.06em;
+}
+@keyframes grow{from{transform:scaleY(0);opacity:0}to{transform:scaleY(1);opacity:1}}
+
+.story-body{flex:1; min-width:0; position:relative}
+.story h3{
+  font-family:var(--display); font-weight:600; font-size:17px;
+  line-height:1.28; letter-spacing:-.012em; margin:0 0 5px;
+}
+.story h3 a{text-decoration:none}
+.story h3 a:hover{text-decoration:underline;text-decoration-color:var(--signal);text-underline-offset:3px}
+.story p{margin:0 0 7px; font-size:15.5px; color:var(--ink-soft); line-height:1.45}
+.meta{font-family:var(--mono); font-size:10.5px; letter-spacing:.05em;
+  color:var(--ink-soft); display:flex; gap:7px; flex-wrap:wrap; align-items:center}
+.meta .sep{opacity:.4}
+.meta .src{color:var(--ink)}
+/* The arc reads "day 3 · was 2 src": the tally moving, not a reading of it.
+   Pine, not signal — signal stays reserved for the tally and unread. */
+.meta .arc{color:var(--pine)}
+
+/* Unread marker. The only other thing on the page allowed to be signal red.
+   Absolutely positioned into the gap between the tally and the text, rather
+   than inline: an inline dot pushes the first line right and leaves wrapped
+   lines behind it, so the left edge of every headline would shift as stories
+   are read. */
+.story.unread .story-body::before{
+  content:""; position:absolute; left:-10px; top:9px;
+  width:6px; height:6px; border-radius:50%; background:var(--signal);
+}
+
+/* ── States ───────────────────────────────────────────────────── */
+.notice{
+  margin:24px 0; padding:14px 16px; border:1px solid var(--rule);
+  border-left:3px solid var(--signal); background:var(--raised);
+}
+.notice h3{font-family:var(--display);font-weight:600;font-size:16px;margin:0 0 4px}
+.notice p{margin:0;font-size:15px;color:var(--ink-soft)}
+.skeleton{height:13px;background:var(--rule);border-radius:2px;opacity:.5;
+  margin:11px 0;animation:pulse 1.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.22}}
+
+footer{
+  padding:22px var(--gutter) 40px; max-width:720px; margin:0 auto;
+  border-top:1px solid var(--rule); font-family:var(--mono);
+  font-size:10.5px; letter-spacing:.05em; color:var(--ink-soft);
+}
+footer button,footer a{text-decoration:underline;text-underline-offset:2px}
+.offline{
+  position:fixed; left:50%; transform:translateX(-50%); bottom:16px; z-index:30;
+  font-family:var(--mono); font-size:11px; letter-spacing:.08em;
+  background:var(--ink); color:var(--paper); padding:7px 14px; border-radius:999px;
+}
+[hidden]{display:none !important}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="eyebrow">
+    <span class="dot" aria-hidden="true"></span>
+    <span id="sourceline">loading</span>
+  </div>
+  <h1 class="wordmark">Wire</h1>
+  <p class="standfirst">One digest a day, merged from thirty sources.</p>
+</header>
+
+<div class="controls">
+  <div class="datebar">
+    <button class="navbtn" id="prev" aria-label="Previous day">‹</button>
+    <time id="editiondate">—</time>
+    <button class="navbtn" id="next" aria-label="Next day">›</button>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Topics"></div>
+  <div class="searchwrap">
+    <input class="search" id="search" type="search" placeholder="filter headlines" aria-label="Filter headlines">
+  </div>
+</div>
+
+<main id="main">
+  <div class="skeleton" style="width:60%"></div>
+  <div class="skeleton" style="width:85%"></div>
+  <div class="skeleton" style="width:72%"></div>
+</main>
+
+<footer id="footer"></footer>
+<div class="offline" id="offline" hidden>offline — showing cached</div>
+
+<script>
+const DATA = "data/";
+const state = { manifest:null, date:null, topics:new Set(), query:"",
+                shards:new Map(), read:new Set() };
+
+/* Read state is per-device and disposable — it must never be required for the
+   page to work, so every access is in try/catch and the cap is a hard slice
+   rather than anything cleverer. Item ids are stable (an FNV hash of the
+   canonical URL), so a story keeps its read state across days and topics. */
+const READ_KEY = "read";
+const READ_CAP = 4000;
+function loadRead(){
+  try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]")); }
+  catch { return new Set(); }
+}
+function saveRead(){
+  try {
+    localStorage.setItem(READ_KEY,
+      JSON.stringify([...state.read].slice(-READ_CAP)));
+  } catch {}
+}
+function markRead(id, el){
+  if (state.read.has(id)) return;
+  state.read.add(id);
+  saveRead();
+  el?.classList.remove("unread");
+  updateFooter();
+}
+
+/* URL hash is the source of truth for shareable state; localStorage only
+   remembers topic choice between visits and is never required to work. */
+function readHash(){
+  const p = new URLSearchParams(location.hash.slice(1));
+  if (p.get("d")) state.date = p.get("d");
+  if (p.get("t")) state.topics = new Set(p.get("t").split(",").filter(Boolean));
+}
+function writeHash(){
+  const p = new URLSearchParams();
+  if (state.date) p.set("d", state.date);
+  if (state.topics.size) p.set("t", [...state.topics].join(","));
+  history.replaceState(null, "", "#" + p);
+  try { localStorage.setItem("topics", [...state.topics].join(",")); } catch {}
+}
+function restoreTopics(){
+  if (state.topics.size) return;
+  try {
+    const saved = localStorage.getItem("topics");
+    if (saved) state.topics = new Set(saved.split(",").filter(Boolean));
+  } catch {}
+}
+
+async function getJSON(path){
+  const r = await fetch(DATA + path, { cache:"no-cache" });
+  if (!r.ok) throw new Error(path + " " + r.status);
+  return r.json();
+}
+
+async function loadShard(date, topic){
+  const key = date + "/" + topic;
+  if (state.shards.has(key)) return state.shards.get(key);
+  const data = await getJSON(key + ".json").catch(() => null);
+  state.shards.set(key, data);
+  return data;
+}
+
+/* ── Tally: one stroke per source, struck through in fives ── */
+function tally(n){
+  const groups = [];
+  let left = Math.min(n, 15);
+  let i = 0;
+  while (left > 0){
+    const size = Math.min(left, 5);
+    const strokes = Array.from({length:size}, () =>
+      `<i class="stroke" style="animation-delay:${(i++) * 45}ms"></i>`).join("");
+    groups.push(
+      `<span class="tally-group${size === 5 ? " full" : ""}">${strokes}` +
+      (size === 5 ? `<i class="strike"></i>` : "") + `</span>`);
+    left -= size;
+  }
+  return `<div class="tally"><div class="tally-groups">${groups.join("")}</div>` +
+         `<div class="tally-count">${n}&#8202;src</div></div>`;
+}
+
+function ago(iso){
+  const h = (Date.now() - new Date(iso)) / 36e5;
+  if (h < 1) return "just now";
+  if (h < 24) return Math.round(h) + "h ago";
+  return Math.round(h / 24) + "d ago";
+}
+
+const esc = s => String(s).replace(/[&<>"]/g, c =>
+  ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+
+function storyHTML(item){
+  const names = item.sources.map(s => s.name);
+  const shown = names.slice(0, 2).map(esc).join(", ") +
+    (names.length > 2 ? ` +${names.length - 2}` : "");
+  const unread = state.read.has(item.id) ? "" : " unread";
+  /* Only present when the story was published before and came back because
+     it gained a source — so it always says something the tally alone cannot. */
+  const arc = item.arc
+    ? `<span class="sep">/</span><span class="arc">day ${item.arc.days} ·
+       was ${item.arc.was}&#8202;src</span>`
+    : "";
+  return `<article class="story${unread}" data-id="${esc(item.id)}">
+    ${tally(item.source_count)}
+    <div class="story-body">
+      <h3><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
+      ${item.blurb ? `<p>${esc(item.blurb)}</p>` : ""}
+      <div class="meta"><span class="src">${shown}</span>
+        <span class="sep">/</span><span>${ago(item.published_at)}</span>${arc}</div>
+    </div></article>`;
+}
+
+function render(shards){
+  const main = document.getElementById("main");
+  const q = state.query.trim().toLowerCase();
+  let html = "", shown = 0;
+
+  /* Topic routing is intentionally many-to-one: a Kubernetes CVE belongs in
+     both `security` and `kubernetes`, and a reader who picked only one of
+     them still needs to see it. But a reader who picked both should see it
+     once, under whichever topic reaches it first. Shards are fetched
+     independently, so the deduplication has to happen here. */
+  const drawn = new Set();
+
+  for (const shard of shards){
+    if (!shard) continue;
+    for (const section of shard.sections){
+      const items = section.items.filter(it =>
+        (!q || (it.title + " " + (it.blurb || "")).toLowerCase().includes(q))
+        && !drawn.has(it.id));
+      if (!items.length) continue;
+      items.forEach(it => drawn.add(it.id));
+      shown += items.length;
+      html += `<div class="section-head"><h2>${esc(section.heading)}</h2>
+        <span class="topic">${esc(shard.label)}</span></div>`;
+      html += items.map(storyHTML).join("");
+    }
+  }
+
+  if (!shown){
+    html = state.topics.size === 0
+      ? `<div class="notice"><h3>Pick a topic</h3>
+         <p>Choose one or more topics above to build today's digest.</p></div>`
+      : q
+      ? `<div class="notice"><h3>No match for “${esc(state.query)}”</h3>
+         <p>Clear the filter, or try another day.</p></div>`
+      : `<div class="notice"><h3>Nothing published here yet</h3>
+         <p>This day has no stories for the topics you picked. Try the previous day.</p></div>`;
+  }
+  main.innerHTML = html;
+  state.built = shards.find(Boolean)?.built_at ?? null;
+  updateFooter();
+}
+
+function updateFooter(){
+  const total  = document.querySelectorAll(".story").length;
+  const unread = document.querySelectorAll(".story.unread").length;
+  const built  = state.built
+    ? state.built.slice(0, 16).replace("T", " ") + " UTC" : "—";
+  document.getElementById("footer").innerHTML =
+    `${total} stories · ${unread} unread · built ${built}` +
+    (unread ? ` · <button id="readall">mark all read</button>` : "") +
+    ` · <a href="health.html">sources</a>`;
+}
+
+async function refresh(){
+  writeHash();
+  const shards = await Promise.all(
+    [...state.topics].map(t => loadShard(state.date, t)));
+  render(shards);
+  document.getElementById("editiondate").textContent =
+    new Date(state.date + "T00:00:00Z").toLocaleDateString(undefined,
+      { weekday:"long", day:"numeric", month:"long" });
+  const i = state.manifest.dates.indexOf(state.date);
+  document.getElementById("prev").disabled = i >= state.manifest.dates.length - 1;
+  document.getElementById("next").disabled = i <= 0;
+}
+
+function drawChips(){
+  const box = document.getElementById("chips");
+  box.innerHTML = Object.entries(state.manifest.topics).map(([id, t]) =>
+    `<button class="chip" data-topic="${id}" aria-pressed="${state.topics.has(id)}">
+      ${esc(t.label)}<span class="n">${t.total}</span></button>`).join("");
+  box.onclick = e => {
+    const b = e.target.closest(".chip");
+    if (!b) return;
+    const id = b.dataset.topic;
+    state.topics.has(id) ? state.topics.delete(id) : state.topics.add(id);
+    b.setAttribute("aria-pressed", state.topics.has(id));
+    refresh();
+  };
+}
+
+function step(delta){
+  const d = state.manifest.dates;
+  const i = d.indexOf(state.date) + delta;
+  if (i < 0 || i >= d.length) return;
+  state.date = d[i];
+  refresh();
+}
+
+async function boot(){
+  readHash(); restoreTopics();
+  state.read = loadRead();
+
+  // Opening a story is the only thing that marks it read. Nothing is marked
+  // on scroll or on render: an item you never looked at must still be there
+  // tomorrow, or unread means nothing.
+  document.getElementById("main").addEventListener("click", e => {
+    const story = e.target.closest(".story");
+    if (story && e.target.closest("h3 a")) markRead(story.dataset.id, story);
+  });
+  document.getElementById("footer").addEventListener("click", e => {
+    if (e.target.id !== "readall") return;
+    document.querySelectorAll(".story.unread").forEach(el => {
+      state.read.add(el.dataset.id);
+      el.classList.remove("unread");
+    });
+    saveRead(); updateFooter();
+  });
+
+  try {
+    state.manifest = await getJSON("index.json");
+  } catch {
+    document.getElementById("main").innerHTML =
+      `<div class="notice"><h3>No digest data</h3>
+       <p>Run the digest workflow once to publish the first edition.</p></div>`;
+    return;
+  }
+  if (!state.manifest.dates.includes(state.date)) state.date = state.manifest.latest;
+  if (!state.topics.size)
+    state.topics = new Set(Object.keys(state.manifest.topics).slice(0, 3));
+
+  const n = Object.keys(state.manifest.topics).length;
+  document.getElementById("sourceline").textContent =
+    `${n} topics · ${state.manifest.dates.length} editions`;
+
+  drawChips();
+  document.getElementById("prev").onclick = () => step(1);   // dates are newest-first
+  document.getElementById("next").onclick = () => step(-1);
+
+  let t;
+  document.getElementById("search").oninput = e => {
+    clearTimeout(t);
+    t = setTimeout(() => { state.query = e.target.value; refresh(); }, 140);
+  };
+  await refresh();
+}
+
+const off = document.getElementById("offline");
+addEventListener("online",  () => off.hidden = true);
+addEventListener("offline", () => off.hidden = false);
+off.hidden = navigator.onLine;
+
+if ("serviceWorker" in navigator)
+  addEventListener("load", () => navigator.serviceWorker.register("sw.js"));
+
+boot();
+</script>
+</body>
+</html>

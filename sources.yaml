@@ -1,0 +1,337 @@
+# Source registry. Adding a source is a config edit, never a code change.
+#
+# Every URL below was fetched and asserted to be a parseable feed with at
+# least one recent entry (see `python run.py verify`). Two sources named in
+# CHANGES.md are absent because their documented feed URLs serve HTML, not a
+# feed: Python Weekly and tl;dr sec both moved to beehiiv. Restore them by
+# adding the correct rss.beehiiv.com URL.
+#
+# adapter:
+#   feed        one RSS/Atom entry == one story
+#   newsletter  one entry == an issue; stories are the outbound links inside
+#               it, which are click-wrappers and must be HEAD-resolved
+#   hn          Algolia search API (JSON), not a feed
+#
+# topics: fixed list, or `auto` to route each item by the keyword rules at the
+# bottom of this file. Aggregators are `auto` — that routing is what lets an
+# HN thread corroborate a JavaScript Weekly link.
+#
+# cadence_minutes: floor on re-polling. Set by feed turnover, not preference:
+# a source is safe while it publishes fewer items per interval than its feed
+# carries. lobste.rs and r/programming carry ~25 entries and turn over about
+# that fast, so they set the 6h floor for the whole schedule.
+
+# Public URL of the published site. Used for <link> in the outbound RSS feed;
+# set this to your Pages URL.
+site: ""
+
+defaults:
+  cadence_minutes: 360
+  weight: 1.0
+
+sources:
+
+  # ── Curated newsletters ─────────────────────────────────────────
+  # The backbone. High weight: a human already decided these were worth
+  # printing. One publisher (Cooper Press), one feed shape, seven topics.
+  - id: javascriptweekly
+    name: JavaScript Weekly
+    adapter: newsletter
+    url: https://javascriptweekly.com/rss
+    topics: [javascript]
+    weight: 1.3
+    cadence_minutes: 1440
+
+  - id: nodeweekly
+    name: Node Weekly
+    adapter: newsletter
+    url: https://nodeweekly.com/rss
+    topics: [node]
+    weight: 1.3
+    cadence_minutes: 1440
+
+  - id: reactstatus
+    name: React Status
+    adapter: newsletter
+    url: https://react.statuscode.com/rss
+    topics: [react]
+    weight: 1.3
+    cadence_minutes: 1440
+
+  - id: frontendfocus
+    name: Frontend Focus
+    adapter: newsletter
+    url: https://frontendfoc.us/rss
+    topics: [frontend]
+    weight: 1.3
+    cadence_minutes: 1440
+
+  - id: golangweekly
+    name: Golang Weekly
+    adapter: newsletter
+    url: https://golangweekly.com/rss
+    topics: [golang]
+    weight: 1.3
+    cadence_minutes: 1440
+
+  - id: postgresweekly
+    name: Postgres Weekly
+    adapter: newsletter
+    url: https://postgresweekly.com/rss
+    topics: [databases]
+    weight: 1.2
+    cadence_minutes: 1440
+
+  - id: dbweekly
+    name: DB Weekly
+    adapter: newsletter
+    url: https://dbweekly.com/rss
+    topics: [databases]
+    weight: 1.2
+    cadence_minutes: 1440
+
+  - id: rubyweekly
+    name: Ruby Weekly
+    adapter: newsletter
+    url: https://rubyweekly.com/rss
+    topics: [ruby]
+    weight: 1.2
+    cadence_minutes: 1440
+
+  - id: sreweekly
+    name: SRE Weekly
+    adapter: newsletter
+    url: https://sreweekly.com/feed/
+    topics: [devops]
+    weight: 1.2
+    cadence_minutes: 1440
+
+  - id: importai
+    name: Import AI
+    adapter: feed
+    url: https://jack-clark.net/feed/
+    topics: [ai]
+    weight: 1.1
+    cadence_minutes: 1440
+
+  # ── Aggregators ─────────────────────────────────────────────────
+  # Low weight and hard-capped downstream: their value is corroboration,
+  # not the individual item.
+  - id: hackernews
+    name: Hacker News
+    adapter: hn
+    url: https://hn.algolia.com/api/v1/search_by_date
+    min_points: 150
+    topics: auto
+    weight: 0.8
+    cadence_minutes: 360
+
+  - id: lobsters
+    name: Lobsters
+    adapter: feed
+    url: https://lobste.rs/rss
+    topics: auto
+    weight: 0.7
+    cadence_minutes: 360
+
+  - id: rprogramming
+    name: r/programming
+    adapter: feed
+    url: https://www.reddit.com/r/programming/.rss
+    topics: auto
+    weight: 0.6
+    cadence_minutes: 360
+
+  - id: infoq
+    name: InfoQ
+    adapter: feed
+    url: https://feed.infoq.com/
+    topics: auto
+    weight: 0.8
+    cadence_minutes: 360
+
+  - id: changelog
+    name: Changelog
+    adapter: feed
+    url: https://changelog.com/feed
+    topics: auto
+    weight: 0.9
+    cadence_minutes: 720
+
+  # ── Company engineering blogs ───────────────────────────────────
+  # Fanned into a shared `engineering` topic so no one company dominates
+  # a section.
+  - id: cloudflare
+    name: Cloudflare
+    adapter: feed
+    url: https://blog.cloudflare.com/rss/
+    topics: [engineering]
+    weight: 1.1
+    cadence_minutes: 1440
+
+  - id: netflix
+    name: Netflix
+    adapter: feed
+    url: https://netflixtechblog.com/feed
+    topics: [engineering]
+    weight: 1.1
+    cadence_minutes: 1440
+
+  - id: stripe
+    name: Stripe
+    adapter: feed
+    url: https://stripe.com/blog/feed.rss
+    topics: [engineering]
+    weight: 1.0
+    cadence_minutes: 1440
+
+  - id: grab
+    name: Grab
+    adapter: feed
+    url: https://engineering.grab.com/feed.xml
+    topics: [engineering]
+    weight: 1.0
+    cadence_minutes: 1440
+
+  - id: githubblog
+    name: GitHub
+    adapter: feed
+    url: https://github.blog/feed/
+    topics: [engineering]
+    weight: 1.0
+    cadence_minutes: 1440
+
+  # ── Language / platform blogs ───────────────────────────────────
+  - id: goblog
+    name: Go Blog
+    adapter: feed
+    url: https://go.dev/blog/feed.atom
+    topics: [golang]
+    weight: 1.2
+    cadence_minutes: 1440
+
+  - id: rustblog
+    name: Rust Blog
+    adapter: feed
+    url: https://blog.rust-lang.org/feed.xml
+    topics: [rust]
+    weight: 1.2
+    cadence_minutes: 1440
+
+  - id: springblog
+    name: Spring Blog
+    adapter: feed
+    url: https://spring.io/blog.atom
+    topics: [jvm]
+    weight: 1.1
+    cadence_minutes: 1440
+
+  - id: kubernetesblog
+    name: Kubernetes Blog
+    adapter: feed
+    url: https://kubernetes.io/feed.xml
+    topics: [kubernetes, devops]
+    weight: 1.1
+    cadence_minutes: 1440
+
+  - id: hashicorp
+    name: HashiCorp
+    adapter: feed
+    url: https://www.hashicorp.com/blog/feed.xml
+    topics: [devops]
+    weight: 1.0
+    cadence_minutes: 1440
+
+  # ── Release feeds ───────────────────────────────────────────────
+  # Kept on their own topic so actionable items never crowd out news.
+  - id: springbootreleases
+    name: Spring Boot Releases
+    adapter: feed
+    url: https://github.com/spring-projects/spring-boot/releases.atom
+    topics: [releases, jvm]
+    weight: 1.0
+    cadence_minutes: 1440
+
+  - id: aws
+    name: AWS What's New
+    adapter: feed
+    url: https://aws.amazon.com/about-aws/whats-new/recent/feed/
+    topics: [releases, cloud]
+    weight: 0.9
+    cadence_minutes: 360
+
+
+# Display labels and per-topic interest multipliers. `interest` is the only
+# editorial knob in the ranking formula; everything else is measured.
+topics:
+  ai:          {label: "AI",          interest: 1.15}
+  engineering: {label: "Engineering", interest: 1.1}
+  security:    {label: "Security",    interest: 1.1}
+  devops:      {label: "DevOps",      interest: 1.0}
+  cloud:       {label: "Cloud",       interest: 1.0}
+  kubernetes:  {label: "Kubernetes",  interest: 1.0}
+  databases:   {label: "Databases",   interest: 1.0}
+  javascript:  {label: "JavaScript",  interest: 1.0}
+  frontend:    {label: "Frontend",    interest: 1.0}
+  react:       {label: "React",       interest: 1.0}
+  node:        {label: "Node.js",     interest: 1.0}
+  golang:      {label: "Go",          interest: 1.0}
+  rust:        {label: "Rust",        interest: 1.0}
+  jvm:         {label: "JVM",         interest: 1.0}
+  ruby:        {label: "Ruby",        interest: 0.9}
+  releases:    {label: "Releases",    interest: 0.9}
+  programming: {label: "Programming", interest: 1.0}
+
+
+# Keyword routing for `topics: auto` sources. Matched case-insensitively
+# against title + blurb, whole-word where the term is ambiguous. An item
+# matching nothing lands in `programming`, which is the catch-all.
+routing:
+  ai:          [ai, llm, llms, gpt, claude, anthropic, openai, gemini, mistral,
+                transformer, embedding, inference, "machine learning", "neural network",
+                diffusion, agentic, rag, chatbot, deepseek, "language model"]
+  security:    [security, vulnerability, cve, exploit, malware, ransomware, breach,
+                phishing, "supply chain", backdoor, cryptography, encryption, xss,
+                sql injection, rce, zero-day, authentication, oauth, "0-day"]
+  devops:      [devops, sre, observability, telemetry, "ci/cd", terraform, ansible,
+                prometheus, grafana, incident, postmortem, "on-call", deployment,
+                monitoring, opentelemetry]
+  kubernetes:  [kubernetes, k8s, kubectl, helm, istio, containerd, "control plane"]
+  cloud:       [aws, azure, "google cloud", gcp, cloudflare, serverless, lambda,
+                s3, ec2, cloudfront, "edge compute"]
+  databases:   [postgres, postgresql, mysql, sqlite, database, sql, redis, mongodb,
+                clickhouse, duckdb, kafka, "query planner", oltp, olap]
+  javascript:  [javascript, typescript, node.js, npm, deno, bun, ecmascript, "js "]
+  react:       [react, next.js, nextjs, jsx, "react native", remix]
+  frontend:    [css, html, browser, chrome, firefox, safari, webkit, dom, wasm,
+                webassembly, accessibility, tailwind, "web component"]
+  golang:      [golang, "go 1.", goroutine, "go module"]
+  rust:        [rust, cargo, borrow checker, tokio, "rustc"]
+  jvm:         [java, jvm, kotlin, spring boot, scala, gradle, maven, graalvm]
+  ruby:        [ruby, rails, "ruby on rails"]
+  releases:    [released, release, "version 1", "version 2", "now available",
+                "general availability", ships, launches]
+  engineering: [architecture, scaling, latency, throughput, migration, "case study",
+                "we built", "how we", refactor, distributed, microservice]
+
+
+# Ranking knobs. Score is
+#   recency_decay x source_weight x corroboration x log(engagement) x interest
+# and is deliberately arithmetic: its whole purpose is bounding token cost as
+# source count grows, which an LLM at this stage would defeat.
+ranking:
+  half_life_hours: 36      # recency_decay = 0.5 ^ (age_hours / half_life)
+  max_age_hours: 168       # nothing older than a week is eligible
+  corroboration_bonus: 0.6 # multiplier is 1 + bonus x (sources - 1)
+  per_source_cap: 6        # max items one source may contribute to one topic
+                           # 6 of a 12 budget: enough that a single curated
+                           # newsletter can carry a narrow topic on its own,
+                           # not enough for an aggregator to own one
+  topic_budget: 12         # max items published per (date, topic)
+  min_topic_items: 2       # below this a topic is not published at all
+
+  # Near-duplicate detection over titles. Replaced a SimHash Hamming
+  # threshold, which could not separate the classes on real data — see
+  # models.titles_match for the measurements.
+  title_jaccard: 0.8       # token-set overlap that counts as the same story
+  min_title_tokens: 3      # below this, subset matching is off (too greedy)

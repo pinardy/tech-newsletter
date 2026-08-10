@@ -1,0 +1,127 @@
+name: digest
+
+# Four runs a day, six hours apart. Three collect only (cheap, no LLM, no send);
+# the 13:00 UTC run also composes and publishes — 21:00 SGT, an evening read.
+#
+# The 6h interval is set by feed turnover, not preference: lobste.rs and
+# r/programming carry ~25 entries and turn over about that fast, so a longer
+# interval drops items. Every newsletter and eng blog would be fine once daily.
+on:
+  schedule:
+    - cron: "0 1,7,19 * * *"    # collect
+    - cron: "0 13 * * *"        # collect + publish
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "collect = ingest only; publish = ingest, compose, send"
+        type: choice
+        options: [publish, collect]
+        default: publish
+      date:
+        description: "Edition date (YYYY-MM-DD). Blank = today."
+        type: string
+      topics:
+        description: "Comma-separated topic subset. Blank = all."
+        type: string
+      dry_run:
+        description: "Build but do not send or commit"
+        type: boolean
+        default: false
+
+# Runs mutate the repo, so they must never overlap — two concurrent pushes
+# would race on the JSONL append. Queue rather than cancel: a cancelled
+# collect run silently loses whatever the firehoses rotated out meanwhile.
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Resolve run mode
+        id: mode
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ inputs.mode }}
+        run: |
+          if [ -n "$INPUT_MODE" ]; then
+            MODE="$INPUT_MODE"
+          elif [ "$SCHEDULE" = "0 13 * * *" ]; then
+            MODE="publish"
+          else
+            MODE="collect"
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "Running in $MODE mode"
+
+      # Ingest: poll every source due by its cadence, normalize, append to
+      # store/items/YYYY-MM-DD.jsonl. Conditional GETs mean most polls are 304s.
+      - name: Collect
+        run: |
+          uv run run.py collect \
+            ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
+
+      # Rank, cluster, section, write data/ shards and feed.xml.
+      #
+      # An absent OPENCODE_API_KEY is not an error: composition falls back to
+      # rule-based sectioning and marks those shards `degraded: true`. That is
+      # the difference between a digest with worse headings and no digest.
+      - name: Publish
+        if: steps.mode.outputs.mode == 'publish'
+        env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_API_URL: ${{ vars.OPENCODE_API_URL }}
+          OPENCODE_MODEL: ${{ vars.OPENCODE_MODEL }}
+        run: |
+          uv run run.py publish \
+            ${{ inputs.date && format('--date {0}', inputs.date) || '' }} \
+            ${{ inputs.topics && format('--topics {0}', inputs.topics) || '' }} \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      # With ~30 sources something is always broken. Surface it in the run
+      # summary rather than letting a source vanish quietly from the digest.
+      - name: Source health
+        if: always()
+        run: |
+          if [ -f store/health.json ]; then
+            uv run run.py health --markdown >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Commit data
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add store data
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore(data): ${{ steps.mode.outputs.mode }} $(date -u +%Y-%m-%dT%H:%MZ)"
+
+          # The concurrency group serializes runs, but a human pushing to main
+          # mid-run still races us. Rebase and retry rather than fail the digest.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying"
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not push data after 3 attempts"
+          exit 1
