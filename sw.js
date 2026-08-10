@@ -10,7 +10,7 @@
 // Bump on every shell change. The shell is cache-first precisely because it
 // "never changes between deploys" — which means a reader who installed the
 // last version keeps it forever unless this string moves.
-const VERSION = "v5";
+const VERSION = "v6";
 const SHELL = `shell-${VERSION}`;
 const DATA = `data-${VERSION}`;
 const NET_TIMEOUT = 2500;
@@ -18,10 +18,10 @@ const PRECACHE_DAYS = 4;
 
 // The `latin` font subsets are shell, not an optimisation: without them the
 // offline page — the whole reason this file exists — renders in Georgia and
-// reflows. `latin-ext` is deliberately absent; it is ~75KB that only an
-// accented headline needs, and runtime caching picks it up the first time one
-// appears. ~148KB of type precached once, against ~200KB from a third party on
-// every cold visit.
+// reflows. `latin-ext` is deliberately absent; it is ~67KB that only an accented
+// headline needs, and runtime caching picks it up the first time one appears.
+// ~113KB of type precached once, against fetching it from a third party on every
+// cold visit.
 const SHELL_ASSETS = [
   "./",
   "./index.html",
@@ -31,10 +31,21 @@ const SHELL_ASSETS = [
   "./favicon.ico",
   "./fonts/newsreader-latin.woff2",
   "./fonts/newsreader-italic-latin.woff2",
-  "./fonts/bricolage-latin.woff2",
+  "./fonts/bricolage-600-latin.woff2",
+  "./fonts/bricolage-800-latin.woff2",
   "./fonts/plexmono-400-latin.woff2",
   "./fonts/plexmono-500-latin.woff2",
 ];
+
+// Where the page's topic selection is parked so precaching can honour it. A
+// worker cannot read localStorage, so the page posts it and this is the only
+// persistence available without pulling in IndexedDB.
+//
+// Deliberately not version-scoped. A preference is not cached data: keep it in
+// `data-${VERSION}` and every shell bump forgets which topics to keep offline,
+// at exactly the moment the new worker is deciding what to fetch.
+const PREFS = "prefs";
+const TOPICS_KEY = "./__precache-topics";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
@@ -45,16 +56,29 @@ self.addEventListener("install", (e) => {
 
 self.addEventListener("activate", (e) => {
   e.waitUntil((async () => {
-    const keep = new Set([SHELL, DATA]);
+    const keep = new Set([SHELL, DATA, PREFS]);
     for (const k of await caches.keys()) if (!keep.has(k)) await caches.delete(k);
     await self.clients.claim();
     await precacheRecent();
   })());
 });
 
+async function readTopics() {
+  try {
+    const hit = await (await caches.open(PREFS)).match(TOPICS_KEY);
+    if (hit) return await hit.json();
+  } catch { /* treated the same as never having been told */ }
+  return null;
+}
+
 // Pull the most recent editions the reader actually subscribes to, so days
 // they never opened while online are still readable on the train.
-async function precacheRecent() {
+//
+// "Actually subscribes to" is the point, and this used to ignore it: it walked
+// every topic in the manifest, so a reader of three topics had seventeen fetched
+// on their behalf — at full retention, four days of all topics is well over
+// 100KB of shards nobody asked for, re-fetched on every version bump.
+async function precacheRecent(topics) {
   try {
     const cache = await caches.open(DATA);
     const res = await fetch("data/index.json", { cache: "no-cache" });
@@ -62,10 +86,17 @@ async function precacheRecent() {
     await cache.put("data/index.json", res.clone());
     const manifest = await res.json();
 
+    // On a first ever activation nobody has said what to keep. Guessing wastes
+    // the reader's bandwidth on topics they may never pick; the page posts its
+    // selection as soon as it boots, and that message runs this again.
+    const known = topics || await readTopics();
+    if (!known) return;
+    const wanted = new Set(known);
+
     const targets = [];
     for (const date of (manifest.dates || []).slice(0, PRECACHE_DAYS))
       for (const topic of Object.keys(manifest.shards?.[date] || {}))
-        targets.push(`data/${date}/${topic}.json`);
+        if (wanted.has(topic)) targets.push(`data/${date}/${topic}.json`);
 
     // Sequential, not Promise.all: a burst of 60 requests on activation
     // competes with the page's own fetches for the same connection.
@@ -77,6 +108,24 @@ async function precacheRecent() {
     }
   } catch { /* no manifest yet — first ever run */ }
 }
+
+// The page posts its topic selection on load and whenever it changes. Newly
+// picked topics get cached straight away rather than at the next activation,
+// which is what makes "select a topic, then go offline" work.
+self.addEventListener("message", (e) => {
+  const msg = e.data;
+  if (!msg || msg.type !== "topics" || !Array.isArray(msg.topics)) return;
+  e.waitUntil((async () => {
+    const next = [...new Set(msg.topics)].sort();
+    const prev = await readTopics();
+    if (prev && prev.join(",") === next.join(",")) return;   // nothing moved
+    const cache = await caches.open(PREFS);
+    await cache.put(TOPICS_KEY, new Response(JSON.stringify(next), {
+      headers: { "Content-Type": "application/json" },
+    }));
+    await precacheRecent(next);
+  })());
+});
 
 function isData(url) {
   return url.pathname.includes("/data/") && url.pathname.endsWith(".json");

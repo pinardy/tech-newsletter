@@ -24,7 +24,13 @@ from models import Cluster
 DOCS_DATA = Path("docs/data")
 # 2 adds the optional per-item `arc` object. Additive only, so a reader built
 # for schema 1 ignores it and still renders.
-SCHEMA_VERSION = 2
+#
+# 3 is the first subtractive change, and only to the manifest: it drops three
+# fields nothing ever read. `shards[date][topic].bytes`, the per-topic `dates`
+# list, and `degraded: false` cost nothing each and everything together — the
+# manifest is fetched on every cold load, and at full retention those three came
+# to roughly 100KB of the ~136KB total. A shard payload is unchanged.
+SCHEMA_VERSION = 3
 
 # Retain this many days on the site. Older shards are deleted from docs/ but
 # their raw items stay in data/items/*.jsonl, so a longer window is a rebuild
@@ -137,11 +143,11 @@ def rebuild_manifest(
             count = sum(len(s.get("items", [])) for s in data.get("sections", []))
             if count == 0:
                 continue
-            day_shards[topic] = {
-                "items": count,
-                "bytes": shard.stat().st_size,
-                "degraded": bool(data.get("degraded")),
-            }
+            # `degraded` only when it is true: the flag matters, the word
+            # "false" repeated two thousand times does not.
+            day_shards[topic] = {"items": count}
+            if data.get("degraded"):
+                day_shards[topic]["degraded"] = True
             topic_dates.setdefault(topic, []).append(day.name)
         if day_shards:
             dates.append(day.name)
@@ -152,10 +158,12 @@ def rebuild_manifest(
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "latest": dates[0] if dates else None,
         "dates": dates,
+        # No per-topic `dates` list. It restated what `shards` already says, once
+        # per topic per retained day, and the reader derives the day it is
+        # showing from `shards[date]` instead.
         "topics": {
             topic: {
                 "label": topic_labels.get(topic, topic.title()),
-                "dates": sorted(days, reverse=True),
                 "total": sum(shards[d][topic]["items"] for d in days),
             }
             for topic, days in sorted(topic_dates.items())
