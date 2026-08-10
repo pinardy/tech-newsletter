@@ -61,6 +61,7 @@
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,monospace;
 
   --gutter:clamp(14px,4vw,28px);
+  --measure:720px;
   /* Five strokes plus their gaps come to 22px; the column is sized to that
      rather than to the count text, which now only appears above five sources.
      Fixed, not shrink-to-fit: the strokes need a common left origin or the
@@ -198,7 +199,7 @@ main:focus{outline:none}
 @keyframes slide{from{transform:translateX(-100%)}to{transform:translateX(360%)}}
 
 /* ── Digest body ──────────────────────────────────────────────── */
-main{padding:0 var(--gutter) 64px; max-width:720px; margin:0 auto}
+main{padding:0 var(--gutter) 64px; max-width:var(--measure); margin:0 auto}
 main[aria-busy="true"]{opacity:.45;transition:opacity .12s}
 
 .scope{
@@ -321,7 +322,7 @@ main[aria-busy="true"]{opacity:.45;transition:opacity .12s}
 @keyframes pulse{50%{opacity:.22}}
 
 footer{
-  padding:22px var(--gutter) 40px; max-width:720px; margin:0 auto;
+  padding:22px var(--gutter) 40px; max-width:var(--measure); margin:0 auto;
   border-top:1px solid var(--rule); font-family:var(--mono);
   font-size:10.5px; letter-spacing:.05em; color:var(--ink-soft);
 }
@@ -332,6 +333,64 @@ footer button,footer a{text-decoration:underline;text-underline-offset:2px}
   background:var(--ink); color:var(--paper); padding:7px 14px; border-radius:999px;
 }
 [hidden]{display:none !important}
+
+/* ── Wider screens ─────────────────────────────────────────────────
+   Everything here is additive. The phone layout above is untouched, and two of
+   its compromises stop being necessary once there is room.
+
+   The sticky bar and the masthead spanned the window while the digest sat in a
+   centred column, so at 1440px the wordmark, the date and the chips all lined up
+   against the left edge of the screen and the text began 360px away. And a 602px
+   measure at 15.5px runs to about ninety characters, half again the length the
+   eye tracks back reliably. */
+@media (min-width:700px){
+  /* The bar keeps its full-width ground and rules — a sticky strip should span
+     the window — and only its contents move in over the column. */
+  .masthead, .datebar, .chipwrap, .filterbar{
+    max-width:var(--measure); margin-inline:auto;
+  }
+
+  .standfirst{font-size:16px; max-width:58ch}
+  .section-head{margin-top:40px}
+  .section-head h2{font-size:21px}
+
+  .story{padding:20px 0 20px 16px}
+  .story h3{font-size:18.5px}
+  /* Headlines may run the full column; they are two lines at most. Running text
+     gets a ceiling in characters instead, which is what actually governs how
+     hard a line is to follow back to its start. */
+  .story p{font-size:16.5px; line-height:1.55; max-width:62ch}
+  .meta{font-size:11px}
+  .notice p{font-size:16px; max-width:62ch}
+
+  /* On a phone the save button is pushed to the far edge to keep it clear of the
+     text it sits under. Across a 664px row that same rule strands it a long way
+     from the metadata it belongs to, so here it just follows the timestamp. */
+  .save{margin-left:6px}
+
+  /* The date select stretches to fill its row, which on a phone is right and
+     here leaves the two arrows at opposite ends of the column with the date
+     marooned between them. Let it size to its content so the three read as one
+     control. */
+  .editionwrap{flex:0 0 auto; max-width:100%}
+}
+
+@media (min-width:1000px){
+  /* The chip row deliberately still scrolls rather than wrapping. Seventeen
+     chips wrap to three rows at this column width, which would grow the sticky
+     header from 138px to 228px — a quarter of a laptop viewport spent
+     permanently on a filter, to save a sideways scroll. The fades and
+     selected-first ordering already carry that row. */
+
+  /* Hang the tally in the page margin, outside the reading column. Every
+     headline then starts at the same place and corroboration is still legible
+     before the text — the indent that buys it on a phone costs measure, and only
+     costs it because a phone has no margin to spend. */
+  .story{padding-left:0}
+  .tally{position:absolute; left:-58px; top:20px; margin:0;
+    width:var(--tally-w); flex:none}
+  .story.unread::before{left:-16px; top:28px}
+}
 
 @media (prefers-reduced-motion:reduce){
   *{animation:none !important;transition:none !important}
