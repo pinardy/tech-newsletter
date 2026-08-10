@@ -104,12 +104,20 @@ topic `[gemini-3.5-flash]` or `[rule-based]` so you can see which you got.
 
 ## Deploying
 
-1. Move the workflow into place: `.github/workflows/digest.yml`.
+1. The workflow lives at `.github/workflows/digest.yml`.
 2. Point GitHub Pages at the repository root (this directory *is* the site —
-   `index.html` and `data/` sit at the top level).
+   `index.html` and `data/` sit at the top level). Serving from the root means
+   the whole tree is served, `store/` included; it is all in a public repo
+   anyway, but add a `_config.yml` with `exclude: [store]` if you would rather
+   it were not reachable.
 3. Add the secret `OPENCODE_API_KEY` under Settings → Secrets and variables →
    Actions. `OPENCODE_API_URL` and `OPENCODE_MODEL` are optional and go in the
    **Variables** tab, not Secrets.
+
+The job pushes to the default branch on every run, so it needs `contents:
+write` — which it declares itself. Leave the repository's default workflow
+permissions at read-only; the explicit grant in the workflow is enough and
+keeps every other workflow restricted.
 
 The workflow runs four times a day: three collect-only, and one at 13:00 UTC
 that also publishes. The 6-hour interval is set by feed turnover, not
