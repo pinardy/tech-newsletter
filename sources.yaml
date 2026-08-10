@@ -23,7 +23,7 @@
 
 # Public URL of the published site. Used for <link> in the outbound RSS feed;
 # set this to your Pages URL.
-site: ""
+site: "https://pinardy.github.io/tech-newsletter"
 
 defaults:
   cadence_minutes: 360
