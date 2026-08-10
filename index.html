@@ -220,6 +220,14 @@ main[aria-busy="true"]{opacity:.45;transition:opacity .12s}
   font-family:var(--mono); font-size:10px; letter-spacing:.14em;
   text-transform:uppercase; color:var(--pine);
 }
+/* Sections split by rule because no model composed them. Ink-soft, not signal:
+   this is a worse digest, not a broken one, and signal stays reserved for the
+   tally and unread. */
+.section-head .byrule{
+  font-family:var(--mono); font-size:10px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--ink-soft);
+  border:1px solid var(--rule); border-radius:3px; padding:1px 4px;
+}
 
 /* padding-left gives the unread dot a home that does not depend on the tally
    column existing, so the dot sits in the same place on every row whether or
@@ -373,6 +381,10 @@ footer button,footer a{text-decoration:underline;text-underline-offset:2px}
      marooned between them. Let it size to its content so the three read as one
      control. */
   .editionwrap{flex:0 0 auto; max-width:100%}
+
+  /* Room to say what "2+" counts. Decoration only — the button carries its own
+     accessible name. */
+  #corroborated::after{content:" src"}
 }
 
 @media (min-width:1000px){
@@ -423,10 +435,16 @@ footer button,footer a{text-decoration:underline;text-underline-offset:2px}
   </div>
   <div class="filterbar">
     <input class="search" id="search" type="search" placeholder="filter headlines"
-           aria-label="Filter headlines across every topic in this edition">
+           title="Words match headlines. Operators: topic:rust  2+  after:2026-07  before:2026-08"
+           aria-label="Filter headlines. Supports topic:, 2+, after: and before: operators">
     <button class="toggle" id="unreadonly" aria-pressed="false">unread</button>
     <button class="toggle" id="catchup" aria-pressed="false"
             title="Unread across the last seven editions">catch up</button>
+    <!-- Labelled "2+" because the row has no width to spare on a phone; the wide
+         layout appends " src" in CSS. The accessible name says it properly. -->
+    <button class="toggle" id="corroborated" aria-pressed="false"
+            aria-label="Only stories carried by two or more sources"
+            title="Only stories carried by two or more sources">2+</button>
   </div>
   <div class="progress" id="progress" hidden aria-hidden="true"><i></i></div>
 </div>
@@ -453,6 +471,7 @@ const state = {
   topics:new Set(),
   query:"",
   unreadOnly:false,
+  corroboratedOnly:false,   // only stories two or more sources carried
   catchUp:false,      // the last CATCHUP editions, unread only
   view:"digest",      // "digest" | "saved" | "archive"
   archive:null,       // built lazily, only if someone searches the archive
@@ -540,6 +559,7 @@ function readHash(){
   if (p.get("t")) state.topics = new Set(p.get("t").split(",").filter(Boolean));
   if (p.get("q")) state.query = p.get("q");
   if (p.get("u") === "1") state.unreadOnly = true;
+  if (p.get("n") === "2") state.corroboratedOnly = true;
   if (p.get("c") === "1"){
     // Catch-up is a span of daily editions by definition; it cannot coexist
     // with a single rollup, and it means unread.
@@ -554,6 +574,7 @@ function writeHash(){
   if (state.topics.size) p.set("t", [...state.topics].join(","));
   if (state.query.trim()) p.set("q", state.query.trim());
   if (state.unreadOnly) p.set("u", "1");
+  if (state.corroboratedOnly) p.set("n", "2");
   if (state.catchUp) p.set("c", "1");
   if (state.view === "saved") p.set("v", "s");
   history.replaceState(null, "", "#" + p);
@@ -646,6 +667,87 @@ function when(iso){
 const esc = s => String(s).replace(/[&<>"]/g, c =>
   ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
 
+/* ── Query grammar ────────────────────────────────────────────────────
+   Bare words stay a substring match, exactly as before. The operators exist
+   because 120 days of archive is a different haystack to one edition:
+
+     topic:rust    2+    after:2026-07    before:2026-08-01
+
+   Parsed once and applied by both the in-edition filter and the archive, so an
+   operator cannot work in one place and quietly do nothing in the other.
+
+   `src:` is deliberately absent for that same reason: a shard carries every
+   source, but the archive index stores titles only, so it would work here and
+   silently fail there. Adding `s:[ids]` in write_search_index would fix that at
+   about 8% on the index — a trade worth making deliberately, not by accident. */
+function parseQuery(raw){
+  const q = { terms:[], topic:null, topicRaw:null, minSources:0,
+              after:null, before:null };
+  for (const token of String(raw).trim().toLowerCase().split(/\s+/).filter(Boolean)){
+    let m;
+    if ((m = token.match(/^(?:topic|t):(.+)$/))){
+      q.topicRaw = m[1];
+      q.topic = resolveTopic(m[1]);
+    } else if ((m = token.match(/^(\d+)\+$/))){
+      q.minSources = Math.max(q.minSources, Number(m[1]));
+    } else if ((m = token.match(/^after:(\d{4}-\d{2})(-\d{2})?$/))){
+      q.after = m[1] + (m[2] || "-01");
+    } else if ((m = token.match(/^before:(\d{4}-\d{2})(-\d{2})?$/))){
+      // A bare month means the whole of it, so `before:2026-08` includes August.
+      q.before = m[1] + (m[2] || "-31");
+    } else {
+      q.terms.push(token);
+    }
+  }
+  return q;
+}
+
+function resolveTopic(text){
+  const topics = Object.entries(state.manifest?.topics || {});
+  const exact = topics.find(([id, t]) =>
+    id === text || t.label.toLowerCase() === text);
+  const prefix = topics.find(([id, t]) =>
+    id.startsWith(text) || t.label.toLowerCase().startsWith(text));
+  return (exact || prefix || [null])[0];
+}
+
+// The threshold the button asks for and the one the query asks for are the same
+// question, so they compose rather than override.
+const minSources = q => Math.max(q.minSources, state.corroboratedOnly ? 2 : 0);
+const queryActive = q =>
+  !!(q.terms.length || q.topicRaw || q.minSources || q.after || q.before);
+// Anything that narrows the view, whether typed or toggled.
+const filtersActive = q => queryActive(q) || state.corroboratedOnly;
+
+const matchText = (q, ...fields) => {
+  if (!q.terms.length) return true;
+  const hay = fields.filter(Boolean).join(" ").toLowerCase();
+  return q.terms.every(t => hay.includes(t));
+};
+
+/* An unrecognised topic matches nothing rather than everything. Comparing
+   against a null topic is what makes that fall out for free. */
+const topicOk = (q, topic) => q.topicRaw ? q.topic === topic : true;
+
+const withinDates = (q, date) =>
+  (!q.after  || date >= q.after) &&
+  (!q.before || date <= q.before);
+
+/* Echo what was understood. A misspelled operator that silently matched nothing
+   is indistinguishable from an empty archive, so the parse is always shown. */
+function queryChips(q){
+  const bits = [];
+  if (q.topicRaw)
+    bits.push(q.topic
+      ? `topic <b>${esc(topicLabel(q.topic))}</b>`
+      : `topic <b>${esc(q.topicRaw)}</b> — no such topic`);
+  const n = minSources(q);
+  if (n) bits.push(`<b>${n}+</b> sources`);
+  if (q.after)  bits.push(`after <b>${esc(q.after)}</b>`);
+  if (q.before) bits.push(`before <b>${esc(q.before)}</b>`);
+  return bits;
+}
+
 /* A story is hidden only when every source that carried it is muted. Muting
    Hacker News should not cost you a story Lobsters also ran — that would throw
    away the corroboration this whole thing is built to show. */
@@ -731,11 +833,12 @@ const fmtEdition = (d, mode) =>
   mode === "weekly" ? "week to " + fmtShort(d) : fmtDay(d);
 
 function render(shards){
-  const q = state.query.trim().toLowerCase();
+  const q = parseQuery(state.query);
+  const need = minSources(q);
   const owner = owners(shards);
   const drawn = new Set();
   state.rendered = new Map();
-  let html = "", shown = 0, hidden = 0, muted = 0, lastDate = null;
+  let html = "", shown = 0, hidden = 0, muted = 0, thin = 0, lastDate = null;
 
   // Newest edition first; within an edition the fetch order already puts the
   // reader's own topics ahead of the rest. Sort is stable, so that survives.
@@ -743,13 +846,19 @@ function render(shards){
   live.sort((a, b) => a.date === b.date ? 0 : (a.date > b.date ? -1 : 1));
 
   for (const shard of live){
+    // Whole-shard operators, applied before the item loop so a topic: or a date
+    // bound costs nothing per story.
+    if (!topicOk(q, shard.topic)) continue;
+    if (!withinDates(q, shard.date)) continue;
+
     for (const section of shard.sections){
       const items = section.items.filter(it => {
         const own = owner.get(it.id);
         if (own?.topic !== shard.topic || own?.date !== shard.date) return false;
         if (drawn.has(it.id)) return false;
         if (allMuted(it)){ muted++; return false; }
-        if (q && !(it.title + " " + (it.blurb || "")).toLowerCase().includes(q)) return false;
+        if (!matchText(q, it.title, it.blurb)) return false;
+        if (need && (it.source_count || 1) < need){ thin++; return false; }
         if (state.unreadOnly && state.read.has(it.id)){ hidden++; return false; }
         return true;
       });
@@ -760,37 +869,72 @@ function render(shards){
         html += `<div class="daterule">${esc(fmtShort(shard.date))}</div>`;
         lastDate = shard.date;
       }
+      /* `degraded` means no model composed these headings — the split is
+         rule-based. It has been in every shard since the beginning and the reader
+         has never said so, presenting a fallback exactly as it would the real
+         thing. When a model did compose them, it says which on hover. */
+      const provenance = shard.degraded
+        ? `<span class="byrule" title="Sections split by rule, not composed by a model">by rule</span>`
+        : "";
       html += `<div class="section-head"><h2>${esc(section.heading)}</h2>
-        <span class="topic">${esc(shard.label)}</span></div>`;
+        ${provenance}<span class="topic"${shard.model
+          ? ` title="Sections composed by ${esc(shard.model)}"` : ""
+        }>${esc(shard.label)}</span></div>`;
       html += items.map(it => storyHTML(it)).join("");
     }
   }
 
   const banner = [];
-  if (state.catchUp)
-    {
-      const span = Math.min(CATCHUP, editionDates().length);
-      banner.push(`unread across the last <b>${span}</b> ${span === 1 ? "edition" : "editions"}`);
-    }
-  if (q && shown){
+  if (state.catchUp){
+    const span = Math.min(CATCHUP, editionDates().length);
+    banner.push(`unread across the last <b>${span}</b> ${span === 1 ? "edition" : "editions"}`);
+  }
+  if (queryActive(q) && shown){
     const extra = live.filter(s => !state.topics.has(s.topic)).length;
     banner.push(`searching <b>${new Set(live.map(s => s.topic)).size}</b> topics` +
       (extra > 0 ? ` — ${extra} beyond your selection` : ""));
   }
-  if (shown && q) banner.push(`<b>${shown}</b> ${shown === 1 ? "match" : "matches"}`);
+  banner.push(...queryChips(q));
+  if (shown && queryActive(q))
+    banner.push(`<b>${shown}</b> ${shown === 1 ? "match" : "matches"}`);
   if (muted) banner.push(`<b>${muted}</b> hidden by muted sources`);
+  if (thin && shown) banner.push(`<b>${thin}</b> below the source threshold`);
   if (banner.length)
     html = `<p class="scope">${banner.join(" · ")}` +
-      (q ? ` · <button data-act="archive">search the archive</button>` : "") +
+      // Offered for anything typed, operators included — `topic:rust 2+` is a
+      // better archive query than most search terms. Not for the toggle alone,
+      // which would put the offer there permanently.
+      (queryActive(q) ? ` · <button data-act="archive">search the archive</button>` : "") +
       `</p>` + html;
 
   if (!shown){
-    html = state.topics.size === 0 && !q
+    html = state.topics.size === 0 && !filtersActive(q)
       ? `<div class="notice"><h3>Pick a topic</h3>
          <p>Choose one or more topics above to build today's digest.</p></div>`
-      : q
-      ? `<div class="notice"><h3>No match for “${esc(state.query.trim())}”</h3>
-         <p>Nothing in this edition matches.
+      /* The source threshold gets its own answer because it is the one filter
+         the data reliably defeats: on a typical day all but a handful of stories
+         carry a single source, so "nothing matched" here is normal rather than
+         a sign the reader is broken. */
+      /* Fires for a typed `3+` as well as the button: what matters is that the
+         source threshold is the only thing filtering, however it was asked for. */
+      : need && !q.terms.length && !q.topicRaw && !q.after && !q.before
+      ? `<div class="notice"><h3>Nothing corroborated here</h3>
+         <p>${thin} ${thin === 1 ? "story" : "stories"} in this
+         ${state.mode === "weekly" ? "rollup" : "edition"}, none carried by
+         ${need} or more sources.` +
+         // No point sending someone to the rollup they are already reading.
+         (state.mode === "daily" && (state.manifest.weeks || []).length
+           ? ` That is the usual shape of a single day —
+             <button data-act="week">try the weekly rollup</button>, where a story
+             has seven days to pick up a second outlet, or
+             <button data-act="nocorroborated">drop the threshold</button>.`
+           : ` <button data-act="nocorroborated">Drop the threshold</button>.`) +
+         `</p></div>`
+      : queryActive(q)
+      ? `<div class="notice"><h3>No match${q.terms.length
+           ? ` for “${esc(q.terms.join(" "))}”` : ""}</h3>
+         <p>Nothing in this edition matches${
+           q.topicRaw && !q.topic ? `, and “${esc(q.topicRaw)}” is not a topic` : ""}.
          <button data-act="archive">Search the whole archive</button>, or
          <button data-act="clearq">clear the filter</button>.</p></div>`
       : state.catchUp
@@ -831,13 +975,20 @@ function paint(html, summary){
 
 function renderSaved(){
   state.rendered = new Map();
-  const q = state.query.trim().toLowerCase();
-  // Newest save last in the Map, so reverse for most-recent-first.
-  const records = [...state.saved.values()].reverse()
-    .filter(r => !q || r.title.toLowerCase().includes(q));
+  const q = parseQuery(state.query);
+  const need = minSources(q);
+  // Newest save last in the Map, so reverse for most-recent-first. The same
+  // grammar applies here — a reading list is another haystack.
+  const records = [...state.saved.values()].reverse().filter(r =>
+    matchText(q, r.title) &&
+    topicOk(q, r.topic) &&
+    (!need || (r.source_count || 1) >= need) &&
+    withinDates(q, r.date || ""));
 
   let html = `<p class="scope"><b>${state.saved.size}</b> saved` +
-    (q ? ` · <b>${records.length}</b> matching` : "") +
+    [...queryChips(q),
+     ...(filtersActive(q) ? [`<b>${records.length}</b> matching`] : [])]
+      .map(b => " · " + b).join("") +
     ` · <button data-act="digest">back to the digest</button></p>`;
 
   if (!records.length){
@@ -895,22 +1046,35 @@ async function showArchive(){
 
 function renderArchive(){
   state.rendered = new Map();
-  const q = state.query.trim().toLowerCase();
+  const q = parseQuery(state.query);
+  const need = minSources(q);
   const a = state.archive;
-  const hits = q ? a.entries.filter(e => e.t.toLowerCase().includes(q)) : [];
+  // An operator on its own is a legitimate archive query: `topic:rust 2+` needs
+  // no search terms to mean something.
+  const hits = filtersActive(q) ? a.entries.filter(e =>
+    matchText(q, e.t) &&
+    topicOk(q, e.p) &&
+    (!need || (e.n || 1) >= need) &&
+    withinDates(q, e.d)) : [];
   const capped = hits.slice(0, ARCHIVE_CAP);
   const left = a.months.length - a.next;
   const scanned = a.next;
 
   let html = `<p class="scope">archive · titles only · <b>${scanned}</b> of
-    <b>${a.months.length}</b> ${a.months.length === 1 ? "month" : "months"} scanned ·
-    <b>${hits.length}</b> ${hits.length === 1 ? "match" : "matches"}` +
+    <b>${a.months.length}</b> ${a.months.length === 1 ? "month" : "months"} scanned` +
+    queryChips(q).map(b => " · " + b).join("") +
+    ` · <b>${hits.length}</b> ${hits.length === 1 ? "match" : "matches"}` +
     (left > 0 ? ` · <button data-act="older">search further back</button>` : "") +
     ` · <button data-act="digest">back to the digest</button></p>`;
 
   if (!capped.length){
-    html += `<div class="notice"><h3>No match for “${esc(state.query.trim())}”</h3>
-      <p>${left > 0
+    html += !filtersActive(q)
+      ? `<div class="notice"><h3>Search the archive</h3>
+         <p>Type to search ${a.entries.length} indexed headlines. Operators:
+         <b>topic:rust</b>, <b>2+</b>, <b>after:2026-07</b>, <b>before:2026-08</b>.</p></div>`
+      : `<div class="notice"><h3>No match${q.terms.length
+           ? ` for “${esc(q.terms.join(" "))}”` : ""}</h3>
+         <p>${q.topicRaw && !q.topic ? `“${esc(q.topicRaw)}” is not a topic. ` : ""}${left > 0
         ? `Nothing in the ${scanned} most recent ${scanned === 1 ? "month" : "months"}.
            <button data-act="older">Search further back</button>.`
         : `Nothing anywhere in the archive.`}</p></div>`;
@@ -980,19 +1144,25 @@ async function refresh(){
   if (state.view === "archive") return renderArchive();
 
   const main = document.getElementById("main");
-  const q = state.query.trim();
-  const dates = state.catchUp
-    ? editionDates().slice(0, CATCHUP)
-    : [state.date];
+  const q = parseQuery(state.query);
+  const dates = (state.catchUp ? editionDates().slice(0, CATCHUP) : [state.date])
+    .filter(date => withinDates(q, date));
 
   /* A filter that only searched the selected topics sent the reader off to try
      other days by hand. An edition is a few tens of KB, so with a query the
      search covers every topic that published — selected ones first, so their
-     sections still lead. */
+     sections still lead. A `topic:` operator says exactly which one, so it
+     narrows to that instead of widening to all seventeen.
+
+     The source threshold deliberately does not widen anything: it filters what
+     the reader already asked to see rather than going looking. */
   const jobs = [];
   for (const date of dates){
     const available = Object.keys(shardsFor(date));
-    const wanted = q
+    const wanted = q.topicRaw
+      // Includes the unresolved case: nothing to fetch, nothing to show.
+      ? (q.topic && available.includes(q.topic) ? [q.topic] : [])
+      : queryActive(q)
       ? [...available].sort((a, b) =>
           (state.topics.has(b) ? 1 : 0) - (state.topics.has(a) ? 1 : 0))
       : [...state.topics].filter(t => available.includes(t));
@@ -1100,6 +1270,16 @@ function setUnreadOnly(on){
   rerender();
 }
 
+/* Not folded into the query string as `2+`: a toggle the reader can see the
+   state of is worth more than one they have to remember to type, and the two
+   compose anyway — `3+` typed while the button is on still means three. */
+function setCorroborated(on){
+  state.corroboratedOnly = on;
+  document.getElementById("corroborated").setAttribute("aria-pressed", String(on));
+  writeHash();
+  rerender();
+}
+
 function setCatchUp(on){
   state.catchUp = on;
   if (on){
@@ -1139,6 +1319,11 @@ async function boot(){
         state.view === "digest" ? refresh() : rerender();
       }
       else if (act === "showall") setUnreadOnly(false);
+      else if (act === "nocorroborated") setCorroborated(false);
+      else if (act === "week"){
+        const weeks = state.manifest.weeks || [];
+        if (weeks.length) goto(weeks[0], "weekly");
+      }
       else if (act === "nocatchup"){ state.unreadOnly = false; setCatchUp(false); }
       else if (act === "saved") setView("saved");
       else if (act === "digest") setView("digest");
@@ -1253,6 +1438,10 @@ async function boot(){
   unreadBtn.setAttribute("aria-pressed", String(state.unreadOnly));
   unreadBtn.onclick = () => setUnreadOnly(!state.unreadOnly);
 
+  const corrBtn = document.getElementById("corroborated");
+  corrBtn.setAttribute("aria-pressed", String(state.corroboratedOnly));
+  corrBtn.onclick = () => setCorroborated(!state.corroboratedOnly);
+
   const catchBtn = document.getElementById("catchup");
   catchBtn.setAttribute("aria-pressed", String(state.catchUp));
   catchBtn.onclick = () => setCatchUp(!state.catchUp);
@@ -1269,6 +1458,7 @@ async function boot(){
     else if (ev.key === "ArrowRight" || ev.key === "k") step(-1);
     else if (ev.key === "u") setUnreadOnly(!state.unreadOnly);
     else if (ev.key === "c") setCatchUp(!state.catchUp);
+    else if (ev.key === "2") setCorroborated(!state.corroboratedOnly);
     else if (ev.key === "s") setView(state.view === "saved" ? "digest" : "saved");
     else if (ev.key === "/"){ ev.preventDefault(); search.focus(); }
     else return;

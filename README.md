@@ -161,9 +161,38 @@ state is per-device and disposable.
 | `←` / `j` | older edition |
 | `→` / `k` | newer edition |
 | `u` | unread only |
+| `2` | two or more sources |
 | `c` | catch up |
 | `s` | saved |
 | `/` | jump to the filter |
+
+The filter takes operators as well as words, and they work the same in an
+edition, in the archive and over saved stories — an operator that worked in one
+place and quietly did nothing in another would be worse than not having it:
+
+```
+topic:rust      the topic, by id or label, prefix-matched
+2+              carried by two or more sources (3+, 4+ …)
+after:2026-07   from that month or day onward
+before:2026-08  up to the end of it
+```
+
+An unrecognised topic matches nothing and says so, rather than silently behaving
+as though no topic had been named. `src:` is deliberately absent: a shard carries
+every source but the archive index stores titles only, so it would work in one
+place and fail in the other — adding `s:[ids]` in `write_search_index` costs
+about 8% on the index if you want it.
+
+The **2+** button asks the same question as the operator and composes with it, so
+`3+` typed while the button is on still means three. It is the tally as a filter:
+with a typical day carrying one source for all but a handful of stories, the
+honest answer is usually "nothing here", which is why that empty state points at
+the weekly rollup instead of just shrugging.
+
+A section marked **by rule** was split without a model — `degraded` in the
+shard. That flag has been in every shard since the first edition and the reader
+never mentioned it, presenting the fallback exactly as it would the real thing.
+Where a model did compose the headings, the topic label names it on hover.
 
 The filter searches every topic that published that day, not just the ones
 selected, and says so above the results. The tally is drawn only for stories
