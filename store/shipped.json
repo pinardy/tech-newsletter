@@ -145,9 +145,9 @@
  },
  "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine": {
   "first": "2026-08-10",
-  "last": "2026-08-10",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-13",
+  "sources": 2,
+  "prev": 1
  },
  "https://snowflake.com/en/blog/engineering/postgres-count-distinct-approximation": {
   "first": "2026-08-10",
@@ -1749,6 +1749,378 @@
   "first": "2026-08-12",
   "last": "2026-08-12",
   "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/claude-sandox-breach": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://knownagents.com/insights": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openrouter.ai/deepseek/deepseek-v4-pro-0813": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/AI-disrupts-engineering-progress": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/spotify-data-lake-point-queries": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vmrnni/nodejs_creator_liberates_durable_objects_from": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tailscale.com/blog/sqlite-wal-reset-bug": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vmglvj/how_tailscale_helped_discover_a_16_year_old": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=ZSKLA81tBis": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theartofpostgresql.com/postgresql-sql-formatter": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vlm2vs/the_dangers_of_postgres_subtransactions": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 2,
+  "prev": null
+ },
+ "https://planetscale.com/blog/the-dangers-of-postgres-subtransactions": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 2,
+  "prev": null
+ },
+ "https://brandur.org/fragments/postgres-without-pgbouncer": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://paradedb.com/cloud": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tapoueh.org/blog/2026/08/introducing-sqlfmt-an-sql-gofmt-style-formatter": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theartofpostgresql.com/": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/docs/release": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vn9bgm/applicationdriven_infrastructure_deployment_kief": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://phunky.cafe/my-homelab-got-hacked": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/news-insights/company-news/github-availability-report-july-2026": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/migration-mobile-application": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/astro-7-release-speed": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vn7p6q/beyond_wasi_running_any_rust_application_in_the": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://guillaumetech.github.io/posts/jpg-scaling-chrome": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 3,
+  "prev": null
+ },
+ "https://master.dev/blog/typographic-css-tricks": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=uOtxiH3QiPg": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://web.dev/blog/baseline-alerts": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/astro-issue-triage": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/preactjs/preact/releases/tag/11.0.0-rc.0": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/denoland/deno/pull/36194": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jsdelivr.com/blog/making-more-npm-packages-work-with-jsdelivr-esm": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://remysharp.com/2026/08/05/progressive-enhancement-inside-of-javascript": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vmnuu2/preparing_for_change_safe_switching_over_sealed": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/11/this-week-in-spring-august-11-2026": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/codex": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sebsite.pw/w/20260801-pythonconstants.html": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://funcall.blogspot.com/2026/08/why-vibe-code-in-lisp.html": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://flutter.dev/blog/whats-new-in-flutter-3-47": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://zed.dev/blog/introducing-delta": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ptgamr.substack.com/p/a-pi-setup-with-permission-sandbox": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stallman.org/articles/on-hacking.html": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nibblestew.blogspot.com/2026/08/digitizing-super-8-film-yourself.html": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vn7t7t/a_preview_of_roc_010_by_richard_feldman": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vkirhv/tailcall_interpreters_in_rust": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 2,
+  "prev": null
+ },
+ "https://lordgoati.us/blog/tail-call": {
+  "first": "2026-08-13",
+  "last": "2026-08-13",
+  "sources": 2,
   "prev": null
  }
 }
