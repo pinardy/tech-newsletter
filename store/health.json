@@ -3,61 +3,61 @@
   "name": "JavaScript Weekly",
   "status": "ok",
   "items": 61,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "nodeweekly": {
   "name": "Node Weekly",
   "status": "ok",
   "items": 42,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "reactstatus": {
   "name": "React Status",
   "status": "ok",
   "items": 39,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "frontendfocus": {
   "name": "Frontend Focus",
   "status": "ok",
   "items": 58,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "golangweekly": {
   "name": "Golang Weekly",
   "status": "ok",
   "items": 27,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "postgresweekly": {
   "name": "Postgres Weekly",
   "status": "ok",
   "items": 36,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "dbweekly": {
   "name": "DB Weekly",
   "status": "ok",
   "items": 31,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "rubyweekly": {
   "name": "Ruby Weekly",
   "status": "ok",
-  "items": 47,
-  "at": "2026-08-13T03:29:06+00:00"
+  "items": 50,
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "sreweekly": {
   "name": "SRE Weekly",
   "status": "ok",
   "items": 16,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "importai": {
   "name": "Import AI",
   "status": "not modified",
   "items": 0,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "hackernews": {
   "name": "Hacker News",
@@ -73,9 +73,9 @@
  },
  "rprogramming": {
   "name": "r/programming",
-  "status": "error: HTTPError: HTTP Error 403: Blocked",
-  "items": 0,
-  "at": "2026-08-14T03:25:39+00:00"
+  "status": "ok",
+  "items": 25,
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "infoq": {
   "name": "InfoQ",
@@ -87,73 +87,73 @@
   "name": "Changelog",
   "status": "not modified",
   "items": 0,
-  "at": "2026-08-13T19:57:51+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "cloudflare": {
   "name": "Cloudflare",
-  "status": "not modified",
-  "items": 0,
-  "at": "2026-08-13T03:29:06+00:00"
+  "status": "ok",
+  "items": 20,
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "netflix": {
   "name": "Netflix",
   "status": "ok",
   "items": 10,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "stripe": {
   "name": "Stripe",
   "status": "ok",
   "items": 10,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "grab": {
   "name": "Grab",
   "status": "not modified",
   "items": 0,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "githubblog": {
   "name": "GitHub",
   "status": "ok",
   "items": 10,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "goblog": {
   "name": "Go Blog",
   "status": "ok",
   "items": 10,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "rustblog": {
   "name": "Rust Blog",
   "status": "not modified",
   "items": 0,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "springblog": {
   "name": "Spring Blog",
   "status": "ok",
   "items": 4,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "kubernetesblog": {
   "name": "Kubernetes Blog",
-  "status": "not modified",
-  "items": 0,
-  "at": "2026-08-13T03:29:06+00:00"
+  "status": "ok",
+  "items": 50,
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "hashicorp": {
   "name": "HashiCorp",
   "status": "ok",
   "items": 20,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "springbootreleases": {
   "name": "Spring Boot Releases",
   "status": "not modified",
   "items": 0,
-  "at": "2026-08-13T03:29:06+00:00"
+  "at": "2026-08-14T08:20:37+00:00"
  },
  "aws": {
   "name": "AWS What's New",
