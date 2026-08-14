@@ -62,14 +62,14 @@
  "hackernews": {
   "name": "Hacker News",
   "status": "ok",
-  "items": 14,
-  "at": "2026-08-14T03:25:39+00:00"
+  "items": 3,
+  "at": "2026-08-14T14:17:30+00:00"
  },
  "lobsters": {
   "name": "Lobsters",
   "status": "ok",
   "items": 25,
-  "at": "2026-08-14T03:25:39+00:00"
+  "at": "2026-08-14T14:17:30+00:00"
  },
  "rprogramming": {
   "name": "r/programming",
@@ -81,7 +81,7 @@
   "name": "InfoQ",
   "status": "ok",
   "items": 15,
-  "at": "2026-08-14T03:25:39+00:00"
+  "at": "2026-08-14T14:17:30+00:00"
  },
  "changelog": {
   "name": "Changelog",
@@ -159,6 +159,6 @@
   "name": "AWS What's New",
   "status": "ok",
   "items": 100,
-  "at": "2026-08-14T03:25:39+00:00"
+  "at": "2026-08-14T14:17:30+00:00"
  }
 }

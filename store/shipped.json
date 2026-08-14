@@ -655,9 +655,9 @@
  },
  "https://lucas.dohmen.io/posts/2026/08/09/rails-is-done": {
   "first": "2026-08-10",
-  "last": "2026-08-10",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-14",
+  "sources": 2,
+  "prev": 1
  },
  "https://byroot.github.io/ruby/performance/2026/08/05/shrinking-ruby-hashes.html": {
   "first": "2026-08-10",
@@ -2121,6 +2121,450 @@
   "first": "2026-08-13",
   "last": "2026-08-13",
   "sources": 2,
+  "prev": null
+ },
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://docs.mistral.ai/models/ocr-4-1": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/meta-muse-glimmer": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/architecture-context-engineering": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/graphql-llm-mocking-spec": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/kubeflow": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/vercel-v0-api": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://addons.mozilla.org/en-US/firefox/addon/slopscan": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://launchbylunch.com/posts/2026/Jul/29/introducing-pg-java": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thoughtbot.com/blog/modeling-state-transitions-in-postgres": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stormatics.tech/blogs/choosing-the-right-postgresql-partition-key": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fromdual.com/blog/postgresql/improve-postgresql-documentation": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rustmagazine.org/issue-2/write-a-sql-optimizer-using-egg": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://neon.com/blog/electric-joins-neon": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://electric.ax/blog/2026/08/11/electric-joining-databricks": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/incidents-reliability-metrics": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hashicorp.com/blog/packer-v1160-brings-verifiable-provenance-to-machine-images": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/rx-net-7": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/certificate-transparency-monitoring-ga": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bram.us/2026/08/09/unlock-diagonal-scrolling-with-css-scroll-axis-lock-none": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nerdy.dev/css-scroll-axis-lock": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tylersticka.com/journal/improved-css-text-stroke": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lea.verou.me/blog/2026/dark-mode-toggles": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://denodell.com/blog/your-spa-is-leaking-memory-soak-test-it": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spatie.be/blog/can-we-make-default-tailwind-a-more-accessible-choice": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/npm-12-released": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.modelcontextprotocol.io/posts/2026-07-28": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://celld.dev/": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/productdevbook/hucre": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fingerprint.com/try/bot-detection": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=Xs-U7SY2uNE": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vnckbr/stateoftheart_bytecode_interpreters_in_java_by": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/13/a-bootiful-podcast-andrey-santrosyan": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://oxide.computer/blog/kubernetes-on-oxide": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/fastify/fastify/releases/tag/v6.0.0-alpha.0": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://x.com/bunjavascript/status/2087436767054213517": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/65074": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://termdom.org/": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/fastify/fastify/issues/6834": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://adventures.nodeland.dev/archive/triaging-the-ai-horde": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vnkrhc/npoverrated": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 2,
+  "prev": null
+ },
+ "https://gruhn.me/blog/2026-08-13": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 2,
+  "prev": null
+ },
+ "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 2,
+  "prev": null
+ },
+ "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://neugierig.org/software/blog/2026/08/dominators.html": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mun-logadan.github.io/why-does-opus-5-feel-worse": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://z.ai/blog/glm-5.3": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theguardian.com/us-news/2026/aug/13/us-government-spied-anti-ice-protesters": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/building-engineering-teams-early-stage-startups": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://atproto.com/blog/introducing-bluesky-protocol-services": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/n3pkuh/what_are_you_doing_this_weekend": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://devblogs.microsoft.com/oldnewthing/20260812-00?p=112607": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://svelte.dev/blog/sveltekit-3-release-candidate": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ruby2d.com/": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ruby2d.com/try": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blacktm.com/blog/ruby2d-v1-0": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fastruby.io/infrastructure-assessment.html": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://byroot.github.io/ruby/performance/2026/08/13/speeding-up-ruby-hashes.html": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 2,
+  "prev": null
+ },
+ "https://github.com/ruby/json/releases/tag/v3.0.0.rc1": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/djc/oxish": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vo16f2/building_a_practical_path_to_postquantum": {
+  "first": "2026-08-14",
+  "last": "2026-08-14",
+  "sources": 1,
   "prev": null
  }
 }
