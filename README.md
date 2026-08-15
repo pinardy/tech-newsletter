@@ -165,6 +165,13 @@ state is per-device and disposable.
 | `c` | catch up |
 | `s` | saved |
 | `/` | jump to the filter |
+| `?` | filters, shortcuts, export |
+
+Nothing above needs to be memorised from this file: `?` opens the same table in
+the app, next to the query grammar and an explanation of what the strokes count.
+There is also a one-time note on first run — the tally is the only thing on the
+page that has to be learned rather than read, and it went unexplained for far
+too long.
 
 The filter takes operators as well as words, and they work the same in an
 edition, in the archive and over saved stories — an operator that worked in one
@@ -209,8 +216,15 @@ the suppression store, so Sunday cannot starve Monday. Pick one from the
 **Weekly rollup** group in the edition list.
 
 **Catch up** widens to the last seven editions and shows only what is unread,
-grouped by day. It is the reading habit the digest actually has, which is not
-one day at a time.
+grouped by day. It is the reading habit the digest actually has, which is not one
+day at a time. It lives in the edition list rather than beside the filters,
+because "which editions am I reading" is the question that control answers —
+and because three toggles had squeezed the filter to 128px on a phone, which is
+not enough to type `topic:rust` into.
+
+**Back does what you expect.** Editions, views and catch-up push history entries,
+so the browser's back button steps through them instead of leaving the site.
+Filters and typing still replace, or the stack would fill with noise.
 
 **Searching the archive** is offered whenever a filter is active. The in-edition
 filter only sees what is loaded, so 120 days of retention were unsearchable; the
@@ -222,6 +236,12 @@ searches are answered by one chunk.
 edition they came from is pruned at 120 days and a reading list that empties
 itself on a retention boundary is not a reading list. Per-device, like read
 state.
+
+**Export and import** are in the `?` dialog. Read, saved and muted state is
+per-device because there is no server to sync it to — that is a reason to make it
+portable, not a reason to strand it on one machine. Imports merge rather than
+replace, so moving from phone to laptop does not cost the laptop what it had
+already read.
 
 **Muting** lives on the sources page, which already lists every source. A story
 is hidden only when *every* source that carried it is muted — muting Hacker News

@@ -317,6 +317,74 @@ main[aria-busy="true"]{opacity:.45;transition:opacity .12s}
   text-transform:uppercase; color:var(--paper); background:var(--pine);
   padding:3px 5px; border-radius:3px; flex:0 0 auto}
 
+/* One-time note. The tally is the only thing on the page that has to be learned
+   rather than read, and it was the only thing never explained. */
+.intro{
+  max-width:var(--measure); margin:18px auto 0; padding:0 var(--gutter);
+}
+.intro p{margin:0; font-size:15.5px; color:var(--ink-soft); line-height:1.5}
+.intro > p:first-child{
+  border-left:3px solid var(--signal); background:var(--raised);
+  border:1px solid var(--rule); border-left:3px solid var(--signal);
+  padding:12px 14px;
+}
+.intro b{color:var(--ink); font-weight:500}
+.introkeys{
+  font-family:var(--mono); font-size:11px; letter-spacing:.05em;
+  margin-top:8px; display:flex; gap:8px; align-items:center; flex-wrap:wrap;
+}
+.introkeys button{text-decoration:underline; text-underline-offset:2px}
+kbd{
+  font-family:var(--mono); font-size:10.5px; border:1px solid var(--rule);
+  border-bottom-width:2px; border-radius:3px; padding:1px 5px;
+  background:var(--raised); color:var(--ink);
+}
+
+/* Controls that do not apply to what is on screen. Dimmed rather than disabled:
+   clicking a topic is a perfectly good way back to the digest. */
+.controls.aside .datebar, .controls.aside .chipwrap{opacity:.45}
+
+/* ── Help ─────────────────────────────────────────────────────────── */
+dialog#help{
+  border:1px solid var(--rule); background:var(--paper); color:var(--ink);
+  padding:0; max-width:min(600px, calc(100vw - 32px)); width:100%;
+  box-shadow:0 10px 40px rgb(0 0 0 / .25);
+}
+dialog#help::backdrop{background:rgb(0 0 0 / .45)}
+dialog#help > *{padding:0 20px}
+dialog#help h2{
+  font-family:var(--display); font-weight:600; font-size:19px; margin:20px 0 0;
+  padding-bottom:8px;
+}
+dialog#help > p{margin:8px 0 0; color:var(--ink-soft); font-size:15.5px; max-width:60ch}
+.helpcols{display:flex; gap:28px; flex-wrap:wrap; margin-top:18px}
+.helpcols section{flex:1 1 220px; min-width:0}
+.helpcols h3{
+  font-family:var(--mono); font-size:10px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--pine); margin:0 0 8px;
+  padding-bottom:5px; border-bottom:1px solid var(--rule);
+}
+.helpcols dl{
+  margin:0; display:grid; grid-template-columns:auto 1fr; gap:6px 12px;
+  font-family:var(--mono); font-size:11.5px; align-items:baseline;
+}
+.helpcols dt{color:var(--ink); white-space:nowrap}
+.helpcols dd{margin:0; color:var(--ink-soft)}
+.helpnote{font-size:13px; color:var(--ink-soft); margin:10px 0 0; font-family:var(--body)}
+.helpfoot{
+  display:flex; gap:12px; justify-content:space-between; align-items:center;
+  flex-wrap:wrap; margin-top:20px; padding-top:14px; padding-bottom:18px;
+  border-top:1px solid var(--rule);
+  font-family:var(--mono); font-size:10.5px; letter-spacing:.05em;
+  color:var(--ink-soft);
+}
+.helpbtns{display:flex; gap:14px}
+.helpfoot button{
+  font-family:var(--mono); font-size:10.5px; letter-spacing:.05em;
+  text-decoration:underline; text-underline-offset:2px; color:var(--ink);
+  min-height:var(--tap-chip); padding:0 2px;
+}
+
 /* ── States ───────────────────────────────────────────────────── */
 .notice{
   margin:24px 0; padding:14px 16px; border:1px solid var(--rule);
@@ -381,10 +449,6 @@ footer button,footer a{text-decoration:underline;text-underline-offset:2px}
      marooned between them. Let it size to its content so the three read as one
      control. */
   .editionwrap{flex:0 0 auto; max-width:100%}
-
-  /* Room to say what "2+" counts. Decoration only — the button carries its own
-     accessible name. */
-  #corroborated::after{content:" src"}
 }
 
 @media (min-width:1000px){
@@ -417,7 +481,8 @@ footer button,footer a{text-decoration:underline;text-underline-offset:2px}
     <span id="sourceline">loading</span>
   </div>
   <h1 class="wordmark">Wire</h1>
-  <p class="standfirst">One digest a day, merged from thirty sources.</p>
+  <p class="standfirst">One digest a day, merged from thirty sources — the strokes
+     count how many carried each story.</p>
 </header>
 
 <div class="controls">
@@ -434,20 +499,24 @@ footer button,footer a{text-decoration:underline;text-underline-offset:2px}
     <div class="chips" id="chips" role="group" aria-label="Topics"></div>
   </div>
   <div class="filterbar">
-    <input class="search" id="search" type="search" placeholder="filter headlines"
+    <input class="search" id="search" type="search" placeholder="filter — or topic:rust, 2+"
            title="Words match headlines. Operators: topic:rust  2+  after:2026-07  before:2026-08"
            aria-label="Filter headlines. Supports topic:, 2+, after: and before: operators">
     <button class="toggle" id="unreadonly" aria-pressed="false">unread</button>
-    <button class="toggle" id="catchup" aria-pressed="false"
-            title="Unread across the last seven editions">catch up</button>
-    <!-- Labelled "2+" because the row has no width to spare on a phone; the wide
-         layout appends " src" in CSS. The accessible name says it properly. -->
     <button class="toggle" id="corroborated" aria-pressed="false"
             aria-label="Only stories carried by two or more sources"
-            title="Only stories carried by two or more sources">2+</button>
+            title="Only stories carried by two or more sources">2+ src</button>
   </div>
   <div class="progress" id="progress" hidden aria-hidden="true"><i></i></div>
 </div>
+
+<aside class="intro" id="intro" hidden>
+  <p><b>The strokes are the point.</b> One per independent source that carried a
+    story, struck through in fives. Most stories carry one and show none, so a
+    tally in the margin already means more than one outlet ran it.</p>
+  <p class="introkeys">Press <kbd>?</kbd> for filters and shortcuts ·
+    <button id="introdone">got it</button></p>
+</aside>
 
 <main id="main" tabindex="-1">
   <div class="skeleton" style="width:60%"></div>
@@ -458,6 +527,48 @@ footer button,footer a{text-decoration:underline;text-underline-offset:2px}
 <p class="sr" id="status" role="status" aria-live="polite"></p>
 <footer id="footer"></footer>
 <div class="offline" id="offline" hidden>offline — showing cached</div>
+
+<dialog id="help" aria-label="Filters, shortcuts and reading state">
+  <h2>Reading Wire</h2>
+  <p>Each stroke in the margin is one independent source that carried the story,
+    struck through in fives. A story with a single source shows none, so a tally
+    is corroboration you can see before you read the headline.</p>
+  <div class="helpcols">
+    <section>
+      <h3>Keys</h3>
+      <dl>
+        <dt><kbd>←</kbd> <kbd>j</kbd></dt><dd>older edition</dd>
+        <dt><kbd>→</kbd> <kbd>k</kbd></dt><dd>newer edition</dd>
+        <dt><kbd>u</kbd></dt><dd>unread only</dd>
+        <dt><kbd>2</kbd></dt><dd>two or more sources</dd>
+        <dt><kbd>c</kbd></dt><dd>catch up</dd>
+        <dt><kbd>s</kbd></dt><dd>saved</dd>
+        <dt><kbd>/</kbd></dt><dd>jump to the filter</dd>
+        <dt><kbd>?</kbd></dt><dd>this</dd>
+      </dl>
+    </section>
+    <section>
+      <h3>Filter</h3>
+      <dl>
+        <dt>topic:rust</dt><dd>one topic, by name</dd>
+        <dt>2+</dt><dd>carried by two or more</dd>
+        <dt>after:2026-07</dt><dd>from then on</dd>
+        <dt>before:2026-08</dt><dd>up to then</dd>
+      </dl>
+      <p class="helpnote">The same words work in an edition, in the archive and
+        over saved stories.</p>
+    </section>
+  </div>
+  <div class="helpfoot">
+    <span>Read, saved and muted live on this device only.</span>
+    <span class="helpbtns">
+      <button data-help="export">export</button>
+      <button data-help="import">import</button>
+      <button data-help="close">close</button>
+    </span>
+  </div>
+  <input type="file" id="importfile" accept="application/json,.json" hidden>
+</dialog>
 
 <script>
 const DATA = "data/";
@@ -566,8 +677,14 @@ function readHash(){
     state.catchUp = true; state.unreadOnly = true; state.mode = "daily";
   }
   if (p.get("v") === "s") state.view = "saved";
+  if (p.get("v") === "a") state.view = "archive";
 }
-function writeHash(){
+/* Every state change used to replaceState, so the history stack never grew and
+   `back` walked straight out of the app — on a phone, and as an installed PWA,
+   that is the primary navigation gesture landing on a trapdoor. Navigation-shaped
+   changes (a different edition, a different view, entering catch-up) now push;
+   toggles and typing still replace, or the stack would fill with noise. */
+function writeHash(push){
   const p = new URLSearchParams();
   if (state.mode === "weekly") p.set("m", "w");
   if (state.date) p.set("d", state.date);
@@ -577,9 +694,40 @@ function writeHash(){
   if (state.corroboratedOnly) p.set("n", "2");
   if (state.catchUp) p.set("c", "1");
   if (state.view === "saved") p.set("v", "s");
-  history.replaceState(null, "", "#" + p);
+  if (state.view === "archive") p.set("v", "a");
   try { localStorage.setItem("topics", [...state.topics].join(",")); } catch {}
   postTopics();
+  const next = "#" + p;
+  if (location.hash === next) return;     // nothing to record
+  if (push) history.pushState(null, "", next);
+  else history.replaceState(null, "", next);
+}
+
+/* Back and forward hand us a hash we did not write, so state is rebuilt from it
+   rather than patched. Reset first: readHash only sets what is present, and a
+   stale flag surviving a pop is exactly the confusion this is meant to remove. */
+function restoreFromHash(){
+  state.mode = "daily"; state.date = null; state.topics = new Set();
+  state.query = ""; state.unreadOnly = false; state.corroboratedOnly = false;
+  state.catchUp = false; state.view = "digest";
+  readHash();
+  restoreTopics();
+  if (!state.topics.size) state.topics = defaultTopics();
+  if (!editionDates().includes(state.date))
+    state.date = editionDates()[0] || state.manifest.latest;
+  syncButtons();
+  drawChips();
+  if (state.view === "archive") return showArchive();
+  refresh();          // replaces the entry we are already sitting on
+}
+
+// State the controls hold that is not redrawn wholesale.
+function syncButtons(){
+  document.getElementById("search").value = state.query;
+  document.getElementById("unreadonly")
+    .setAttribute("aria-pressed", String(state.unreadOnly));
+  document.getElementById("corroborated")
+    .setAttribute("aria-pressed", String(state.corroboratedOnly));
 }
 
 /* The worker decides what to keep readable offline, but it cannot see
@@ -890,8 +1038,12 @@ function render(shards){
     banner.push(`unread across the last <b>${span}</b> ${span === 1 ? "edition" : "editions"}`);
   }
   if (queryActive(q) && shown){
-    const extra = live.filter(s => !state.topics.has(s.topic)).length;
-    banner.push(`searching <b>${new Set(live.map(s => s.topic)).size}</b> topics` +
+    // Both numbers must count the same thing. `extra` counted shards, so across
+    // a catch-up spanning five editions it reported more topics beyond the
+    // selection than were being searched at all.
+    const searched = new Set(live.map(s => s.topic));
+    const extra = [...searched].filter(t => !state.topics.has(t)).length;
+    banner.push(`searching <b>${searched.size}</b> topics` +
       (extra > 0 ? ` — ${extra} beyond your selection` : ""));
   }
   banner.push(...queryChips(q));
@@ -968,6 +1120,8 @@ function paint(html, summary){
   const hadFocus = main.contains(document.activeElement);
   main.innerHTML = html;
   if (hadFocus) main.focus();
+  document.querySelector(".controls")
+    .classList.toggle("aside", state.view !== "digest");
   updateFooter();
   const unread = document.querySelectorAll(".story.unread").length;
   document.getElementById("status").textContent = `${summary}, ${unread} unread`;
@@ -1030,7 +1184,9 @@ async function archiveMore(){
 }
 
 async function showArchive(){
+  const entering = state.view !== "archive";
   state.view = "archive";
+  if (entering) writeHash(true);
   const main = document.getElementById("main");
   main.setAttribute("aria-busy", "true"); progress(true);
   const ok = await archiveMore();
@@ -1131,15 +1287,72 @@ function updateFooter(){
   if (state.muted.size)
     bits.push(`<a href="health.html">${state.muted.size} muted</a>`);
   bits.push(`<a href="health.html">sources</a>`);
+  bits.push(`<button data-act="help">help</button>`);
   document.getElementById("footer").innerHTML = bits.join(" · ");
+}
+
+/* Alphabetical order picked AI, Cloud and Databases and presented them as a
+   choice. Volume in the latest edition is at least a real signal, and the
+   first-run note tells a newcomer these are theirs to change. */
+function defaultTopics(){
+  const latest = state.manifest.shards?.[state.manifest.latest] || {};
+  const ranked = Object.keys(state.manifest.topics)
+    .sort((a, b) => (latest[b]?.items ?? 0) - (latest[a]?.items ?? 0)
+                 || a.localeCompare(b))
+    .slice(0, 3);
+  return new Set(ranked);
+}
+
+/* Read, saved and muted are per-device by design — there is no server to sync
+   them to. That is a reason to make them portable, not a reason to strand them
+   on whichever machine they were made on. */
+function exportState(){
+  const payload = {
+    app: "wire", v: 1,
+    exported: new Date().toISOString(),
+    read: [...state.read], saved: [...state.saved],
+    muted: [...state.muted], topics: [...state.topics],
+  };
+  const url = URL.createObjectURL(
+    new Blob([JSON.stringify(payload)], { type: "application/json" }));
+  const a = document.createElement("a");
+  a.href = url; a.download = "wire-reading-state.json";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+async function importState(file){
+  let data;
+  try { data = JSON.parse(await file.text()); }
+  catch { return alert("That file is not readable JSON."); }
+  if (!data || data.app !== "wire")
+    return alert("That does not look like a Wire export.");
+
+  // Merged, never replaced: moving from phone to laptop should not cost the
+  // laptop everything it had already read.
+  const before = { read: state.read.size, saved: state.saved.size, muted: state.muted.size };
+  for (const id of data.read || []) state.read.add(id);
+  for (const [id, rec] of data.saved || []) if (!state.saved.has(id)) state.saved.set(id, rec);
+  for (const id of data.muted || []) state.muted.add(id);
+  saveRead(); saveSaved();
+  try { localStorage.setItem("muted", JSON.stringify([...state.muted])); } catch {}
+  rerender();
+  alert(`Merged: +${state.read.size - before.read} read, ` +
+        `+${state.saved.size - before.saved} saved, ` +
+        `+${state.muted.size - before.muted} muted.`);
+}
+
+function openHelp(){
+  const d = document.getElementById("help");
+  if (!d.open) d.showModal();
 }
 
 function progress(on){
   document.getElementById("progress").hidden = !on;
 }
 
-async function refresh(){
-  writeHash();
+async function refresh(push){
+  writeHash(push);
   if (state.view === "saved") return renderSaved();
   if (state.view === "archive") return renderArchive();
 
@@ -1191,23 +1404,32 @@ function syncControls(){
   const dates = editionDates();
   const i = dates.indexOf(state.date);
   const spanning = state.catchUp;
+  // Stepping through single editions makes no sense while spanning several, but
+  // the select is now how you leave, so it stays enabled.
   document.getElementById("prev").disabled = spanning || i >= dates.length - 1;
   document.getElementById("next").disabled = spanning || i <= 0;
-  document.getElementById("editions").disabled = spanning;
-  document.getElementById("editions").value =
-    (state.mode === "weekly" ? "w:" : "d:") + state.date;
-  document.getElementById("modebadge").hidden = state.mode !== "weekly";
+  document.getElementById("editions").value = spanning
+    ? "c:" : (state.mode === "weekly" ? "w:" : "d:") + state.date;
+  const badge = document.getElementById("modebadge");
+  badge.hidden = !spanning && state.mode !== "weekly";
+  badge.textContent = spanning ? "catch up" : "week";
 }
 
+/* Catch-up belongs here rather than in the filter row: it answers "which
+   editions am I reading", which is the question this control exists for. Moving
+   it also gave the filter back the width three toggles had taken — it was down
+   to 128px on a phone, which is not enough to type `topic:rust` into. */
 function drawEditions(){
-  const opt = (d, m) =>
-    `<option value="${m}:${d}">${esc(fmtEdition(d, m === "w" ? "weekly" : "daily"))}</option>`;
-  let html = `<optgroup label="Daily">` +
-    state.manifest.dates.map(d => opt(d, "d")).join("") + `</optgroup>`;
+  const opt = (value, label) => `<option value="${value}">${esc(label)}</option>`;
+  let html = `<optgroup label="Across editions">` +
+    opt("c:", "Catch up — unread") + `</optgroup>` +
+    `<optgroup label="Daily">` +
+    state.manifest.dates.map(d => opt("d:" + d, fmtEdition(d, "daily"))).join("") +
+    `</optgroup>`;
   const weeks = state.manifest.weeks || [];
   if (weeks.length)
     html += `<optgroup label="Weekly rollup">` +
-      weeks.map(d => opt(d, "w")).join("") + `</optgroup>`;
+      weeks.map(d => opt("w:" + d, fmtEdition(d, "weekly"))).join("") + `</optgroup>`;
   document.getElementById("editions").innerHTML = html;
 }
 
@@ -1250,14 +1472,12 @@ function step(delta){
 }
 
 function goto(date, mode){
-  // Choosing one edition contradicts spanning several.
-  state.catchUp = false;
-  document.getElementById("catchup").setAttribute("aria-pressed", "false");
+  state.catchUp = false;   // choosing one edition contradicts spanning several
   state.view = "digest";
   state.mode = mode;
   state.date = date;
   drawChips();          // counts and dimming are per-edition
-  refresh();
+  refresh(true);
 }
 
 function setUnreadOnly(on){
@@ -1288,16 +1508,15 @@ function setCatchUp(on){
     state.view = "digest";
     if (!editionDates().includes(state.date)) state.date = state.manifest.latest;
   }
-  document.getElementById("catchup").setAttribute("aria-pressed", String(on));
-  document.getElementById("unreadonly").setAttribute("aria-pressed", String(state.unreadOnly));
+  syncButtons();
   drawChips();
-  refresh();
+  refresh(true);
 }
 
 function setView(view){
   state.view = view;
-  if (view === "digest") { refresh(); return; }
-  writeHash();
+  if (view === "digest") { refresh(true); return; }
+  writeHash(true);
   rerender();
 }
 
@@ -1355,6 +1574,7 @@ async function boot(){
     if (!btn) return;
     if (btn.dataset.act === "saved") return setView("saved");
     if (btn.dataset.act === "digest") return setView("digest");
+    if (btn.dataset.act === "help") return openHelp();
     if (btn.id !== "readall") return;
     document.querySelectorAll(".story.unread").forEach(el => {
       state.read.add(el.dataset.id);
@@ -1382,8 +1602,7 @@ async function boot(){
       state.mode = "daily";
     state.date = editionDates()[0] || state.manifest.latest;
   }
-  if (!state.topics.size)
-    state.topics = new Set(Object.keys(state.manifest.topics).slice(0, 3));
+  if (!state.topics.size) state.topics = defaultTopics();
 
   const n = Object.keys(state.manifest.topics).length;
   const d = state.manifest.dates.length;
@@ -1410,6 +1629,7 @@ async function boot(){
   document.getElementById("prev").onclick = () => step(1);   // dates are newest-first
   document.getElementById("next").onclick = () => step(-1);
   document.getElementById("editions").onchange = e => {
+    if (e.target.value === "c:") return setCatchUp(true);
     const [m, date] = e.target.value.split(":");
     const mode = m === "w" ? "weekly" : "daily";
     const known = (mode === "weekly" ? state.manifest.weeks : state.manifest.dates) || [];
@@ -1442,10 +1662,6 @@ async function boot(){
   corrBtn.setAttribute("aria-pressed", String(state.corroboratedOnly));
   corrBtn.onclick = () => setCorroborated(!state.corroboratedOnly);
 
-  const catchBtn = document.getElementById("catchup");
-  catchBtn.setAttribute("aria-pressed", String(state.catchUp));
-  catchBtn.onclick = () => setCatchUp(!state.catchUp);
-
   /* Keyboard: a daily reader on a desktop should not have to aim at the arrows.
      j/k mirror the arrows rather than moving between stories — editions are the
      only axis this page navigates. */
@@ -1461,9 +1677,39 @@ async function boot(){
     else if (ev.key === "2") setCorroborated(!state.corroboratedOnly);
     else if (ev.key === "s") setView(state.view === "saved" ? "digest" : "saved");
     else if (ev.key === "/"){ ev.preventDefault(); search.focus(); }
+    else if (ev.key === "?") openHelp();
     else return;
     ev.preventDefault();
   });
+
+  const help = document.getElementById("help");
+  help.addEventListener("click", e => {
+    // A modal dialog's backdrop is part of the element, so a click landing on
+    // the dialog itself rather than its contents came from outside it.
+    if (e.target === help) return help.close();
+    const act = e.target.closest("button[data-help]")?.dataset.help;
+    if (act === "close") help.close();
+    else if (act === "export") exportState();
+    else if (act === "import") document.getElementById("importfile").click();
+  });
+  document.getElementById("importfile").onchange = e => {
+    const file = e.target.files?.[0];
+    e.target.value = "";               // so the same file can be picked twice
+    if (file) importState(file).then(() => help.close());
+  };
+
+  // Shown once, then never again. The tally is the only thing on the page that
+  // has to be learned rather than read.
+  const intro = document.getElementById("intro");
+  try {
+    if (!localStorage.getItem("seen-intro")) intro.hidden = false;
+  } catch {}
+  document.getElementById("introdone").onclick = () => {
+    intro.hidden = true;
+    try { localStorage.setItem("seen-intro", "1"); } catch {}
+  };
+
+  addEventListener("popstate", restoreFromHash);
 
   // Muting happens on the sources page. Same origin, same localStorage, so the
   // only thing missing is noticing on the way back.
