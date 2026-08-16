@@ -2974,5 +2974,293 @@
   "last": "2026-08-15",
   "sources": 1,
   "prev": null
+ },
+ "https://littlelearner-ll.github.io/": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arxiv.org/abs/2604.04902": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/aws-dynamodb-vector-search": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/aws-dogwood-agent-policy": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/whats-new/2026/08/amazon-quick-approval-policies-sharing": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/whats-new/2026/08/amazon-quick-per-user-resource-limits": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-nova-mme-govcloud": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-aws-govcloud-us-west": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/pgsimcity": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mccue.dev/pages/3-11-25-life-altering-postgresql-patterns": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go.dev/doc/go1.27": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/77273": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rednafi.com/shards/2026/06/go-goroutine-leak-profile": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go.dev/blog": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://appwrite.io/blog/post/rewriting-the-appwrite-cli-in-go": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/Agent-Field/pr-af": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-rc.1": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ajinabraham/njsscan": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/paradedb/drizzle-paradedb": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/webpro-nl/unbash": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://deepseek.com/harness/en": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://snarky.ca/whats-missing-to-have-reproducible-builds-on-pypi": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ufried.com/blog/essence_of_architecture_5": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://heiwiper.com/posts/magit-status-tour": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?t=673s&v=MQeIerDsReA": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dampfkraft.com/ghost-characters.html": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sifter.org/~simon/journal/20130713.h.html": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/alibaba_qwen/status/2088280182356611304": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nature.com/articles/d41586-026-02448-x": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://margelo.com/blog/react-native-barcode-scanner": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=PypMPaW0wu4": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kbar.vercel.app/": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gooey.jakubantalik.com/": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/react-hook-form/react-hook-form/releases/tag/v7.85.0": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gtkx.dev/blog/gtkx-1-0": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mensfeld.pl/2026/08/ruby-rails-performance-roundup-backlog": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mensfeld.pl/2026/06/ruby-performance-roundup": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://evilmartians.com/chronicles/fair-by-design-orchestrating-background-jobs-in-ruby": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.appsignal.com/2026/07/28/appsignal-launch-week-2026-recap.html": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://scrapingbee.com/blog/how-to-use-playwright-in-ruby": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://allaboutcoding.ghinda.com/one-week-of-coding-and-reviewing-with-llm-agents": {
+  "first": "2026-08-16",
+  "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
  }
 }
