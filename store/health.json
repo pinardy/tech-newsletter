@@ -73,9 +73,9 @@
  },
  "rprogramming": {
   "name": "r/programming",
-  "status": "error: HTTPError: HTTP Error 403: Blocked",
-  "items": 0,
-  "at": "2026-08-16T02:22:47+00:00"
+  "status": "ok",
+  "items": 25,
+  "at": "2026-08-16T07:36:25+00:00"
  },
  "infoq": {
   "name": "InfoQ",
@@ -87,7 +87,7 @@
   "name": "Changelog",
   "status": "not modified",
   "items": 0,
-  "at": "2026-08-15T19:25:29+00:00"
+  "at": "2026-08-16T07:36:25+00:00"
  },
  "cloudflare": {
   "name": "Cloudflare",

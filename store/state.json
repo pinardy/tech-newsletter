@@ -60,7 +60,7 @@
   "last_modified": "Sun, 16 Aug 2026 02:20:57 GMT"
  },
  "rprogramming": {
-  "last_polled": "2026-08-15T19:25:29+00:00",
+  "last_polled": "2026-08-16T07:36:25+00:00",
   "etag": null,
   "last_modified": null
  },
@@ -70,7 +70,7 @@
   "last_modified": "Sat, 15 Aug 2026 15:08:30 GMT"
  },
  "changelog": {
-  "last_polled": "2026-08-15T19:25:29+00:00",
+  "last_polled": "2026-08-16T07:36:25+00:00",
   "etag": "\"79c195f8837e46251f12c95751cdfbc1\"",
   "last_modified": "Tue, 21 Jul 2026 23:00:06 GMT"
  },
