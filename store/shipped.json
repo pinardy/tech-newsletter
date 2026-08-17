@@ -2893,9 +2893,9 @@
  },
  "https://lxe.github.io/everywebsite": {
   "first": "2026-08-15",
-  "last": "2026-08-15",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-17",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.plover.com/2026/08/02": {
   "first": "2026-08-15",
@@ -3260,6 +3260,330 @@
  "https://allaboutcoding.ghinda.com/one-week-of-coding-and-reviewing-with-llm-agents": {
   "first": "2026-08-16",
   "last": "2026-08-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://platform.claude.com/docs/en/release-notes/system-prompts": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vectoral.com/blog/who-are-the-token-brokers": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/agentic-fitness-functions-evolutionary-architecture": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/agentic-ai-sorcerers-apprentice": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/grafana-mcp-server-telemetry": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/architecture-patterns-llm": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://amoffat.github.io/blog/vetting-burnout.html": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=ePsQksj99LM": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://codemanship.wordpress.com/2026/08/12/ai-software-development-what-does-the-data-say": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=49322107": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/cloudflare-ci-code-workflows": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-managed-buyer-notifications": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-aam": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://resilienceinsoftware.org/news/11560646": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://greatcircle.com/blog/2026/07/28/respecting-fatigue-isnt-coddling": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://allthingsdistributed.com/2026/08/on-building-scalable-control-planes.html": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://uptimelabs.io/articles/hamed-2012-outage-reflections": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tokentimer.ch/blog/tls-certificate-expiry-outages": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.dev/blog/how-stripe-uses-graph-search-and-state-machines-to-auto-remediate-a-global-database-fleet": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://passbe.com/2022/healthchecks-io-systemd-checks": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.thibaut-rousseau.com/blog/the-most-popular-go-dependency-is": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://antonz.org/go-1-26": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alexedwards.net/blog/go-naming-conventions": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shadcn-templ.com/": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://templui.io/docs/components": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jtolio.com/2026/01/tinyemu-go": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://gimp.org/news/2026/08/16/dev-update-august-2026": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://op.tngl.io/every-fucking-website": {
+  "first": "2026-08-15",
+  "last": "2026-08-17",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://reddit.com/r/programming/comments/1vq4rr0/ponys_arena_allocator": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://ponylang.io/blog/2026/08/ponys-arena-allocator": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vpxrcl/i_thought_i_was_building_a_c_replacement_i_was": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://c3-lang.org/blog/i_thought_i_was_building_a_c_replacement": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://dmitry.gr/": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://rvembedded.com/blog_post/12": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://theguardian.com/money/2026/aug/16/the-weekend-is-100-years-old-skiveday-fridays-and-hybrid-working-ruined-it": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wptv.com/news/treasure-coast/region-st-lucie-county/saint-lucie-nuclear-power-plant-unit-1-manually-shut-down-after-3-control-rods-drop-into-reactor-core": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thefloatingcontinent.com/blog/upside-down-arrow-unicode": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vqlkfc/death_by_a_thousand_small_decisions": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vq4pbv/protobuf_finally_has_lsp_support_youre_welcome_buf": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reactadvanced.com/": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trigger.dev/changelog/chat-agent": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/shadcn-conversational-primitives": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/java-news-roundup-aug10-2026": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dragonruby.itch.io/dragonruby-gtk/devlog/1620970/dragonruby-jam-license-free-to-all": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://solidobjects.dev/": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sinaptia.dev/posts/building-an-ai-powered-commercial-intelligence-dashboard": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://paolino.me/schematist": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rubysolo/dentaku": {
+  "first": "2026-08-17",
+  "last": "2026-08-17",
   "sources": 1,
   "prev": null
  }
