@@ -62,32 +62,32 @@
  "hackernews": {
   "name": "Hacker News",
   "status": "ok",
-  "items": 1,
-  "at": "2026-08-16T13:35:01+00:00"
+  "items": 10,
+  "at": "2026-08-17T02:21:26+00:00"
  },
  "lobsters": {
   "name": "Lobsters",
   "status": "ok",
   "items": 25,
-  "at": "2026-08-16T13:35:01+00:00"
+  "at": "2026-08-17T02:21:26+00:00"
  },
  "rprogramming": {
   "name": "r/programming",
-  "status": "ok",
-  "items": 25,
-  "at": "2026-08-16T15:10:07+00:00"
+  "status": "error: HTTPError: HTTP Error 403: Blocked",
+  "items": 0,
+  "at": "2026-08-17T02:21:26+00:00"
  },
  "infoq": {
   "name": "InfoQ",
   "status": "ok",
   "items": 15,
-  "at": "2026-08-16T13:35:01+00:00"
+  "at": "2026-08-17T02:21:26+00:00"
  },
  "changelog": {
   "name": "Changelog",
   "status": "not modified",
   "items": 0,
-  "at": "2026-08-16T07:36:25+00:00"
+  "at": "2026-08-17T02:21:26+00:00"
  },
  "cloudflare": {
   "name": "Cloudflare",
@@ -159,6 +159,6 @@
   "name": "AWS What's New",
   "status": "ok",
   "items": 100,
-  "at": "2026-08-16T13:35:01+00:00"
+  "at": "2026-08-17T02:21:26+00:00"
  }
 }
