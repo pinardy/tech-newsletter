@@ -19,7 +19,8 @@ sources.yaml
     ▼
 store/items/YYYY-MM-DD.jsonl        ← the durable store (append-only, in repo)
     │
-[cluster]   canonical URL, then token-set title matching
+[cluster]   canonical URL, then token-set title matching — once, across
+            all topics, so corroboration is not a within-topic question
     │
 [suppress]  drop anything already published, unless it gained a source
     │
@@ -274,11 +275,15 @@ Tracked in full in `CHANGES.md`, but the ones worth knowing up front:
   make, and every topic falls back to rule-based sections for that run. This
   is survivable by design — the digest publishes complete either way — but if
   a run degrades, the fix is to wait for the reset, not to retry.
-- **Corroboration reads low on a cold start.** Only Hacker News can backfill
-  (Algolia is a time-range query, so it reaches back 7 days on first run);
-  Lobsters and Reddit expose ~25 current entries and nothing more. On day one
-  only 7 of 141 published stories clustered across sources. It climbs as the
-  store fills.
+- **Corroboration reads low, and does not climb on its own.** Only Hacker News
+  can backfill (Algolia is a time-range query, so it reaches back 7 days on
+  first run); Lobsters and Reddit expose ~25 current entries and nothing more.
+  Eight editions in, the daily rate measured 5.9, 1.1, 6.0, 9.7, 5.4, 4.5, 0.0
+  and 9.8% — noise, not a trend, so an earlier claim here that it climbs as the
+  store fills was wrong. What does raise it is a wider window: the weekly
+  rollup runs at 37% because seven days give a story time to be picked up
+  twice. A day is simply not long enough for most stories to be corroborated,
+  and that is a fact about the news cycle rather than a bug.
 - **Suppression has no escape hatch.** Gaining a source is the only
   readmission rule, so a story everyone carried on day one and keeps
   discussing never returns.

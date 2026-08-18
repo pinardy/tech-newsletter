@@ -37,6 +37,51 @@ _RELEASE = re.compile(
 )
 
 
+# ── Clustering ──────────────────────────────────────────────────────
+
+def cluster_globally(items, knobs: dict) -> list[Cluster]:
+    """Cluster every item once, across all topics.
+
+    This used to bucket by topic first and cluster inside each bucket, which
+    made corroboration a within-topic question. Two sources that carried the
+    same story but route to different topics could never meet:
+
+        https://nextjs.org/blog/next-16-3    ← one canonical URL
+          javascriptweekly -> javascript     ← published as "1 src"
+          reactstatus      -> react          ← published again as "1 src"
+
+    Identical URL, two outlets, and the tally read one both times — while the
+    story consumed a slot in two budgets. Over the current window, clustering
+    once lifts corroborated stories from 26 to 31 and collapses 574 cluster
+    instances into 484 distinct ones. The rate matters less than the fact that
+    the old answer was wrong: two sources carrying one URL is one story with
+    two sources, whatever the routing says.
+    """
+    return cluster_items(
+        items,
+        jaccard=knobs.get("title_jaccard", 0.8),
+        min_tokens=knobs.get("min_title_tokens", 3),
+    )
+
+
+def route_to_topics(clusters: list[Cluster]) -> dict[str, list[Cluster]]:
+    """Fan clusters out to every topic their items carry.
+
+    `Cluster.topics` is the union across items, so a story that HN routed to
+    `javascript` and Frontend Focus routed to `frontend` now appears in both
+    with one tally, rather than as two separate stories.
+
+    The lists share Cluster objects. Callers score per topic — `interest` is a
+    per-topic knob — so each must take its own copy before assigning `score`,
+    or the last topic scored would overwrite what every earlier one published.
+    """
+    by_topic: dict[str, list[Cluster]] = {}
+    for cluster in clusters:
+        for topic in cluster.topics:
+            by_topic.setdefault(topic, []).append(cluster)
+    return by_topic
+
+
 # ── Suppression and story arcs ──────────────────────────────────────
 
 def apply_suppression(
@@ -275,25 +320,18 @@ def build_editions(
 
     fresh = [i for i in items if now - i.published_at <= max_age]
 
-    by_topic: dict[str, list] = {}
-    for item in fresh:
-        for topic in item.topics:
-            by_topic.setdefault(topic, []).append(item)
+    clusters = cluster_globally(fresh, knobs)
+    if suppress:
+        clusters = apply_suppression(clusters, shipped, day)
 
     editions = []
-    for topic, topic_items in sorted(by_topic.items()):
+    for topic, shared in sorted(route_to_topics(clusters).items()):
         if only and topic not in only:
             continue
         meta = topic_meta.get(topic, {})
-        clusters = cluster_items(
-            topic_items,
-            jaccard=knobs.get("title_jaccard", 0.8),
-            min_tokens=knobs.get("min_title_tokens", 3),
-        )
-        if suppress:
-            clusters = apply_suppression(clusters, shipped, day)
+        topic_clusters = [Cluster(items=c.items, arc=c.arc) for c in shared]
 
-        for cluster in clusters:
+        for cluster in topic_clusters:
             cluster.score = score_cluster(
                 cluster, weights,
                 now=now,
@@ -302,7 +340,7 @@ def build_editions(
                 interest=meta.get("interest", 1.0),
             )
         chosen = select(
-            clusters,
+            topic_clusters,
             per_source_cap=knobs.get("per_source_cap", 6),
             budget=knobs.get("topic_budget", 12),
         )
@@ -374,22 +412,15 @@ def build_weekly(
     weights = {s["id"]: s.get("weight", 1.0) for s in config["sources"]}
     topic_meta = config.get("topics", {})
 
-    by_topic: dict[str, list] = {}
-    for item in items:
-        for topic in item.topics:
-            by_topic.setdefault(topic, []).append(item)
+    clusters = cluster_globally(items, knobs)
 
     editions = []
-    for topic, topic_items in sorted(by_topic.items()):
+    for topic, shared in sorted(route_to_topics(clusters).items()):
         if only and topic not in only:
             continue
         meta = topic_meta.get(topic, {})
-        clusters = cluster_items(
-            topic_items,
-            jaccard=knobs.get("title_jaccard", 0.8),
-            min_tokens=knobs.get("min_title_tokens", 3),
-        )
-        for cluster in clusters:
+        clusters_for_topic = [Cluster(items=c.items, arc=c.arc) for c in shared]
+        for cluster in clusters_for_topic:
             cluster.score = score_cluster(
                 cluster, weights,
                 now=now,
@@ -404,9 +435,9 @@ def build_weekly(
         # Corroboration first, score second: the rollup exists to surface what
         # several outlets carried, and ordering by score alone buries a
         # two-source story under a fresher single-source one.
-        clusters.sort(key=lambda c: (len(c.sources), c.score), reverse=True)
+        clusters_for_topic.sort(key=lambda c: (len(c.sources), c.score), reverse=True)
         chosen = select(
-            clusters,
+            clusters_for_topic,
             per_source_cap=knobs.get("weekly_per_source_cap", 4),
             budget=knobs.get("weekly_topic_budget", 8),
         )
