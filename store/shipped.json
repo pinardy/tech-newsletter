@@ -3898,5 +3898,281 @@
   "last": "2026-08-18",
   "sources": 1,
   "prev": null
+ },
+ "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://folkwolf.net/claude-and-i-built-an-app": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/aws-bedrock-agentcore-runtime": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/cloudflare-writeguard-mcp-safety": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://onethousandmeans.com/p/norway-should-buy-openai": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/ai-hardware-tokenomics": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-profiling": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/progressive-collapse-system-resilience": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vskw18/modern_enterprise_architecture_architecting_for": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/rfc9234-bgp-role-model": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/react-route-v8": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nanochess.org/am29000_c_compiler_web_browser.html": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vs06if/i_unearthed_my_am29000_c_compiler_and_web_browser": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://chrisburnell.com/html-can-do-that": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vs61br/pandoc_what_survives_markup_conversion": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://portswigger.net/research/css-the-bomb-inside-your-inbox": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/ttxwdz/what_software_do_you_use_daily_2026": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tipiirai.com/writing/bun-rust-rewrite-worries": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vs0umj/i_fell_down_a_debugging_rabbit_hole": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vsbdb9/why_do_we_need_map_and_set_in_javascript_when_we": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vrjqec/builder_pattern_in_typescript_realworld_example": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/18/this-week-in-spring-august-18-2026": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/17/spring-office-hours-podcast-S5E20": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://odin-lang.org/docs/inline-asm": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vrzjdf/odins_new_inline_assembly_templates": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://modular.com/blog/mojo-open-source": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vruda3/modular_mojo_is_now_open_source": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://wiki.alcidesfonseca.com/blog/aeonbox-logical-guardrails-for-agents": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vsmyv1/dynamic_programming_on_trees": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://grapheneos.social/@GrapheneOS/117078064184215730": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/DenisSergeevitch/desktop-fly": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bahjeez.com/the-great-microsd-card-survey": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openlogi.org/en": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://economist.com/business/2026/08/18/metas-blockbuster-trial-draws-parallels-to-big-tobacco": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jvt.me/posts/2026/08/17/hand-write-commits": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/dotnet-11-preview-7": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://decuser.github.io/posts/aiki-alpha-2-release": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/RyanCodrai/turbovec": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability": {
+  "first": "2026-08-19",
+  "last": "2026-08-19",
+  "sources": 1,
+  "prev": null
  }
 }
