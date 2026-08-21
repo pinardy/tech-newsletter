@@ -4453,9 +4453,9 @@
  },
  "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref": {
   "first": "2026-08-20",
-  "last": "2026-08-20",
-  "sources": 2,
-  "prev": null
+  "last": "2026-08-21",
+  "sources": 3,
+  "prev": 2
  },
  "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust": {
   "first": "2026-08-20",
@@ -4466,6 +4466,264 @@
  "https://kernelkennel.com/blog/summercon2026-rosetta": {
   "first": "2026-08-20",
   "last": "2026-08-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://danielvaughn.dev/posts/huzzah": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/zachahn/vomit": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/azure-devops-remote-mcp-ga": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vud8h6/embedding_models_benchmark_for_code_duplication": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://api-docs.deepseek.com/guides/vision": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://annas-archive.gl/blog/physical-destruction.html": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/cloudflare-ai-enforcement": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/ebpf-ai-gateway-kubernetes-security": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/8/aws-partner-central-mcp": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/s3-clone-security": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vts80v/distributed_consensus_on_s3": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/minibooks/architect-sociotechnical-craft": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vuaimm/the_great_android_stack_reset_mobile_system": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vuctzc/building_mini_spark_a_tiny_distributed_computing": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vucb28/the_accidental_application_runtime_when_a_go": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bun.com/blog/bun-v1.4": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vuec8q/bun_and_elm_rare_friends_cekremgithubio": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vtn0qa/typescript_migrate_repo_to_typescript_7": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vtnxjd/everyone_says_assembly_is_untypedeveryone_is_wrong": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 2,
+  "prev": null
+ },
+ "https://gingerbill.org/article/2026/08/20/designing-odins-inline-asm": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 2,
+  "prev": null
+ },
+ "https://func25.dev/posts/go-memory-visibility": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vugelw/leetcode_3116_hard_binary_search": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vttlns/the_august_17_outage_and_the_work_ahead": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 2,
+  "prev": null
+ },
+ "https://lina.sh/blog/hijacking-e164-arpa": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://experimental-history.com/p/stop-eating-lady-gagas-oreos": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/ittn74/what_are_you_doing_this_weekend": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://universal-blue.discourse.group/t/bazzites-biggest-update-deck-44-has-launched-happy-birthday-to-universal-blue/12373": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/docker-vmm-layer": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vtm22r/supply_chain_attack_on_arrayref": {
+  "first": "2026-08-20",
+  "last": "2026-08-21",
+  "sources": 3,
+  "prev": 2
+ },
+ "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0": {
+  "first": "2026-08-21",
+  "last": "2026-08-21",
   "sources": 1,
   "prev": null
  }
