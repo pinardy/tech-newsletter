@@ -538,5 +538,21 @@
  "https://lina.sh/blog/hijacking-e164-arpa": "How an expired nameserver let me take over e164.arpa zones for multiple territories, and why I probably should have checked my logs sooner.",
  "https://universal-blue.discourse.group/t/bazzites-biggest-update-deck-44-has-launched-happy-birthday-to-universal-blue/12373": "Bazzite Deck 44 Launches Today Don’t worry desktop users, there’s major improvements in here for you too! Hello folks! It’s been a hard few months with over 700 commits just to the Bazzite repo.",
  "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/": "A compromised release of the popular Rust crate arrayref pulled in a typosquatted proc-macro1 whose build script downloads and runs a remote binary at compile…",
- "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/": "Empowering everyone to build reliable and efficient software."
+ "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/": "Empowering everyone to build reliable and efficient software.",
+ "https://www.felonybench.com/": "Felony Bench is the most important benchmark of our time, some are saying, counting the number of questionable decisions made by AI agents. We might need a Pandemic Bench soon...",
+ "https://github.com/adnanakil/nobuzz/blob/main/README.md": "A Claude Code skill (/debuzz) that pipes Claude's answers through Gemini to remove the BuzzFeed voice - nobuzz/README.md at main · adnanakil/nobuzz",
+ "https://canews24.online/?p=71": null,
+ "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b?source=rss----2615bd06b42e---4": null,
+ "https://spring.io/blog/2026/08/21/spring-ai-2-0-1-available-now": "Level up your Java code and explore what Spring can do for you.",
+ "https://spring.io/blog/2026/08/20/spring-batch-6-0-5-and-6-1-0-M1-available-now": "Level up your Java code and explore what Spring can do for you.",
+ "https://spring.io/blog/2026/08/20/spring-boot-4-0-8-available-now": "Level up your Java code and explore what Spring can do for you.",
+ "https://spring.io/blog/2026/08/20/spring-boot-4-1-1-available-now": "Level up your Java code and explore what Spring can do for you.",
+ "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations": "We have recognised from the beginning that America has changed, and that we will not return to our old relationship. Our government understood, before many, that America is altering all its trade relationships.",
+ "https://kagi.com/changelog#11296": "Better search results with no ads. Welcome to Kagi (pronounced kah-gee), a paid search engine that gives power back to the user.",
+ "https://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor/": "The ESP32-S31 microprocessor is getting Linux support from Espressif Systems. The ESP32-S31 dual-core RISC-V microprocessor was first unveiled in March,",
+ "https://www.seangoedecke.com/you-should-never-be-angry-at-work/": "I try not to give a lot of prescriptive advice about working in tech companies. There are many ways to be successful, and every company works differently. If…",
+ "https://www.reddit.com/r/programming/comments/1vv78fc/the_pit_of_success/": null,
+ "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/": null,
+ "https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/": "It’s time to dream big. Omarchy Quattro has given people a chance to experience what the malleable computer of the future looks like, and they like it (a lot!). It now feels like a moral obligation to make this future more broadly…",
+ "https://rust-glancer.github.io/blog/hello-world/": "Rust LSP that doesn't eat memory for breakfast"
 }

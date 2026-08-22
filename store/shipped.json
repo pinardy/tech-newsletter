@@ -4351,9 +4351,9 @@
  },
  "https://go.dev/blog/go1.27": {
   "first": "2026-08-20",
-  "last": "2026-08-20",
-  "sources": 3,
-  "prev": null
+  "last": "2026-08-22",
+  "sources": 4,
+  "prev": 3
  },
  "https://reddit.com/r/programming/comments/1vtfr84/how_good_old_swr_masks_slow_nodejs_ssr": {
   "first": "2026-08-20",
@@ -4651,21 +4651,21 @@
  },
  "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead": {
   "first": "2026-08-21",
-  "last": "2026-08-21",
-  "sources": 2,
-  "prev": null
+  "last": "2026-08-22",
+  "sources": 3,
+  "prev": 2
  },
  "https://reddit.com/r/programming/comments/1vttlns/the_august_17_outage_and_the_work_ahead": {
   "first": "2026-08-21",
-  "last": "2026-08-21",
-  "sources": 2,
-  "prev": null
+  "last": "2026-08-22",
+  "sources": 3,
+  "prev": 2
  },
  "https://lina.sh/blog/hijacking-e164-arpa": {
   "first": "2026-08-21",
-  "last": "2026-08-21",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-22",
+  "sources": 2,
+  "prev": 1
  },
  "https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates": {
   "first": "2026-08-21",
@@ -4723,7 +4723,223 @@
  },
  "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0": {
   "first": "2026-08-21",
-  "last": "2026-08-21",
+  "last": "2026-08-22",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://infoq.com/news/2026/08/linkedin-ai-code-review": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/aws-bench-agent-evaluation": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/cloudflare-astro-ai-agents": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/doordash-llm-ai-moderation-platform": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://entropicthoughts.com/ai-comment-classifier": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://felonybench.com/": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://canews24.online/?p=71": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/adnanakil/nobuzz/blob/main/README.md": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://engineering.grab.com/jarvis-pro-route-firsr-answer-later": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/task-based-oauth-consent": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/20/spring-batch-6-0-5-and-6-1-0-M1-available-now": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/20/spring-boot-4-0-8-available-now": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/20/spring-boot-4-1-1-available-now": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/21/spring-ai-2-0-1-available-now": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/spring-projects/spring-boot/releases/tag/v4.2.0-M1": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/spring-projects/spring-boot/releases/tag/v4.1.1": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/spring-projects/spring-boot/releases/tag/v4.0.8": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vt10nv/go_127_is_released": {
+  "first": "2026-08-20",
+  "last": "2026-08-22",
+  "sources": 4,
+  "prev": 3
+ },
+ "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/vite-plus-beta": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kagi.com/changelog": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vuxzx1/ich_möchte_eine_alternative_für_tinder_bumble": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://seangoedecke.com/you-should-never-be-angry-at-work": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vv78fc/the_pit_of_success": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rust-glancer.github.io/blog/hello-world": {
+  "first": "2026-08-22",
+  "last": "2026-08-22",
   "sources": 1,
   "prev": null
  }
