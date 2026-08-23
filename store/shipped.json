@@ -4942,5 +4942,173 @@
   "last": "2026-08-22",
   "sources": 1,
   "prev": null
+ },
+ "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/argofowl/status/2091150597374537729": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/ovhcloud-memory-price-rise": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vw68ut/the_interview_that_wouldnt_die": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/cloudflare-kitesurf-browser": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/region-switch-rds-switchover-execution-block": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vw0c0u/software_architecture_diagrams_with_c4_model": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/bot-preference-sync": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vw6z10/why_so_many_languages_use_llvm": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://malisper.me/jit-compiling-code-in-5-us": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.kowalczyk.info/a-n8wf/optimizing-memory-use-in-markdown-parser.html": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lapcatsoftware.com/articles/2026/8/7.html": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 2,
+  "prev": null
+ },
+ "https://hister.org/": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/kxualw/are_there_any_decent_programs_for_pdf": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vw433z/how_a_128_mb_windows_ce_device_taught_me_debugging": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/moxie/status/2091218652133732491": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://quantumi.sh/public/labs.html": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://decodingvibes.com/blog/a-kantian-critique-of-sorry-by-justin-bieber": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.wybxc.cc/blog/rust-gui-survey-2026": {
+  "first": "2026-08-23",
+  "last": "2026-08-23",
+  "sources": 1,
+  "prev": null
  }
 }

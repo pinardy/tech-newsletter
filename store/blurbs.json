@@ -554,5 +554,20 @@
  "https://www.reddit.com/r/programming/comments/1vv78fc/the_pit_of_success/": null,
  "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/": null,
  "https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/": "It’s time to dream big. Omarchy Quattro has given people a chance to experience what the malleable computer of the future looks like, and they like it (a lot!). It now feels like a moral obligation to make this future more broadly…",
- "https://rust-glancer.github.io/blog/hello-world/": "Rust LSP that doesn't eat memory for breakfast"
+ "https://rust-glancer.github.io/blog/hello-world/": "Rust LSP that doesn't eat memory for breakfast",
+ "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917": "Quick Introduction We have all been on forums, chats, reddit, discord, youtube, or somewhere and heard “Oh!",
+ "https://twitter.com/argofowl/status/2091150597374537729": null,
+ "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c": "Linux kernel source tree. Contribute to torvalds/linux development by creating an account on GitHub.",
+ "https://www.reddit.com/r/programming/comments/1vw0c0u/software_architecture_diagrams_with_c4_model/": null,
+ "https://lapcatsoftware.com/articles/2026/8/7.html": null,
+ "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/": "I’m obsessed with the craft of writing. I write every day, I read about the craft often, and in my...",
+ "https://twitter.com/moxie/status/2091218652133732491": null,
+ "https://quantumi.sh/public/labs.html": null,
+ "https://decodingvibes.com/blog/a-kantian-critique-of-sorry-by-justin-bieber/": "Justin Bieber's \"Sorry\" is a song about regret, asking for forgiveness, and wanting another chance after having hurt someone. But philosophically speaking, what exactly makes an apology morally meaningful?",
+ "https://blog.kowalczyk.info/a-n8wf/optimizing-memory-use-in-markdown-parser.html": "I ported a Markdown parser from Rust to C++ and then optimized the hell out of it.",
+ "https://malisper.me/jit-compiling-code-in-5-us/": "Build a copy-and-patch JIT compiler in Rust, generate ARM64 machine code, and benchmark it against an interpreter and handwritten implementation.",
+ "https://www.reddit.com/r/programming/comments/1vw6z10/why_so_many_languages_use_llvm/": null,
+ "https://www.reddit.com/r/programming/comments/1vw433z/how_a_128_mb_windows_ce_device_taught_me_debugging/": null,
+ "https://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html": null,
+ "https://blog.wybxc.cc/blog/rust-gui-survey-2026/": null
 }
