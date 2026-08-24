@@ -5110,5 +5110,221 @@
   "last": "2026-08-23",
   "sources": 1,
   "prev": null
+ },
+ "https://infoq.com/podcasts/brownfield-codebases-mob-programming": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/autonomous-ai-software-development-roblox": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/cloudflare-os-ai-platform-secure": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/google-heir-homomorphic-llm": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ericpardee.github.io/fire-hd-ownership": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-streams-abac": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/mediaconnect-router-latency-modes": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ferd.ca/control-and-complexity-tension-in-systems-design.html": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 2,
+  "prev": null
+ },
+ "https://greatcircle.com/blog/2026/07/21/heroic-saves-are-near-misses": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://humanisticsystems.com/2025/10/14/seeing-the-people-in-control": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/benchmarks": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dzone.com/articles/structured-logging-in-distributed-systems": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/rightsizing-platform-engineering": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://uptimelabs.io/articles/incident-response-ai-qa": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vwvdom/how_an_underrated_refactor_saved_90_memory_usage": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/java-27-so-far": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/20/spring-boot-4-2-0-M1-available-now": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vwb745/how_to_report_a_bug_so_it_actually_gets_fixed": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.tymscar.com/posts/howtoreportabug": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 2,
+  "prev": null
+ },
+ "https://jordanlord.co.uk/blog/3-constraints": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vwfrbg/stop_using_conventional_commits": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://text.marvinborner.de/2024-11-18-00.html": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://haveibeensquatted.com/blog/building-certgrep": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.modelcontextprotocol.io/posts/mcp-roadmap": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bandarlabs.github.io/Cobalt": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vw91lz/how_to_design_an_animation": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/lo28ad/what_are_you_doing_this_week": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://precastreinforced.co.uk/2026/08/16/new-worlds": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lists.gnu.org/archive/html/info-gnu-emacs/2026-08/msg00004.html": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/amd-memory-exploit": {
+  "first": "2026-08-24",
+  "last": "2026-08-24",
+  "sources": 1,
+  "prev": null
  }
 }
