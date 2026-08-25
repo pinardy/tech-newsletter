@@ -5326,5 +5326,257 @@
   "last": "2026-08-24",
   "sources": 1,
   "prev": null
+ },
+ "https://larsfaye.com/articles/ai-coding-will-prevent-expertise": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 2,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/cursor-origin-alternative-github": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developers.openai.com/api/docs/pricing": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/microsoft-ai-governance": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-hyperpod-ray": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/cd-reliability-innovation": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vx81cr/your_executable_is_a_sqlite_database": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 2,
+  "prev": null
+ },
+ "https://theconsensus.dev/p/2026/08/23/another-look-at-sqlite-wal-reset.html": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/duckdb-v2-distributed": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gremlin.com/blog/optimizing-kubernetes-pod-deployments-for-reliability-with-topology-spread-constraints": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://routeup.dev/": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vxl0w4/running_a_java_spring_boot_app_on_a_512_mb_vps": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jyn.dev/distributed-identity": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/cloudflare-blog-uses-emdash": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/0typpq/i_cannot_survive_from_burnout": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/nuxt-4-5-streaming": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ssx360.github.io/rack-02": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://osnews.com/story/144892/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://acadia.engineering/blog/solving-the-1-plus-N-query-problem": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vxud0f/solving_the_1n_query_problem": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 2,
+  "prev": null
+ },
+ "https://sigma-star.at/blog/2026/08/go-runtime-netpoll-bug": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vincent.bernat.ch/en/blog/2026-spanning-tree": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://honk.foo/porffor-alpha": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/lemire/status/2091894299289874926": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://crowdsupply.com/mnt-research/mnt-station": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nemin.hu/vps/index.html": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://paulgraham.com/prepare.html": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.apple.com/news?id=1ptvdtcm": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bbc.com/news/articles/c4g36yze692o": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bbc.com/news/articles/c62m4gpnp78o": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/bmc-vulnerabilities": {
+  "first": "2026-08-25",
+  "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
  }
 }
