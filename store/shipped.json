@@ -4459,9 +4459,9 @@
  },
  "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust": {
   "first": "2026-08-20",
-  "last": "2026-08-20",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": 1
  },
  "https://kernelkennel.com/blog/summercon2026-rosetta": {
   "first": "2026-08-20",
@@ -4591,9 +4591,9 @@
  },
  "https://bun.com/blog/bun-v1.4": {
   "first": "2026-08-21",
-  "last": "2026-08-21",
-  "sources": 2,
-  "prev": null
+  "last": "2026-08-26",
+  "sources": 3,
+  "prev": 2
  },
  "https://reddit.com/r/programming/comments/1vuec8q/bun_and_elm_rare_friends_cekremgithubio": {
   "first": "2026-08-21",
@@ -5455,9 +5455,9 @@
  },
  "https://blog.cloudflare.com/cloudflare-blog-uses-emdash": {
   "first": "2026-08-25",
-  "last": "2026-08-25",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": 1
  },
  "https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders": {
   "first": "2026-08-25",
@@ -5576,6 +5576,348 @@
  "https://infoq.com/news/2026/08/bmc-vulnerabilities": {
   "first": "2026-08-25",
   "last": "2026-08-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jdagostino.github.io/ai-pt2-multi-gpu-drifting/index.html": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/claude-sre-incidents": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/diagrid-catalyst-ai-agents": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kevinmahoney.co.uk/articles/ai-review-loops": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lighthousenewsletter.com/p/rag-is-simpler-than-you-think": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.coredump.cx/p/how-much-of-hn-is-ai": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/beyond-offset-lag-kafka-apache-hudi": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vyxi4r/ducklabs_to_join_aws_projects_to_remain_open": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/capacity-reservation-resource-groups-ec2": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-supports-privatelink": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iot-core-influxdb": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://crunchydata.com/blog/postgres-19-how-our-advice-has-changed-since-we-wrote-it": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://changelog.com/podcast/684": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theregister.com/databases/2026/08/19/postgres-pioneer-credits-oracle-with-helping-his-database-take-over-the-world/5289087": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://2026.postgressummit.us/": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.us/events/postgressummitus2026/schedule": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vycpx9/latency_optimizations_on_the_system_level": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bun.com/blog/bun-in-rust": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vy1csq/bunpluginelm_import_elm_from_mainelm_made_by_hand": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://portswigger.net/research/whats-in-a-tag-name-javascript-apparently": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://runjs.app/blog/music-theory-for-programmers": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://jack.bio/blog/licenseplate": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vyuagp/the_depths_of_javascript_minesweeper_in_247_bytes": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://solidjs.com/blog/solid-2-0-rc-the-big-reveal": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nextjs.org/blog/building-app-like-experiences-with-nextjs-16-3": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developers.webflow.com/": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/26/spring-modulith-2-2-m1-2-1-1-2-0-8-and-1-4-13-released": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/08/25/this-week-in-spring-august-25": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/java-news-roundup-aug17-2026": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vynzwf/casey_muratori_the_root_of_the_root_of_all_evil": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=hpj6r6CjJf8": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vyb1js/memory_ordering_in_cpus": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://fgiesen.wordpress.com/2026/08/25/memory-ordering-in-cpus": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vxz0z4/eve_online_the_move_to_python_3_begins": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://eveonline.com/news/view/the-move-to-python-3-begins": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://jfmengels.net/concurrent-linter-fixes": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vyw6tj/problem_with_concurrent_linter_fixes": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://academy.fpblock.com/blog/2017/06/readert-design-pattern": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/zedeus/nitter/issues/1442": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=49446210": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=49440786": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rorz.io/writing/my-friend-aaron": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vwyjg2/what_zig_felt_like_coming_from_rust": {
+  "first": "2026-08-20",
+  "last": "2026-08-26",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://pointersgonewild.com/2026-08-25-replacing-a-rust-enum-with-a-64-bit-word": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.happyfellow.dev/merchants-of-insecurity": {
+  "first": "2026-08-26",
+  "last": "2026-08-26",
   "sources": 1,
   "prev": null
  }
