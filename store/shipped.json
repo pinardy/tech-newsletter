@@ -931,9 +931,9 @@
  },
  "https://youtube.com/playlist": {
   "first": "2026-08-11",
-  "last": "2026-08-11",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": 1
  },
  "https://youtube.com/watch?v=J-sKZ1mdxi0": {
   "first": "2026-08-11",
@@ -1135,9 +1135,9 @@
  },
  "https://tigerdata.com/go/trial": {
   "first": "2026-08-11",
-  "last": "2026-08-18",
-  "sources": 2,
-  "prev": 1
+  "last": "2026-08-28",
+  "sources": 3,
+  "prev": 2
  },
  "https://infoq.com/news/2026/08/jep401-value-objects-preview": {
   "first": "2026-08-11",
@@ -3085,9 +3085,9 @@
  },
  "https://github.com/Agent-Field/pr-af": {
   "first": "2026-08-16",
-  "last": "2026-08-16",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-rc.1": {
   "first": "2026-08-16",
@@ -5509,9 +5509,9 @@
  },
  "https://sigma-star.at/blog/2026/08/go-runtime-netpoll-bug": {
   "first": "2026-08-25",
-  "last": "2026-08-25",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": 1
  },
  "https://vincent.bernat.ch/en/blog/2026-spanning-tree": {
   "first": "2026-08-25",
@@ -5785,9 +5785,9 @@
  },
  "https://nextjs.org/blog/building-app-like-experiences-with-nextjs-16-3": {
   "first": "2026-08-26",
-  "last": "2026-08-26",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": 1
  },
  "https://developers.webflow.com/": {
   "first": "2026-08-26",
@@ -5941,9 +5941,9 @@
  },
  "https://neilalexander.dev/2026/06/30/flooding-contributions.html": {
   "first": "2026-08-27",
-  "last": "2026-08-27",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": 1
  },
  "https://sourcehut.org/blog/2026-08-27-tos-changes-and-llms": {
   "first": "2026-08-27",
@@ -6085,15 +6085,15 @@
  },
  "https://blog.cloudflare.com/dns-cache-memory-optimization-1111": {
   "first": "2026-08-27",
-  "last": "2026-08-27",
-  "sources": 2,
-  "prev": null
+  "last": "2026-08-28",
+  "sources": 4,
+  "prev": 2
  },
  "https://reddit.com/r/programming/comments/1w06vn1/how_we_saved_100_terabytes_of_memory_by": {
   "first": "2026-08-27",
-  "last": "2026-08-27",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-28",
+  "sources": 4,
+  "prev": 1
  },
  "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage": {
   "first": "2026-08-27",
@@ -6139,9 +6139,9 @@
  },
  "https://matuzo.at/blog/2026/html-boilerplate": {
   "first": "2026-08-27",
-  "last": "2026-08-27",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": 1
  },
  "https://gist.github.com/stagas/09ad937b493bf8cd3285917279de2488": {
   "first": "2026-08-27",
@@ -6331,7 +6331,427 @@
  },
  "https://github.com/rails/rails/pull/57973": {
   "first": "2026-08-27",
-  "last": "2026-08-27",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://neilalexander.dev/2026/06/30/flooding-contributions": {
+  "first": "2026-08-27",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://markwilliamscook.substack.com/p/how-catstxt-showed-llmstxt-evidence": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300-instances-available-additional-regions": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-glimmer-30b-qwen-3.8-27b-on-sagemaker-jumpstart": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/aks-node-disruption": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/vyruss/pg_statviz": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgbot.dev/": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/pqc-in-spring-boot": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w0x12x/how_we_tunnel_a_public_url_into_an_untrusted": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/pgEdge/coldfront": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hashicorp.com/blog/relaunching-hashicorp-validated-designs-with-improved-usability": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w0u6rw/followup_running_the_same_spring_boot_app_on_a": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/uber-gitfarm-git-as-a-service": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://engineering.grab.com/data-mesh-at-grab-part-three": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/netflix-commerce-architecture-evolution": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/botbase-for-operators": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/sibling-index": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/154": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.chrome.com/blog/chrome-153-beta": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wordpress.org/news/2026/08/browser-extension": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rfc-editor.org/info/rfc10008": {
+  "first": "2026-08-27",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://victoriametrics.com/blog/go-sync-map-hash-trie": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://go.dev/blog/generic-methods": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/81022": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.gnoack.org/post/git-history-split": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://usenix.org/about/awards/flame": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=wSXATB0H1DY": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tkdodo.eu/blog/reliable-query-prefetching-with-tanstack-router": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://tanstack.com/blog/tanstack-ai-rc": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ionic.io/blog/announcing-ionic-framework-9": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://ionicframework.com/docs/updating/9-0": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://aws.amazon.com/blogs/compute/introducing-public-preview-runtimes-on-aws-lambda-starting-with-node-js-26-and-python-3-15": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/blob/main/doc/contributing/ai-guidelines.md": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/issues/65314": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pnpm.io/blog/releases/12.0": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.platformatic.dev/query-pipelining-in-node-postgres-2-3x-throughput-with-one-line-of-code": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://arxiv.org/abs/2608.23228": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vz921w/mold_a_massively_parallel_linker": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://modal.cx/blog/announcing-flatpak-sta": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/meta-hccl": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://en.refund4freedom.org/": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://schlarp.com/posts/everything-i-own-owned": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vztl74/how_jekyll_works": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nextjs.org/blog/august-2026-security-release": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vvf3p0/nextjs_dynamic_routes_now_also_available_in_faces": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lovable.dev/blog/how-we-migrated-lovable-dev-away-from-nextjs": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://svar.dev/blog/building-data-grid-in-react-vue-svelte": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/react/react/pull/37290": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/react/react/pull/35392": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://margelo.com/blog/building-a-3d-ai-avatar-in-react-native": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w0w1pp/htmx_400_has_been_released": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ardour.org/whatsnew.html": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rails/rails/pull/58552": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyonrails.org/2026/8/13/agents-on-rails-the-first-benchmark-report": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://intertwingly.net/blog/2026/08/25/Campfire-on-Spinel.html": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://zverok.space/blog/2026-08-16-assertions-and-matchers.html": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/alibaba-audio-fingerprinting": {
+  "first": "2026-08-28",
+  "last": "2026-08-28",
   "sources": 1,
   "prev": null
  }
