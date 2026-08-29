@@ -6655,9 +6655,9 @@
  },
  "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released": {
   "first": "2026-08-28",
-  "last": "2026-08-28",
-  "sources": 2,
-  "prev": null
+  "last": "2026-08-29",
+  "sources": 3,
+  "prev": 2
  },
  "https://schlarp.com/posts/everything-i-own-owned": {
   "first": "2026-08-28",
@@ -6715,9 +6715,9 @@
  },
  "https://reddit.com/r/programming/comments/1w0w1pp/htmx_400_has_been_released": {
   "first": "2026-08-28",
-  "last": "2026-08-28",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-29",
+  "sources": 3,
+  "prev": 1
  },
  "https://ardour.org/whatsnew.html": {
   "first": "2026-08-28",
@@ -6752,6 +6752,402 @@
  "https://infoq.com/news/2026/08/alibaba-audio-fingerprinting": {
   "first": "2026-08-28",
   "last": "2026-08-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://phoronix.com/news/Debian-Votes-Responsible-AI-Use": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://lwn.net/Articles/1091231": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://debian.org/vote/2026/vote_002": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/freetoken-local-inference": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/enterprise-data-architecture-ai-agents": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/workers-inbound-tcp-grpc": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/spacexai-grok-4-6-govcloud": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-two-new-regions": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gn-europe-paris": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-fedramp-class-c": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w12s1m/logfirst_or_tablefirst_apache_kafka_fluss": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w1iiaw/coding_a_database_proxy_for_fun": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tzovar.as/scaling-up-and-on-being-the-right-size": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://chrissmith.xyz/blog/2026/the-process-of-migrating-from-sass-to-native-css": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://css-tricks.com/css-navigation-matching-early-days": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://carmenansio.com/articles/3d-css-guide": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://0.mk/blog/link-rot": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://expo.dev/blog/how-to-build-mobile-apps-with-ai-the-three-tools-that-actually-matter": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=fH5hoZJL_tQ": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=F1mH6E8cp0M": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/80058": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kerkour.com/golang-chacha20-encryption-simd-archsimd": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://preslav.me/2026/08/27/scoped-coverage-ai-test-pruning": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=RK7oQie4d9k": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=cywK3XYYJ2o": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bhugo.dev/blog/compile-time-crimes/1": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://carlos-menezes.com/posts/hiding-properties-typescript": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w190pi/lean_explained_with_typescript": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/vji9aj/any_true_alternatives_electron": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.master.dev/react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jobs.fidelity.com/en/life-at-fidelity/our-stories/tech-careers/fidelity-tech-strategy-empowers-associates": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://better-auth.com/blog/1-7": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://svgo.dev/": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://core.telegram.org/bots/api": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gtkx.dev/": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://xyops.io/": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1vz715a/how_to_drive_your_frontend_from_the_backend": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w1q308/crossing_boundaries_with_integration_events": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://s-config.com/stopping-a-smart-tv-from-being-used-against-you": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://joeyh.name/blog/entry/Debian_and_the_sirens": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jacky.wtf/essays/2026/kicked-out": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/Lakr233/vphone-cli": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bbc.com/news/articles/cn45vdxyvvlo": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thehealthy.com/news/chicken-recall-fsis-august-2026": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://people.kernel.org/monsieuricon/creepy-crawlies": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shkspr.mobi/blog/2013/11/civic-hygiene": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://waku.gg/blog/waku-v1-rc": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aurorascharff.no/posts/coordinating-optimistic-updates-in-nextjs": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://margelo.github.io/react-native-filament": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sigh.dev/posts/making-react-testing-library-faster": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://oxc.rs/blog/2026-08-18-react-compiler-support": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trysound.github.io/rifm": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://akselmo.dev/posts/union-qtwidgets": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://leftofthe.dev/2026/08/24/hanami-3-impressions.html": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fastruby.io/blog/what-replacing-react-with-hotwire-really-costs.html": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyonrails.org/2026/8/24/agents-on-rails-lemans": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aha.io/engineering/articles/debugging-with-stack-prof": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.appsignal.com/2026/08/18/why-you-shouldnt-vibe-code-your-monitoring-tool.html": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w1bjk0/crystal_lang_releasing_execution_contexts": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/waka/sghtmltopdf": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://anil.recoil.org/notes/rumour-is-the-exploit": {
+  "first": "2026-08-29",
+  "last": "2026-08-29",
   "sources": 1,
   "prev": null
  }
