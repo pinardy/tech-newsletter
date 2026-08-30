@@ -7150,5 +7150,335 @@
   "last": "2026-08-29",
   "sources": 1,
   "prev": null
+ },
+ "https://infoq.com/news/2026/08/kiro-crew-coding-agents": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w0y9dk/architecting_the_next_generation_of_asynchronous": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w271ba/how_llms_actually_work": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-fsx-netapp-cross-account-region": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-evs-i7i-48xl": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bram.us/2026/08/20/the-future-of-css-target-multiple-classes-with-the-class-prefix-selector": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://a-dev.github.io/probes/corner-shape": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://agustinbarrientos.com/writing/senior-eye/searchable-accordions": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dev.to/a-dev/css-corner-shape-add-a-squircle-to-your-design-today-with-the-right-fallback-3ne6": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer-api.foxit.com/developer-blogs/api-guides-tutorials/esignature-api-guide-add-signing-app": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/yuin/goldmark": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/80957": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://staticcheck.dev/": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/boyter/scc": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/lithammer/shortuuid": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://packagemain.tech/p/golang-datastar": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w1y2m3/inside_the_typescript_checker_from_text_to_types": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stryker-mutator.io/docs/mutation-testing-elements/supported-mutators": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://formisch.dev/blog/formisch-v1": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/maplibre/maplibre-gl-js": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/hulkholden/n64js": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://danluu.com/bug-blind": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w2fc9t/automating_immersive_reading": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 2,
+  "prev": null
+ },
+ "https://smoores.dev/post/automating_immersive_reading": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 2,
+  "prev": null
+ },
+ "https://yogthos.net/posts/2026-08-29-glimmer-ui.html": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w1wbcj/wrapping_gtk4_in_800_lines_of_clojure_with_jolt": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 2,
+  "prev": null
+ },
+ "https://mattiryttylainen.com/posts/on-taste": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ufried.com/blog/essence_of_architecture_6": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://phoronix.com/news/California-AB-1856-Passes": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stephendiehl.com/posts/internet_predatory_cesspit": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://huggingface.co/zai-org/GLM-5.3": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w2ckmm/reverse_engineering_unknown_file_formats_with": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/TanStack/query/pull/10658": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reactsummit.us/": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gram-editor.com/posts/release-3.3.0": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jpcamara.com/2026/08/24/a-guide-to-using-batches.html": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rails/solid_queue": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/yaroslav/kino/releases/tag/v0.4.0": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://yaroslav.io/opensource/kino": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://west.railscamp.us/2026": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://2026.euruko.org/": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rust-lang.org/inside-rust/2026/08/19/overloading-experiment": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dl.acm.org/doi/epdf/10.1145/3830438.3830958": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://inferara.com/blog/rust-tagless-final-gadt": {
+  "first": "2026-08-30",
+  "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
  }
 }
