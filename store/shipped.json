@@ -6295,9 +6295,9 @@
  },
  "https://haiku-os.org/get-haiku/r1beta6/release-notes": {
   "first": "2026-08-27",
-  "last": "2026-08-27",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-31",
+  "sources": 2,
+  "prev": 1
  },
  "https://elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain": {
   "first": "2026-08-27",
@@ -7159,9 +7159,9 @@
  },
  "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode": {
   "first": "2026-08-30",
-  "last": "2026-08-30",
-  "sources": 1,
-  "prev": null
+  "last": "2026-08-31",
+  "sources": 2,
+  "prev": 1
  },
  "https://reddit.com/r/programming/comments/1w0y9dk/architecting_the_next_generation_of_asynchronous": {
   "first": "2026-08-30",
@@ -7478,6 +7478,366 @@
  "https://inferara.com/blog/rust-tagless-final-gadt": {
   "first": "2026-08-30",
   "last": "2026-08-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/anthropics/claude-code/issues/66504": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/local-ai-browser-inference-privacy": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/foundry-model-router-regions": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/cloudflare-ai-search": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://noaifridays.com/": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/evolving-desktop-agentic-ux": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gist.github.com/NicolasCARPi/3fd349ed1ed52ae6b835d5364cda4cd6": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alexalejandre.com/interviews/interview-with-oofoe": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/gcp-wif-scale": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://prela-lang.org/tutorial": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w39te8/the_hugging_face_incident_from_a_security": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://adyen.com/knowledge-hub/inside-cilium-cni-solving-kubernetes-pod-setup-timeouts": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sridharrajarao.com/blog/storage-at-scale": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://uber.com/us/en/blog/from-static-rate-limiting-to-intelligent-load-management": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://greatcircle.com/blog/2026/08/11/declaring-incidents-for-side-effects": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://queue.acm.org/detail.cfm": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pub.towardsai.net/the-rise-of-cognitive-observability-a77e33250037": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mobileview.app/": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/aarongustafson/form-saver": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sveltebits.xyz/": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dither.neato.fun/": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pdimagearchive.org/": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://type.lol/": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jobs.ashbyhq.com/Discern/86a45dff-638b-4261-a288-9f073ef47e1f": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://viam.com/viam-101": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shape-of-go.pages.dev/": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/java-news-roundup-aug24-2026": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://0xcc.io/posts/omarchy-root-creds": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 2,
+  "prev": null
+ },
+ "https://mannulinux.org/2026/08/Privilege-escalation-from-IIS-AppPool-to-NT-AuthoritySYSTEM-via-AD-CS-RPC-endpoint.html": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/08/doordash-flux-cloud-agent": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://servo.org/blog/2026/08/31/july-in-servo": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w3g3vi/on_endtoend_tests_during_redesign": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://unsung.aresluna.org/i-just-chose-words-carefully": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/vb1jgu/what_are_you_doing_this_week": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nolanlawson.com/2026/08/31/on-not-becoming-a-cyborg": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://martypc.blogspot.com/2026/08/executable-emoji.html": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://haiku-os.org/news/2026-08-26_haiku_r1_beta6": {
+  "first": "2026-08-27",
+  "last": "2026-08-31",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://infoq.com/news/2026/08/flexgantfx": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://decuser.github.io/posts/aiki-alpha-3-release": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyonrails.org/world/2026": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyonrails.org/2026/6/22/here-are-the-rails-world-2026-speakers": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rockymtnruby.dev/": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://helsinkiruby.fi/tinyruby": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://xoruby.com/event/toronto-2": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kaigionrails.org/2026": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w39988/a_cve_dispute": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kenmuse.com/blog/rootless-docker-and-its-hidden-security-trade-offs": {
+  "first": "2026-08-31",
+  "last": "2026-08-31",
   "sources": 1,
   "prev": null
  }
