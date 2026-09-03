@@ -8410,5 +8410,305 @@
   "last": "2026-09-02",
   "sources": 1,
   "prev": null
+ },
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/openai-gpt-live": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://claude.com/check-content": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://depesz.com/2026/08/25/new-things-for-regular-expressions-in-postgresql-pg_tre-and-pg_re2": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 2,
+  "prev": null
+ },
+ "https://andyatkinson.com/postgresql-18-uuidv7": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://richyen.com/postgres/2026/08/31/pg_catalog_almanac.html": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w5gtxg/postgres_calculations_and_the_ambiguity_of_null": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/docs/current/history.html": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vonng.com/en/pg/happy-30-birthday": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w4ctb4/the_browsers_main_thread_is_expensive": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 2,
+  "prev": null
+ },
+ "https://kciter.so/posts/the-expensive-main-thread/en": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w4g6ga/performance_of_webassembly_runtimes_in_2026": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/155": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://web.dev/blog/web-platform-08-2026": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bram.us/2026/08/27/feature-detecting-undetectable-css-features-with-supports-named-feature": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://carmenansio.com/articles/modernist-tiles-css-grid": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bkardell.com/blog/EnhancedSpellchecking.html": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/Igalia/explainers/blob/main/spell-check-dictionary/README.md": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://svelte.dev/blog/whats-new-in-svelte-september-2026": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://astro.build/blog/whats-new-august-2026": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rspack.rs/blog/announcing-2-2": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://uppy.io/blog/uppy-6.0": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/microsoft/TypeScript/pull/63931": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://yob.id.au/2026/09/01/major-version-bumps.html": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gingerbill.org/article/2026/09/02/ctti-is-exponential-rtti-is-linear": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w5ov1s/ctti_is_exponential_rtti_is_linear": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 2,
+  "prev": null
+ },
+ "https://ochagavia.nl/blog/lets-build-a-compressor-from-scratch": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w5l8wx/lets_build_a_compressor_from_scratch": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 2,
+  "prev": null
+ },
+ "https://infoq.com/presentations/instrumenting-scale": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://victoriametrics.com/blog/go-swiss-table-map": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lwn.net/Articles/1090585": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 2,
+  "prev": null
+ },
+ "https://ploum.net/2026-09-02-i_dont_have_a_smartphone.html": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 2,
+  "prev": null
+ },
+ "https://qtea.me/posts/souping-up-my-blog": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.meta.com/ai/models/muse-spark": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://forums.paint.net/topic/134562-paintnet-52-alpha-build-9739": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/cohere-multimodal-parse": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pola.rs/posts/announcing-polars-2": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/pnpm-12-rust": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shnatsel.github.io/implementing-fma-finding-bugs-in-std": {
+  "first": "2026-09-03",
+  "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
  }
 }
