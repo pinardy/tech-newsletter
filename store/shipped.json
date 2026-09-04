@@ -8317,9 +8317,9 @@
  },
  "https://yui.dev/blog/minesweeper-in-247-bytes": {
   "first": "2026-09-02",
-  "last": "2026-09-02",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-04",
+  "sources": 2,
+  "prev": 1
  },
  "https://spring.io/blog/2026/09/01/this-week-in-spring-september-1-2026": {
   "first": "2026-09-02",
@@ -8605,9 +8605,9 @@
  },
  "https://yob.id.au/2026/09/01/major-version-bumps.html": {
   "first": "2026-09-03",
-  "last": "2026-09-03",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-04",
+  "sources": 2,
+  "prev": 1
  },
  "https://gingerbill.org/article/2026/09/02/ctti-is-exponential-rtti-is-linear": {
   "first": "2026-09-03",
@@ -8708,6 +8708,480 @@
  "https://shnatsel.github.io/implementing-fma-finding-bugs-in-std": {
   "first": "2026-09-03",
   "last": "2026-09-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/gpt-6-astra": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=49551096": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://status.claude.com/incidents/461yvfrzpwtt": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://armature.tech/blog/which-tools-coding-agents-install": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/minibooks/next-gen-architecture-ai-era": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/spotify-gisting-llm-performance": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/human-reviews-AI-era": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/personality-over-skillset": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://changelog.com/podcast/685": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w6t25a/is_it_possible_to_deserialized_a_saved_file_of_an": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b200-instances-available-asia-pacific-hyderabad": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b300-instances-available-asia-pacific-jakarta": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/vortex-columnar-file-format-gpu-streaming": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/copilot-code-review-azure-repos": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-max-5x-usage-power-users": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=h7by8IKtJG0": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://clickhouse.com/blog/postgres-19-new-system-views": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgterm.dev/": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bdrouvot.github.io/2026/08/20/welcome-to-pg-shmemviz-postgresql-shared-memory-visualizer": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://powa.readthedocs.io/en/latest": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w6yff8/how_to_secure_ssh_and_postgres_with_warpgate": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/pg-sharding/spqr/releases/tag/3.1.0": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hashicorp.com/blog/the-common-security-controls-behind-indias-regulatory-wave": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://virtualizor.com/blog/security-incident-bgp-hijacking": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/vulnerability-discovery-remediation": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vale.rocks/micros/20260902-1350": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bram.us/2026/08/18/the-case-for-tri-state-dark-mode-toggles": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jakearchibald.com/2026/css-custom-property-compute-time": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ronaldsvilcins.com/2026/08/30/native-html-and-css-features-that-replaced-javascript": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/jquery-20-years": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/nr3ucr/webdev_intro_course_what_small_changes": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://d.erenrich.net/apple.avif": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://csswizardry.com/2026/08/web-perf-wednesday-006-faster-browser-releases-change-your-rum-population": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kikkupico.github.io/ambientcss/ambient-css/grounded": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kikkupico.github.io/ambientcss/guide/concept": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://zod.dev/blog/zod-4-5": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://four.htmx.org/docs/whats-new-in-htmx-4": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://four.htmx.org/patterns": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://zod.dev/blog/reducing-memory-footprint": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/kubernetes-kyaml-manifests": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w6kpls/new_inetsocketaddresshost_port_resolves_dns_once": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trilon.io/blog/nestjs-12-is-now-available": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nestjs.com/": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bun.com/node-test-suite": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/65475": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/65675": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://expressjs.com/en/blog/2026-08-31-security-releases": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://inference-docs.cerebras.ai/models/overview": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://chatgpt.com/": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ifm.ai/blog/k2": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://neil.fraser.name/news/2026/09/03": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 2,
+  "prev": null
+ },
+ "https://techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://eighty-twenty.org/2026/09/04/smolts": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://apfelmus.nfshost.com/articles/lazy-eval.html": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://zine-ssg.io/log": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w721ry/avoid_adding_new_library_to_project_10year": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://anyhumanever.com/": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pointieststick.com/2026/09/03/bug-triaging-help-needed": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/ku30xf/what_are_you_doing_this_weekend": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://railsatscale.com/2026-09-01-zjit-gc-fastpath": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bsky.app/profile/eregon.me/post/3mujrhljuac2w": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugs.ruby-lang.org/issues/22275": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyonrails.org/2026/9/2/agents-on-rails-claude-fable-5-1-and-glm-5-3-flash": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://intertwingly.net/blog/2026/09/01/Campfire-Chats.html": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rubygems.org/2026/09/02/4.0.20-released.html": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w6sn8n/the_g7_tells_industry_to_hurry_up_and_prep_for": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/apple-continuity-linux": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://purplesyringa.moe/blog/guest/the-nx-bit-is-not-just-about-security": {
+  "first": "2026-09-04",
+  "last": "2026-09-04",
   "sources": 1,
   "prev": null
  }
