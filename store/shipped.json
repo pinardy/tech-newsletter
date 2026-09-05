@@ -1135,9 +1135,9 @@
  },
  "https://tigerdata.com/go/trial": {
   "first": "2026-08-11",
-  "last": "2026-08-28",
-  "sources": 3,
-  "prev": 2
+  "last": "2026-09-05",
+  "sources": 4,
+  "prev": 3
  },
  "https://infoq.com/news/2026/08/jep401-value-objects-preview": {
   "first": "2026-08-11",
@@ -8305,9 +8305,9 @@
  },
  "https://expo.dev/solutions/expo-for-react-web-devs": {
   "first": "2026-09-02",
-  "last": "2026-09-02",
-  "sources": 2,
-  "prev": null
+  "last": "2026-09-05",
+  "sources": 3,
+  "prev": 2
  },
  "https://remix.run/blog/remix-3-release-candidate": {
   "first": "2026-09-02",
@@ -8641,9 +8641,9 @@
  },
  "https://victoriametrics.com/blog/go-swiss-table-map": {
   "first": "2026-09-03",
-  "last": "2026-09-03",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": 1
  },
  "https://lwn.net/Articles/1090585": {
   "first": "2026-09-03",
@@ -8941,9 +8941,9 @@
  },
  "https://ronaldsvilcins.com/2026/08/30/native-html-and-css-features-that-replaced-javascript": {
   "first": "2026-09-04",
-  "last": "2026-09-04",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": 1
  },
  "https://infoq.com/news/2026/09/jquery-20-years": {
   "first": "2026-09-04",
@@ -9073,9 +9073,9 @@
  },
  "https://neil.fraser.name/news/2026/09/03": {
   "first": "2026-09-04",
-  "last": "2026-09-04",
-  "sources": 2,
-  "prev": null
+  "last": "2026-09-05",
+  "sources": 3,
+  "prev": 2
  },
  "https://techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year": {
   "first": "2026-09-04",
@@ -9181,8 +9181,410 @@
  },
  "https://purplesyringa.moe/blog/guest/the-nx-bit-is-not-just-about-security": {
   "first": "2026-09-04",
-  "last": "2026-09-04",
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://collusion.wiki/": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://openrouter.ai/openai/gpt-6-astra": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
   "sources": 1,
   "prev": null
+ },
+ "https://wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://lobste.rs/s/fxccx9/is_it_too_much_ask_devs_use_ai_review_their": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/2eai0v/ai_it_s_not_bad_it_s_tool": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/blume-docs-ai": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/google-beyond-zero": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arxiv.org/abs/2607.24888": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/trzpsg/seeking_designer_for_small_company": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/airbnb-server-driven-login": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://intel.github.io/SDM/announcement/2026/08/20/announce-preview.html": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://zachleat.com/web/speedlify2": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/GoogleChromeLabs/quicklink": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surveyjs.io/": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go.dev/blog/goroutine-leak-profiles": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 3,
+  "prev": null
+ },
+ "https://lemire.me/blog/2026/08/29/the-new-go-json-api-twice-as-fast-or-1-5x-slower": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://tinygo.org/blog/2026/tinygo-0.42-recover-is-real": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://groups.google.com/g/golang-nuts/c/hZGtItqO-mQ": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://checklyhq.com/blog/agentic-rewrite-nodejs-to-go": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://bsky.app/profile/swtch.com/post/3mtwnosklvk2v": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer-api.foxit.com/developer-blogs/api-guides-tutorials/pdf-data-extraction-api-structured-json": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gruhn.me/blog/2026-08-29": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w7rkbm/principles_of_memory_management_in_java": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/03/a-bootiful-podcast-catherine-edelvais": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vimeo.com/1223666800": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.sentry.io/otel-spans-errors-sentry-trace": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://codesilva.com/programacao/2026/08/13/detecting-sqlite-full-table-scans-in-nodejs": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thenodebook.com/worker-threads/workers-vs-processes": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/issues/65536": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://codeberg.org/hgrsd/zopt": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://uutils.org/blog/2026-08-error-diagnostics": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w7dn8q/name_termination": {
+  "first": "2026-09-04",
+  "last": "2026-09-05",
+  "sources": 3,
+  "prev": 2
+ },
+ "https://pushin.eu/": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/ai-predictions-2030": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nyc.gov/content/pitcrew/pages": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bbc.com/news/articles/cvgyn8q8gqxo": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://linear.app/now/styling-linear-for-the-future-stylex": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=NIG9GbVU5po": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vitest.dev/guide/migration": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://x.com/tan_stack/status/2094888852607652280": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nextjs.org/blog/turbopack-chunking": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.sentry.io/evaluate-session-replay-software": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/jupyter-gis-extension": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugs.ruby-lang.org/issues/22272": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugs.ruby-lang.org/issues/22274": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://code.dblock.org/2026/08/28/adventures-in-daylight-saving-norfolk-island-and-time-zone-math-in-ruby.html": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ethiack.com/info-hub/research/kindarails2shell-rails-rce-cve-2026-66066": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://arxiv.org/abs/2605.23490": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vectorware.com/blog/simd-on-gpu": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nvd.nist.gov/vuln/detail/cve-2026-85046": {
+  "first": "2026-09-05",
+  "last": "2026-09-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w7vcf3/the_nx_bit_is_not_just_about_security": {
+  "first": "2026-09-04",
+  "last": "2026-09-05",
+  "sources": 2,
+  "prev": 1
  }
 }
