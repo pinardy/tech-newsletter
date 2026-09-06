@@ -8935,9 +8935,9 @@
  },
  "https://jakearchibald.com/2026/css-custom-property-compute-time": {
   "first": "2026-09-04",
-  "last": "2026-09-04",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-06",
+  "sources": 2,
+  "prev": 1
  },
  "https://ronaldsvilcins.com/2026/08/30/native-html-and-css-features-that-replaced-javascript": {
   "first": "2026-09-04",
@@ -9586,5 +9586,347 @@
   "last": "2026-09-05",
   "sources": 2,
   "prev": 1
+ },
+ "https://arxiv.org/abs/2609.03344": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 2,
+  "prev": null
+ },
+ "https://thoughtbot.com/blog/is-ai-ruining-my-brain": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/google-mantis-vulnerability-scan": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/figma-security-agents": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mathstodon.xyz/@tao/117207856734787448": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/7tpc5q/surviving_code_reviews_era_ai": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-m9g-m9gd-four-regions": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://contemporary-home-computing.org/prof-dr-style": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://particlecharts.com/": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fengyuanchen.github.io/cropperjs": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lapcatsoftware.com/articles/2026/9/1.html": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/67810": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ebitengine/purego": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tailscale.com/blog/tailcat": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/KimMachineGun/automemlimit/releases/tag/v1.0.0": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/aws/aws-lambda-go/releases/tag/v1.55.0": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://luma.com/wuo6ynis": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://docs.nvm-windows.com/features/newv2": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://srvx.h3.dev/": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/MasterKale/SimpleWebAuthn/releases/tag/v14.0.0": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/sindresorhus/got/releases/tag/v16.0.0": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://drydock.org/": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://drydock.org/diff": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w81w2j/theres_no_limit_to_how_bad_code_can_get": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 2,
+  "prev": null
+ },
+ "https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 2,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=SxdOUGdseq4": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://static1.squarespace.com/static/644321e78cd2dd37613af33e/t/6694873f71612132a84371c7/1721009983702/Ironies+of+Automation_Bainbridge_1983.pdf": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 2,
+  "prev": null
+ },
+ "https://edwest.co.uk/p/doomscrolling-ourselves-to-death": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://a.l3x.in/blog/my-travel-setup": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/freecore-truenas-fork": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://meanmicio.org/2026/09/06/netbsd-11-from-scratch": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://beige.party/@intransitivelie/117057396732763183": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/DefinitelyTyped/DefinitelyTyped/pull/75429": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vercel.com/kb/guide/deploy-a-tanstack-start-app-to-vercel": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://maxleiter.com/blog/thank-u-next": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://robinwieruch.de/agentic-coding-bet-on-primitives": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://margelo.com/blog/margelo-joins-callstack": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shopify.engineering/mobile-e2e-testing": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=Q9SqvQGH97E": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jpcamara.com/2026/08/31/solidqueue-batches-evolution-and-architecture.html": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://paolino.me/archspec": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ferrum.rubycdp.com/": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://judoscale.com/blog/just-use-rails-revisited": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://allaboutcoding.ghinda.com/you-can-use-ruby-to-set-the-status-line-in-claude-code": {
+  "first": "2026-09-06",
+  "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
  }
 }
