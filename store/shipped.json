@@ -9841,9 +9841,9 @@
  },
  "https://beige.party/@intransitivelie/117057396732763183": {
   "first": "2026-09-06",
-  "last": "2026-09-06",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-07",
+  "sources": 2,
+  "prev": 1
  },
  "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight": {
   "first": "2026-09-06",
@@ -9926,6 +9926,276 @@
  "https://allaboutcoding.ghinda.com/you-can-use-ruby-to-set-the-status-line-in-claude-code": {
   "first": "2026-09-06",
   "last": "2026-09-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://martinalderson.com/posts/ai-safety-vs-security": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/ai-agent-testing-evaluation": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-848-available": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-multisourcerep-delayedrep": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/apim-standard-v2-zone-redundancy": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/announcing-amazon-linux-2027": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://datadoghq.com/state-of-postgres": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w96yd1/from_a_chocolate_wrapper_to_concurrent_innodb": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://mariadb.org/from-a-chocolate-wrapper-to-concurrent-innodb-page-splits": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://surfingcomplexity.blog/2026/08/16/quick-thoughts-on-azure-regional-outage-from-july-23-26": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://greatcircle.com/blog/2026/08/04/detection-gap": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dzone.com/articles/distributed-databases-coordination": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hackernoon.com/what-sres-should-automate-and-never-automate-with-ai": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/qsjwv4/posting_about_online_presentations": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/restify/node-restify/releases/tag/v12.0.0": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fingerprint.com/use-cases/payment-fraud": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://select.supabase.com/": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/cern-debian-infra": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://itsfoss.com/news/switzerland-replace-microssoft-pilot": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://austinhenley.com/blog/python1024.html": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 3,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w9c0an/making_a_python_interpreter_in_1024_bytes": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 3,
+  "prev": null
+ },
+ "https://benjoffe.com/fast-time-of-day": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w9pelh/a_faster_way_to_convert_a_timestamp_hour_min_sec": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://ache.one/notes/vanity-ipv6": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w91ztc/continued_fractions_and_lattice_sieving": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w9rerx/nuxt_cocreator_alexandre_chopin_joins_encore": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mantine.dev/changelog/9-6-0": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/shadcn-ui/cn": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gpuix.dev/": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://zed.dev/": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alfy.blog/2026/07/25/modern-web-guidance.html": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/shadcn-ui/cn/blob/main/docs/how-it-works.md": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/vlt-npm-replacement": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/java-news-roundup-aug31-2026": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/minimagick/minimagick": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rubycdp/vessel": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=3f2wV7Odq8E": {
+  "first": "2026-09-07",
+  "last": "2026-09-07",
   "sources": 1,
   "prev": null
  }
