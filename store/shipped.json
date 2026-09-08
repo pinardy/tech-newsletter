@@ -10198,5 +10198,215 @@
   "last": "2026-09-07",
   "sources": 1,
   "prev": null
+ },
+ "https://cims.nyu.edu/~tristanb/statement.pdf": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/gitlab-ai-sandbox-access": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://austinhenley.com/blog/typeinference.html": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-supports-smime-signing": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-privatelink-fips-endpoints": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-fsx-netapp-ontap-support": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-memorydb-privatelink": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/netflix-flink-autoscaler": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vldb.org/pvldb/vol19/p4953-fernandez-moctezuma.pdf": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/chaos-engineering-ecs-payments": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://anubis.techaro.lol/blog/2026/anubis-wasm": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 3,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1w9brw5/it_took_a_year_to_ship_webassembly_in_anubis": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 3,
+  "prev": null
+ },
+ "https://vale.rocks/posts/html-relics": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jellyfin.org/posts/jellyfin-release-12.0": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://github.com/iczelia/bzip3": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://d2lang.com/blog/tala-is-open-source": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wafqim/surviving_black_friday_329_billion_requests_with": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://scd31.com/posts/extreme-server-side-rendering": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wajcq8/performance_benchmarking_grpcprotobuf_vs_httpjson": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mcpherrin.ca/2026/09/07/rsa.html": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://techemails.com/p/bill-gates-tries-to-install-movie-maker": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cukic.co/2026/09/07/startplasma-with-shell-scripts-or-dinit": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/solopreneur-journey": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wa770d/removed_by_reddit": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/wcandillon/react-native-webgpu": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/wcandillon/react-native-webgpu/tree/main/apps/expo-webgpu": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/pughpugh/react-countdown-clock/releases/tag/v3.0.0": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lambdaland.org/posts/2026-09-06-bedrock-v2": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/name-domain-drop": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jyn.dev/a-year-to-fix-security": {
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
  }
 }
