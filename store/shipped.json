@@ -8923,9 +8923,9 @@
  },
  "https://vale.rocks/micros/20260902-1350": {
   "first": "2026-09-04",
-  "last": "2026-09-04",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-09",
+  "sources": 2,
+  "prev": 1
  },
  "https://bram.us/2026/08/18/the-case-for-tri-state-dark-mode-toggles": {
   "first": "2026-09-04",
@@ -8947,9 +8947,9 @@
  },
  "https://infoq.com/news/2026/09/jquery-20-years": {
   "first": "2026-09-04",
-  "last": "2026-09-04",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-09",
+  "sources": 2,
+  "prev": 1
  },
  "https://lobste.rs/s/nr3ucr/webdev_intro_course_what_small_changes": {
   "first": "2026-09-04",
@@ -9505,9 +9505,9 @@
  },
  "https://nextjs.org/blog/turbopack-chunking": {
   "first": "2026-09-05",
-  "last": "2026-09-05",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-09",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.sentry.io/evaluate-session-replay-software": {
   "first": "2026-09-05",
@@ -9739,9 +9739,9 @@
  },
  "https://docs.nvm-windows.com/features/newv2": {
   "first": "2026-09-06",
-  "last": "2026-09-06",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-09",
+  "sources": 2,
+  "prev": 1
  },
  "https://srvx.h3.dev/": {
   "first": "2026-09-06",
@@ -9751,9 +9751,9 @@
  },
  "https://github.com/MasterKale/SimpleWebAuthn/releases/tag/v14.0.0": {
   "first": "2026-09-06",
-  "last": "2026-09-06",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-09",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.com/sindresorhus/got/releases/tag/v16.0.0": {
   "first": "2026-09-06",
@@ -9871,9 +9871,9 @@
  },
  "https://robinwieruch.de/agentic-coding-bet-on-primitives": {
   "first": "2026-09-06",
-  "last": "2026-09-06",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-09",
+  "sources": 2,
+  "prev": 1
  },
  "https://margelo.com/blog/margelo-joins-callstack": {
   "first": "2026-09-06",
@@ -10406,6 +10406,300 @@
  "https://jyn.dev/a-year-to-fix-security": {
   "first": "2026-09-08",
   "last": "2026-09-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/hilbertspaess/status/2097476196791709843": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://manualdousuario.net/en/libreoffice-download-record-no-ai": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mathstodon.xyz/@tao/117237320796901560": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ai.meta.com/muse": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/unikraft-microvm-sandboxes-cloud-scaling": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/ai-platform-engineering-roundtable": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/avd-hybrid-ga": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wbfz9o/diskless_kafka_object_storage_kip1150_and_kafkas": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1waubo1/spring_boot_vs_quarkus_on_a_512_mb_vps_with_jdk_25": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1war2cw/how_to_read_server_monitoring_graphs": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/automatic-key-exchange-for-origins": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lwn.net/SubscriberLink/1092512/0772b817c369632b": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/async-lua-neovim": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wawcq6/1996_dialup_simulator_a_full_working_desktop_a": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wazmfy/i_contributed_to_golang_here_is_how_you_can_too": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wbjaju/asteroids_in_9_different_programming_languages": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bsky.app/profile/webdesignmuseum.org/post/3muu3c4wy222g": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=kHL3XzjpT5w": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vitest.dev/blog/vitest-5": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://voidzero.dev/posts/whats-new-aug-2026": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aikido.dev/blog/teampcp-arrested-supply-chain": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://webkit.org/blog/18227/fixing-top-level-await-in-safari": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/08/this-week-in-spring-september-8th-2026": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 2,
+  "prev": null
+ },
+ "https://grapheneos.social/@GrapheneOS/117231186011306184": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rustls.dev/blog/2026-09-08-a-decade-of-rustls": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://usenix.org/legacy/events/sec99/full_papers/whitten/whitten_html/index.html": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/navier-stokes-solution": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/introducing-chatgpt-images-2-5": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://idlip.in/posts/playing-emacs": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rdmsr.github.io/writing/turnstiles": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cetra3.github.io/blog/state-of-allocators-2026-part-2": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wbjodr/a_github_action_that_fails_pull_requests_with_too": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wbb73b/announcing_net_11_release_candidate_1_net_blog": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/hashicorp-packer-verification": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wb9iot/not_in_my_git_yard_catching_backdoors_at_commit": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 2,
+  "prev": null
+ },
+ "https://ettolrach.com/blog/rust_when_empty_isnt_bottom.html": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bensimms.moe/reverse-engineering-scooter": {
+  "first": "2026-09-09",
+  "last": "2026-09-09",
   "sources": 1,
   "prev": null
  }
