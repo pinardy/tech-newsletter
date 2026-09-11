@@ -10873,9 +10873,9 @@
  },
  "https://tailwindcss.com/blog/tailwind-is-joining-shopify": {
   "first": "2026-09-10",
-  "last": "2026-09-10",
-  "sources": 4,
-  "prev": null
+  "last": "2026-09-11",
+  "sources": 5,
+  "prev": 4
  },
  "https://blog.master.dev/new-things-you-should-know-about-html-here-in-mid-2026": {
   "first": "2026-09-10",
@@ -11115,6 +11115,504 @@
   "first": "2026-09-10",
   "last": "2026-09-10",
   "sources": 2,
+  "prev": null
+ },
+ "https://johndcook.com/blog/2026/09/09/formal-method-revolution": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cognition.com/blog/swe-2": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=49643556": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/linkedin-ai-multi-teacher": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/observability-ai-agents": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/openai-gpt6-astra": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/terraform-aws-provider-6-62": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wcpbg6/overview_of_caching_in_postgresql": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wcm90s/the_lifecycle_of_a_sharded_postgres_query": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/message-id/CAJvJg-TDxNL%2BHWm27N4h2_O8wZ%3D7YapGcdcbpPyYbpWgUuwS%3Dg%40mail.gmail.com": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hdombrovskaya.wordpress.com/2026/08/25/how-to-optimize-when-you-cant-do-anything": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gorthx.wordpress.com/2026/09/08/the-scale-24x-cfp-is-open-get-your-postgres-talks-in": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://people.planetpostgresql.org/devrim/index.php": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thebuild.com/blog/sixteen-locks-ought-to-be-enough-for-anybody": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thoughtbot.com/blog/inserting-state-transitions-in-postgres": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/casb-policies": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/form3-multicloud-architecture": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/tinygo-devkit": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.omgmog.net/post/antiquated-css": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vale.rocks/posts/html-boilerplate": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://w3.org/news/2026/w3c-opens-2026-community-wide-survey": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blogs.windows.com/msedgedev/2026/09/03/calling-for-interop-2027-proposals": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA/m/8CblVBJCAAAJ": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.master.dev/custom-scrollbar-component-in-2026": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/81450": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://threedots.tech/go-backend": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://boyter.org/posts/did-i-just-get-buster-scrugged": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 2,
+  "prev": null
+ },
+ "https://michael.stapelberg.ch/posts/2026-09-06-dcs-fast-turbopfor-go-simd": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 2,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=UkswvuLfUMQ": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bsky.app/profile/thepudds.bsky.social/post/3mv63k52o322s": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/3939": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/81315": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/tsgolint-oxlint-typescript": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://code.visualstudio.com/": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wallabyjs.com/whatsnew/cli.html": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://evilmartians.com/chronicles/ten-anti-ai-slop-moves-for-frontend-projects-going-faster-than-humans-can-review": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://petewarden.com/2026/08/15/why-i-ported-moonshine-to-javascript": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dropzone.dev/": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jobs.fidelity.com/en/technology-careers": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/10/a-bootiful-podcast-paul-bakker": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wd7wmu/shopify_is_moving_from_react_native_back_to_swift": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/09/spring-tools-5-4-0-released": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wd4z93/a_secure_software_factory_on_incus_not_on": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://about.gitlab.com/blog/critical-remote-code-execution-in-vm2": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/patriksimek/vm2": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/65796": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/TSC/issues/1883": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.gaborkoos.com/posts/2026-09-05-Fuzzing-the-State-Machines-Inside-My-HTTP-Client": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shopify.engineering/back-to-native": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 4,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wcotkh/native_is_now_the_future_of_mobile_at_shopify": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 4,
+  "prev": null
+ },
+ "https://lucumr.pocoo.org/2026/9/7/astra-why": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ersc.io/blog/what-comes-after-git": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wdd9yd/what_comes_after_git": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 2,
+  "prev": null
+ },
+ "https://bbc.com/news/articles/c8r6y4me2g6o": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://graybeard.ing/software-drives-people-insane": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/blog/introducing-neki": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kjartanvandriel.github.io/asic": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mail.cyberneticforests.com/models-dont-go-rogue": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wdbhz3/multitenancy_with_net_and_ef_core_a_deep_dive_net": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://diffos.org/": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://react.dev/blog/2026/09/09/react-19-3": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.master.dev/reacts-viewtransition-element": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/react/react/releases/tag/v19.3.0": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shopify.engineering/shop-app-migration": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugs.ruby-lang.org/issues/22226": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugs.ruby-lang.org/issues/22255": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rubocop/rubocop/pull/15676": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubycentral.org/news/ruby-shield-a-reflection-on-four-years-of-securing-the-ruby-supply-chain": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubysec.com/advisories/CVE-2026-85396": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://maurycyz.com/misc/domains": {
+  "first": "2026-09-11",
+  "last": "2026-09-11",
+  "sources": 1,
   "prev": null
  }
 }
