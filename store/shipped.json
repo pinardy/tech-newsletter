@@ -11614,5 +11614,479 @@
   "last": "2026-09-11",
   "sources": 1,
   "prev": null
+ },
+ "https://rubyhack.ai/": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wdklfz/inside_claudes_android_app_finding_the_internal": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=49657850": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hcker.news/": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mathandai.org/": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://researchagenda.news/articles/the-waymo-effect.html": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/nvidia-pair-ai-task-router": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/knowledge-graphs-agentic-systems-patterns": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/lambda-snapstart-container-image": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgedge.com/blog/from-the-trenches-my-path-through-postgres": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/blogs/database/resolve-circular-role-dependencies-during-upgrades-of-amazon-rds-for-postgresql-and-amazon-aurora": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://crunchydata.com/blog/postgres-calculations-and-the-ambiguity-of-null": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rynr.dev/blog/kafgres": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://clickhouse.com/blog/introducing-chdb-postgres": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/netflix-conductor-4-workflow": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/rustls-one-decade": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://utilitybend.com/blog/container-style-queries-and-advanced-attr-rethinking-how-to-wire-up-my-components-in-css": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bram.us/2026/09/07/animating-css-grid-layouts-with-css-anchor-positioning": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tympanus.net/codrops/2026/09/08/building-an-infinite-liquid-glass-grid-with-three-js-webgpu-and-tsl": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://drawably.dev/": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://freecodecamp.org/news/how-the-chrome-dino-game-works": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ymotongpoo.com/books/go-json-v2-history": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dolthub.com/blog/2026-08-28-mutually-referencing-type-parameters": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://packagemain.tech/p/how-to-contribute-to-golang-step-by-step": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://toonk.io/packetio": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/AkihiroSuda/gomodjail": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ebitengine.org/en/blog/v2.10.0.html": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/eslint/config-inspector": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://webkit.org/blog/18283/submit-your-ideas-for-interop-2027": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fingerprint.com/webinar/workshop-new-account-fraud": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://commitgoods.com/collections/vue-js": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://prisma.io/blog/is-prisma-8-ready-for-long-lived-production-apps": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mikro-orm.io/blog/mikro-orm-7-2-released": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.paketo.io/posts/containerizing-nodejs-apps": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rslib.rs/config/lib/experiments": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sentry.io/cookbook/monitor-mcp-server": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rslib.rs/guide/upgrade/v0-to-v1": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://earendil.com/posts/measuring-code-sloppiness": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wdjvd3/rune_is_now_open_source": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://rune.build/blog/rune-is-now-open-source": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://eddie.codes/posts/pandas-should-go-extinct": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1we94i4/the_api_tooling_crisis_why_developers_are": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1we8i2v/handcoded_asm_powers_homebrew_snes_game": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lookingatcomputer.substack.com/p/rare-not-random": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://autom.dev/blog/google-search-goto-links": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://capitalbnews.org/data-centers-permit-rules-epa": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bbc.com/news/live/cmd683p01eljt": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.jim-nielsen.com/2026/hands-off-my-cables": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/react/react/blob/main/packages/react-devtools/CHANGELOG.md": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/react/react/tree/main/packages/react-devtools-cdt-mcp": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tanstack.com/blog/vercel-partnership": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.master.dev/react-now-rusted-all-the-way-out": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://expo.dev/blog/an-early-look-at-expo-modules-2-0": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://swmansion.com/blog/what-it-actually-takes-to-migrate-discord-to-react-native-s-new-architecture": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1we8c6o/google_authentication_in_aspnet_core_with_react": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wdiygn/gcc_135_released_with_265_bug_fixes": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://codeberg.org/ChiPass/ChiPass/releases/tag/v2026.09.0": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyai.beehiiv.com/p/one-decision-put-ruby-into-a-downward-spiral-it-s-not-too-late-to-fix-it": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://intertwingly.net/blog/2026/09/05/Campfire-Measured.html": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://on-ruby.blogspot.com/2009/01/sequel-interview-with-jeremy-evans.html": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fastruby.io/blog/rails-deprecations-you-missed-this-summer.html": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://island94.org/2026/09/converting-a-ruby-block-interface-to-start-stop-methods-with-a-fiber": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://durableprogramming.com/blog/how-compliant-is-psych": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wds2fy/eu_cyber_resilience_act_reporting_obligations": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://huggingface.co/security.txt": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wdwqje/your_compiler_can_undo_your_security_checks": {
+  "first": "2026-09-12",
+  "last": "2026-09-12",
+  "sources": 1,
+  "prev": null
  }
 }
