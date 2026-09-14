@@ -70,9 +70,9 @@
   "last_modified": "Mon, 14 Sep 2026 13:17:23 GMT"
  },
  "changelog": {
-  "last_polled": "2026-09-14T05:58:13+00:00",
-  "etag": "W/\"1854ed7bb0efc7c425bd2d3ec5472363\"",
-  "last_modified": "Thu, 03 Sep 2026 22:19:31 GMT"
+  "last_polled": "2026-09-14T18:27:41+00:00",
+  "etag": "W/\"905440203fc0f6c8b7d7f610e80a2592\"",
+  "last_modified": "Mon, 14 Sep 2026 16:43:03 GMT"
  },
  "cloudflare": {
   "last_polled": "2026-09-13T21:20:10+00:00",

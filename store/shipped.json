@@ -12406,5 +12406,263 @@
   "last": "2026-09-13",
   "sources": 1,
   "prev": null
+ },
+ "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/DavidSacks/status/2098973625252708460": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://changelog.com/posts/changelog-irl-sf26-planetscale": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/train-developers-ai-routine-work": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/decision-models-agentic-ai": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/metr-hugging-face-hack-report": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/meta-astryx-design-system": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/esp32-bitpirate-web": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/storage-gateway-fips-privatelink-s3": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/durable-workflows-postgres": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wftm95/homebrew_700_faster_installations_and_upgrades": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wf4277/til_one_lock_to_rule_them_all": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/jotai-3-released": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vals.ai/blogs/fable-solves-cyphral-distich": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 2,
+  "prev": null
+ },
+ "https://devblogs.microsoft.com/oldnewthing/20260910-00?p=112689": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 2,
+  "prev": null
+ },
+ "https://xcancel.com/twitter": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dreamstation.systems/personal/tesla.html": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.zm.is/finished-aerial-maps-within-30-minutes": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=pOAj3mor8y8": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.veritates.love/functions-as-data": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://codeberg.org/mergiraf/mergiraf": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wg1wo7/when_the_fractional_part_of_a_float_fixes_your": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wfj2oq/is_dynamic_programing_fun": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/react/react-native/releases/tag/v0.88.0-rc.0": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vidact.dev/": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://visgl.github.io/react-google-maps": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/peterc/whatlanguage": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rubygems.org/2026/09/09/4.1.0.beta1-released.html": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/crmne/ruby_llm/releases/tag/v2.0.0.rc1": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://luma.com/h5ymkrex": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://star-history.com/": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://commitgoods.com/collections/puma": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x": {
+  "first": "2026-09-14",
+  "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
  }
 }
