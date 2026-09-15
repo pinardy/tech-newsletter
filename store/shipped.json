@@ -12547,9 +12547,9 @@
  },
  "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear": {
   "first": "2026-09-14",
-  "last": "2026-09-14",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-15",
+  "sources": 2,
+  "prev": 1
  },
  "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10": {
   "first": "2026-09-14",
@@ -12662,6 +12662,252 @@
  "https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x": {
   "first": "2026-09-14",
   "last": "2026-09-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/grab-agent-platform": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nemin.hu/llm-letter/index.html": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/amazon-linux-2027-preview": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-whatsapp-dynamic-flows": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wgruo3/a_simple_way_to_identify_slow_postgres_sqls": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/agoda-price-cache-dragonflydb": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/turnstile-system-design": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surfingcomplexity.blog/2026/08/18/tough-days-at-github-a-continuing-series": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surfingcomplexity.blog/2026/08/19/github-autoscaling-and-the-component-substitution-fallacy": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://greatcircle.com/blog/2026/08/18/how-senior-leaders-disrupt-incidents-by-showing-up": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bluetriangle.com/blog/empowering-retail-excellence-how-lowes-sre-team-is-driving-reliability-through-hyper-automation-and-unified-platforms": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hackernoon.com/before-you-automate-a-decision-define-its-blast-radius": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gremlin.com/blog/managing-kubernetes-node-drains-with-pod-disruption-budgets": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nvartolomei.com/dist-sys-classics": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/atlassian-automated-rca": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vale.rocks/micros/20260915-0135": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wgf1f6/pre2000_computer_graphics_a_specification_and": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/java-news-roundup-sep07-2026": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wffueb/cuda_tile_cutile_first_working_port_in_java": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/09/spring-office-hours-podcast-S5E22": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bbc.com/news/articles/c8ly49w9g1edo": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wgaaqq/how_gcc_eliminates_unnecessary_integer_division": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 2,
+  "prev": null
+ },
+ "https://leetarxiv.substack.com/p/how-gcc-eliminates-unnecessary-integer": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 2,
+  "prev": null
+ },
+ "https://seldo.com/posts/we-are-all-product-engineers-now": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wgds3p/we_are_all_product_engineers_now": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 2,
+  "prev": null
+ },
+ "https://dbtcharts.com/blog/charts-built-for-chat": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://store.steampowered.com/hardware/steamframe": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/engineering-leadership": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://anekstein.com/posts/2026-08-22.html": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lepisma.xyz/2017/06/25/simple-time-maps": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gnu.org/software/coreutils/rejected_requests.html": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/dotnet-11-rc-1-release": {
+  "first": "2026-09-15",
+  "last": "2026-09-15",
   "sources": 1,
   "prev": null
  }
