@@ -10951,9 +10951,9 @@
  },
  "https://nodejs.org/en/blog/release/v26.8.2": {
   "first": "2026-09-10",
-  "last": "2026-09-10",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-16",
+  "sources": 2,
+  "prev": 1
  },
  "https://jasnell.me/posts/a-node-bench-module": {
   "first": "2026-09-10",
@@ -11473,15 +11473,15 @@
  },
  "https://shopify.engineering/back-to-native": {
   "first": "2026-09-11",
-  "last": "2026-09-11",
-  "sources": 4,
-  "prev": null
+  "last": "2026-09-16",
+  "sources": 5,
+  "prev": 4
  },
  "https://reddit.com/r/programming/comments/1wcotkh/native_is_now_the_future_of_mobile_at_shopify": {
   "first": "2026-09-11",
-  "last": "2026-09-11",
-  "sources": 4,
-  "prev": null
+  "last": "2026-09-16",
+  "sources": 5,
+  "prev": 4
  },
  "https://lucumr.pocoo.org/2026/9/7/astra-why": {
   "first": "2026-09-11",
@@ -11551,9 +11551,9 @@
  },
  "https://react.dev/blog/2026/09/09/react-19-3": {
   "first": "2026-09-11",
-  "last": "2026-09-11",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-16",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.master.dev/reacts-viewtransition-element": {
   "first": "2026-09-11",
@@ -11977,9 +11977,9 @@
  },
  "https://github.com/react/react/blob/main/packages/react-devtools/CHANGELOG.md": {
   "first": "2026-09-12",
-  "last": "2026-09-12",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-16",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.com/react/react/tree/main/packages/react-devtools-cdt-mcp": {
   "first": "2026-09-12",
@@ -12908,6 +12908,330 @@
  "https://infoq.com/news/2026/09/dotnet-11-rc-1-release": {
   "first": "2026-09-15",
   "last": "2026-09-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/next-dsl-author-language-model": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/duolingo-ai-literacy-code-review": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/dropbox-datacenter": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.nlnetlabs.nl/maintaining-the-love-for-coding-in-the-time-of-ai": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/microsoft-ai-security-patch": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tintotint.eu/whacky-corner/f-droid_slop": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wh2y63/i_couldnt_understand_dancing_links_dlx_as_a": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/deepseek_ai/status/2097930608790167907": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-training-processing-instance-pref-lists": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudtrail-amazon-q-console": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1whj93b/a_revisit_of_remote_spectre_attacks_on_cloudflare": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://withcapsule.app/": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vondra.me/posts/postgres-development-activity": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hashicorp.com/blog/simplifying-terraform-for-ibm-z-with-intent-driven-workflows": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://uptimelabs.io/articles/supporting-new-responders": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/workers-granular-authorization": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hemanth.github.io/functional-programming-jargon": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/hemanth/functional-programming-jargon": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://master.dev/sale": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://philipwalton.com/articles/modern-web-types": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://react.statuscode.com/issues/490": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://f5.com/labs/articles/cloud-takeover-mass-scanning-for-exposed-vite-endpoints-cve-2026-39364": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/java27-released": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/15/this-week-in-spring-september-15th-2026": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1whg3ya/java_27_has_released": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/lyft-flink-k8s-operator": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bbc.com/news/articles/cjwyzrr9d3dko": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bkovac.github.io/modem-thing": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wh0qrf/performance_improvements_in_net_11": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 2,
+  "prev": null
+ },
+ "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 2,
+  "prev": null
+ },
+ "https://typesafe.ai/blog/introducing-system-one-models-and-jev": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/arnegiacomo/fugleramme": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/pinterest-search": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://exquisite.tube/w/sDafcZjdEQpR83aogPSx9j": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://crocidb.com/post/when-the-fractional-part-of-a-float-fixes-your-shader": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.manganin.dev/blog/reinventing-issue-tracking": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thecloudlet.github.io/technical/til/tmux-agent-status-indicator": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openjdk.org/projects/jdk/27": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://swift.org/blog/swift-6.4-released": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lawfaremedia.org/article/america%27s-drivers-licence-breach-is-a-national-security-disaster": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1whu6ww/rowlevel_security_and_symbolic_evaluation_with": {
+  "first": "2026-09-16",
+  "last": "2026-09-16",
   "sources": 1,
   "prev": null
  }
