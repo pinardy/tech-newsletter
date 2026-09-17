@@ -13027,9 +13027,9 @@
  },
  "https://vondra.me/posts/postgres-development-activity": {
   "first": "2026-09-16",
-  "last": "2026-09-16",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-17",
+  "sources": 2,
+  "prev": 1
  },
  "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta": {
   "first": "2026-09-16",
@@ -13232,6 +13232,396 @@
  "https://reddit.com/r/programming/comments/1whu6ww/rowlevel_security_and_symbolic_evaluation_with": {
   "first": "2026-09-16",
   "last": "2026-09-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/gpt-6-astra-critical-cyber": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/agent-escape-vm": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/shopify-drops-react-native": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://oldschool.runescape.wiki/w/User:Cook_Me_Plox/OSRS_Wiki_and_RuneLite_are_increasingly_under_strain_from_low-effort_AI_development": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dank.systems/posts/2026-09-15-ai-bear.html": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/microsoft-taugrid-open-source": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/dropbox-riviera-ai-platform": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://claude.com/blog/cowork-is-now-claude": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://snowflake.com/en/blog/engineering/30-years-of-postgres-architecture-tom-lane": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=2ajXkLeVXxQ": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rohanbansal.com/qorl": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/blog/the-lifecycle-of-a-sharded-postgres-query": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wi3ax3/tin_fulltext_search_for_postgres": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgres-contrib.org/post/96": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vonng.com/en/pg/pgsql-cc-online": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/stream-incidents": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.apple.com/documentation/safari-release-notes/safari-27-release-notes": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://giannirosato.com/blog/post/case-against-jxl": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://vale.rocks/posts/css-relics": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://flaviocopes.com/stylex": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://snapdom.dev/": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://frontendchecklist.io/": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://frontendchecklist.io/rules": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wi660n/new_app": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go.dev/blog/size-specialized-allocations": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rm4n0s.github.io/posts/2-go-devs-should-learn-odin": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openjsf.org/blog/the-openjs-foundation-cna-is-taking-a-coordinated-break": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/tanstack-charts-alpha-introduced": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sentry.io/resources/beyond-logs-basics-workshop": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1whyzfk/java_27_is_out_features_overview_video": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/16/spring-office-hours-podcast-S5E23": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/karmada-kubernetes-cncf": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wghjns/small_programming_tricks": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 3,
+  "prev": null
+ },
+ "https://will-keleher.com/posts/small-programming-tricks-matter": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 3,
+  "prev": null
+ },
+ "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wiqry4/a_commentedout_line_in_my_test_fixture_would": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://markkarpov.com/post/announcing-tilia.html": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://servo.org/blog/2026/09/15/one-year-of-sponsorship": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://xapp-project.org/": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/platform-artificial-intelligence": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wired.com/story/hackers-flock-camera-data-shows-how-system-works": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://minitap.ai/blog/i-expected-better-from-google": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://independent.co.uk/news/world/australasia/canda-eu-membership-australia-us-trade-b3050227.html": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mustafa-suleyman.ai/a-warning-about-model-welfare": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1winws0/a_better_way_to_brainstorm_startup_ideas_indie": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wifzlx/unicode_1800_has_been_released": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1whz461/declarative_gui_toolkit_slint_118_released": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1whwxoo/why_building_a_rust_lsp_is_hard": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://rust-glancer.github.io/blog/why-lsp-is-hard": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://omgubuntu.co.uk/2026/09/ubuntu-2610-rust-coreutils-complete": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successfully-unlocks-cxp102064-mechacon-chip": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://acadia.engineering/blog/simple-and-efficient-row-level-security": {
+  "first": "2026-09-17",
+  "last": "2026-09-17",
   "sources": 1,
   "prev": null
  }
