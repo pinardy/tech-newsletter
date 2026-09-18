@@ -10057,9 +10057,9 @@
  },
  "https://select.supabase.com/": {
   "first": "2026-09-07",
-  "last": "2026-09-07",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": 1
  },
  "https://notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html": {
   "first": "2026-09-07",
@@ -10879,9 +10879,9 @@
  },
  "https://blog.master.dev/new-things-you-should-know-about-html-here-in-mid-2026": {
   "first": "2026-09-10",
-  "last": "2026-09-10",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": 1
  },
  "https://lea.verou.me/blog/2026/dark-mode-toggles-2": {
   "first": "2026-09-10",
@@ -11617,9 +11617,9 @@
  },
  "https://rubyhack.ai/": {
   "first": "2026-09-12",
-  "last": "2026-09-12",
-  "sources": 2,
-  "prev": null
+  "last": "2026-09-18",
+  "sources": 3,
+  "prev": 2
  },
  "https://reddit.com/r/programming/comments/1wdklfz/inside_claudes_android_app_finding_the_internal": {
   "first": "2026-09-12",
@@ -13081,9 +13081,9 @@
  },
  "https://master.dev/sale": {
   "first": "2026-09-16",
-  "last": "2026-09-16",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": 1
  },
  "https://philipwalton.com/articles/modern-web-types": {
   "first": "2026-09-16",
@@ -13159,9 +13159,9 @@
  },
  "https://typesafe.ai/blog/introducing-system-one-models-and-jev": {
   "first": "2026-09-16",
-  "last": "2026-09-16",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": 1
  },
  "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html": {
   "first": "2026-09-16",
@@ -13393,9 +13393,9 @@
  },
  "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot": {
   "first": "2026-09-17",
-  "last": "2026-09-17",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": 1
  },
  "https://developer.apple.com/documentation/safari-release-notes/safari-27-release-notes": {
   "first": "2026-09-17",
@@ -13622,6 +13622,396 @@
  "https://acadia.engineering/blog/simple-and-efficient-row-level-security": {
   "first": "2026-09-17",
   "last": "2026-09-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hacktron.ai/blog/hacking-openai": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": null
+ },
+ "https://martinfowler.com/articles/2026-dont-like-llms.html": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": null
+ },
+ "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mysetup.ai/": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/ws02-agent-manager": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/ai-software-engineering-complexity": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/building-thriving-engineering-organizations": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/openai-misalignment-framework": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/lcjf7c/what_is_still_exciting_tech": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-express-one-zone-7-regions": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tapoueh.org/blog/2026/09/plan-advice-in-postgresql-19": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://boringsql.com/posts/unbearable-lightness-of-one-more-index": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/blogs/database/troubleshooting-row-lock-contention-in-amazon-aurora-postgresql-part-1-understanding-row-lock-contention-in-postgresql": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgedge.com/blog/optimising-postgresql-aggregates-what-can-an-extension-do": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgrust.com/blog/pgrust-v0-3": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hashicorp.com/blog/hcp-vagrant-deprecation-important-dates-and-migration-guidance": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/secure-scalable-facial-verification": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wj3ya8/scaling_security_insights_how_we_achieved_a_10x": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/htmx-4-released": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://neat-annotations.syabro.com/": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": null
+ },
+ "https://developer.apple.com/documentation/safari-developer-tools/connecting-an-ai-agent-to-safari": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.chrome.com/blog/chrome-154-beta": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://geoffgraham.me/why-css-tricks-has-been-quiet": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ishadeed.com/article/aligning-list-icons": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.sentry.io/metrics-caught-ai-size-estimate": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://docs.fallow.tools/": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mattstromawn.com/writing/the-least-wrong-colors-version-2": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mattstromawn.com/writing/how-to-pick-the-least-wrong-colors": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://categorycolors.com/": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/65899": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/moment/moment/security/advisories/GHSA-4p3w-j4w9-5jqw": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://beta.docs.nodejs.org/": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/65010": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://prismml.com/news/bonsai-2-27b": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": null
+ },
+ "https://netmeister.org/blog/everybodys-lost-their-minds.html": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.rust-lang.org/2026/09/17/targeted-attacks": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 3,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wj1x9m/be_alert_targeted_attacks_on_prominent_rustaceans": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 3,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wivpt2/the_golden_spike_and_resurrecting_the_valen": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": null
+ },
+ "https://verdagon.dev/blog/golden-spike-reviving-vale-valen": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": null
+ },
+ "https://openjev.com/": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/astra-for-law": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/asciimoo/hister": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bbc.com/news/articles/cwly7vkke4jxo": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://giodicanio.com/2026/09/11/the-c-plus-plus-20-s-u8-char8_t-fiasco": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wjo3nu/c": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wjlfk0/understanding_raft_by_implementing_it_from": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arxiv.org/abs/2607.26719": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wizhuv/mojo_11_released_now_accepting_community": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://socket.dev/blog/gemstuffer": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://brew.sh/2026/09/13/homebrew-7.0.0": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.rubygems.org/2026/09/11/update-may-spam-publishing-campaign.html": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trufflesecurity.com/blog/rubygems-cache-vulnerability": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trufflesecurity.com/blog/rogue-openai-agents-rubygems-takeover": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fastruby.io/monthly-rails-maintenance.html": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://amazon.science/blog/developing-provably-correct-rust-code-with-verus": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials": {
+  "first": "2026-09-18",
+  "last": "2026-09-18",
   "sources": 1,
   "prev": null
  }
