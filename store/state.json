@@ -1,51 +1,51 @@
 {
  "javascriptweekly": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "nodeweekly": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "reactstatus": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "frontendfocus": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "golangweekly": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "postgresweekly": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "dbweekly": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "rubyweekly": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "sreweekly": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": "\"54c90a966966a3aed3729c3e7dd166cb-gzip\"",
   "last_modified": "Mon, 14 Sep 2026 01:53:26 GMT"
  },
  "importai": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": "W/\"348c7e08691bcb4bac733712a3f1d45d\"",
   "last_modified": "Mon, 07 Sep 2026 12:26:31 GMT"
  },
@@ -75,57 +75,57 @@
   "last_modified": "Mon, 14 Sep 2026 16:43:03 GMT"
  },
  "cloudflare": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
-  "last_modified": "Thu, 17 Sep 2026 13:05:35 GMT"
+  "last_modified": "Fri, 18 Sep 2026 21:19:51 GMT"
  },
  "netflix": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "stripe": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "grab": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
-  "etag": "W/\"6aab64bb-34d4e\"",
-  "last_modified": "Thu, 17 Sep 2026 03:55:39 GMT"
+  "last_polled": "2026-09-19T16:19:36+00:00",
+  "etag": "W/\"6aab64ba-34d4e\"",
+  "last_modified": "Thu, 17 Sep 2026 03:55:38 GMT"
  },
  "githubblog": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
-  "etag": "W/\"04932522219aabc16d9f4631a2499aec\"",
-  "last_modified": "Thu, 17 Sep 2026 21:53:00 GMT"
+  "last_polled": "2026-09-19T16:19:36+00:00",
+  "etag": "W/\"12027bc0ff5af2f6d22111e9c0db14d5\"",
+  "last_modified": "Fri, 18 Sep 2026 21:25:02 GMT"
  },
  "goblog": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": null,
   "last_modified": null
  },
  "rustblog": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": "W/\"6aac686d-233b0\"",
   "last_modified": "Thu, 17 Sep 2026 22:23:41 GMT"
  },
  "springblog": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
-  "etag": "\"c09d74bc98f35cd25fdd936920578ae5\"",
+  "last_polled": "2026-09-19T16:19:36+00:00",
+  "etag": "\"80f76e738d3570a986416262425a29ab\"",
   "last_modified": null
  },
  "kubernetesblog": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": "\"db189b357ef01b242d729fa420ac4628-ssl-df\"",
   "last_modified": null
  },
  "hashicorp": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
-  "etag": "W/\"480a812ea52bd78ca09c921685b639e9\"",
-  "last_modified": "Thu, 17 Sep 2026 16:10:51 GMT"
+  "last_polled": "2026-09-19T16:19:36+00:00",
+  "etag": "W/\"92672dc47cf9a34ec9ba9ef0b0881b8a\"",
+  "last_modified": "Fri, 18 Sep 2026 15:59:24 GMT"
  },
  "springbootreleases": {
-  "last_polled": "2026-09-18T12:09:32+00:00",
+  "last_polled": "2026-09-19T16:19:36+00:00",
   "etag": "W/\"f082bb89382389e3d6c6fcfcc2d845a9\"",
   "last_modified": null
  },

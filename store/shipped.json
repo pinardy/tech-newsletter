@@ -13069,27 +13069,27 @@
  },
  "https://hemanth.github.io/functional-programming-jargon": {
   "first": "2026-09-16",
-  "last": "2026-09-16",
-  "sources": 1,
-  "prev": null
- },
- "https://github.com/hemanth/functional-programming-jargon": {
-  "first": "2026-09-16",
-  "last": "2026-09-16",
-  "sources": 1,
-  "prev": null
- },
- "https://master.dev/sale": {
-  "first": "2026-09-16",
-  "last": "2026-09-18",
+  "last": "2026-09-19",
   "sources": 2,
   "prev": 1
  },
+ "https://github.com/hemanth/functional-programming-jargon": {
+  "first": "2026-09-16",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://master.dev/sale": {
+  "first": "2026-09-16",
+  "last": "2026-09-19",
+  "sources": 4,
+  "prev": 2
+ },
  "https://philipwalton.com/articles/modern-web-types": {
   "first": "2026-09-16",
-  "last": "2026-09-16",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": 1
  },
  "https://react.statuscode.com/issues/490": {
   "first": "2026-09-16",
@@ -13099,9 +13099,9 @@
  },
  "https://f5.com/labs/articles/cloud-takeover-mass-scanning-for-exposed-vite-endpoints-cve-2026-39364": {
   "first": "2026-09-16",
-  "last": "2026-09-16",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": 1
  },
  "https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT": {
   "first": "2026-09-16",
@@ -13417,9 +13417,9 @@
  },
  "https://flaviocopes.com/stylex": {
   "first": "2026-09-17",
-  "last": "2026-09-17",
-  "sources": 2,
-  "prev": null
+  "last": "2026-09-19",
+  "sources": 3,
+  "prev": 2
  },
  "https://snapdom.dev/": {
   "first": "2026-09-17",
@@ -13447,9 +13447,9 @@
  },
  "https://go.dev/blog/size-specialized-allocations": {
   "first": "2026-09-17",
-  "last": "2026-09-17",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": 1
  },
  "https://rm4n0s.github.io/posts/2-go-devs-should-learn-odin": {
   "first": "2026-09-17",
@@ -13885,15 +13885,15 @@
  },
  "https://blog.rust-lang.org/2026/09/17/targeted-attacks": {
   "first": "2026-09-18",
-  "last": "2026-09-18",
-  "sources": 3,
-  "prev": null
+  "last": "2026-09-19",
+  "sources": 4,
+  "prev": 3
  },
  "https://reddit.com/r/programming/comments/1wj1x9m/be_alert_targeted_attacks_on_prominent_rustaceans": {
   "first": "2026-09-18",
-  "last": "2026-09-18",
-  "sources": 3,
-  "prev": null
+  "last": "2026-09-19",
+  "sources": 4,
+  "prev": 3
  },
  "https://reddit.com/r/programming/comments/1wivpt2/the_golden_spike_and_resurrecting_the_valen": {
   "first": "2026-09-18",
@@ -14012,6 +14012,450 @@
  "https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials": {
   "first": "2026-09-18",
   "last": "2026-09-18",
+  "sources": 1,
+  "prev": null
+ },
+ "https://code.claude.com/docs/en/changelog": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/linkedin-context-engineering": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/doordash-feature-flag-cleanup": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spectrum.ieee.org/llms-for-chip-design": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wjptug/reverse_engineering_chatgpt_web_how_openai_built": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arxiv.org/abs/2609.02852": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://john.hartnup.uk/2026/06/07/ai-event-posters.html": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/lambda-90-minute-timeout": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://try.cloudflare.com/": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wkj6ut/debugging_inconsistent_query_latency_on_a": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://clickhouse.com/blog/introducing-walshadow": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.dalibo.com/2026/09/07/postgresql-migrator-1-en.html": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/mariadb-13-released": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgrust.com/": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/solid-start-v2": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wjurwy/leave_the_class_path_in_the_rearview_mirror": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vincent.bernat.ch/en/blog/2026-css-sidenotes": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://css-tricks.com/animating-css-border-image": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bram.us/2026/09/11/webkit-supports-interactive-widget-and-hopefully-safari-will-too": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://yatil.net/blog/wcag-3-road-to-hell-paved-with-supplemental-requirements": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ericwbailey.website/published/css-tricks-could-be-a-co-op": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://agenticweb.nearestnabors.com/p/webmcp-agentic-web-openai-google": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go-review.googlesource.com/c/go/+/832864": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tip.golang.org/doc/go1.28": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://frn.sh/go-gc": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wexekt/data_races_and_the_limits_of_threadsanitizer_in_c": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://theconsensus.dev/p/2026/09/06/data-races-and-the-limits-of-threadsanitizer-in-c-and-go.html": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://gophercon.eu/": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cloudx.ai/posts/setup-go": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wj50pd/i_contributed_to_golang_here_is_how_you_can_too": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/17/a-bootiful-podcast-martin-lippert": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://socket.dev/blog/github-actions-cache-mode": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://nodejs.org/en/blog/release/v26.9.0": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nodejs.org/api/globals.html": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/65336": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://hawksley.dev/blog/i-dont-like-passkeys": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://grapheneos.social/@GrapheneOS/117282080803799576": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wjicct/the_scourge_of_x86_emulation": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://fex-emu.com/Scourge-of-emulation": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lispbm.com/": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wkglyj/building_an_ascii_3d_renderer": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://danluu.com/brain-off": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 2,
+  "prev": null
+ },
+ "https://purplesyringa.moe/blog/write-while-learning": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reuters.com/world/middle-east/us-troop-deaths-iran-war-exceed-pentagon-count-by-least-four-washington-post-2026-09-18": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wkd66n/removed_by_reddit": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lovable.dev/blog/faster-previews-oj": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://expo.dev/changelog/sdk-58-beta": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://brookslybrand.com/posts/do-frameworks-matter-anymore": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ondrejvelisek.github.io/the-cost-of-abstraction-for-humans-and-ai-agents": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/warp-tech/warpgate/releases/tag/v0.29.0": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wjxzv9/iceoryx2_010_released_full_flatbuffer_integration": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ruby-lang.org/en/news/2026/09/15/ruby-4-0-7-released": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ruby/ruby/releases/tag/v4.0.7": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rubygems.org/2026/09/16/4.0.21-released.html": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://railsatscale.com/2026-09-16-ractor-age-rails-a-how-to-guide": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyonrails.org/2026/9/9/agents-on-rails-stage-2": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugs.ruby-lang.org/issues/22297": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899": {
+  "first": "2026-09-19",
+  "last": "2026-09-19",
   "sources": 1,
   "prev": null
  }
