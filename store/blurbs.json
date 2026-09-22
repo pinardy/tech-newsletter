@@ -1723,5 +1723,21 @@
  "https://github.com/garrettdimon/minitest-heat": "A custom reporter for Minitest to help you more effectively fix code when tests fail. - garrettdimon/minitest-heat",
  "https://github.com/garrettdimon/minitest-heat/wiki": "A custom reporter for Minitest to help you more effectively fix code when tests fail. - Home · garrettdimon/minitest-heat Wiki",
  "https://github.com/Casecommons/pg_search": "pg_search builds ActiveRecord named scopes that take advantage of PostgreSQL’s full text search - GitHub - Casecommons/pg_search: pg_search builds ActiveRecord named scopes that take advantage of PostgreSQL’s full text search",
- "https://github.com/rails/mission_control-jobs/releases/tag/v1.3.0": "Dashboard and Active Job extensions to operate and troubleshoot background jobs - Release v1.3.0 · rails/mission_control-jobs"
+ "https://github.com/rails/mission_control-jobs/releases/tag/v1.3.0": "Dashboard and Active Job extensions to operate and troubleshoot background jobs - Release v1.3.0 · rails/mission_control-jobs",
+ "https://nathan.rs/posts/gzip-lm/": "A while back I wrote about language modeling without neural networks, where I generated Shakespeare with an unbounded n-gram model: no weights, no training, …",
+ "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/": null,
+ "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/": null,
+ "https://dbushell.com/2026/09/22/apple-intelligence/": "The one where Apple decides consent doesn’t matter anymore.",
+ "https://alicegg.tech/2026/09/21/attention": "The Tetris effect is one of psychology’s most easy to reproduce experiments.Simply spend a bit of time playing the eponymous game every day for a few weeks.A...",
+ "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/": null,
+ "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/": "Intentional writing will likely become more valuable.",
+ "https://brand.io/article/spymarks/": "Watermarks that spy on users are no mere watermarks",
+ "https://noteflakes.com/articles/2026-09-22-extralite-3-1-0": "Extralite 3.1.0 is Here! - Noteflakes",
+ "https://a.l3x.in/blog/throwaway-vpn/": "I travel a lot and I don't like censored internet, in this article I'm discussing the various workarounds I put in place to circumvent restrictions.",
+ "https://char.lt/blog/2026/09/non24swd/": "computer art! non-24-hour sleep/wake exhibit",
+ "https://www.reddit.com/r/programming/comments/1wn7arp/props_are_not_a_design_system/": null,
+ "https://www.reddit.com/r/programming/comments/1wn5gnz/c3_084_parameter_reflection_stack_protection_ios/": null,
+ "https://www.reddit.com/r/programming/comments/1wn2tcw/antigravity_with_docker/": null,
+ "https://nesbitt.io/2026/09/15/shadowing-the-standard-library.html": null,
+ "https://masilotti.com/100k-devices-running-ruby-native/": "And how Herb, now bundled with Rails 8.2, keeps the native apps from breaking."
 }

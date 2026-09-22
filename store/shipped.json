@@ -14953,9 +14953,9 @@
  },
  "https://blog.cloudflare.com/python-workers-ga": {
   "first": "2026-09-21",
-  "last": "2026-09-21",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-22",
+  "sources": 2,
+  "prev": 1
  },
  "https://reddit.com/r/programming/comments/1wlwr9e/saving_another_100tb_of_ram_with_math_and_rust": {
   "first": "2026-09-19",
@@ -15182,6 +15182,186 @@
  "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached": {
   "first": "2026-09-21",
   "last": "2026-09-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nathan.rs/posts/gzip-lm": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/gitlab-microsoft-foundry": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/cloudflare-adlc-agents": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/lessons-startup-engineering": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-i7ie-instances-israel-telaviv-region": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-talent": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/dtonon/squalk": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/uber-m3db-subcluster-sharding": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/changesets-v3-release": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/native-deferred-html-streaming": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dbushell.com/2026/09/22/apple-intelligence": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://alicegg.tech/2026/09/21/attention": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://brand.io/article/spymarks": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://noteflakes.com/articles/2026-09-22-extralite-3-1-0": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://a.l3x.in/blog/throwaway-vpn": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://char.lt/blog/2026/09/non24swd": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wn7arp/props_are_not_a_design_system": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wn5gnz/c3_084_parameter_reflection_stack_protection_ios": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wn2tcw/antigravity_with_docker": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/java-news-roundup-sep14-2026": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nesbitt.io/2026/09/15/shadowing-the-standard-library.html": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://masilotti.com/100k-devices-running-ruby-native": {
+  "first": "2026-09-22",
+  "last": "2026-09-22",
   "sources": 1,
   "prev": null
  }
