@@ -15499,9 +15499,9 @@
  },
  "https://blog.cloudflare.com/vary-support": {
   "first": "2026-09-23",
-  "last": "2026-09-23",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-24",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.cloudflare.com/worker-previews": {
   "first": "2026-09-23",
@@ -15625,9 +15625,9 @@
  },
  "https://michaelheap.com/github-wiki-is-an-antipattern": {
   "first": "2026-09-23",
-  "last": "2026-09-23",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-24",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design": {
   "first": "2026-09-23",
@@ -15662,6 +15662,360 @@
  "https://minimaxir.com/2026/09/agentic-iteration": {
   "first": "2026-09-23",
   "last": "2026-09-23",
+  "sources": 1,
+  "prev": null
+ },
+ "https://qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://transluce.org/agent-activity": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kenklippenstein.com/p/feds-think-ai-critics-are-foreign": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://anthropic.com/news/claude-discovers-novel-enzyme-system": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://drivingbench.com/": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/llm-mobile-frontend": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://seangoedecke.com/deckard": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wov53d/implementing_mnist_neural_network_from_scratch_in": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/graphify-codebase-exploration": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1workde/runtime_lab_learn_backend_systems_engineering_by": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://entropicthoughts.com/cheaper-llm-labeling": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/cloudflare-dns-cache": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgedge.com/blog/looking-forward-to-postgres-19-epilogue": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://snowflake.com/en/blog/engineering/postgresql-19-release-delay-feature-reverts": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/message-id/attachment/204404/19beta4.md": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://talkingpostgres.com/episodes/25-years-of-contributing-to-postgres-with-peter-eisentraut": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cloud.google.com/blog/products/databases/native-bm25-search-in-alloydb-and-cloud-sql": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://percona.com/blog/pgbackrest-compression-how-much-cpu-is-a-smaller-backup-worth": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1woz4lh/partitioning_in_mysql_how_we_cut_peak_database": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.verygoodsoftwarenotvirus.dev/posts/2026/09/23/why-didnt-anybody-tell-me-about-hash-slots": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wo7amj/we_ported_the_original_doom_to_sql": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/canvas-ui-webgl": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jointhefreeworld.org/blog/articles/lisps/parsing-expression-grammar-lisp-org-convert-to-html/index.html": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://plotly.com/blog/announcing-plotly-js-4-plotly-py-7": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 2,
+  "prev": null
+ },
+ "https://webkit.org/blog/18325/webkit-features-for-safari-27-0": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://flaviocopes.com/modern-css-features": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://patrickbrosset.com/articles/2026-09-22-blurry-before-beautiful-image-previews-for-the-web": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.chrome.com/blog/new-in-devtools-october-2026": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cartesian-theatrics.github.io/clj-manifold3d/journal": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://afp.gov.au/news-centre/media-release/two-wa-men-charged-following-afp-fbi-wapf-disruption-alleged-global": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://soatok.blog/2026/09/12/the-v8-javascript-runtime-undermined-my-constant-time-javascript-library": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=_iVDudRDS-4": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://brenelz.com/posts/solidjs-its-the-little-things": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/huggingface/transformers.js/releases/tag/4.3.0": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/modal-scaling-sandboxes": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://meta.com/vr-glasses": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pointinthecloud.com/2026-04-11-211700.html": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/collaborative-platform-culture": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/apple-reference-image-provenance": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pypi.org/project/whatsnewt": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jadarma.github.io/blog/posts/2026/09/clankers-made-me-build-a-second-brain": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://xenodium.com/agent-shell-0-78-updates": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol.html": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
+  "sources": 1,
+  "prev": null
+ },
+ "https://queue.acm.org/doi/10.1145/3722542": {
+  "first": "2026-09-24",
+  "last": "2026-09-24",
   "sources": 1,
   "prev": null
  }
