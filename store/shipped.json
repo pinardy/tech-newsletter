@@ -16477,9 +16477,9 @@
  },
  "https://swarmtraces.org/": {
   "first": "2026-09-26",
-  "last": "2026-09-26",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-27",
+  "sources": 2,
+  "prev": 1
  },
  "https://cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html": {
   "first": "2026-09-26",
@@ -16597,9 +16597,9 @@
  },
  "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css": {
   "first": "2026-09-26",
-  "last": "2026-09-26",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-27",
+  "sources": 2,
+  "prev": 1
  },
  "https://infoq.com/news/2026/09/cobbledb-perplexity": {
   "first": "2026-09-26",
@@ -16729,15 +16729,15 @@
  },
  "https://reddit.com/r/programming/comments/1wq7uvq/if_we_do_not_stop_to_help_each_other_what_do_we": {
   "first": "2026-09-26",
-  "last": "2026-09-26",
-  "sources": 2,
-  "prev": null
+  "last": "2026-09-27",
+  "sources": 3,
+  "prev": 2
  },
  "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become": {
   "first": "2026-09-26",
-  "last": "2026-09-26",
-  "sources": 2,
-  "prev": null
+  "last": "2026-09-27",
+  "sources": 3,
+  "prev": 2
  },
  "https://datagubbe.se/amscr": {
   "first": "2026-09-26",
@@ -16892,6 +16892,318 @@
  "https://portswigger.net/web-security/cross-site-scripting/cheat-sheet": {
   "first": "2026-09-26",
   "last": "2026-09-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arxiv.org/abs/2608.23642": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/docker-cloud-sandboxes": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-eks-spark-connect-interactive": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wqv795/the_cloudflare_blog_brought_to_you_by_emdash": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://phoronix.com/news/Valve-Steam-Beta-Pyrowave": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/gke-pod-snapshots-benchmarks": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/addyosmani/critical": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://molily.de/web-dev-education": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rohanadwankar.github.io/posts/semfont.html": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sli.dev/": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/75047": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tinygo.org/blog/2026/tinygo-starter-kit-with-xiao": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/go-vgo/robotgo": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/24/spring-security-7-2-0-M2-available-now": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wqvxt6/on_programming_statistics_and_java": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.platformatic.dev/introducing-secure-eval-worker": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://owasp.github.io/cve-lite-cli": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ben3d.ca/blog/native-gpu-testing-for-vitest-and-jest": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thecodebarbarian.com/sse-yield-star.html": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/DoneDeal0/superdiff/releases/tag/v4.3.0": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/tinylibs/tinypool/pull/141": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tante.cc/2026/09/24/the-test": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wrcgfp/removed_by_reddit": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://antonz.org/go-concurrency-distilled": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wrjd0d/go_concurrency_distilled": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://davepagurek.com/blog/p5-compute-shaders": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wqkpth/fourier_analysis_drawing_llamas_with_circles": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://melon.zone/blog/blog/gamedev/tech/fun/2026-09-23-mantle-nes-breakdown-part-1": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wqw5n3/building_dogsbod_a_quadruped_robot": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://privatemode.ai/blog/system-one-from-glm-flash": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shopify.engineering/helix": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tannerlinsley.com/posts/ai-open-source-and-the-long-road-to-tanstack-charts": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/reduxjs/react-redux/releases/tag/v9.4.0-alpha.0": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/seek-oss/playroom": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cubes.trampoline.cx/": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pdfcn.dev/": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://discuss.rubyonrails.org/t/cve-2026-66066-possible-arbitrary-file-read-and-remote-code-execution-in-active-storage-variant-processing/91432": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/basecamp/hotcell": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/testdouble/suture": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyonrails.org/ai": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=vDjW_dRyKXY": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://olly.world/its-the-end-of-rails-world-as-we-know-it-and-i-feel-fine": {
+  "first": "2026-09-27",
+  "last": "2026-09-27",
   "sources": 1,
   "prev": null
  }
