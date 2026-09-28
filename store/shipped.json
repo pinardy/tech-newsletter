@@ -17206,5 +17206,353 @@
   "last": "2026-09-27",
   "sources": 1,
   "prev": null
+ },
+ "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=-Nvne3LzBls": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/ai-agents-improve-software-architecture": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/ai-revolution-psychological-safety": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/building-internal-ai-agents": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/sebastiancarlos/shobr": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/c-rust-rewrite": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/aurora-dsql-foreign-keys": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wrv44s/reducing_net_aws_lambda_cold_starts_by_adding": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-gamelift-servers-region-expansion-2026": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wrc4sh/postgres_at_time_zone_utc_does_not_do_what_you": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surfingcomplexity.blog/2026/08/29/omnipresent-availability-risks-in-cloud-software": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://itnext.io/how-we-built-real-time-stock-pricing-at-mofid-brokerage-031015ce1301": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://techgenyz.com/background-jobs-backend-architecture": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/sre/comments/1wguk7p/can_automated_root_cause_analysis_reliably": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surfingcomplexity.blog/2026/08/29/quick-thoughts-on-github-actions-aug-26-incident": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arpio.io/https-arpio-io-your-agent-is-not-prodution-ready-until-it-can-recover": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/blogs/opensource/introducing-dogwood-runtime-verification-for-ai-agents": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://luarocks.org/security-incident-september-2026": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/uber-kubernetes-scaling": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/linear-stylex-meta": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/swift-6-4-released": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/java-news-roundup-sep21-2026": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nestjs/nest/pull/17834": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/sql-formatter-org/sql-formatter": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fingerprint.com/use-cases/new-account-fraud-prevention": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sancho.bearblog.dev/google-weird": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wrnyer/dont_couple_your_go_code_to_github": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://iain.rocks/blog/dont-couple-your-go-code-to-github": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wrjyyr/packing_binary_is_fun_actually": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://hereticpleb.vercel.app/blog/packing-binary-is-fun-actually": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://git.mills.io/prologic/parley": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://colo.to/nvidia-stock-narrative.html": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fireworks.ai/blog/ember-1": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/meta-zgateway-zippydb-proxy": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://robw.fyi/2026/09/28/how-to-solve-hallucination": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/hgmgp2/what_are_you_doing_this_week": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wsaolh/fast_primality_testing_for_32bit_integers_via": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://loading.dev/": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://loading.dev/spinners/wave": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/software-mansion/react-native-reanimated/releases/tag/4.7.0": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/pmndrs/react-three-fiber/releases/tag/v9.8.0": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reactday.berlin/": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://guokaigdg.github.io/animal-island-ui": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.guillaume-gomez.fr/articles/2026-09-22+Syncing+Rust+GCC+backend+or+how+to+test+Murphy%27s+law": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/radicle-network-vulnerabilities": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wsacng/introducing_the_triple_cipher_encryption_concept": {
+  "first": "2026-09-28",
+  "last": "2026-09-28",
+  "sources": 1,
+  "prev": null
  }
 }
