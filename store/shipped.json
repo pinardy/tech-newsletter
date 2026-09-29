@@ -17554,5 +17554,293 @@
   "last": "2026-09-28",
   "sources": 1,
   "prev": null
+ },
+ "https://calnewport.com/its-time-to-investigate-the-ai-labs": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/spring-news-roundup-sep21-2026": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.glyph.im/2026/09/serious-ai-product.html": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stateofutopia.com/experiments/microllmlab": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/cloudflare-python-workers-ga": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/cloudflare-worker-agent": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-sept-2026-updates": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reuters.com/technology/mongodb-ceo-desai-steps-down-lead-metas-enterprise-platform-2026-09-28": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://web.archive.org/web/20181118140222/https://blog.skyliner.io/you-cant-have-a-rollback-button-83e914f420d9": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://storiesfromtheedge.substack.com/p/rollback-does-not-erase-distributed": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/atlassian-opentelemetry": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/kubernetes-gpu-metrics": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/blog/the-architecture-of-neki": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/rust-workers-emscripten-target": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wsv1tt/supporting_native_rust_in_workers_with_the_new": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/cloudflare-cf-cli-launch": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/voidzero-update": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/how-fast-is-the-web": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/vinext-nextjs-on-vite": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/forge-open-source-generation-pipeline": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/open-source/git/highlights-from-git-2-56": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wt1the/domain_swapper_pro_chrome_web_store": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wt8odk/nine_npm_packages_shipping_worm_that_spread_by": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shukla.io/blog/2026-09/pun.html": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://definitelynotwindows.com/": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cow-wm.codeberg.page/cow": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://motif-central.org/": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=25x0UuSCKuU": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://anekstein.com/posts/2019-11-15.html": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://anthropic.com/claude-sonnet-5-5": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://derekthompson.org/p/the-death-of-the-american-host": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/staff-founder-lessons": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/artifactory-vulnerabilities": {
+  "first": "2026-09-29",
+  "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
  }
 }
