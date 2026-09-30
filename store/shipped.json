@@ -11413,9 +11413,9 @@
  },
  "https://jobs.fidelity.com/en/technology-careers": {
   "first": "2026-09-11",
-  "last": "2026-09-11",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-30",
+  "sources": 2,
+  "prev": 1
  },
  "https://spring.io/blog/2026/09/10/a-bootiful-podcast-paul-bakker": {
   "first": "2026-09-11",
@@ -16303,9 +16303,9 @@
  },
  "https://flaviocopes.com/node-builtins": {
   "first": "2026-09-25",
-  "last": "2026-09-25",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-30",
+  "sources": 2,
+  "prev": 1
  },
  "https://nodejs.org/en/blog/release/v22.23.3": {
   "first": "2026-09-25",
@@ -16597,9 +16597,9 @@
  },
  "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css": {
   "first": "2026-09-26",
-  "last": "2026-09-27",
-  "sources": 2,
-  "prev": 1
+  "last": "2026-09-30",
+  "sources": 3,
+  "prev": 2
  },
  "https://infoq.com/news/2026/09/cobbledb-perplexity": {
   "first": "2026-09-26",
@@ -17701,15 +17701,15 @@
  },
  "https://blog.cloudflare.com/cloudflare-cf-cli-launch": {
   "first": "2026-09-29",
-  "last": "2026-09-29",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-30",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.cloudflare.com/voidzero-update": {
   "first": "2026-09-29",
-  "last": "2026-09-29",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-30",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.cloudflare.com/how-fast-is-the-web": {
   "first": "2026-09-29",
@@ -17761,9 +17761,9 @@
  },
  "https://shukla.io/blog/2026-09/pun.html": {
   "first": "2026-09-29",
-  "last": "2026-09-29",
-  "sources": 1,
-  "prev": null
+  "last": "2026-09-30",
+  "sources": 2,
+  "prev": 1
  },
  "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream": {
   "first": "2026-09-29",
@@ -17840,6 +17840,312 @@
  "https://infoq.com/news/2026/09/artifactory-vulnerabilities": {
   "first": "2026-09-29",
   "last": "2026-09-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/introducing-gpt-6-1-sol": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://status.claude.com/incidents/4xvtc2gnq73l": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/context-as-code-devops-agents": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/aws-cloudwatchomni-observability": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-manage-data-tables": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/cloudflare-http-vary": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/100-million-donations": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/auto-router": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/emdash-cms-plugin-registry": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/real-time-issue-detection": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/simplifying-domains": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/monetization-gateway-beta": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/pay-per-use": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/agentic-refactoring-case-study": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wtyfil/listen_to_your_users_the_redditors": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://claude.dev/blog/how-we-made-claude-ai-faster": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://voidzero.dev/posts/announcing-vite-plus-1-0": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/tc39/agendas/blob/main/2026/09.md": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://safedep.io/dirtyblanket-express-impersonation-npm": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/09/29/this-week-in-spring-september-29th-2026": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wtb4qi/java_vs_groovy_7_differences_what_groovy_60_brings": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://earendil.com/posts/you-said-no-mcp": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://prospect.org/2026/09/29/artificial-intelligence-agents-openai-microsoft-sam-altman-greg-brockman-ah-nice": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ninjahawk/livenerf": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/introducing-dots": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://signal.org/blog/backup-improvements": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.haskell.org/foldl-and-foldr": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://media.ccc.de/v/all-systems-go-2026-414-attezt-device-attestation-pkcs11-and-acme": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://amutable.com/blog/distributing-images-quarry": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mit.teil.space/rane-sl3.html": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/frostyard/snowdesktop": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/github/dmca/blob/master/2026/09/2026-09-03-nintendo.md": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/sveltekit-3-vite": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lucumr.pocoo.org/2026/9/29/deser": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wolfgirl.dev/blog/2026-09-29-pining-for-arc-downcasting-in-rust": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wtii9n/designing_highperformance_matrix_memory_layouts": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ntfargo/Relapse-Exploit": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wtothf/custom_encryption_algorithm": {
+  "first": "2026-09-30",
+  "last": "2026-09-30",
   "sources": 1,
   "prev": null
  }
