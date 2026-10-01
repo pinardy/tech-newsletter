@@ -11413,9 +11413,9 @@
  },
  "https://jobs.fidelity.com/en/technology-careers": {
   "first": "2026-09-11",
-  "last": "2026-09-30",
-  "sources": 2,
-  "prev": 1
+  "last": "2026-10-01",
+  "sources": 3,
+  "prev": 2
  },
  "https://spring.io/blog/2026/09/10/a-bootiful-podcast-paul-bakker": {
   "first": "2026-09-11",
@@ -16591,15 +16591,15 @@
  },
  "https://blog.cloudflare.com/turnstile-spin": {
   "first": "2026-09-26",
-  "last": "2026-09-26",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css": {
   "first": "2026-09-26",
-  "last": "2026-09-30",
-  "sources": 3,
-  "prev": 2
+  "last": "2026-10-01",
+  "sources": 4,
+  "prev": 3
  },
  "https://infoq.com/news/2026/09/cobbledb-perplexity": {
   "first": "2026-09-26",
@@ -17701,9 +17701,9 @@
  },
  "https://blog.cloudflare.com/cloudflare-cf-cli-launch": {
   "first": "2026-09-29",
-  "last": "2026-09-30",
-  "sources": 2,
-  "prev": 1
+  "last": "2026-10-01",
+  "sources": 3,
+  "prev": 2
  },
  "https://blog.cloudflare.com/voidzero-update": {
   "first": "2026-09-29",
@@ -17995,9 +17995,9 @@
  },
  "https://claude.dev/blog/how-we-made-claude-ai-faster": {
   "first": "2026-09-30",
-  "last": "2026-09-30",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": 1
  },
  "https://voidzero.dev/posts/announcing-vite-plus-1-0": {
   "first": "2026-09-30",
@@ -18115,9 +18115,9 @@
  },
  "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html": {
   "first": "2026-09-30",
-  "last": "2026-09-30",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": 1
  },
  "https://lucumr.pocoo.org/2026/9/29/deser": {
   "first": "2026-09-30",
@@ -18146,6 +18146,432 @@
  "https://reddit.com/r/programming/comments/1wtothf/custom_encryption_algorithm": {
   "first": "2026-09-30",
   "last": "2026-09-30",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://insufferable.dev/posts/the-ai-race-just-got-awkward": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/typesafe-ai-jev-released": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/dtonon/outis": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/onlinecohorts-ai-certifications": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/ai-production-operations": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/software-engineering-skills": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/mergequeue": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/fujfew/django_modern_rest_0_16_0_release": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/09/cursor-continuity-git-storage": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-tables-table-bucket-increase": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-secrets-manager-security-posture-recommendations": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/container-apps-express-sandboxes": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/about/news/postgresql-19-beta-4-released-3386": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=isATpooTax8": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://boringsql.com/posts/repack-concurrently-costs": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://clickhouse.com/blog/can-your-postgres-survive-a-bad-query": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tigrisdata.com/blog/quick-fdb-kafka": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://percona.com/blog/pgq-and-pgque-workflow-engines-you-might-need-in-postgresql": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/message-id/CAA-aLv5MF6BLL%2BBWvix2Yw%2BCBardtH43AofPReQunhDZPNBtuA%40mail.gmail.com": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mechanicalrabbit.github.io/FunSQL.jl/stable/two-kinds-of-sql-query-builders": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hashicorp.com/blog/terraform-116-completes-actions-lifecycles-and-brings-imports-into-child-modules": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/workers-kv-instant": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/managed-cloudflare-os": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/cloudflare-k2-streams": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/next-git-platform-on-cloudflare": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/ousd-now-live-on-stripe": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/clef-decision-models": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://emdashcms.com/blog/emdash-1-0": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://emdashcms.com/blog/emdash-plugin-registry": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=l7tQ1v4TCeY": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://polypane.app/blog/polypane-31-canvas-layout-elements-panel-improvements-and-chromium-155": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.chrome.com/release-notes/154": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://x.com/jarredsumner/status/2104739495895781679": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/mswjs/msw/releases/tag/v3.0.0": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mermaid.ai/open-source/syntax/usecase.html": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aaronmallen.me/writing/hanami-why-introductions": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": null
+ },
+ "https://tcl-lang.org/software/tcltk/9.1.html": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.gitbutler.com/git-3-sha-256": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/high-availability-not-resilience-cloud": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=7Tr0ty9-yeQ": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://grim.cargocut.org/a/rev-list.html": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/streetcomplete/StreetComplete/issues/5421": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spectrum.ieee.org/bloomberg-terminal": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": null
+ },
+ "https://osnews.com/story/146052/google-breaks-promise-to-provide-10-years-of-updates-to-chromebooks": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://qt.io/blog/qt-6.12-released": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://renderling.xyz/articles/wgsl-rs-beta-release.html": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/snapdragon-x2-linux": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-3-2-97-0-has-been-released/436": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=t0knYnEYBRo": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=IEOqgPfGLQ8": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wv3nxy/all_the_rails_world_2026_talks_are_now_online": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dev.37signals.com/lexxy-1-0": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rails/rails/pull/58721": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://railsatscale.com/2025-05-21-fast-allocations-in-ruby-3-5": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wv0fjv/the_second_golden_spike_memory_safety_across_the": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": null
+ },
+ "https://verdagon.dev/blog/boundary-memory-safety": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wth2ti/cargocrap_triaging_duplicates_with_typesafe": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/sqyhgt/major_rsync_upgrade_debian_because_33": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wuzsdv/c64_mercenary_a_novel_exploit_bug_in_a_41yearold": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wuaa7s/nondeterministic_encryption_method": {
+  "first": "2026-10-01",
+  "last": "2026-10-01",
   "sources": 1,
   "prev": null
  }
