@@ -16981,9 +16981,9 @@
  },
  "https://molily.de/web-dev-education": {
   "first": "2026-09-27",
-  "last": "2026-09-27",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-02",
+  "sources": 3,
+  "prev": 1
  },
  "https://rohanadwankar.github.io/posts/semfont.html": {
   "first": "2026-09-27",
@@ -18572,6 +18572,348 @@
  "https://reddit.com/r/programming/comments/1wuaa7s/nondeterministic_encryption_method": {
   "first": "2026-10-01",
   "last": "2026-10-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/qconsf-2026-sessions": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/docker-sandbox-ai-agent": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/digitalocean-managed-agents": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://deepseek.com/en/harness": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/openai-devday-2026": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://amoffat.github.io/blog/cognitive-load.html": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ploum.net/2026-10-01-pascal_wager.html": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-org-enablement-policies": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cortexridge.com/blog/postgresql-alter-function-set-work-mem": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/blog/when-to-choose-x86-64-vs-aarch64": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rynr.dev/blog/700mbskafgres": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgstef.github.io/2026/09/23/pgbackrest_and_postgresql_failover_why_archive_mode_matters.html": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://safenotsafe.dev/": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgpool.net/news/2026-09-29": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/cloudflare-basin": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/faster-agent-sandboxes": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/ai-search-ga": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/ai-model-overuse-user-insights": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/agentic-web": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ishadeed.com/article/css-detect-overlap": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.master.dev/extracting-grid-information-using-css": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.chrome.com/blog/connection-allowlist-announcement": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://olliewilliams.xyz/blog/interop-and-beyond": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bsky.app/profile/matuzo.at/post/3mw65xm2co22o": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://adventures.nodeland.dev/archive/optimizing-objects-with-null-prototypes": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://v8.dev/blog/fast-properties": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ai/size-limit": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rahuljuliato.com/posts/emacs-rx-in-typescript": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/dolanmiu/docx/releases/tag/9.8.0": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dev.to/playfulprogramming/the-grand-unifying-architecture-of-frontend-bhk": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dittytoy.net/ditty/2dd99fc839": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://earendil.com/posts/pi-1-0": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://earendil.com/posts/pi-durable": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://svelte.dev/blog/sveltekit-3-is-here": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lwn.net/Articles/1097401": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://automatictransmission.khoury.northeastern.edu/index.html": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tqdev.com/2026-dual-wan-router-debian-13": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://loige.co/hidden-design-compromises-of-docker-layers": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/regeneratable-ui-component-library": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://seangoedecke.com/advice-to-a-beginning-software-engineer": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gimp.org/news/2026/10/01/liam-quin-interview-lgm2017": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/envoy-gateway-1-9-1": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://storyteller-platform.dev/blog/20261001_epub_v1": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugs.ruby-lang.org/issues/22236": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ruby/ruby/pull/19114": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ivoanjo.me/blog/2026/09/23/updating-a-c-extension-for-a-modern-vm": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fastruby.io/blog/reactionview-and-herb-in-rails-8-2.html": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyonrails.org/2026/9/24/Rails-Version-7-2-4-has-been-released": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugs.ruby-lang.org/issues/22392": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wvncok/postquantum_cryptography_resource_hub": {
+  "first": "2026-10-02",
+  "last": "2026-10-02",
   "sources": 1,
   "prev": null
  }
