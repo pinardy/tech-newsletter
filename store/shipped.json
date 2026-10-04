@@ -19264,5 +19264,287 @@
   "last": "2026-10-03",
   "sources": 1,
   "prev": null
+ },
+ "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/pizza-bot-ai-agents": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/open-APPA-zero-security-breach": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-object-lock-variable-retention-event-holds-aws-govcloud": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-cloudwatch-log-groups": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/protected-quick-tunnels": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/ai-driven-cryptography-discovery": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/cloudflare-certificate-authority": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/account-abuse-protection-dashboard": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/network-performance-birthday-week-2026": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/civil-society-automation": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/where-pricing-is-headed": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://soverybright.com/": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://soundcn.xyz/": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bastardica.mitpit.com/": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wx839w/building_a_browser_runtime_for_automation_without": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://markuplint.dev/": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://javascriptweekly.com/": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trustfoundry.net/blog/jit-vulnerabilities-javascript-engines": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://smarmelling.com/posts/the-accidental-history-of-3000-8080-and-other-port-numbers.html": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 2,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=49949438": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.netbsd.org/tnf/entry/gsoc2026_racoon2": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dryperspective.github.io/posts/complement-of-true": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wxd33z/red_green_and_mud_fixing_color_mixing_in_total": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wx1kb2/c_math_did_someone_say_math": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cognit.rajtilak.tech/": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wx93v2/the_hausse_experiment": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://serpapi.com/": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/basecamp/rails-active_search": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/julik/herringbone": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/spinel-coop/rv": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rubyatscale/singed": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://git.btxx.org/grubby": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://en.wikipedia.org/wiki/Why_the_lucky_stiff": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://yossarian.net/til/post/rust-s-derive-often-implies-inline": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=3kbPyuAtk7g": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/gitlab-critical-vulnerabilities": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wx02m9/from_ssh_to_rest_a_securitydriven_modernization": {
+  "first": "2026-10-04",
+  "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
  }
 }
