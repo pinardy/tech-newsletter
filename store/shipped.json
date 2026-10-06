@@ -19015,9 +19015,9 @@
  },
  "https://cedardb.com/blog/sqldoom": {
   "first": "2026-10-03",
-  "last": "2026-10-03",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-06",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.cloudflare.com/streamline": {
   "first": "2026-10-03",
@@ -19027,9 +19027,9 @@
  },
  "https://blog.cloudflare.com/introducing-web-search-api": {
   "first": "2026-10-03",
-  "last": "2026-10-03",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-06",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.cloudflare.com/one-observability-platform": {
   "first": "2026-10-03",
@@ -19544,6 +19544,438 @@
  "https://reddit.com/r/programming/comments/1wx02m9/from_ssh_to_rest_a_securitydriven_modernization": {
   "first": "2026-10-04",
   "last": "2026-10-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mistral.ai/news/mistral-large-4/\\": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mistral.ai/news/mistral-large-4": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/qconlondon-2027-track": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/cloudflare-cf-cli": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/ai-spec-driven-delivery": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/elastic-ai-agent-evaluations": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/platform-engineering-playbook-production-llms": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wyo5ne/state_of_devs_2026_survey_results_developers_are": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ohhfishal.net/Posts/claude": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arxiv.org/pdf/2607.12197": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/cloudflare-cross-tenant-exposure": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/postquatam-certificates": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/dotnet-aspire-13-6-release": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://turbopuffer.com/blog/rip-vector-database": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/opentelemetry-kubernetes-observ": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://usenix.org/system/files/fast23-lu.pdf": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://warpbuild.com/start": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sylvainkalache.com/blog/can-claude-fix-itself": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theregister.com/software/2026/03/19/fixing-claude-with-claude-anthropic-reports-on-ai-sre/5224819": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fivenines.io/tools/sla-uptime-calculator": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://en.wikipedia.org/wiki/High_availability": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/managing-async-apis": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://engineering.grab.com/price-sensitivity-profiling-using-llm": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api": {
+  "first": "2026-10-03",
+  "last": "2026-10-06",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://blog.cloudflare.com/birthday-week-2026-wrap-up": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/one-year-later-1111-interns": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wyumm6/there_is_no_now_in_distributed_systems": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://engineering.grab.com/powering-ai-led-research-through-simulation": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://git.sig-io.nl/Sig-IO/mailcheck": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go.dev/blog/archsimd": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dbushell.com/2026/10/03/deno-to-node": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/java-news-roundup-sep28-2026": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/05/spring-office-hours-podcast-S5E25": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 2,
+  "prev": null
+ },
+ "https://helgilibrary.com/companies/jetbrains": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://autodidacts.io/vibecoding-isnt-as-fun-as-writing-code-by-hand": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nobelprize.org/prizes/physics/2026": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dbushell.com/2026/10/07/sustainable-web-career": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/4evy/pared": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gist.github.com/alassek/1a185a8cdae20ddd991a8cd3cd90d347": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lwn.net/SubscriberLink/1097760/2be4d9e3eeb59039": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://brut.sh/": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/infrastructure-financial-services-platform": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pola.rs/posts/release-polars-2": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wyyuft/comfyui_v0390_released": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rui314/mold/releases/tag/v3.0.0": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wydryt/achieving_memory_safety": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/scarpe-team/scarpe/blob/main/docs/native.md": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/scarpe-team/scarpe/blob/main/FOR_AGENTS.md": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/google-wrong-flagging": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/future-cybersecurity-hardware-memory-safety": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/android-security-state-libs": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wxr63h/your_xiaomi_phone_may_be_sending_you_phishing": {
+  "first": "2026-10-06",
+  "last": "2026-10-06",
   "sources": 1,
   "prev": null
  }
