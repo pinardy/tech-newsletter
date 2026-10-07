@@ -18775,9 +18775,9 @@
  },
  "https://rahuljuliato.com/posts/emacs-rx-in-typescript": {
   "first": "2026-10-02",
-  "last": "2026-10-02",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.com/dolanmiu/docx/releases/tag/9.8.0": {
   "first": "2026-10-02",
@@ -18811,9 +18811,9 @@
  },
  "https://svelte.dev/blog/sveltekit-3-is-here": {
   "first": "2026-10-02",
-  "last": "2026-10-02",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you": {
   "first": "2026-10-02",
@@ -19135,9 +19135,9 @@
  },
  "https://supabase.com/blog/supabase-is-acquiring-turso": {
   "first": "2026-10-03",
-  "last": "2026-10-03",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": 1
  },
  "https://home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours": {
   "first": "2026-10-03",
@@ -19483,9 +19483,9 @@
  },
  "https://serpapi.com/": {
   "first": "2026-10-04",
-  "last": "2026-10-04",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.com/basecamp/rails-active_search": {
   "first": "2026-10-04",
@@ -19807,9 +19807,9 @@
  },
  "https://dbushell.com/2026/10/03/deno-to-node": {
   "first": "2026-10-06",
-  "last": "2026-10-06",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": 1
  },
  "https://infoq.com/news/2026/10/java-news-roundup-sep28-2026": {
   "first": "2026-10-06",
@@ -19861,9 +19861,9 @@
  },
  "https://dbushell.com/2026/10/07/sustainable-web-career": {
   "first": "2026-10-06",
-  "last": "2026-10-06",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.com/4evy/pared": {
   "first": "2026-10-06",
@@ -19897,9 +19897,9 @@
  },
  "https://pola.rs/posts/release-polars-2": {
   "first": "2026-10-06",
-  "last": "2026-10-06",
-  "sources": 2,
-  "prev": null
+  "last": "2026-10-07",
+  "sources": 3,
+  "prev": 2
  },
  "https://reddit.com/r/programming/comments/1wyyuft/comfyui_v0390_released": {
   "first": "2026-10-06",
@@ -19976,6 +19976,426 @@
  "https://reddit.com/r/programming/comments/1wxr63h/your_xiaomi_phone_may_be_sending_you_phishing": {
   "first": "2026-10-06",
   "last": "2026-10-06",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://anthropic.com/claude-haiku-5-5": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://openai.com/index/gpt-6-for-everyone": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/sharing-ai-progress-in-mathematics": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://zohaib.cc/blog/smartest-claude-code-feature": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/survey-complex-codebases-agents": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/infoq-ai-webinar": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/agentic-dev-teams": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/cloudflare-sec-harness": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sicpers.info/2026/10/reasons-to-dislike-ai-coding": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/openai/math": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-hpc8a-asia-pacific": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theconsensus.dev/p/2026/09/13/query-plan-rewriting-in-postgresql.html": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://enterprisedb.com/resources/webinar/governing-edb-postgresr-ai-scale-red-hat-ansible": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://snowflake.com/en/blog/engineering/postgres-19-query-plan-hints": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/message-id/915517c4-d0ee-49f9-bbeb-c683ef2b9d3f%40postgresql.org": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/postgres/postgres/commit/a32b8dc9865aa5189d20eca273700b10dfd92fc7": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/grab-counter-aerospike-migration": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/apache-kafka-golang-session-ordered-pipeline": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/spanner-omni-deploy-anywhere-ga": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x02iea/how_savepoints_quietly_throttled_our_postgres": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://githubstatus.com/incidents/djlmxz2zd0j7": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wzptyu/virtual_machines_vs_docker_containers_explained": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wzfp28/from_custom_to_open_scalable_network_probing_and": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.appliedcomputing.io/p/five-key-autoscaling-metrics-for": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dzone.com/articles/third-party-sdk-risks": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.pragmaticengineer.com/the-pulse-a-new-trend-of-cpu-shortages": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surfingcomplexity.blog/2026/10/02/there-was-a-light-that-never-went-out": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/agentic-security-operations": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/root-ksk-2024-rollover": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x00qpi/we_built_a_job_queue_on_an_lsm_tree_this_is_what": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wzz3cc/how_we_slashed_the_size_of_our_search_cache_by_74": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.chrome.com/blog/jpeg-xl-in-chrome": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 3,
+  "prev": null
+ },
+ "https://debugbear.com/blog/example-dot-com-redesign-history": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 3,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=vukchAoaTdE": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://survey.devographics.com/en-US/survey/state-of-html/2026": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://web.dev/blog/web-platform-09-2026": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://andersmurphy.com/2026/09/29/faster-streaming-html-with-batches-and-aggregates.html": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://oliverdunk.com/2026/09/30/iana-reply": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=49950554": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://preactjs.com/blog/preact-11": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/preactjs/preact/issues/2621": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nuxt.com/blog/v4-6": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bigwords.page/": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://refactoringenglish.com/blog/anti-patterns-software-blogging": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wzw4cw/antipatterns_in_software_blogging": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://alexalejandre.com/programming/lisp/janet-for-the-x32-abi": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x01gjy/janet_on_x32_32bit_pointers_64bit_speed_25_less": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 2,
+  "prev": null
+ },
+ "https://ascii.rest/": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/szabadkai/c64-keyboard-font": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nobelprize.org/prizes/chemistry/2026/press-release": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/boykopovar/AnyPS5": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/linux-amp-analysis": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wiro.world/posts/calling-c-func-without-naming-it": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://matklad.github.io/2026/10/07/git-ref.html": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wzf37b/release_of_polars_20": {
+  "first": "2026-10-06",
+  "last": "2026-10-07",
+  "sources": 3,
+  "prev": 2
+ },
+ "https://raspberrypi.com/news/raspberry-pi-desktop-now-available-for-pc-and-mac": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wy7in8/another_step_towards_elm_10": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bd103.dev/blog/2026-10-07-c-for-rust-programmers": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/storytold/photocraft": {
+  "first": "2026-10-07",
+  "last": "2026-10-07",
   "sources": 1,
   "prev": null
  }
