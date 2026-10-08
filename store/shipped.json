@@ -19603,9 +19603,9 @@
  },
  "https://reddit.com/r/programming/comments/1wyo5ne/state_of_devs_2026_survey_results_developers_are": {
   "first": "2026-10-06",
-  "last": "2026-10-06",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-08",
+  "sources": 2,
+  "prev": 1
  },
  "https://ohhfishal.net/Posts/claude": {
   "first": "2026-10-06",
@@ -20397,6 +20397,312 @@
   "first": "2026-10-07",
   "last": "2026-10-07",
   "sources": 1,
+  "prev": null
+ },
+ "https://ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/openai/math/blob/main/history.md": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/danintheory/status/2108065033070789090": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://2026.stateofdevs.com/en-US": {
+  "first": "2026-10-06",
+  "last": "2026-10-08",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ninashamsi.com/writing/i-am-a-bad-writer.html": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/clef-decision-models": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/spotify-multi-agent-ai-architecture": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arxiv.org/abs/2610.08144": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-sonic": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-validation-advisory": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/blog/introducing-postgres-dedicated-read-replicas": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://heroku.com/blog/new-era-managed-databases-announcing-heroku-postgres-advanced": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://paradedb.com/blog/opening-a-closed-tin": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://igor-suhorukov.github.io/blog/2026/09/30/greenplum-without-the-fork": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trigger.dev/blog/upgrading-a-56tb-database": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x0ckk1/how_uber_conquered_database_overload_the_journey": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dev.to/franckpachot/amazon-auroras-analytics-is-duckdb-a-reproducible-side-by-side-with-pgduckdb-5343": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x0mma7/does_clickhouse_really_need_its_own_storage_format": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://allthingssmitty.com/2026/10/05/css-does-your-tooltip-positioning-now": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://patrickbrosset.com/articles/2026-10-02-opening-the-can-of-tooltips": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://webaim.org/projects/screenreadersurvey11": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://w3.org/news/2026/updated-candidate-recommendation-scalable-vector-graphics-svg-2": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://calibreapp.com/blog/airline-websites-are-slow": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sass-lang.com/blog/the-road-to-dart-sass-2": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bsky.app/profile/sindresorhus.com/post/3mwtgzhv7uk2t": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/swc-project/swc/pull/12463": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://krausest.github.io/js-framework-benchmark": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://krausest.github.io/js-framework-benchmark/2026/chrome154.html": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/changelog/2026-10-02-npm-staged-publishing-now-supports-creating-new-packages": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x0u5q9/java_garbage_collection_in_its_own_log_eight": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/06/this-week-in-spring-october-6th-2026": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x0i3bz/the_people_holding_up_the_internet": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 3,
+  "prev": null
+ },
+ "https://sheets.works/data-viz/holding-up-the-internet": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 3,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1wzob2x/software_developers_are_not_okay": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://baldurbjarnason.com/2026/05-software-developers-are-not-okay": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=50006366": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/technological-sovereignity-panel": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dev.clintonblackburn.com/2026/10/08/a-rant-about-apis.html": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x0jd0m/a_rant_about_apis": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=HNzP1aLAffM": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x0vmxt/twoway_doors_dont_code_yourself_into_a_corner": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x0sbg2/bit_arrays_in_the_linux_kernel": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://scottaaronson.blog/?p=10169": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 2,
+  "prev": null
+ },
+ "https://vale.rocks/posts/dvd-menus": {
+  "first": "2026-10-08",
+  "last": "2026-10-08",
+  "sources": 2,
   "prev": null
  }
 }
