@@ -20575,9 +20575,9 @@
  },
  "https://bsky.app/profile/sindresorhus.com/post/3mwtgzhv7uk2t": {
   "first": "2026-10-08",
-  "last": "2026-10-08",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-09",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.com/swc-project/swc/pull/12463": {
   "first": "2026-10-08",
@@ -20689,9 +20689,9 @@
  },
  "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007": {
   "first": "2026-10-08",
-  "last": "2026-10-08",
-  "sources": 2,
-  "prev": null
+  "last": "2026-10-09",
+  "sources": 3,
+  "prev": 2
  },
  "https://scottaaronson.blog/?p=10169": {
   "first": "2026-10-08",
@@ -20703,6 +20703,414 @@
   "first": "2026-10-08",
   "last": "2026-10-08",
   "sources": 2,
+  "prev": null
+ },
+ "https://github.com/franzenzenhofer/big-arrow-on-the-screen": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/android-bench-2": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/github-copilot-rust-migration": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/netflix-observability-aiops-ontology-scale": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wiredream.com/llm-two-futures": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/building-trust-feedback-alignment": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://deno.com/blog/cloudflare": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 2,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-customer-automated-checks-evaluation-forms": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/terraform-google-cloud-provider": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/cloudflare-k2-serverless-streams": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/valkey-evolution": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x1oksq/a_redis_cache_in_nodejs_after_the_first_request": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://clickhouse.com/blog/direct-io-managed-postgres-backups": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/blogs/database/resolving-postgresql-replication-lag-with-heartbeat-tables-in-change-data-capture-scenarios": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://devart.com/dbforge/postgresql/studio": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://exobench.ai/blog/postgres-runs-your-query-fast-exactly-five-times": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/microsoft/postgres-skills": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/cybertec-postgresql/pgwatch/releases/tag/v6.0.0": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/circleci-machine-runner": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/radar-redesign": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/shopify-web-components": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.master.dev/you-dont-know-bidi-and-neither-does-chatgpt": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://css-tip.com/children-count": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://howdopasskeyswork.com/": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shaders.com/updates/shaders-is-open-source": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shaders.com/docs/components": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://videojs.org/blog/videojs-10": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.gaborkoos.com/posts/2026-10-04-I-Tested-11-Http-Resilience-Libraries": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x18013/adding_gos_defer_to_the_typescript_compiler": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://claude.dev/blog/getting-started-with-claude-code-mods": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dbushell.com/2021/03/12/built-with-deno": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://radekmie.dev/blog/on-automatic-type-refinements": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tanstack.com/blog/tanstack-charts-1-0": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nodejs.org/en/blog/release/v26.11.0": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/65787": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/62530": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/66537": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sonarsource.com/products/sonarqube/hunter-agent": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.platformatic.dev/more-threads-on-an-already-busy-machine": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://python.org/downloads/release/python-3150": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x0j559/margaret_hamilton_computing_pioneer_who_led": {
+  "first": "2026-10-08",
+  "last": "2026-10-09",
+  "sources": 3,
+  "prev": 2
+ },
+ "https://reddit.com/r/programming/comments/1x1h8xs/programming_isnt_special": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.glyph.im/2026/10/programming-isnt-special.html": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reuters.com/world/us-imposes-sanctions-international-criminal-court-hours-after-former-judge-wins-2026-10-09": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://oxide.computer/blog/our-445m-series-d": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://united24media.com/war-in-ukraine/yandex-takes-a-second-data-center-hit-in-48-hours-now-its-biggest-russian-site-is-damaged-23277": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://iminafleeting.com/": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://purplesyringa.moe/blog/vectorized-clz-and-ctz": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://unison-lang.org/blog/unison-cloud-open-source": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blueberrywren.dev/blog/primes": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x1meur/how_does_tlshttps_works": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x1cjem/a_curated_list_of_big_tech_engineering_blog_posts": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x1pypx/python_release_python_3150": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dev.37signals.com/warming-up-the-puma-master-before-it-forks": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theregister.com/devops/2026/10/07/rails-originator-roasted-over-rust-boosterism/5301494": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/tobi/campfire-once-ruby-ractor": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://static.lutke.dev/KTK6Vb/campfire-ruby-explainer": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ruby/dev-meeting-log/blob/master/2026/DevMeeting-2026-10-07.md": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/ruby/ruby/commit/d0e8537b4cb86bfc84f002e35cdf49cbba7d9b43": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mcmah309.github.io/posts/the-missing-piece-in-rust-error-handling": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x1d8s7/microsoft_postquantum_authentication_why": {
+  "first": "2026-10-09",
+  "last": "2026-10-09",
+  "sources": 1,
   "prev": null
  }
 }
