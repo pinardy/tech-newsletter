@@ -403,9 +403,9 @@
  },
  "https://healeycodes.com/adding-defer-to-the-typescript-compiler": {
   "first": "2026-08-10",
-  "last": "2026-08-10",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": 1
  },
  "https://textlog.cc/about": {
   "first": "2026-08-10",
@@ -9325,9 +9325,9 @@
  },
  "https://surveyjs.io/": {
   "first": "2026-09-05",
-  "last": "2026-09-05",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": 1
  },
  "https://go.dev/blog/goroutine-leak-profiles": {
   "first": "2026-09-05",
@@ -16249,9 +16249,9 @@
  },
  "https://expo.dev/": {
   "first": "2026-09-25",
-  "last": "2026-09-25",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": 1
  },
  "https://sunilpai.dev/posts/the-senior-engineer-death-spiral": {
   "first": "2026-09-25",
@@ -20899,9 +20899,9 @@
  },
  "https://shaders.com/docs/components": {
   "first": "2026-10-09",
-  "last": "2026-10-09",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": 1
  },
  "https://videojs.org/blog/videojs-10": {
   "first": "2026-10-09",
@@ -20916,10 +20916,10 @@
   "prev": null
  },
  "https://reddit.com/r/programming/comments/1x18013/adding_gos_defer_to_the_typescript_compiler": {
-  "first": "2026-10-09",
-  "last": "2026-10-09",
-  "sources": 1,
-  "prev": null
+  "first": "2026-08-10",
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": 1
  },
  "https://claude.dev/blog/getting-started-with-claude-code-mods": {
   "first": "2026-10-09",
@@ -20941,9 +20941,9 @@
  },
  "https://tanstack.com/blog/tanstack-charts-1-0": {
   "first": "2026-10-09",
-  "last": "2026-10-09",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": 1
  },
  "https://nodejs.org/en/blog/release/v26.11.0": {
   "first": "2026-10-09",
@@ -21110,6 +21110,402 @@
  "https://reddit.com/r/programming/comments/1x1d8s7/microsoft_postquantum_authentication_why": {
   "first": "2026-10-09",
   "last": "2026-10-09",
+  "sources": 1,
+  "prev": null
+ },
+ "https://deadsimpletech.com/blog/llms-arent-inevitable": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://changelog.com/podcast/686": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/deno-joins-cloudflare": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 3,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x23sn2/deno_is_joining_cloudflare": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 3,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/cloudflare-traces-open-beta": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-brand-templates-on-brand-presentations-documents": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/8rrtma/cloudflare_shutting_down_deno_is_news_not": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x1v9c8/clickhouse_outcompresses_parquet_surprises_from": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/about/news/pgx-bm25-10-bm25-ranked-full-text-search-as-a-native-postgresql-index-3396": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/clef-faster-cheaper-multimodal": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/workers-on-demand-profiling": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x10fqb/the_order_of_things_why_you_cant_have_both_speed": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://css-doodle.com/": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://css-doodle.com/discover": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/viliket/pure-web-bottom-sheet": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://victoriametrics.com/blog/http-race-condition": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://threedots.tech/the-domain-engineer": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mitchellh.com/writing/program-status-osc7501": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": null
+ },
+ "https://vincent.bernat.ch/en/blog/2026-go-netip-addrto6": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": null
+ },
+ "https://internals-for-interns.com/posts/hooking-into-the-go-toolchain": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://groups.google.com/g/golang-announce/c/U2fTuyDJznI": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/81612": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://praneos.com/blog/go-performance-1-2-to-1-27": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.13.0": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": null
+ },
+ "https://tanstack.com/charts/catalog": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://svelte.dev/docs/kit/migrating-to-sveltekit-3": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://miris.com/blog/from-substance-to-browser": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://effect.website/blog/releases/effect/40": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kevinold.com/blog/a-week-maintaining-wait-on": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://flaviocopes.com/javascript-single-executable": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/dolanmiu/docx/releases/tag/9.9.0": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://h3.dev/blog/v2": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://crashunited.itch.io/klattsch/devlog/1580425/klattsch-engine-is-free-software-put-it-in-your-game": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://feedsmith.dev/": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://borretti.me/article/no-man-is-an-island": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 2,
+  "prev": null
+ },
+ "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rea.tools/": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://carrierexplode.com/": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://commandline.microsoft.com/microsoft-decision-1-model-foundry": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nerdyelectronics.com/mars-pathfinder-what-really-happened": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lightbulbcomputer.com/": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://karansaini.com/mmi-android": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sebsite.pw/w/20261009-strtod.html": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x2f6cs/decompiling_macos_terminal_to_make_it_have": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://julesblom.com/writing/react-visual-notation": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nextjs.org/blog/next-16-4": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://linkedin.com/posts/adamawolf_senior-software-engineer-native-mobile-activity-7511201803389186048-JV6b": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://x.com/sethwebster/status/2105422444529963495": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jimmyhmiller.com/what-does-the-react-compiler-even-do": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://redmine.ruby-lang.org/issues/22180": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://noteflakes.com/articles/2026-10-07-unrolled-code": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://evilmartians.com/chronicles/dont-bet-on-select-order-shuffle-your-rows-see-what-folds": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://samx.io/blog/topics/devlog/2026-09-26-ruby-lean.html": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fastruby.io/blog/run-the-rails-agent-benchmark-yourself.html": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/crmne/ruby_llm/releases/tag/v2.1.0": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://samkhawase.com/blog/voxlocal-minimal-voice-agent": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x2et1j/rewriting_an_entire_ui_in_rust": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach": {
+  "first": "2026-10-10",
+  "last": "2026-10-10",
   "sources": 1,
   "prev": null
  }
