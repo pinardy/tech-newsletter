@@ -21508,5 +21508,317 @@
   "last": "2026-10-10",
   "sources": 1,
   "prev": null
+ },
+ "https://infoq.com/news/2026/10/gremlin-foresight-ai": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arxiv.org/html/2610.05978v1": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://radar.cloudflare.com/bots/as13238": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/aws-enhanced-eventbridge-buses": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-gamelift-servers-cpu-burstability": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-c8gb": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jrobineau.com/en/blog/2026-09-30-go-127-goroutine-leak-profile.html": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arturdryomov.dev/posts/logs-in-parallel-go-tests": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lukasschwab.me/blog/gen/poisoning-go-cache.html": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gophercon.jp/2027/cfp": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://withblue.ink/2026/10/francis-stable": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lightpanda.io/blog/posts/lightpanda-1-0": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lightpanda.io/docs/usage/pandascript": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netlify.com/blog/edge-functions-firecracker-microvms": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://feedsmith.dev/migration/v2-to-v3": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lemire.me/blog/2026/10/06/linking-node-js-with-mold": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://newgtldprogram.icann.org/en/application-rounds/round2": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gtlds.fyi/": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://survey.stackoverflow.co/2026": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://feedsmith.dev/quick-start": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://verdagon.dev/blog/valen-group-borrowing": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x37b3z/valens_memory_safety_a_new_kind_of_borrow_checking": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 2,
+  "prev": null
+ },
+ "https://pydantic.dev/articles/dynamic-shredding-2026-01-26": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://n-the-loop.com/blog/consistency-is-not-a-localized-property": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x30ctj/multiinstitutional_consortium_expands_qrmi_to": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lineageos.org/Changelog-32": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 2,
+  "prev": null
+ },
+ "https://status.yandex.cloud/en/incidents/2136": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://adepts.of0x.cc/Eufy-DoorBell-hacking": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nitter.net/": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wallhop.io/": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gnu.org/philosophy/whats-wrong-with-github.html": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nishtahir.com/build-your-own-decision-model": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://carette.xyz/posts/lobbying_and_corruption": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://react-aria.adobe.com/blog/sheet": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jjenzz.com/making-react-context-cheap": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=L-PNQi1nBSA": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://robinwieruch.de/react-folder-structure": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/vadimdemedes/ink/releases/tag/v8.0.0": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wcandillon.github.io/react-native-skia/docs/getting-started/migration": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x332bn/wxwidgets_3212_and_334_released": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://linus.dev/posts/kiesel-devlog-15": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/danielpclark/rutie": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/emancu/toml-rb/releases/tag/v6.0.0": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/tools4imps/exhale-ruby": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/tools4imps/exhale-ruby/releases/tag/v0.2.0": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubyllm.com/whats-new-in-2-1": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://appsignal.com/alternative/new-relic-alternative": {
+  "first": "2026-10-11",
+  "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
  }
 }
