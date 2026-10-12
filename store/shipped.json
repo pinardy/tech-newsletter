@@ -21745,9 +21745,9 @@
  },
  "https://jjenzz.com/making-react-context-cheap": {
   "first": "2026-10-11",
-  "last": "2026-10-11",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-12",
+  "sources": 2,
+  "prev": 1
  },
  "https://youtube.com/watch?v=L-PNQi1nBSA": {
   "first": "2026-10-11",
@@ -21818,6 +21818,384 @@
  "https://appsignal.com/alternative/new-relic-alternative": {
   "first": "2026-10-11",
   "last": "2026-10-11",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/spotify-ai-quality-controls": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/podcasts/what-really-mean-program-ai": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://linkedin.com/pulse/ai-tool-rich-hickey-kjl8e": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/xcode-json-project-format": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://phoronix.com/news/Linus-Torvalds-Claude-Code": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://arxiv.org/abs/2609.05370": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/ai-cloud-cost-economics": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-elasticache-insights": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-index-level-encryption": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-ports-sftp": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x3a1sp/duckdb_20_claims_to_be_faster_i_put_it_to_the_test": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://db.cit.tum.de/~durner/papers/json-tiles-sigmod21.pdf": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pages.antithesis.com/oreilly-scaling-ai-ebook-srew": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://incident.io/blog/building-investigations-what-it-takes-to-build-an-ai-sre": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://leaddev.com/ai/your-error-budgets-dont-know-ai-exists": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surfingcomplexity.blog/2026/09/12/thoughts-on-the-july-8th-telestra-outage-report": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surfingcomplexity.blog/2026/09/19/how-the-incident-happened-a-play-in-one-act": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.alexewerlof.com/p/coding-is-not-solved": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/react-19-3-browser-api": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/snuri00/ps2-web-recomp": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x39mmq/searching_48k_paintings_by_color_scheme_in_the": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubenerd.au/css-for-underlines": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lab.ishadeed.com/tools/gradient-visualizer": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://buf.build/blog/connect-go-v2": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/antonmedv/fx": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/tools/blob/gopls/v0.24.0-pre.2/gopls/doc/release/v0.24.0.md": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/github/github-mcp-server/releases/tag/v2.0.0": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/maragudk/gomponents/blob/main/skills/gomponents/SKILL.md": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gonix.dev/quickstart.html": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/java-news-roundup-oct05-2026": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/08/a-bootiful-podcast-kohsuke-kawaguchi": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://openfatigue.ai/": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mei.puppycat.house/w/seeing-261010": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://prophitt.me/writing/a-modern-web-app-in-c": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.silentsignal.eu/2026/10/06/512-bytes-at-a-time-reconstructing-IBM-i-save-file-checksums": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sebsite.pw/w/20261012-notstdc.html": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://royfish.dev/fingerprints-are-the-new-cookies": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://github.com/openai/codex/issues/48195": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://research.meta.ai/blog/muse-wonder": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://z.ai/blog/glm-legal": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/liquid-clustering-lakehouse-layout": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/context-language-models": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/callstack/react-native-testing-library/releases/tag/v14.1.0": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trigger.dev/": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sergiodxa.com/articles/the-remix-way": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rubysec.com/advisories/GHSA-p6pm-ch9v-44vx": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rubygems.org/2026/10/08/4.1.0.beta2-released.html": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/gregnavis/active_record_doctor": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.julik.nl/2026/10/the-weimar-of-ruby": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://whysfoxes.github.io/whysfoxes_web": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://raibert.lol/": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gist.github.com/FlameyosSnowy/a49a35ba006238be55d8c3e410c31061": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rupert648/culpert": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gamesbymason.com/blog/2024/6-years-in-rust-ama": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 1,
+  "prev": null
+ },
+ "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
+  "sources": 2,
+  "prev": null
+ },
+ "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467": {
+  "first": "2026-10-12",
+  "last": "2026-10-12",
   "sources": 1,
   "prev": null
  }
