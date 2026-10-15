@@ -22051,9 +22051,9 @@
  },
  "https://openfatigue.ai/": {
   "first": "2026-10-12",
-  "last": "2026-10-12",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-15",
+  "sources": 2,
+  "prev": 1
  },
  "https://mei.puppycat.house/w/seeing-261010": {
   "first": "2026-10-12",
@@ -22687,9 +22687,9 @@
  },
  "https://sebsite.pw/w/20261014-initstate.html": {
   "first": "2026-10-14",
-  "last": "2026-10-14",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-15",
+  "sources": 2,
+  "prev": 1
  },
  "https://youtube.com/watch?v=NaW0d7Tghw0": {
   "first": "2026-10-14",
@@ -22730,6 +22730,342 @@
  "https://infoq.com/news/2026/10/zimbra-command-injection": {
   "first": "2026-10-14",
   "last": "2026-10-14",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sunshowers.io/posts/anthropic-mononoke": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 2,
+  "prev": null
+ },
+ "https://csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/optimize-software-workflow": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/agentic-ai-developer-trust-adoption": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/spring-security-7-server-side-dpop-token-exchange": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/meta-private-process-ai-glasses": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://delightql.org/": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x5uh6j/where_do_you_go_for_help_when_youre_stuck_now": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x5tyjg/why_i_love_ai_no_not_that_kind": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x5spis/anthropic_designs_new_inhouse_monorepo_source": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://enroute.sh/blog/everyone-is-doing-git-on-s3-wrong": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-license-manager-conversions-ubuntu-pro-marketplace": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-fsx-asia-pacific-new-zealand": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/grafana-tempo-31": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://explainmeasured.com/posts/deleting-rows": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgedge.com/blog/pg-phriday-against-the-wal": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://event-driven.io/en/connection-pooler-modes-advisory-locks": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/blogs/database/understanding-the-differences-between-pgbouncer-and-amazon-rds-proxy-for-postgresql-connection-pooling": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://boringsql.com/posts/tablesample": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://readyset.io/downloads": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x6fqck/how_stripe_uses_graph_search_and_state_machines": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x6hi5q/layered_vs_hexagonal_vs_onion_vs_clean": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://videojs.org/blog/iphone-duo-web-development": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lea.verou.me/blog/2026/icons": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://master.dev/courses/typescript-ai": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://interop-rank.fxdx.dev/": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bsky.app/profile/jakearchibald.com/post/3mxgl5rmbxc2c": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://letsencrypt.org/2026/10/07/64-day-certs": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://javascript.tm/": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bun.com/blog/bun-v1.4.3": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/colinhacks/zod/releases/tag/v4.6.6": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tanstack.com/blog/tanstack-start-1-0": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lemire.me/blog/2026/10/10/websocket-servers-in-javascript-node-js-bun-and-deno-in-2026": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x5w07k/das_uiframework_für_java_spring": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x1lkpi/java_garbage_collection_in_its_own_log_eight": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go.dev/blog/http-connection-reuse": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 3,
+  "prev": null
+ },
+ "https://tinylittleoffice.com/": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x6d3zd/yet_another_place_where_a_linux_man_page_is": {
+  "first": "2026-10-14",
+  "last": "2026-10-15",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://typesafe.ai/blog/jev-1-14": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://costa.jacobpalm.dk/": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hol-light.github.io/tutorial/HTML/tutorial.html": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://entropicthoughts.com/geometric-model-of-maintenance": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x6fuq4/intellectual_vs_statistical_control": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://re.factorcode.org/2026/10/factor-0-102-now-available.html": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine": {
+  "first": "2026-10-15",
+  "last": "2026-10-15",
   "sources": 1,
   "prev": null
  }
