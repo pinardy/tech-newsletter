@@ -22285,9 +22285,9 @@
  },
  "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions": {
   "first": "2026-10-13",
-  "last": "2026-10-13",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-17",
+  "sources": 4,
+  "prev": 1
  },
  "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing": {
   "first": "2026-10-13",
@@ -22489,9 +22489,9 @@
  },
  "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere": {
   "first": "2026-10-13",
-  "last": "2026-10-16",
-  "sources": 3,
-  "prev": 2
+  "last": "2026-10-17",
+  "sources": 4,
+  "prev": 3
  },
  "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dcv-2026-0": {
   "first": "2026-10-14",
@@ -23468,6 +23468,414 @@
  "https://reddit.com/r/programming/comments/1x71ti7/learned_index_lab_replacing_btrees_with_streaming": {
   "first": "2026-10-16",
   "last": "2026-10-16",
+  "sources": 1,
+  "prev": null
+ },
+ "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://starskirmish.com/bench/v0-2": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/reverse-engineer-anything": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/miwcai/do_you_let_llms_write_both_your_tests_your": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/ai-systems-production": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mercor.com/research/labor-index/benchmark-map": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://anthropic.com/research/ecdsa-curve-origins": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://maevyn.codes/decoherence": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x7hz86/freedoom_on_aws_lambda_web_functions": {
+  "first": "2026-10-13",
+  "last": "2026-10-17",
+  "sources": 4,
+  "prev": 3
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/amazon-acquires-ducklabs": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/01/reflection-beam-on-sagemaker-jumpstart-and-aws-trainium": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-azure-to-aws-code-conversion": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x7mmu6/learning_postgres_extensions_using_zig": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://docs.stacresearch.com/M3-20261005a": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/netflix-conductor-the-next-chapter": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/uber-automated-dependency": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/real-time-stripe-data-postgres": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/verified-bots-accountability": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x7002l/pdf_getting_a_subroutine_right_a_case_study": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/news-insights/company-news/github-availability-report-september-2026": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/158": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://chromestatus.com/release-notes/156": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://webkit.org/blog/18420/release-notes-for-safari-technology-preview-254": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://utilitybend.com/blog/scroll-triggered-animation-as-the-missing-piece-for-scrollytelling-on-the-web": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ikrishg.github.io/reseter.css": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://screen-ruler.com/": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x7v2i1/same_javascript_file_plays_tetris_in_the_browser": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/zod-schema-compliation": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://anoma.ly/notes/opencode-2-0": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tamagui.dev/blog/version-three": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.ikaes.de/yet-another-way-to-invoke-functions-without-parentheses": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nodejs.org/en/blog/release/v24.22.0": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://trigger.dev/blog/zod-4-got-rid-of-a-bunch-of-cpus-for-us": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thenodebook.com/blog/fast-nodejs-doing-less": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://brettcodes.com/the-disappointing-death-of-deno": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go.dev/blog/interactive-refactoring": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://jakearchibald.com/2026/jpeg-xl-vs-avif": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 2,
+  "prev": null
+ },
+ "https://davepacheco.net/blog/2025/developing-for-debugging-dns-propagation": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shkspr.mobi/blog/2026/10/some-thoughts-on-unit-testing-activitypub": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jamesfmackenzie.com/2026/10/13/i-love-software-rendering": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rajtilakjee/orib": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x88p5f/how_not_to_build_a_fiveinarow_game_engine": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://machinelearning.apple.com/research/mlx-distributed-inference": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/envharness-self-evolving-agents": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.gallup.com/poll/708614/desire-migrate-drops-new-low.aspx": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://waymo.com/blog/2026/10/waymo-in-toronto": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lists.ubuntu.com/archives/ubuntu-announce/2026-October/000330.html": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rubygems.org/2026/10/15/rubygems-org-now-shows-security-warnings-for-gems.html": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gem.coop/updates/8": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugs.ruby-lang.org/issues/22437": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://island94.org/2026/10/adding-custom-thor-commands-to-your-rails-app": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://andycroll.com/ruby/escape-like-wildcards-with-sanitize-sql-like": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://greg.molnar.io/blog/deploying-a-roundhouse-app-with-kamal": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1x7h9cz/sudocrypt_v160_is_back_our_international_ctf_is": {
+  "first": "2026-10-17",
+  "last": "2026-10-17",
   "sources": 1,
   "prev": null
  }
