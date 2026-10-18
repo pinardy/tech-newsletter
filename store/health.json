@@ -62,8 +62,8 @@
  "hackernews": {
   "name": "Hacker News",
   "status": "ok",
-  "items": 1,
-  "at": "2026-10-18T11:59:45+00:00"
+  "items": 5,
+  "at": "2026-10-18T21:21:21+00:00"
  },
  "lobsters": {
   "name": "Lobsters",
@@ -75,13 +75,13 @@
   "name": "r/programming",
   "status": "ok",
   "items": 25,
-  "at": "2026-10-18T11:59:45+00:00"
+  "at": "2026-10-18T21:21:21+00:00"
  },
  "infoq": {
   "name": "InfoQ",
   "status": "ok",
   "items": 15,
-  "at": "2026-10-18T11:59:45+00:00"
+  "at": "2026-10-18T21:21:21+00:00"
  },
  "changelog": {
   "name": "Changelog",
@@ -159,6 +159,6 @@
   "name": "AWS What's New",
   "status": "ok",
   "items": 100,
-  "at": "2026-10-18T11:59:45+00:00"
+  "at": "2026-10-18T21:21:21+00:00"
  }
 }
