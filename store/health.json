@@ -67,9 +67,9 @@
  },
  "lobsters": {
   "name": "Lobsters",
-  "status": "error: HTTPError: HTTP Error 500: Internal Server Error",
-  "items": 0,
-  "at": "2026-10-18T11:59:45+00:00"
+  "status": "ok",
+  "items": 25,
+  "at": "2026-10-18T16:25:17+00:00"
  },
  "rprogramming": {
   "name": "r/programming",
