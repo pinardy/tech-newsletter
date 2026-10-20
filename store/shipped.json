@@ -22405,9 +22405,9 @@
  },
  "https://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves": {
   "first": "2026-10-13",
-  "last": "2026-10-14",
-  "sources": 2,
-  "prev": 1
+  "last": "2026-10-20",
+  "sources": 3,
+  "prev": 2
  },
  "https://stonetools.ghost.io/lotusimprov-next": {
   "first": "2026-10-13",
@@ -24404,6 +24404,264 @@
  "https://infoq.com/news/2026/10/dotnet-11-rc-2": {
   "first": "2026-10-19",
   "last": "2026-10-19",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/deepseek-ai/DeepInfer": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/scale-llm-agents-production-ray": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://inceptionlabs.ai/blog/introducing-mercury-3": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-store-optimistic-locking": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-readiness-overview": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-omni-8-regions": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-image-builder-asg-faster-builds": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xa9h5w/the_reverts_will_continue_until_morale_improves": {
+  "first": "2026-10-13",
+  "last": "2026-10-20",
+  "sources": 3,
+  "prev": 2
+ },
+ "https://infoq.com/news/2026/10/pinterest-event-time-partition": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/github-runner-controller-0-15": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://greatcircle.com/blog/2026/10/06/page-on-user-experience": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/obsessive-inference-optimization": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/clairic-extraction-model": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/protect-your-netscaler-gateway": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/saas-platform-trends-in-AI-era": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://making.close.com/posts/rendering-untrusted-html-email-safely": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xadl8d/rendering_untrusted_html_email_safely": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 2,
+  "prev": null
+ },
+ "https://vladocar.github.io/Sumi.css/docs.html": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xa3cyt/campfire_port_in_java_is_faster_than_rust_some": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/15/a-bootiful-podcast-andrew-lombardi": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/java-news-roundup-oct12-2026": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://marc.info/": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 2,
+  "prev": null
+ },
+ "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xaqyzu/ssh_keys_on_macos_with_touch_id": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 2,
+  "prev": null
+ },
+ "https://openbsd.org/80.html": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/kksimp/Mac.apk": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/commit/90617fb7ceb59cf08bee7826bb51b8c8fb8c11de": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.mahdibm.com/posts/a-very-fast-ipv4-parser-in-swift": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vt100.net/dec/vt100/rom": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://politico.com/news/magazine/2026/10/18/egg-prices-conspiracy-affordability-issue-01100411": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xaqfla/old_books_and_verified_text": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://minimax.io/blog/minimax-m31f": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/fonp7g/intermediary_between_public_private": {
+  "first": "2026-10-20",
+  "last": "2026-10-20",
   "sources": 1,
   "prev": null
  }
