@@ -24805,9 +24805,9 @@
  },
  "https://joshwcomeau.com/css/interop-2027": {
   "first": "2026-10-21",
-  "last": "2026-10-21",
-  "sources": 2,
-  "prev": null
+  "last": "2026-10-22",
+  "sources": 3,
+  "prev": 2
  },
  "https://fleeb.ee/blog/improving-accessibility-with-css-media-queries": {
   "first": "2026-10-21",
@@ -24835,9 +24835,9 @@
  },
  "https://nolanlawson.com/2026/10/19/do-web-components-have-a-future-if-nobody-is-writing-them": {
   "first": "2026-10-21",
-  "last": "2026-10-21",
-  "sources": 2,
-  "prev": null
+  "last": "2026-10-22",
+  "sources": 3,
+  "prev": 2
  },
  "https://reddit.com/r/programming/comments/1xaaife/how_to_gaslight_javascript_programmers": {
   "first": "2026-10-21",
@@ -24877,9 +24877,9 @@
  },
  "https://infoq.com/news/2026/10/tornadovm-7-gpu": {
   "first": "2026-10-21",
-  "last": "2026-10-21",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": 1
  },
  "https://spring.io/blog/2026/10/20/this-week-in-spring-october-20th-2026": {
   "first": "2026-10-21",
@@ -24895,15 +24895,15 @@
  },
  "https://emudhra.we-have-a-problem.com/": {
   "first": "2026-10-21",
-  "last": "2026-10-21",
-  "sources": 2,
-  "prev": null
+  "last": "2026-10-22",
+  "sources": 3,
+  "prev": 2
  },
  "https://reddit.com/r/programming/comments/1xb32yj/emudhra_intermediate_ca_compromise": {
   "first": "2026-10-21",
-  "last": "2026-10-21",
-  "sources": 2,
-  "prev": null
+  "last": "2026-10-22",
+  "sources": 3,
+  "prev": 2
  },
  "https://kaba.cx/posts/20261020_Tor": {
   "first": "2026-10-21",
@@ -24925,9 +24925,9 @@
  },
  "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds": {
   "first": "2026-10-21",
-  "last": "2026-10-21",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-22",
+  "sources": 3,
+  "prev": 1
  },
  "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site": {
   "first": "2026-10-21",
@@ -24979,9 +24979,9 @@
  },
  "https://php.net/archive/2026.php": {
   "first": "2026-10-21",
-  "last": "2026-10-21",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2": {
   "first": "2026-10-21",
@@ -25010,6 +25010,378 @@
  "https://reddit.com/r/programming/comments/1xarfxg/go_issues_emergency_update_blocking_eight_ca_keys": {
   "first": "2026-10-21",
   "last": "2026-10-21",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/openai/openai-cli": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://claude.com/product/claude-duet": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wiz.io/blog/php2shell-php-rce": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/openai-models-google-cloud": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/actors-for-production-ai-agents": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/ai-changes-data-interface": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/ai-agents-harbor-docker": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/photocraft-adobe-parity": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dcrainmaker.com/2026/10/garmin-connect-api-revamps-connect-developer.html": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xcjx7l/who_is_issac_newton_or_davinci_of_programmingcs": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://eyg.run/guides/embedding-eyg-in-erlang-programs": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-manchester": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/cognito-multi-region-us-govcloud": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-neuron-2-33-0": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-new-layouts-agent-workspace": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/netflix-workload-attestation-aws": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://duckdb.org/2026/10/21/announcing-duckdb-200": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://duckdb.org/2026/10/21/announcing-duckdb-200.html": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xchal4/i_tried_to_find_out_how_clickhouse_keeper_takes": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://eventyay.com/fossasia/pgday2027": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://andyatkinson.com/2026-rails-community-survey-results": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://depesz.com/2026/10/16/old-tech-is-sometimes-better-a-case-study-based-on-blogpost-from-now-next": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgedge.com/blog/why-is-postgresql-s-numeric-type-so-slow": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stackgres.io/blog/open-source-citus-matches-planetscales-neki-at-10m-qps-on-half-the-data-nodes": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/blog/118-million-queries-per-second-on-neki": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xbxrns/todays_php_security_release_and_how_were": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/full-transaction-waf": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/php-vulnerabilities-waf-protection": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/webmcp-commerce": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://chartist.dev/": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://pele.run/": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://pele.run/playground": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://jpegxl.info/art/big_gallery.html": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/vercel-zig-fx-agent": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://firefox-source-docs.mozilla.org/devtools-user/local_mode/index.html": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xbxzz2/go_links_that_live_in_a_file_in_your_repo_open": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vlt.io/blog/competition-keeps-javascript-moving": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xcc8i8/tornadovm_7_enables_gpunative_workloads_from_java": {
+  "first": "2026-10-21",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://reddit.com/r/programming/comments/1xcgl1u/arcana_one_purejava_library_for_almost_every": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xbl8y1/eight_bits_of_trust_emudhras_ca_keys_cracked_in": {
+  "first": "2026-10-21",
+  "last": "2026-10-22",
+  "sources": 3,
+  "prev": 1
+ },
+ "https://infoq.com/news/2026/10/emudhra-ca-compromise": {
+  "first": "2026-10-21",
+  "last": "2026-10-22",
+  "sources": 3,
+  "prev": 2
+ },
+ "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theverge.com/tech/1015844/airbnb-chores-house-rules-update": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theverge.com/games/1015647/ea-is-shutting-down-bioware": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reasonableapproximation.net/2023/08/10/three-configurable-prettyprinters.html": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xcp40x/coding_magic_the_gathering_in_c_part_two_the": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://zoey-on-github.github.io/blog/macgcc.html": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xc2q5n/think_php2shell_was_bad_php_is_about_to_face_an": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xbm5hd/summary_of_major_changes_between_python_versions": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xcaveo/debunking_faster_than_rust_malicious_benchmarks": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://google.github.io/styleguide/rustguide.html": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.railway.com/p/security-disclosure-wednesday-october-21st": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 2,
+  "prev": null
+ },
+ "https://nvd.nist.gov/vuln/detail/cve-2026-111943": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://eliastaylor.com/noexploit": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openwall.com/lists/oss-security/2026/10/21/18": {
+  "first": "2026-10-22",
+  "last": "2026-10-22",
   "sources": 1,
   "prev": null
  }
