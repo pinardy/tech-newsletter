@@ -50,27 +50,27 @@
   "last_modified": "Mon, 19 Oct 2026 12:31:37 GMT"
  },
  "hackernews": {
-  "last_polled": "2026-10-24T05:35:49+00:00",
+  "last_polled": "2026-10-24T11:55:19+00:00",
   "etag": null,
   "last_modified": null
  },
  "lobsters": {
-  "last_polled": "2026-10-24T05:35:49+00:00",
-  "etag": "\"dmctp22qhtro-c0i-gzip\"",
-  "last_modified": "Sat, 24 Oct 2026 05:35:30 GMT"
+  "last_polled": "2026-10-24T11:55:19+00:00",
+  "etag": "\"dmd1rohlogcq-c71-gzip\"",
+  "last_modified": "Sat, 24 Oct 2026 11:55:05 GMT"
  },
  "rprogramming": {
-  "last_polled": "2026-10-24T05:35:49+00:00",
+  "last_polled": "2026-10-24T11:55:19+00:00",
   "etag": null,
   "last_modified": null
  },
  "infoq": {
-  "last_polled": "2026-10-24T05:35:49+00:00",
-  "etag": "\"1792804547247\"",
-  "last_modified": "Sat, 24 Oct 2026 01:15:47 GMT"
+  "last_polled": "2026-10-24T11:55:19+00:00",
+  "etag": "\"1792831663271\"",
+  "last_modified": "Sat, 24 Oct 2026 08:47:43 GMT"
  },
  "changelog": {
-  "last_polled": "2026-10-23T21:56:51+00:00",
+  "last_polled": "2026-10-24T11:55:19+00:00",
   "etag": "\"bea35362f968fc7c50f11e0545dbdaef\"",
   "last_modified": "Thu, 22 Oct 2026 17:45:06 GMT"
  },
@@ -130,8 +130,8 @@
   "last_modified": null
  },
  "aws": {
-  "last_polled": "2026-10-24T05:35:49+00:00",
+  "last_polled": "2026-10-24T11:55:19+00:00",
   "etag": null,
-  "last_modified": "Sat, 24 Oct 2026 05:03:02 GMT"
+  "last_modified": "Sat, 24 Oct 2026 11:03:02 GMT"
  }
 }
