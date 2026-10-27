@@ -26797,9 +26797,9 @@
  },
  "https://reddit.com/r/programming/comments/1xfu0wk/pharo_14_released": {
   "first": "2026-10-26",
-  "last": "2026-10-26",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-27",
+  "sources": 2,
+  "prev": 1
  },
  "https://infoq.com/news/2026/10/php-critical-rce-patches": {
   "first": "2026-10-26",
@@ -26822,6 +26822,318 @@
  "https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org": {
   "first": "2026-10-26",
   "last": "2026-10-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/introducing-gpt-6-1-terra": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://j11g.com/the-mythical-man-month-in-the-age-of-ai": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/anthropic-source-control": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/llm-inference-kv-cache": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/aws-ai-agents-linux-kernel-cves": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/atlassian-devex-2026": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/agntcon-mcpcon-2026": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xfymz4/browsercode_a_browserbased_coding_playground": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/smus-light-mode": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-validate-flow-actions": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-metrics": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dzone.com/articles/dual-write-microservices": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://billduncan.org/backstage-1": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://blog.pragmaticengineer.com/the-pulse-firebases-global-outage-poor-response": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://firebase.blog/posts/2026/10/firebase-analytics-outage": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ufried.com/blog/building_robust_ai": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://greatcircle.com/blog/2026/09/29/burning-man-incident-management": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go.dev/blog/emudhra-incident": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/kv-cache-exposure-remediation": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/readyon-four-layer-isolation": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://css-tricks.com/css-tricks-has-a-new-owner": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://garciat.com/posts/haskell-union-types": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://garciat.com/posts/java-type-classes": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/26/spring-office-hours-podcast-S5E27": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/23/spring-ldap-4": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/java-news-roundup-oct19-2026": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sonatype.com/blog/the-limits-of-fingerprint-blocklists-a-reproducible-java-certificate-bypass": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lists.debian.org/debian-devel/2026/10/msg00263.html": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/building-scientific-understanding-with-academic-communities": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://panamericandispatch.org/p/meta-employees-denounce-interference": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/uber-cpu-stateful-workloads": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ensojs.dev/": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alfy.blog/2026/10/27/a-select-should-tell-you-something.html": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://neodyme.io/en/blog/switchbot": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/opentofu-1-13-unknown-values": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pharo.org/news/2026-10-26-Pharo14Release.html": {
+  "first": "2026-10-26",
+  "last": "2026-10-27",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://infoq.com/news/2026/10/digitalocean-self-improving-ai": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wintrover.github.io/": {
+  "first": "2026-10-27",
+  "last": "2026-10-27",
   "sources": 1,
   "prev": null
  }
