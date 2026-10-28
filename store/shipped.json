@@ -26161,9 +26161,9 @@
  },
  "https://tkdodo.eu/blog/dead-code-shouldnt-exist": {
   "first": "2026-10-24",
-  "last": "2026-10-24",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.com/wild-linker/wild/releases/tag/0.11.0": {
   "first": "2026-10-24",
@@ -26971,9 +26971,9 @@
  },
  "https://go.dev/blog/emudhra-incident": {
   "first": "2026-10-27",
-  "last": "2026-10-27",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.cloudflare.com/kv-cache-exposure-remediation": {
   "first": "2026-10-27",
@@ -27001,9 +27001,9 @@
  },
  "https://css-tricks.com/css-tricks-has-a-new-owner": {
   "first": "2026-10-27",
-  "last": "2026-10-27",
-  "sources": 2,
-  "prev": null
+  "last": "2026-10-28",
+  "sources": 3,
+  "prev": 2
  },
  "https://garciat.com/posts/haskell-union-types": {
   "first": "2026-10-27",
@@ -27134,6 +27134,270 @@
  "https://wintrover.github.io/": {
   "first": "2026-10-27",
   "last": "2026-10-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/building-offline-first-android-app-low-end-devices": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://projectzero.google/2026/10/fuzzing-v-AI.html": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/online-cohorts-nov-certification": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/microsoft-october-2026-patch": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/workers-kv-instant": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/self-hosted-observability-stack-tradeoffs": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xh6w6k/how_a_missed_deployment_to_one_of_eight_servers": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shiftmag.dev/i-talk-to-production-every-morning-it-talks-back-12679": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/php-ctf": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.cloudflare.com/q3-2026-internet-disruption-summary": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stripe.com/blog/how-the-fastest-growing-enterprises-on-stripe-scale-globally": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/chrome-email-verification": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tanstack.com/blog/tanstack-ai-1-0": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://bernsteinbear.com/blog/object-shapes": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://bram.us/2026/10/22/gta-js": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://patkerr.co.uk/2d-vehicles": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/denoland/deno/issues/37030": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://webkit.org/blog/18486/webkit-features-for-safari-27-1": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://emudhra.we-have-a-problem.com/apple.html": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://ghostty.org/docs/install/release-notes/1-4-0": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xh15vv/billionquerypersecond_lookup_tables_in_c": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://benjoffe.com/fast-floordiv": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xhl1jb/a_faster_way_to_compute_signed_64bit_floor": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 2,
+  "prev": null
+ },
+ "https://wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dreamagainusa.org/": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lexifina.com/blog/git-for-the-us-code": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wiki.alpinebsd.org/": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vertex.degree/": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xhgigh/suffering_as_a_feature": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell": {
+  "first": "2026-10-28",
+  "last": "2026-10-28",
   "sources": 1,
   "prev": null
  }
