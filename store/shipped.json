@@ -16267,9 +16267,9 @@
  },
  "https://meticulous.ai/": {
   "first": "2026-09-25",
-  "last": "2026-09-25",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": 1
  },
  "https://github.com/spring-projects/spring-boot/releases/tag/v4.2.0-M2": {
   "first": "2026-09-25",
@@ -26761,9 +26761,9 @@
  },
  "https://brennenputh.me/blog/printable-websites": {
   "first": "2026-10-26",
-  "last": "2026-10-26",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": 1
  },
  "https://lobste.rs/s/xxdda9/what_are_you_doing_this_week": {
   "first": "2026-10-26",
@@ -27001,9 +27001,9 @@
  },
  "https://css-tricks.com/css-tricks-has-a-new-owner": {
   "first": "2026-10-27",
-  "last": "2026-10-28",
-  "sources": 3,
-  "prev": 2
+  "last": "2026-10-29",
+  "sources": 4,
+  "prev": 3
  },
  "https://garciat.com/posts/haskell-union-types": {
   "first": "2026-10-27",
@@ -27307,9 +27307,9 @@
  },
  "https://webkit.org/blog/18486/webkit-features-for-safari-27-1": {
   "first": "2026-10-28",
-  "last": "2026-10-28",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": 1
  },
  "https://emudhra.we-have-a-problem.com/apple.html": {
   "first": "2026-10-28",
@@ -27373,15 +27373,15 @@
  },
  "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain": {
   "first": "2026-10-28",
-  "last": "2026-10-28",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": 1
  },
  "https://wiki.alpinebsd.org/": {
   "first": "2026-10-28",
-  "last": "2026-10-28",
-  "sources": 1,
-  "prev": null
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": 1
  },
  "https://vertex.degree/": {
   "first": "2026-10-28",
@@ -27398,6 +27398,318 @@
  "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell": {
   "first": "2026-10-28",
   "last": "2026-10-28",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/anthropic-code-review": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/mgy3tr/pair_coding_lobste_rs_feat": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/datadog-scout-sre-model": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/cloudflare-web-search-api": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/airbnb-chronon-recommendation": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://surgehq.ai/blog/dayjob-tax": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/AI-environmentally-sustainable": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://changelog.com/podcast/688": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgrespro.com/community/books/qptbook": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://mydbanotebook.org/posts/region-a-lesson-in-data-integrity": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/blog/i-dont-like-delete-cascade": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xgnigv/duckdbnet_1561_reading_data_up_to_12_faster": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://devblogs.microsoft.com/azure-sql/pg-to-sql-connections": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://brentozar.com/archive/2026/10/fact-checking-microsofts-postgresql-to-sql-field-notes-connections": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://2027.pgdayboston.org/registration": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.master.dev/building-an-isolated-preview-for-ai-generated-html": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://developer.chrome.com/blog/html-in-canvas": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=mB0eWkWubuk": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nodejs.org/en/blog/release/v26.12.1": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ellio.tech/en/blog/node2shell-cve-2026-111497-rce-on-stock-nodejs-builds": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/28/spring-ai-message-parts-reasoning-replay": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/28/spring-ai-upsert-own-embeddings": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/27/this-week-in-spring-october-27th-2026": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nullpt.rs/fingerprinting-bioweapons": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://smsofdeath.com/": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://divagr.com/blog/qwenputer": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xhpagj/making_simd_code_scale_to_any_vector_width": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://streamhpc.com/blog/2026-10-28/making-simd-code-scale-to-any-vector-width": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://technologyreview.com/2026/10/20/1145399/emacs-turns-50": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xij94t/the_shirky_principle_explained_why_teams_preserve": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xicwoy/how_to_create_your_own_decentralized_messenger": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xi3p7g/localfirst_means_three_different_things": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xhup1w/why_dont_we_have_bug_free_code": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nim-lang.org/blog/2026/10/28/nim-240.html": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spritely.institute/news/hoot-0-10-0-released.html": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xi16s3/ifstatement_that_caused_http2shell_was_itself": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xijb4j/email_encryption": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
+  "sources": 1,
+  "prev": null
+ },
+ "https://adacore.com/blog/foundational-cryptography-in-spark": {
+  "first": "2026-10-29",
+  "last": "2026-10-29",
   "sources": 1,
   "prev": null
  }
