@@ -28600,5 +28600,383 @@
   "last": "2026-10-31",
   "sources": 1,
   "prev": null
+ },
+ "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/spring-news-roundup-oct19-2026": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/aws-capacity-sold-out": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/aws-s3-file-transfer": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/cf-pq-geokey-manager": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xkoqft/free_tls_for_internal_services_on_aws": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-waf-automatic-sdk-integration-amazon-cloudfront": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-versioning-aliasing": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/prometheus-collectors-msk-metrics": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-gpu-partitioning": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xl6oes/database_indexing_isnt_magic_understand_it_from": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dbushell.com/2026/11/01/tangled-accessibility": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=wAwaEgr9MTo": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://titleart.dvy.io/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://specification.website/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://whisper.tanpreet.xyz/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://uisfx.com/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://microkit.co/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xkx9zu/i_contributed_to_golang_here_is_how_you_can_too": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/82717": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/commit/5c51011e82ed754af072baaf4338ff35e76fe705": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/golang/go/issues/82464": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=As8Jdq9Gpwg": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://rednafi.com/go/patch-field-mask": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lleg.dev/posts/go-127-http1-connection-reuse-256kb": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://socket.dev/blog/emudhra-brotli-security-fix": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developers.googleblog.com/preview-edit-and-collaborate-on-markdown-md-files-natively-in-google-docs-and-drive": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/10/29/a-bootiful-podcast-lukas-eder": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/sverweij/dependency-cruiser/blob/main/doc/real-world-samples.md": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/open-telemetry/opentelemetry-js/blob/main/doc/3.x/migration-guide.md": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bundle.pipobscure.com/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gpuix-svelte.stanislav.garden/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.platformatic.dev/sqlite-js-stream-litestream-nodejs": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer-api.foxit.com/developer-blogs/api-guides-tutorials/invoice-parsing-pdf-to-structured-json": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hackerbooks.org/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://devops-daily.com/posts/lets-encrypt-64-day-certificates-renewal-check": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=jWCQXBVIyrY": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bathtub-01.github.io/technical/ouros-demo": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://en.wikipedia.org/wiki/Dead_Internet_theory": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://devblogs.microsoft.com/react-native/react-native-windows-v0-85-is-here": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tabwidgets.com/blog/react-lazy-suspense-delay": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tanstack.com/blog/tanstack-db-1.0-rc1-going-all-in-on-oracles": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tanstack.com/db/latest/docs/guides/migrate-to-1-0-rc": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nextjs.org/blog/ship-less-javascript-with-ai": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://maple.dev/blog/react-to-foldkit": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://enlightenment.org/news/2026-10-31-enlightenment-0.28.0": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fastruby.io/blog/making-ai-agents-safe-to-retry.html": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://carton.dtcristo.com/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://carton.dtcristo.com/guides/examples": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/spree/spree/releases/tag/v6.0.0": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://geneva-drive.dev/": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rhannequ.in/posts/introducing-horologium": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/10/openbsd-8-released": {
+  "first": "2026-11-01",
+  "last": "2026-11-01",
+  "sources": 1,
+  "prev": null
  }
 }
