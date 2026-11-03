@@ -3319,5 +3319,22 @@
  "https://blog.rubygems.org/2026/10/28/4.1.0.beta3-released.html": "RubyGems and Bundler 4.1.0.beta3 include enhancements, bug fixes and features.",
  "https://github.com/omniauth/omniauth/blob/master/CHANGELOG.md": "OmniAuth is a flexible authentication system utilizing Rack middleware. - omniauth/CHANGELOG.md at master · omniauth/omniauth",
  "https://x.com/nateberkopec/status/2115326361351135339": null,
- "https://news.ycombinator.com/item?id=50257419": null
+ "https://news.ycombinator.com/item?id=50257419": null,
+ "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/": "If Anthropic goes public, workers, retail investors, and retirees will be left holding the bag when its bills come due, writes Matt Scherer.",
+ "https://openai.com/index/scaling-git-at-openai/": null,
+ "https://www.regenerator1.com/p/anthropics-growth-just-flattened": "Look at the monthly numbers...",
+ "https://www.reddit.com/r/programming/comments/1xmuuwa/using_public_bittorrent_trackers_as_webrtc/": null,
+ "https://ably.com/blog/aws-engineers-realtime-resilience": "How Ably plans for CDN, DNS and regional failure, keeps messages in order across regions, and has gone more than 7 years without a global outage.",
+ "https://attackanddefense.dev/2026/11/02/firefox-security-and-privacy-newsletter-q3.html": "Welcome to the Q3 2026 edition of the Firefox Security & Privacy Newsletter.",
+ "https://honnibal.dev/blog/astra-read-write-misleading": "The experiments that read raw weights and the ones that fix Qwen use completely different techniques.",
+ "https://twitter.com/guilleflorvs/status/2117379073785696395": null,
+ "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html": "A fun experiment where I back-port all the improvements we've made to chess engines over the last 30 years and run it on a 1996 Pentium Pro to see what we could have done if only we knew more at the time.",
+ "https://github.com/NVIDIA/auto-ontology": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+ "https://hackertimes.ca/": "A newspaper from Hacker News, refreshed every hour. Independent headlines, original sources.",
+ "https://raphaelkabo.com/blog/social-network-ideas": null,
+ "https://narnaud.github.io/git-loom/introduction.html": null,
+ "https://planetscale.com/blog/designing-a-planned-switchover-for-minimum-disruption": "How Neki uses preflight checks, query buffering, synchronous replication, and fast rollback to make Postgres primary switchovers less disruptive.",
+ "https://graveyard-pinball.vercel.app/": "A free-to-play 3D pinball game in the browser: flip a chrome ball through a haunted graveyard table with coffin slingshots, a skull-crypt portal, mini games and a dot-matrix display. Real-time WebGPU, Three.js and TSL by Anderson Mancini.",
+ "https://andersonmancini.dev/blog/graveyard-pinball": "A free Halloween pinball for the browser: a 2D physics world drawn in 3D, a ball that never tunnels, and a bot that plays hundreds of balls to tune the table.",
+ "https://aria.rip/canonical_cve_response/": null
 }

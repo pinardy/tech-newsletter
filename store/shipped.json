@@ -29227,15 +29227,15 @@
  },
  "https://alangrow.com/blog/a-decade-of-kill-bugs": {
   "first": "2026-11-02",
-  "last": "2026-11-02",
-  "sources": 1,
-  "prev": null
+  "last": "2026-11-03",
+  "sources": 2,
+  "prev": 1
  },
  "https://rikiyat.github.io/blog/weight-space-programming": {
   "first": "2026-11-02",
-  "last": "2026-11-02",
-  "sources": 1,
-  "prev": null
+  "last": "2026-11-03",
+  "sources": 2,
+  "prev": 1
  },
  "https://blog.nns.ee/2026/11/02/renault-hack": {
   "first": "2026-11-02",
@@ -29360,6 +29360,180 @@
  "https://infoq.com/news/2026/11/shopify-kubernetes-ingresses": {
   "first": "2026-11-02",
   "last": "2026-11-02",
+  "sources": 1,
+  "prev": null
+ },
+ "https://techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openai.com/index/scaling-git-at-openai": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://regenerator1.com/p/anthropics-growth-just-flattened": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/canvas-ai-agents": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xmuuwa/using_public_bittorrent_trackers_as_webrtc": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-tokyo-zurich": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-fluent-bit-3-0-0-based-4-1-1": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/linkedin-opentelemetry-journey": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ably.com/blog/aws-engineers-realtime-resilience": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://attackanddefense.dev/2026/11/02/firefox-security-and-privacy-newsletter-q3.html": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://honnibal.dev/blog/astra-read-write-misleading": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xmgayd/a_decade_of_kill_bugs_alan_grow": {
+  "first": "2026-11-02",
+  "last": "2026-11-03",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://narnaud.github.io/git-loom/introduction.html": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/guilleflorvs/status/2117379073785696395": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/NVIDIA/auto-ontology": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hackertimes.ca/": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://raphaelkabo.com/blog/social-network-ideas": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://planetscale.com/blog/designing-a-planned-switchover-for-minimum-disruption": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/7fcuxz/why_did_you_choose_nix_you_nix": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xmqimu/i_made_a_game_in_3_kb_and_accidentally_created_a": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://graveyard-pinball.vercel.app/": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://andersonmancini.dev/blog/graveyard-pinball": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://en.opensuse.org/Release_announcement_16.1": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aria.rip/canonical_cve_response": {
+  "first": "2026-11-03",
+  "last": "2026-11-03",
   "sources": 1,
   "prev": null
  }
