@@ -28033,9 +28033,9 @@
  },
  "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up": {
   "first": "2026-10-30",
-  "last": "2026-10-30",
-  "sources": 1,
-  "prev": null
+  "last": "2026-11-05",
+  "sources": 3,
+  "prev": 1
  },
  "https://reddit.com/r/programming/comments/1xj7d21/experimenting_with_bindless_textures_in_webgpu": {
   "first": "2026-10-30",
@@ -28519,9 +28519,9 @@
  },
  "https://denodell.com/blog/design-systems-should-be-fast-by-default": {
   "first": "2026-10-31",
-  "last": "2026-11-04",
-  "sources": 2,
-  "prev": 1
+  "last": "2026-11-05",
+  "sources": 3,
+  "prev": 2
  },
  "https://github.com/adobe/react-spectrum/pull/10886": {
   "first": "2026-10-31",
@@ -29119,9 +29119,9 @@
  },
  "https://blog.cloudflare.com/dns-targeted-zone-builds": {
   "first": "2026-11-02",
-  "last": "2026-11-02",
-  "sources": 1,
-  "prev": null
+  "last": "2026-11-05",
+  "sources": 2,
+  "prev": 1
  },
  "https://infoq.com/news/2026/11/torchtpu-native-pythorch-tpu": {
   "first": "2026-11-02",
@@ -29635,15 +29635,15 @@
  },
  "https://snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat": {
   "first": "2026-11-04",
-  "last": "2026-11-04",
-  "sources": 2,
-  "prev": null
+  "last": "2026-11-05",
+  "sources": 3,
+  "prev": 2
  },
  "https://reddit.com/r/programming/comments/1xn9jr2/postgres_19_repack_builtin_online_table_bloat": {
   "first": "2026-11-04",
-  "last": "2026-11-04",
-  "sources": 2,
-  "prev": null
+  "last": "2026-11-05",
+  "sources": 3,
+  "prev": 2
  },
  "https://reddit.com/r/programming/comments/1xnsc70/building_barista_postgres_embeddings_and_jev": {
   "first": "2026-11-04",
@@ -29707,9 +29707,9 @@
  },
  "https://webkit.org/blog/18541/introducing-adaptive-dark-mode": {
   "first": "2026-11-04",
-  "last": "2026-11-04",
-  "sources": 2,
-  "prev": null
+  "last": "2026-11-05",
+  "sources": 3,
+  "prev": 2
  },
  "https://infoq.com/news/2026/11/vite-5-release": {
   "first": "2026-11-04",
@@ -29803,9 +29803,9 @@
  },
  "https://pgedge.com/blog/burnt-toast": {
   "first": "2026-11-04",
-  "last": "2026-11-04",
-  "sources": 1,
-  "prev": null
+  "last": "2026-11-05",
+  "sources": 2,
+  "prev": 1
  },
  "https://infoq.com/news/2026/11/inkitt-one-shot-pr-creator-agent": {
   "first": "2026-11-04",
@@ -29870,6 +29870,300 @@
  "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential": {
   "first": "2026-11-04",
   "last": "2026-11-04",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=50352757": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/gcp-api-gateway-streaming": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/zero-trust-ai-agents-production-security": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=5D7QPOIZ7gY": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xoqbqc/yr_dsl_meant_to_reduce_boilerplate": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-sla-update": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-cost-allocation-tags": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-mongodb-compatibility-asia-pacific-taipei-new-zealand-regions": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://boringsql.com/posts/delete-4tb": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/message-id/flat/bbd2c757-8ad7-4dde-9769-a19c3c99a488%40postgresql.org": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://postgresql.org/docs/19/release-19.html": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://dalelane.co.uk/blog?p=6161": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xojhvz/system_design_apache_kafka_basics": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://enterprisedb.com/resources/webinar/click-checkout-sub-second-personalization-one-lakehouse": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xnzyh6/how_we_halved_dns_build_delay_and_cut_memory_use": {
+  "first": "2026-11-02",
+  "last": "2026-11-05",
+  "sources": 2,
+  "prev": 1
+ },
+ "https://blog.cloudflare.com/personal-agents-visibility-control": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://chromestatus.com/release-notes/158": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://web.dev/blog/web-platform-10-2026": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.chrome.com/blog/new-in-devtools-november-2026": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://xslt.rip/": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/Leaflet/Leaflet/releases/tag/v2.0.0-beta.1": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developers.cloudflare.com/workers/configuration/compatibility-flags": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://charpeni.com/blog/the-bun-dependabot-gap-dependabot-alerts-dont-see-bun-lock": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://brunoj.com/nothing-installs-at-our-company-until-its-a-week-old": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://seldo.com/posts/a-proposal-how-to-hire-junior-engineers-in-the-age-of-ai": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://go.dev/blog/jsonv2": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xofjis/a_look_at_datastar": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://noteflakes.com/articles/2026-11-04-datastar": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://theverge.com/news/1027379/discord-ditching-electron-web-app": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/leapwork-play-playwright": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://reddit.com/r/programming/comments/1xomwik/how_i_built_a_90sstyle_adventure_game_on_top_of": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://motorolanews.com/motorola-signature-27-2": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://sshhole.com/": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://layer3intel.com/blog/residential-proxies-white-house-network": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://openai.com/index/a-thousand-fewer-paths-to-root": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 2,
+  "prev": null
+ },
+ "https://changelog.com/podcast/689": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://hachyderm.io/@damienmiller/117563026759098135": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ernie.baidu.com/release/ernie-5-5-flash-base": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ekaitz.elenq.tech/fasterMes10.html": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass": {
+  "first": "2026-11-05",
+  "last": "2026-11-05",
   "sources": 1,
   "prev": null
  }
