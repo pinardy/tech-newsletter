@@ -1,6 +1,6 @@
 {
  "javascriptweekly": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
@@ -10,42 +10,42 @@
   "last_modified": null
  },
  "reactstatus": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "frontendfocus": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "golangweekly": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "postgresweekly": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "dbweekly": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "rubyweekly": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "sreweekly": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": "\"815bcb6b496c2eb27b1d7e4d6ebbfcea-gzip\"",
   "last_modified": "Mon, 02 Nov 2026 04:14:31 GMT"
  },
  "importai": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": "W/\"c99eed27e1b0d885a822165917cb7bc2\"",
   "last_modified": "Mon, 02 Nov 2026 14:30:54 GMT"
  },
@@ -75,57 +75,57 @@
   "last_modified": "Wed, 04 Nov 2026 18:17:10 GMT"
  },
  "cloudflare": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "netflix": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "stripe": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "grab": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
-  "etag": "W/\"6ad82912-29378\"",
-  "last_modified": "Wed, 21 Oct 2026 02:53:06 GMT"
+  "last_polled": "2026-11-05T00:15:33+00:00",
+  "etag": "W/\"6ad82913-29378\"",
+  "last_modified": "Wed, 21 Oct 2026 02:53:07 GMT"
  },
  "githubblog": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
-  "etag": "W/\"1b7ee3622680c95c00cfd5a9b6e780d2\"",
-  "last_modified": "Tue, 03 Nov 2026 20:28:01 GMT"
+  "last_polled": "2026-11-05T00:15:33+00:00",
+  "etag": "W/\"18000d5e43b74453494fa46697319cde\"",
+  "last_modified": "Wed, 04 Nov 2026 20:11:41 GMT"
  },
  "goblog": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": null,
   "last_modified": null
  },
  "rustblog": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
-  "etag": "W/\"6ae9ed9f-18edf\"",
-  "last_modified": "Tue, 03 Nov 2026 14:20:15 GMT"
+  "last_polled": "2026-11-05T00:15:33+00:00",
+  "etag": "W/\"6ae9eda0-18edf\"",
+  "last_modified": "Tue, 03 Nov 2026 14:20:16 GMT"
  },
  "springblog": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
-  "etag": "\"2ab1bac5ef9e36bc05d19a875cd78a83\"",
+  "last_polled": "2026-11-05T00:15:33+00:00",
+  "etag": "\"35b7a8724f2951744943e8879254771a\"",
   "last_modified": null
  },
  "kubernetesblog": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": "\"fc3f2bce29d0489844dc53ffd21cd327-ssl-df\"",
   "last_modified": null
  },
  "hashicorp": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": "W/\"29f0d3d442d4e1078fe75090a2274111\"",
   "last_modified": "Tue, 03 Nov 2026 21:49:28 GMT"
  },
  "springbootreleases": {
-  "last_polled": "2026-11-03T23:55:40+00:00",
+  "last_polled": "2026-11-05T00:15:33+00:00",
   "etag": "W/\"c23f349aee6bc00e123e4b7bb7f99004\"",
   "last_modified": null
  },
