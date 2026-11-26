@@ -31015,9 +31015,9 @@
  },
  "https://1password.com/blog/update-on-nov-2026-security-incident": {
   "first": "2026-11-25",
-  "last": "2026-11-25",
-  "sources": 1,
-  "prev": null
+  "last": "2026-11-26",
+  "sources": 2,
+  "prev": 1
  },
  "https://changelog.com/podcast/693": {
   "first": "2026-11-25",
@@ -31376,6 +31376,402 @@
  "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order": {
   "first": "2026-11-25",
   "last": "2026-11-25",
+  "sources": 1,
+  "prev": null
+ },
+ "https://scottaaronson.blog/?p=10379": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://changelog.com/podcast/692": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://noemamag.com/the-mythology-of-conscious-ai": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://signal.org/blog/protecting-your-privacy": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 2,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/microsoft-ignite-2026-recap": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/harness-new-operating-system": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/thsottiaux/status/2125784147889393806": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/lsernau/grh-lean": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/fine-tune-enterprise-rag-embeddings": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-pagerduty": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9gd-asiapacific-seoul": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9gd-instances-additional-regions": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9g-instances-additional-regions": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://percona.community/blog/2026/11/20/whats-left-in-postgres-19": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://enterprisedb.com/blog/squeezing-tables-postgres-19": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/electric-sql/pglite/releases/tag/%40electric-sql/pglite%400.6.0": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://progrium.github.io/minipg": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/jespino/gopgext": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/pgjdbc/pgjdbc/releases/tag/REL42.7.15": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://pgcraftsman.github.io/talks/the-postgres-mistakes-we-all-still-make/deck/public/slides-postable.html": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/SRE-based-training": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jeffgeerling.com/blog/2026/ansible-fails-become-ubuntu2604": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/161": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://macrumors.com/2026/11/24/google-ios-eu-browser-rules": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://macrumors.com/2026/11/24/eu-talks-with-apple-over-rival-iphone-browsers": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://csswizardry.com/2026/11/web-perf-wednesday-019-firefox-ships-dictionary-compression": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://piccalil.li/blog/understanding-css-random": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer-api.foxit.com/developer-blogs/api-guides-tutorials/best-html-to-pdf-apis": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://jeffbailey.us/blog/2026/11/17/how-do-i-build-an-agent-harness": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://devblogs.microsoft.com/go/preconfigured-agents-with-microsoft-agent-framework-for-go": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://buf.build/blog/why-does-grpc-configure-clients-with-raw-json-strings": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://justinfx.com/2026/11/10/go-gui-five-ways": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://gohugo.io/functions/css/sass": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://joturk.net/posts/dtls": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.ninja-squad.com/2026/11/18/what-is-new-angular-22.3": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://svelte.dev/docs/svelte/custom-renderers": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bencodezen.io/blog/why-i-switched-to-vite-plus": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/mock-service-worker-v3": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://medhat.dev/blog/removing-moment-js": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://tombennet.dev/blog/chrome-prerendering-is-weird": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer-api.foxit.com/developer-blogs/api-guides-tutorials/best-esignature-api-developers": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/qcon-sf-26-kill-code-review": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://taniwha.com/~paul/not.html": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://quin.fyi/posts/how-winhelp-files-work.html": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://changelog.complete.org/archives/45268-i-booted-from-my-tape-backup-from-2002": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://commandcode.ai/moat": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/intel/intel-one-mono": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.ycombinator.com/item?id=50655664": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/l8cjcz/london_meetup_13th_december_2026": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/remix-run/react-router/releases/tag/react-router%408.5.2": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://fate.technology/posts/whats-new-in-fate-2.0": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://stepperize.com/": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://react-anatomy.com/": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://detent.hayder.sh/": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/remix-run/react-router/security": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
+  "sources": 1,
+  "prev": null
+ },
+ "https://openwall.com/lists/oss-security/2026/11/25/9": {
+  "first": "2026-11-26",
+  "last": "2026-11-26",
   "sources": 1,
   "prev": null
  }
