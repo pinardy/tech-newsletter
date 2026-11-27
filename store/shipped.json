@@ -31774,5 +31774,329 @@
   "last": "2026-11-26",
   "sources": 1,
   "prev": null
+ },
+ "https://janlukas.blog/posts/ai-self-hosting": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/mozilla-mistral-ai-smart-window": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/uber-agent-spend-steady": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ricapar.net/ClawDOS": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://twitter.com/RealAstropulse/status/2126119408997466389": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://diseasescuredbyai.com/": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://construct22.com/": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://draketo.de/software/curb-ai-impact": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9g-instances-additional-regions": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iot-core-dedicated-ipv6-ranges": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iot-core-quota-usage-monitoring": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/news/2026/11/netflix-quasar-api-impact": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/presentations/sub-100ms-latency-distributed-systems": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://infoq.com/articles/engineering-reliable-smartphone-sensor-telematics": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://css-tricks.com/beyond-12-columns": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://kittygiraudel.com/2026/11/01/playing-with-css-layers": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.master.dev/the-compacting-sidebar-blues": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://iron-out.io/blog/has-the-web-stopped-getting-heavier": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://amitmerchant.com/javascript-gets-a-new-set-of-html-insertion-apis": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://component-party.dev/compare/solid1-vs-solid2": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://youtube.com/watch?v=DAmvChHdqbk": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://developer.mescius.com/spreadjs/pm-office-hours": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://survey.devographics.com/en-US/survey/state-of-js/2026": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://opensourcemalware.com/blog/react2steal-github-actions": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://component-party.dev/": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/11/26/spring-ai-decision-models-guardrails-judges": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://spring.io/blog/2026/11/26/a-bootiful-podcast-cora-iberkleid": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://evilmartians.com/chronicles/type-errors-cost-our-coding-agents-under-one-percent-of-their-time": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://zachleat.com/web/npm-audit-report": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://ppr.zachleat.dev/": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/nodejs/node/pull/67654": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nodejs.org/download/release/v27.0.0-alpha.0.2.0/docs/api/sqlite.html": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.2.0": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blainehansen.me/post/mainstream-verifiable-language": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://eprint.iacr.org/2026/3020.pdf": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 2,
+  "prev": null
+ },
+ "https://system76.com/blog/post/pop_os-26-04-lts-has-landed": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://bouncemarket.minhanhday.com/": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://buildyourownpaint.com/en": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://buynothingday.co.uk/": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://lobste.rs/s/locqp9/what_are_you_doing_this_weekend": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://alexedwards.net/blog/an-overview-of-go-tooling-v2": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rubygems.org/2026/11/23/content-addressable-gems.html": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://blog.rubygems.org/2026/11/25/4.1.1-released.html": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/puma/puma/releases/tag/v8.1.3": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rack/rack/security/advisories": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
+ },
+ "https://github.com/rack/rack/security/advisories/GHSA-58mf-c3jj-277p": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "sources": 1,
+  "prev": null
  }
 }
